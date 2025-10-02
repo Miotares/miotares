@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} — miotares</title>
+    <style>
+        :root { --bg-color:#0a0a0a; --text-color:#f0f0f0; --accent-color:#00ff9d; --secondary-color:#2d2d2d; --hover-color:#00cc7a; }
+        * { margin:0; padding:0; box-sizing:border-box; font-family:'Courier New', monospace; }
+        body { background-color:var(--bg-color); color:var(--text-color); line-height:1.7; padding:2rem; max-width:800px; margin:0 auto; min-height:100vh; display:flex; flex-direction:column; }
+        .container { border:1px solid var(--secondary-color); border-radius:8px; padding:2rem; box-shadow:0 4px 8px rgba(0,255,157,0.1); }
+        header { margin-bottom:1.5rem; border-bottom:1px solid var(--secondary-color); padding-bottom:1rem; }
+        h1 { color:var(--accent-color); font-size:2rem; margin-bottom:0.25rem; }
+        .meta { color:#8d8d8d; font-size:0.9rem; }
+        .content { margin-top:1.5rem; }
+        .content h2, .content h3 { color:var(--accent-color); margin-top:1.25rem; }
+        .content a { color:var(--accent-color); }
+        .content pre { background:#111; border:1px solid var(--secondary-color); padding:1rem; border-radius:6px; overflow:auto; }
+        .content code { background:#111; border:1px solid var(--secondary-color); padding:0 0.25rem; border-radius:4px; }
+        /* Listen-Einzüge für Markdown */
+        .content ul, .content ol { margin:0.75rem 0 0.75rem 1.5rem; padding-left:1.25rem; }
+        .content ul { list-style:disc; }
+        .content ol { list-style:decimal; }
+        .content li { margin:0.35rem 0; }
+        .content p + ul, .content p + ol, .content h2 + ul, .content h2 + ol, .content h3 + ul, .content h3 + ol { margin-top:0.5rem; }
+        nav { margin-bottom:1rem; }
+        .back { text-decoration:none; color:var(--accent-color); }
+        footer { margin-top:2rem; text-align:center; font-size:0.8rem; color:#666; }
+        @media (max-width: 600px) { body{ padding:1rem; } .container{ padding:1rem; } h1{ font-size:1.6rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav><a class="back" href="/articles/">← Zur Artikelliste</a></nav>
+            <h1>{{ page.title }}</h1>
+            <div class="meta">{{ page.date | date: "%d.%m.%Y" }}{% if page.tags and page.tags.size > 0 %} — {{ page.tags | join: ", " }}{% endif %}</div>
+        </header>
+        <article class="content">
+            {{ content }}
+        </article>
+        <footer>&copy; 2025 Miotares</footer>
+    </div>
+</body>
+</html>
+
+
