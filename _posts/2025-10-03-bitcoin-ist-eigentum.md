@@ -14,7 +14,7 @@ canonical: https://miotares.de/articles/bitcoin-einzig-wahres-eigentum/
 robots: index,follow
 twitter_card: summary_large_image
 last_modified_at: 2025-10-02
-published: false
+published: true
 ---
 
 # Bitcoin ist das einzig wahre Eigentum

@@ -7,3 +7,4 @@ pagination:
   per_page: 10
   permalink: '/page/:num/'
   title: ':title — Seite :num'
+future: true
