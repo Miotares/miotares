@@ -28,6 +28,7 @@
         .content p + ul, .content p + ol, .content h2 + ul, .content h2 + ol, .content h3 + ul, .content h3 + ol { margin-top:0.5rem; }
         nav { margin-bottom:1rem; }
         .back { text-decoration:none; color:var(--accent-color); }
+        .thumbnail { width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:8px; margin-bottom:1.5rem; border:1px solid var(--secondary-color); }
         footer { margin-top:2rem; text-align:center; font-size:0.8rem; color:#666; }
         @media (max-width: 600px) { body{ padding:1rem; } .container{ padding:1rem; } h1{ font-size:1.6rem; } }
     </style>
@@ -40,6 +41,8 @@
             <div class="meta">{{ page.date | date: "%d.%m.%Y" }}{% if page.tags and page.tags.size > 0 %} — {{ page.tags | join: ", " }}{% endif %}</div>
         </header>
         <article class="content">
+            {% assign thumbnail_name = page.slug | default: page.title | slugify %}
+            <img src="/assets/thumbnails/{{ thumbnail_name }}.jpg" alt="{{ page.title }}" class="thumbnail" onerror="this.style.display='none'">
             {{ content }}
         </article>
         <footer>&copy; 2025 Miotares</footer>
