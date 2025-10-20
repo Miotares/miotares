@@ -35,7 +35,7 @@ Hinweis zur Nutzung:
 
 # Sozialisten sind Asozial
 
-Sozialisten gibt es überall. Sie haben verschiedene Formen, Farben und Ausprägungen ihrer Ideologie. Manche sind gemäßigt, manche extrem. Manche sind sich ihrer sozialistischen Art gar nicht bewusst. Im Grunde sind wir alle ein bisschen sozialistisch, allerdings nur in der Familie. Dies beruht meist auf Freiwilligkeit. Sozialisten sind jene, die auf den ersten Blick ehrbare Ziele verfolgen. So wollen sie Ungerechtigkeit bekämpfen und sie wollen, dass niemand arm ist oder von seinem Arbeitgeber ausgebeutet wird. So weit so gut. Doch bei den Mitteln, zu denen sie greifen, wird es eklig. Sie respektieren kein Privateigentum.
+Sozialisten gibt es überall. Sie haben verschiedene Formen, Farben und Ausprägungen ihrer Ideologie und sie sitzen in allen Parteien. Manche sind gemäßigt, manche extrem. Manche sind sich ihrer sozialistischen Art gar nicht bewusst. Im Grunde sind wir alle ein bisschen sozialistisch, allerdings nur in der Familie. Dies beruht meist auf Freiwilligkeit. Sozialisten sind jene, die auf den ersten Blick ehrbare Ziele verfolgen. So wollen sie Ungerechtigkeit bekämpfen und sie wollen, dass niemand arm ist oder von seinem Arbeitgeber ausgebeutet wird. So weit so gut. Doch bei den Mitteln, zu denen sie greifen, wird es eklig. Sie respektieren kein Privateigentum.
 
 ## Was ist Gerechtigkeit?
 
@@ -49,13 +49,12 @@ Es kann nicht fair oder gerecht sein, diejenigen, die härter arbeiten, die mehr
 
 ## Sozialisten sind nur im Kollektiv sozialistisch
 
-Wenn Sie einen Sozialisten (der arbeitet, ja, es gibt sie!) fragen würden, ob er etwas dagegen hätte, jeden Tag zwei Stunden zusätzlich zu arbeiten, um einem Sozialempfänger hunderte Kilometer entfernt einen Kasten Bier zusätzlich zu ermöglichen, würde vermutlich jeder dieses Angebot ablehnen.
-
+Fragen Sie einen Sozialisten (der arbeitet, ja, es gibt sie!), ob er zwei Stunden täglich mehr arbeiten würde, um einem Sozialempfänger hunderte Kilometer entfernt einen Kasten Bier zu finanzieren – er würde ablehnen.
 
 Warum schreien sie also im Kollektiv nach Enteignung der einen und Bereicherung der anderen, privat würden sie sich aber gezielt davor drücken? Ein Grund ist sicherlich, dass es den Sozialisten an Weitsicht fehlt. Sie erkennen nicht, was es für Auswirkungen hat, solange sie nicht selbst direkt davon betroffen sind. Die Verantwortung wird auf "den Staat" abgewälzt – eine abstrakte Instanz, die das Geld ja irgendwo herbekommt. Dass dieses Geld von echten Menschen erarbeitet wurde, die echte Träume und Ziele haben, wird ausgeblendet.
 
 
-Sie denken wirklich, sie verfolgen damit eine gute Sache. Die mittelbaren Nebenwirkungen – nämlich, dass den Produktiven der Anreiz zum Arbeiten genommen wird und sich die Menge der Empfänger immer vergrößert – erkennen sie nicht. Sie denken nicht nach! Ludwig von Mises und Friedrich Hayek haben bereits im letzten Jahrhundert gezeigt, was passiert, wenn man Anreize zerstört: Die Wirtschaft kollabiert. Ohne Preissignale und Privateigentum kann niemand wissen, was produziert werden soll. Das Ergebnis ist nicht Gleichheit im Wohlstand, sondern Gleichheit in der Armut.
+Sie denken wirklich, sie verfolgen damit eine gute Sache. Die mittelbaren Nebenwirkungen – nämlich, dass den Produktiven der Anreiz zum Arbeiten genommen wird und sich die Menge der Empfänger immer vergrößert – erkennen sie nicht. Sie denken nicht nach! Mises und Hayek haben bereits im letzten Jahrhundert gezeigt, was passiert, wenn man Anreize zerstört: Die Wirtschaft kollabiert. Ohne Preissignale und Privateigentum kann niemand wissen, was produziert werden soll. Das Ergebnis ist nicht Gleichheit im Wohlstand, sondern Gleichheit in der Armut.
 
 
 Sozialisten würden vermutlich auch kein Problem darin erkennen, wenn ein Politiker vorschlagen würde, dass Autos nur noch 200€ kosten dürfen, sodass sich jeder ein Auto leisten kann. "Fair". Was dann passiert? Kein Hersteller wird mehr Autos produzieren, weil er draufzahlt. Ergebnis: Niemand bekommt ein Auto. Aber hey, wenigstens sind alle gleich – gleich arm.
