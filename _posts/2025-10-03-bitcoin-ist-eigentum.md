@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "Bitcoin ist das einzig wahre Eigentum"
-description: "Warum Bitcoin die einzige Form von Eigentum ist, die wirklich unveräußerlich, zensurresistent und absolut kontrollierbar bleibt."
-date: 2025-10-02 12:00:00 +0200
-tags: [Bitcoin, Eigentum, Souveränität, Dezentralisierung]
-categories: [Philosophie]
+title: "Sozialisten sind Asozial"
+description: "Warum Sozialismus ungerecht ist: Eine libertäre Kritik an Umverteilung, Zwang und falscher Gerechtigkeit. Nur der freie Markt kann wirklich fair sein."
+date: 2025-10-20 12:00:00 +0200
+tags: [Sozialismus, Libertarismus, Freier Markt, Umverteilung, Gerechtigkeit]
+categories: [Philosophie, Politik]
 lang: de
-slug: bitcoin-einzig-wahres-eigentum
-permalink: /articles/bitcoin-einzig-wahres-eigentum/
-image: /assets/og/bitcoin-eigentum.png
-image_alt: "Bitcoin-Symbol als metaphorisches Schloss für digitales Eigentum"
-canonical: https://miotares.de/articles/bitcoin-einzig-wahres-eigentum/
+slug: sozialisten-sind-asozial
+permalink: /articles/sozialisten-sind-asozial/
+image: /assets/og/sozialismus-kritik.png
+image_alt: "Symbolische Darstellung von Zwang und freiwilligem Tausch im Kontrast"
+canonical: https://miotares.de/articles/sozialisten-sind-asozial/
 robots: index,follow
 twitter_card: summary_large_image
-last_modified_at: 2025-10-02
+last_modified_at: 2025-10-20
 published: true
 ---
 
