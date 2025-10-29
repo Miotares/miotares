@@ -8,7 +8,7 @@ categories: [Libertarismus, Digitale Freiheit, Persönliche Entwicklung]
 lang: de
 slug: souveraenitaet-zurueckerobern
 permalink: /articles/souveraenitaet-zurueckerobern/
-image: /assets/thumbnails/souveraenitaet-zurueckerobern.png
+image: /assets/thumbnails/souveraenitaet-zurueckerobern.jpg
 image_alt: ""
 canonical: https://miotares.de/articles/souveraenitaet-zurueckerobern/
 robots: index,follow

@@ -8,7 +8,7 @@ categories: [Philosophie, Politik]
 lang: de
 slug: sozialisten-sind-asozial
 permalink: /articles/sozialisten-sind-asozial/
-image: /assets/thumbnails/sozialisten-sind-asozial.png
+image: /assets/thumbnails/sozialisten-sind-asozial.jpg
 image_alt: "Symbolische Darstellung von Zwang und freiwilligem Tausch im Kontrast"
 canonical: https://miotares.de/articles/sozialisten-sind-asozial/
 robots: index,follow
