@@ -72,7 +72,7 @@ pagination:
                   <li>
                       <a class="post-link" href="{{ post.url }}">
                           {% assign thumbnail_name = post.slug | default: post.title | slugify %}
-                          <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.png' | relative_url }}" alt="{{ post.title }}" class="post-thumbnail" onerror="this.style.display='none'">
+                          <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}" alt="{{ post.title }}" class="post-thumbnail" onerror="this.style.display='none'">
                           <div class="post-content">
                               <div class="post-title">{{ post.title }}</div>
                               <div class="post-description">{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</div>
@@ -87,7 +87,7 @@ pagination:
                   <li>
                       <a class="post-link" href="{{ post.url }}">
                           {% assign thumbnail_name = post.slug | default: post.title | slugify %}
-                          <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.png' | relative_url }}" alt="{{ post.title }}" class="post-thumbnail" onerror="this.style.display='none'">
+                          <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}" alt="{{ post.title }}" class="post-thumbnail" onerror="this.style.display='none'">
                           <div class="post-content">
                               <div class="post-title">{{ post.title }}</div>
                               <div class="post-description">{{ post.description | default: post.excerpt | strip_html | truncate: 120 }}</div>
