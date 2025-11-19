@@ -40,7 +40,9 @@ Sozialisten gibt es überall. Sie haben verschiedene Formen, Farben und Auspräg
 Die meisten Sozialisten können nicht mal definieren, was sie unter "Gerechtigkeit" verstehen. Fairness können sie ebenso wenig definieren. Ist ja auch logisch, denn Gerechtigkeit und Fairness sind subjektive Begriffe, die jeder anders versteht. Im Grunde streben Sozialisten gar keine Gerechtigkeit an, sondern nur Gleichheit im Ergebnis – egal wie unterschiedlich die Leistung war.
 
 
-Echte Fairness kann nur bedeuten: Jeder bekommt, was er durch freiwillige Vereinbarungen erwirtschaftet hat. Wenn ich dir mein Brot verkaufe und du mir dafür 2€ gibst, dann haben wir beide einen Vorteil davon – sonst würden wir den Tausch nicht machen. Das ist fair. Was nicht fair ist: Wenn ein Dritter mit vorgehaltener Waffe (oder dem Strafgesetzbuch) daherkommt und sagt: "Gib mir 50 Cent von jedem Brot ab, damit ich es jemandem geben kann, der keine Lust hat, selbst Brot zu backen oder zu kaufen."
+> Echte Fairness kann nur bedeuten: Jeder bekommt, was er durch freiwillige Vereinbarungen erwirtschaftet hat. Wenn ich dir mein Brot verkaufe und du mir dafür 2€ gibst, dann haben wir beide einen Vorteil davon – sonst würden wir den Tausch nicht machen. Das ist fair.
+>
+> Was nicht fair ist: Wenn ein Dritter mit vorgehaltener Waffe (oder dem Strafgesetzbuch) daherkommt und sagt: "Gib mir 50 Cent von jedem Brot ab, damit ich es jemandem geben kann, der keine Lust hat, selbst Brot zu backen oder zu kaufen."
 
 
 Es kann nicht fair oder gerecht sein, diejenigen, die härter arbeiten, die mehr Risiko eingehen und innovativer sind, um den Anteil zu berauben, den sie dadurch mehr erwirtschaftet haben, und diesen Überschuss dann denjenigen zu geben, die nichts tun oder nur sehr viel weniger.

@@ -1,34 +1,43 @@
+---
+layout: none
+---
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="ca031077-e0eb-4481-ada0-32b30b264c5f"></script>
+    <script defer src="https://cloud.umami.is/script.js"
+        data-website-id="ca031077-e0eb-4481-ada0-32b30b264c5f"></script>
     <link rel="icon" href="assets/favicon.png" type="image/x-icon">
-    
+
     <title>Bitcoin, Privacy & libertäre Ideen | miotares</title>
-    <meta name="description" content="Willkommen auf miotares.com - Bitcoin, Wirtschaft, Monero und Privacy. Hier findest du meine Projekte, Artikel und Socials. Steuern sind Raub.">
+    <meta name="description"
+        content="Willkommen auf miotares.com - Bitcoin, Wirtschaft, Monero und Privacy. Hier findest du meine Projekte, Artikel und Socials. Steuern sind Raub.">
     <link rel="canonical" href="https://miotares.com/">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://miotares.com/">
     <meta property="og:title" content="miotares - Bitcoin, Wirtschaft, Monero & Privacy Blog">
-    <meta property="og:description" content="Willkommen auf miotares.com - Bitcoin, Wirtschaft, Monero und Privacy. Hier findest du meine Projekte, Artikel und Socials. Steuern sind Raub.">
+    <meta property="og:description"
+        content="Willkommen auf miotares.com - Bitcoin, Wirtschaft, Monero und Privacy. Hier findest du meine Projekte, Artikel und Socials. Steuern sind Raub.">
     <meta property="og:site_name" content="miotares">
-    
+
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:url" content="https://miotares.com/">
     <meta name="twitter:title" content="miotares - Bitcoin, Wirtschaft, Monero & Privacy Blog">
-    <meta name="twitter:description" content="Willkommen auf miotares.com - Bitcoin, Wirtschaft, Monero und Privacy. Hier findest du meine Projekte, Artikel und Socials. Steuern sind Raub.">
-    
+    <meta name="twitter:description"
+        content="Willkommen auf miotares.com - Bitcoin, Wirtschaft, Monero und Privacy. Hier findest du meine Projekte, Artikel und Socials. Steuern sind Raub.">
+
     <!-- Additional SEO -->
-    <meta name="keywords" content="Bitcoin, Wirtschaft, Monero, Privacy, Libertär, Blog, Artikel, Kryptowährung, Blockchain">
+    <meta name="keywords"
+        content="Bitcoin, Wirtschaft, Monero, Privacy, Libertär, Blog, Artikel, Kryptowährung, Blockchain">
     <meta name="author" content="miotares">
     <meta name="robots" content="index,follow">
     <link rel="alternate" type="application/rss+xml" title="miotares RSS Feed" href="https://miotares.com/feed.xml">
-    
+
     <!-- Structured Data -->
     <script type="application/ld+json">
     {
@@ -46,210 +55,22 @@
         "alumniOf": "Freie Universität"
     }
     </script>
-    <style>
-        :root {
-            --bg-color: #0a0a0a;
-            --text-color: #f0f0f0;
-            --accent-color: #00ff9d;
-            --secondary-color: #2d2d2d;
-            --hover-color: #00cc7a;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: monospace;
-        }
-        
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            padding: 2rem;
-            max-width: 960px;
-            margin: 0 auto;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        
-        p {
-            margin-bottom: 1.2rem;
-        }
-        
-        ::selection {
-            background-color: var(--accent-color);
-            color: var(--bg-color);
-        }
-        
-        .container {
-            border: 1px solid var(--secondary-color);
-            border-radius: 8px;
-            padding: 2rem;
-            box-shadow: 0 4px 8px rgba(0, 255, 157, 0.1);
-        }
-        
-        header {
-            margin-bottom: 2rem;
-            border-bottom: 1px solid var(--secondary-color);
-            padding-bottom: 1rem;
-        }
-        
-        h1 {
-            font-size: 2.75rem;
-            margin-bottom: 0.5rem;
-            color: var(--accent-color);
-        }
-        
-        .intro {
-            font-size: 1.32rem;
-            margin-bottom: 2rem;
-        }
-        
-        section {
-            margin-bottom: 2rem;
-        }
-        
-        h2 {
-            font-size: 1.65rem;
-            margin-bottom: 1rem;
-            color: var(--accent-color);
-            border-bottom: 1px dashed var(--secondary-color);
-            padding-bottom: 0.5rem;
-        }
-        
-        .projects, .contact, .articles {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-        
-        .project-link, .contact-link {
-            display: inline-block;
-            text-decoration: none;
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-        
-        .project-link, .article-link {
-            background-color: var(--secondary-color);
-            color: var(--text-color);
-            border-left: 3px solid var(--accent-color);
-        }
-        
-        .project-link:hover, .article-link:hover {
-            background-color: #3a3a3a;
-            transform: translateX(5px);
-        }
-        
-        .project-link .description {
-            color: #8d8d8d;
-            font-weight: normal;
-            font-size: 1rem;
-        }
-
-        .contact-link {
-            display: inline-flex;
-            align-items: center;
-            background-color: var(--accent-color);
-            color: var(--bg-color);
-            border: none;
-            font-weight: bold;
-            min-width: 180px;
-            justify-content: center;
-            margin-right: 1rem;
-            margin-bottom: 1rem;
-        }
-        
-        .contact-link:hover {
-            background-color: var(--hover-color);
-            transform: translateY(-2px);
-        }
-        
-        .social-buttons {
-            display: flex;
-            flex-wrap: wrap;
-        }
-        
-        footer {
-            margin-top: auto;
-            text-align: center;
-            font-size: 0.88rem;
-            color: #666;
-            margin-top: 2rem;
-        }
-        
-        .terminal-cursor {
-            display: inline-block;
-            width: 10px;
-            height: 1.2rem;
-            background-color: var(--accent-color);
-            animation: blink 1s step-end infinite;
-            vertical-align: text-bottom;
-            margin-left: 5px;
-        }
-        
-        @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
-        }
-        
-        .project-title {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 1.15rem;
-            font-weight: bold;
-        }
-        
-        .project-logo {
-            width: 16px;
-            height: 16px;
-            vertical-align: middle;
-        }
-        
-        @media (max-width: 600px) {
-            body {
-                padding: 1rem;
-            }
-            
-            .container {
-                padding: 1rem;
-            }
-            
-            h1 {
-                font-size: 2.2rem;
-            }
-            
-            .social-buttons {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .contact-link {
-                width: 100%;
-                min-width: unset;
-                margin-right: 0;
-                margin-bottom: 0;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/main.css?v=8">
 </head>
+
 <body>
     <div class="container">
         <header>
-            <h1>miotares<span class="terminal-cursor"></span></h1>
+            <h1>// <span style="color: var(--accent-color);">miotares</span><span class="terminal-cursor"></span></h1>
         </header>
-        
+
         <section class="intro">
-            Willkommen auf meiner Seite! Ich befasse mich mit allem möglichen Kram, vorrangig aber Bitcoin, Wirtschaft, Souveränität und Freiheit.
+            Willkommen auf meiner Seite! Ich befasse mich mit allem möglichen Kram, vorrangig aber Bitcoin, Wirtschaft,
+            Souveränität und Freiheit.
             <br><br>
             <em>Steuern sind Raub.</em>
         </section>
-        
+
         <section class="articles-section">
             <h2>// Artikel</h2>
             <div class="articles">
@@ -261,11 +82,12 @@
                 </a>
             </div>
         </section>
-        
+
         <section class="projects-section">
             <h2>// Projekte</h2>
             <div class="projects">
-                <a href="https://apps.apple.com/de/app/bitcoin-insight/id6753660088" class="project-link" target="_blank">
+                <a href="https://apps.apple.com/de/app/bitcoin-insight/id6753660088" class="project-link"
+                    target="_blank">
                     <div class="project-title">
                         <img src="assets/bitcoin-insight.png" alt="Bitcoin Insight Logo" class="project-logo">
                         Bitcoin Insight
@@ -295,7 +117,7 @@
                 </a>
             </div>
         </section>
-        
+
         <section class="contact-section">
             <h2>// Kontakt & Socials</h2>
             <div class="social-buttons">
@@ -305,10 +127,9 @@
                 <a href="/spenden/" class="contact-link">Spenden</a>
             </div>
         </section>
-        
-        <footer>
-            &copy; 2025 Miotares | Mit <span style="color: var(--accent-color);">❤</span> und Code erstellt
-        </footer>
+
+        {% include footer.html %}
     </div>
 </body>
+
 </html>

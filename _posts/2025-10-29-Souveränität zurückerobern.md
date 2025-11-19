@@ -37,10 +37,13 @@ Souverän ist, wer die volle Herrschaft über sich selbst, seine Angelegenheiten
 
 Im Folgenden nenne ich drei Kernbereiche als Anregungspunkte. Keine fertige Anleitung, sondern Impulse, damit du selbst weiter recherchierst und deine Souveränität zurückeroberst.
   
+### Finanzielle Souveränität
 Finanzielle Souveränität beginnt dort, wo niemand mehr dein Geld sperren, entwerten oder dir vorschreiben kann, wofür du es ausgibst. Bitcoin ist der digitale Goldstandard: knapp, selbst verwahrt in einer Hardware-Wallet, außerhalb jeder Bank oder Staatskontrolle. Monero ergänzt: vollständig anonym, nicht nachverfolgbar. Ein Werkzeug für Transaktionen, die nur dich etwas angehen. Wer tiefer diversifizieren will, legt Teile in Edelmetalle oder Offshore-Konten an, jenseits der Reichweite einheimischer Fiskalbehörden.
 
+### Digitale Souveränität
 Digitale Souveränität heißt: Deine Daten, deine Regeln. Niemand liest mit, niemand sperrt zu, niemand verkauft sie weiter. Selbst hosten ist der Grundpfeiler: eigene Cloud, eigener Mail-Server, VPN auf deinem Gerät. Verschlüssele jeden Kanal: Ende-zu-Ende für Nachrichten, Mails, Dateien. Setze auf Open Source: freies Betriebssystem, Browser ohne Tracking, Passwortmanager, physische Sicherheitsschlüssel. Code, den die Welt sehen kann, ist der einzige, dem du trauen darfst.
 
+### Mentale Souveränität
 Mentale Souveränität ist die letzte Festung: Wer hier fällt, verliert alles andere. Sie beginnt mit der Fähigkeit, selbst zu prüfen, statt zu glauben. Quellen hinterfragen. Interessen aufdecken. Logik vor Ideologie stellen. Trainiere kritisches Denken wie einen Muskel: Bayes für Wahrscheinlichkeiten, Occam für Einfachheit, Hanlon gegen Verschwörungswahn. Lies quer, diskutiere hart, lerne lebenslang – Bücher, Kurse, Debatten statt Echo-Kammern. Nutze die Kraft der KI, aber überlasse ihr nicht dein Denken. Folge deinen Interessen.
 
 Kurz gesagt: Souveränität ist keine Isolation, sondern die Fähigkeit, frei zu wählen, wem man vertraut.

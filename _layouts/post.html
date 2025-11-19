@@ -1,264 +1,58 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
     <title>{{ page.title }} — miotares</title>
-    
+
     <!-- Social Sharing Meta Tags -->
     {% assign thumbnail_name = page.slug | default: page.title | slugify %}
     {% assign base_url = 'https://miotares.com' %}
     {% assign thumbnail_url = base_url | append: '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' %}
     {% assign page_url = base_url | append: page.url %}
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page_url }}">
     <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
+    <meta property="og:description"
+        content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
     <meta property="og:image" content="{{ thumbnail_url }}">
     <meta property="og:site_name" content="miotares">
-    
+
     <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ page_url }}">
     <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
+    <meta name="twitter:description"
+        content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
     <meta name="twitter:image" content="{{ thumbnail_url }}">
-    
+
     <!-- Additional Meta -->
     <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@400;700&display=swap');
-
-        :root {
-            --bg-color: #fff; /* Gwern uses light mode by default usually, but user had dark. Let's keep dark but make it elegant or switch to light if "paper" feel is desired. User said "gwern.net style". Gwern is high contrast. Let's stick to the user's dark theme base but refine it, or maybe offer a switch later. For now, let's optimize the dark theme to be high-readability. */
-            /* Actually, let's stick to the user's existing dark theme preference but refine the colors for better contrast and reading. */
-            --bg-color: #111;
-            --text-color: #e0e0e0;
-            --accent-color: #00ff9d; /* Keep user's accent */
-            --link-color: #fff;
-            --link-hover-color: #00ff9d;
-            --secondary-color: #333;
-            --code-bg: #1a1a1a;
-            --quote-bg: #1a1a1a;
-            --font-serif: 'EB Garamond', 'Charter', 'Bitstream Charter', 'Sitka Text', serif;
-            --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
-        }
-
-        * { margin:0; padding:0; box-sizing:border-box; }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: var(--font-serif);
-            font-size: 1.25rem; /* Larger font for reading */
-            line-height: 1.6;
-            padding: 2rem;
-            max-width: 800px; /* Optimal reading width */
-            margin: 0 auto;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            text-rendering: optimizeLegibility;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        /* Typography & Layout */
-        .container {
-            max-width: 100%;
-        }
-
-        header {
-            margin-bottom: 3rem;
-            border-bottom: 1px solid var(--secondary-color);
-            padding-bottom: 1.5rem;
-            text-align: center;
-        }
-
-        h1 {
-            font-family: var(--font-serif);
-            font-weight: 600;
-            color: var(--text-color);
-            font-size: 2.5rem;
-            line-height: 1.2;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.02em;
-        }
-
-        .meta {
-            font-family: var(--font-mono);
-            color: #888;
-            font-size: 0.9rem;
-            margin-top: 1rem;
-        }
-
-        /* Content Styling */
-        .content {
-            margin-top: 2rem;
-        }
-
-        .content p {
-            margin-bottom: 1.5rem;
-            text-align: justify;
-            hyphens: auto;
-            -webkit-hyphens: auto;
-        }
-
-        /* Headings in content */
-        .content h2, .content h3, .content h4 {
-            font-family: var(--font-serif);
-            color: var(--text-color);
-            margin-top: 2.5rem;
-            margin-bottom: 1rem;
-            font-weight: 600;
-            line-height: 1.3;
-        }
-        
-        .content h2 { font-size: 1.8rem; border-bottom: 1px solid var(--secondary-color); padding-bottom: 0.3rem; }
-        .content h3 { font-size: 1.5rem; }
-        .content h4 { font-size: 1.25rem; font-style: italic; }
-
-        /* Links - Gwern style: distinct, hover effects */
-        .content a {
-            color: var(--link-color);
-            text-decoration: none;
-            border-bottom: 1px dotted var(--secondary-color);
-            transition: all 0.2s ease;
-        }
-
-        .content a:hover {
-            color: var(--link-hover-color);
-            border-bottom: 1px solid var(--link-hover-color);
-            background-color: rgba(0, 255, 157, 0.1);
-        }
-
-        /* Lists */
-        .content ul, .content ol {
-            margin: 1rem 0 1.5rem 2rem;
-            padding-left: 0;
-        }
-        
-        .content li {
-            margin-bottom: 0.5rem;
-            padding-left: 0.5rem;
-        }
-
-        .content ul { list-style-type: disc; }
-        .content ol { list-style-type: decimal; }
-
-        /* Blockquotes */
-        .content blockquote {
-            background: var(--quote-bg);
-            border-left: 4px solid var(--accent-color);
-            margin: 1.5rem 0;
-            padding: 1rem 1.5rem;
-            font-style: italic;
-            color: #ccc;
-            border-radius: 0 4px 4px 0;
-        }
-
-        /* Code Blocks */
-        .content pre {
-            background: var(--code-bg);
-            border: 1px solid var(--secondary-color);
-            padding: 1rem;
-            border-radius: 4px;
-            overflow-x: auto;
-            margin: 1.5rem 0;
-            font-size: 0.9rem;
-        }
-
-        .content code {
-            font-family: var(--font-mono);
-            background: var(--code-bg);
-            padding: 0.2em 0.4em;
-            border-radius: 3px;
-            font-size: 0.85em;
-        }
-        
-        .content pre code {
-            background: transparent;
-            padding: 0;
-            font-size: 1em;
-        }
-
-        /* Images */
-        .content img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 4px;
-            margin: 1.5rem 0;
-            border: 1px solid var(--secondary-color);
-        }
-
-        .thumbnail {
-            width: 100%;
-            max-height: 400px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 2rem;
-            border: 1px solid var(--secondary-color);
-            filter: brightness(0.8); /* Slightly dim images for better text contrast if they are bright */
-        }
-
-        /* Footnotes */
-        .footnotes {
-            margin-top: 4rem;
-            border-top: 1px solid var(--secondary-color);
-            padding-top: 2rem;
-            font-size: 0.9rem;
-            color: #888;
-        }
-        
-        .footnotes ol {
-            margin-left: 1.5rem;
-        }
-
-        /* Navigation */
-        nav { margin-bottom: 1rem; }
-        .back { 
-            text-decoration: none; 
-            color: var(--accent-color); 
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .back:hover { text-decoration: underline; }
-
-        footer {
-            margin-top: 4rem;
-            text-align: center;
-            font-size: 0.9rem;
-            color: #666;
-            font-family: var(--font-mono);
-        }
-
-        /* Mobile Adjustments */
-        @media (max-width: 600px) {
-            body { padding: 1rem; font-size: 1.1rem; }
-            h1 { font-size: 1.8rem; }
-            .content p { text-align: left; } /* Justify can be weird on small screens */
-        }
-    </style>
+    <link rel="stylesheet" href="/assets/css/main.css?v=8">
 </head>
+
 <body>
     <div class="container">
         <header>
-            <nav><a class="back" href="/articles/">← Zur Artikelliste</a></nav>
-            <h1>{{ page.title }}</h1>
-            <div class="meta">{{ page.date | date: "%d.%m.%Y" }}{% if page.tags and page.tags.size > 0 %} — {{ page.tags | join: ", " }}{% endif %}</div>
+            <div class="header-title-group">
+                <nav><a class="back" href="/articles/">←</a></nav>
+                <h1>{{ page.title }}</h1>
+            </div>
+            <div class="meta">{{ page.date | date: "%d.%m.%Y" }}{% if page.tags and page.tags.size > 0 %} — {{ page.tags
+                | join: ", " }}{% endif %}</div>
         </header>
         <article class="content">
             {% assign thumbnail_name = page.slug | default: page.title | slugify %}
-            <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}" alt="{{ page.title }}" class="thumbnail" onerror="this.style.display='none'">
+            <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}"
+                alt="{{ page.title }}" class="thumbnail" onerror="this.style.display='none'">
             {{ content }}
         </article>
-        <footer>&copy; 2025 Miotares</footer>
+        {% include footer.html %}
     </div>
 </body>
+
 </html>
-
-
