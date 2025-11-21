@@ -215,6 +215,15 @@ section {
     /* Reduced from 3rem */
 }
 
+.content hr {
+    border: 0;
+    border-top: 1px solid var(--secondary-color);
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    display: block;
+    width: 100%;
+}
+
 /* Content Container */
 .content {
     margin-top: 1.5rem;
