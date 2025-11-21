@@ -163,8 +163,7 @@ nav {
     grid-column: 2;
     margin: 0;
     line-height: 1;
-    white-space: nowrap;
-    /* Prevent wrapping if possible */
+    /* white-space: nowrap; Removed to allow wrapping */
 }
 
 .back {
@@ -258,6 +257,16 @@ blockquote {
     font-style: italic;
     color: #ccc;
     border-radius: 0 4px 4px 0;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: #888;
+    text-align: right;
+    font-family: var(--font-serif);
 }
 
 /* Code Blocks */
@@ -749,5 +758,24 @@ a.post-link:hover .post-title {
     .post-thumbnail {
         width: 80px;
         height: 48px;
+    }
+
+    /* Mobile Header Fixes */
+    .header-title-group {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .header-title-group nav {
+        padding-right: 0;
+        flex-shrink: 0;
+    }
+
+    .header-title-group h1 {
+        text-align: left;
+        white-space: normal;
+        line-height: 1.2;
+        font-size: 1.6rem;
     }
 }
