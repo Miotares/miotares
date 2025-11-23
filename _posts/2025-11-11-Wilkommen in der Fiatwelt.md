@@ -8,7 +8,7 @@ categories: [Politik, Wirtschaft]
 lang: de
 slug: willkommen-in-der-fiatwelt
 permalink: /articles/willkommen-in-der-fiatwelt/
-image: /assets/thumbnails/willkommen-in-der-fiatwelt.png
+image: /assets/thumbnails/willkommen-in-der-fiatwelt.jpg
 image_alt: "Symbolische Darstellung des Fiatgeldsystems und staatlicher Geldmonopole"
 canonical: https://miotares.de/articles/willkommen-in-der-fiatwelt/
 robots: index,follow

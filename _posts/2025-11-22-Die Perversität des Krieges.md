@@ -23,10 +23,7 @@ Und doch müsst ihr euch gegenseitig töten. Nicht, weil ihr es wollt. Sondern w
 
 Das ist Krieg. Nicht das heldenhafte Narrativ aus den Geschichtsbüchern. Nicht die patriotische Folklore der Staatsmedien. Sondern junge Menschen, die sich im Dreck gegenseitig abschlachten müssen, während Politiker sich ins Fäustchen lachen und die Massen durch die Medien unterhalten werden. Moral? Ein Witz. Die wahre Perversion liegt nicht im Töten selbst, sondern darin, wer töten muss und wer dabei zusieht.
 
-<blockquote>
-  Ich dachte immer, jeder Mensch sei gegen den Krieg, bis ich herausfand, dass es welche gibt, die dafür sind. Besonders die, die nicht hineingehen müssen.
-  <cite>– Erich Maria Remarque</cite>
-</blockquote>
+> Ich dachte immer, jeder Mensch sei gegen den Krieg, bis ich herausfand, dass es welche gibt, die dafür sind. Besonders die, die nicht hineingehen müssen. - Erich Maria Remarque
 
 ## Von Söldnern zur Wehrpflicht
 
