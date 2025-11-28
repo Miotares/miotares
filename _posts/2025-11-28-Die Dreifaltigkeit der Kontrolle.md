@@ -17,7 +17,7 @@ last_modified_at: 2025-11-28
 published: true
 ---
 
-Die EU errichtet gerade ein Machtwerkzeug, das nicht nur verwaltet, sondern lenkt. Drei Säulen formen den Kern Kontrolle über Geld, Identität und Kommunikation. Was heute als komfortabel verkauft wird, wird morgen zum Hebel über jeden Aspekt deines Lebens. Wer zu spät hinsieht, erkennt erst im Käfig, dass die Tür schon immer offen stand.
+Die EU errichtet gerade ein Machtwerkzeug, das nicht nur verwaltet, sondern lenkt. Drei Säulen tragen ein System, das auf Kontrolle über Geld, Identität und Kommunikation ausgelegt ist. Was heute als komfortabel verkauft wird, wird morgen zum Hebel über jeden Aspekt deines Lebens. Wer zu spät hinsieht, erkennt erst im Käfig, dass die Tür schon immer offen stand.
 {: .drop-cap}
 
 >Jede Macht, die missbraucht werden kann, wird irgendwann missbraucht.
@@ -30,7 +30,7 @@ Was EZB und EU als „innovativ“ und „krisenfest“ anpreisen, ist in Wirkli
 
 1. Jede Transaktion wird verfolgt, analysiert und dauerhaft gespeichert.
 2. Anonyme Zahlungen sind nicht mehr möglich, Spenden an Opposition oder Whistleblower werden praktisch ausgeschlossen.
-3. Absolute Abhängigkeit von Strom und zentralisierten Systemen, da Geld nur noch digital existiert.
+3. Absolute Abhängigkeit von einer zentralen Instanz.
 4. Geld ist kein Eigentum mehr, es kann jederzeit entzogen, gelöscht oder eingefroren werden.
 5. Die Zentralbank kann Konten bei Verdacht auf Steuerhinterziehung oder andere Verstöße vorsorglich sperren, die Unschuldsvermutung entfällt.
 6. Automatische Enteignung bei staatlich definierten systemischen Risiken oder supranationalen Notlagen.
