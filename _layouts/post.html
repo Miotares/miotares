@@ -53,6 +53,17 @@
         </article>
         {% include footer.html %}
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const footnoteLinks = document.querySelectorAll('.footnotes a');
+            footnoteLinks.forEach(link => {
+                if (link.hostname !== window.location.hostname) {
+                    link.setAttribute('target', '_blank');
+                    link.setAttribute('rel', 'noopener noreferrer');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

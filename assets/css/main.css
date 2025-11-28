@@ -118,6 +118,19 @@ p {
     -webkit-hyphens: auto;
 }
 
+/* Drop Cap */
+.drop-cap::first-letter {
+    float: left;
+    font-size: 3.8rem;
+    line-height: 0.8;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    color: var(--accent-color);
+    font-family: var(--font-serif);
+    font-weight: 700;
+}
+
+
 /* Links */
 
 
@@ -240,6 +253,11 @@ section {
     padding-left: 0.25rem;
 }
 
+.content li::marker {
+    color: var(--accent-color);
+}
+
+
 .content ul {
     list-style-type: disc;
 }
@@ -310,7 +328,13 @@ img {
     padding-top: 1.5rem;
     font-size: 0.85rem;
     color: #888;
+    text-align: left;
 }
+
+.footnotes p {
+    text-align: left;
+}
+
 
 .footnotes ol {
     margin-left: 1.5rem;
