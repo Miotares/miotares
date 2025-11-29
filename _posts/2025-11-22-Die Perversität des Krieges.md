@@ -18,6 +18,7 @@ published: true
 ---
 
 Stell dir vor, du stehst einem Menschen gegenüber, den du nicht kennst. Er hat dir nichts getan. Ihr habt vielleicht dieselben Träume, dieselben Ängste und Interessen, vielleicht sogar dieselben Ansichten über die Absurdität eurer Situation. Vielleicht wärt ihr sogar Freunde, hättet ihr euch schon früher getroffen.
+{: .drop-cap}
 
 Und doch müsst ihr euch gegenseitig töten. Nicht, weil ihr es wollt. Sondern weil Männer in Anzügen, die niemals ein Schlachtfeld sehen werden, es so entschieden haben. Euch wurde gesagt, dass ihr euch zu hassen habt.
 

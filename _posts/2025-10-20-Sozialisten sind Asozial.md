@@ -34,6 +34,7 @@ Hinweis zur Nutzung:
   
 
 Sozialisten gibt es überall. Sie haben verschiedene Formen, Farben und Ausprägungen ihrer Ideologie und sie sitzen in allen Parteien. Manche sind gemäßigt, manche extrem. Manche sind sich ihrer sozialistischen Art gar nicht bewusst. Innerhalb der Familie teilen wir alle gerne und freiwillig. Das ist aber kein Sozialismus – denn niemand zwingt uns dazu. Sozialismus beginnt dort, wo der Staat diese freiwillige Großzügigkeit mit Gewalt erzwingt. Sozialisten sind jene, die auf den ersten Blick ehrbare Ziele verfolgen. So wollen sie Ungerechtigkeit bekämpfen und sie wollen, dass niemand arm ist oder von seinem Arbeitgeber ausgebeutet wird. So weit so gut. Doch bei den Mitteln, zu denen sie greifen, wird es eklig. Sie respektieren kein Privateigentum.
+{: .drop-cap}
 
 ## Was ist Gerechtigkeit?
 

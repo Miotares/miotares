@@ -18,6 +18,7 @@ published: true
 ---
 
 Etwas stinkt gewaltig in unserer Gesellschaft. Es fühlt sich an, als hätte jemand die moralische Festplatte der Menschheit formatiert und mit einem Virus überschrieben. **Eigenständiges Denken, Individualität und Freiheit werden heute verachtet.** Wer danach strebt, gilt als egoistisch, gefährlich und asozial.
+{: .drop-cap}
 
 ## Der Verlust des eigenen Denkens
 

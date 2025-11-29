@@ -18,6 +18,7 @@ published: true
 ---
 
 Für die meisten Menschen klingt der Mindestlohn auf den ersten Blick nach einer guten Idee. "Wer arbeitet, soll davon leben können". Wer könnte da widersprechen? Politiker aller Couleur überschlagen sich mit ihrer Fürsorge für die "kleinen Leute". SPD, Grüne, Linke sowieso – aber selbst die Union und FDP haben längst kapituliert. Alle wollen den Mindestlohn, alle erhöhen ihn fleißig. 12,82 Euro sind es aktuell, 13,90 Euro ab 2026. Bald 15 Euro? Warum nicht gleich 50?
+{: .drop-cap}
 
 Doch hinter der humanitären Fassade verbirgt sich ein zynisches Kalkül. Der Mindestlohn ist kein Instrument zur Armutsbekämpfung. Im Gegenteil: Er ist ein Beschäftigungsverbot, eine Umverteilungsmaschine und ein perfektes Werkzeug zur Machterweiterung des Staates. Wer das nicht erkennt, hat entweder keine Ahnung von Ökonomie oder lügt bewusst.
 

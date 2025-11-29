@@ -18,6 +18,7 @@ published: true
 ---
 
 Willkommen in einer Welt, in der du mit Schulden geboren wirst. Nicht, weil deine Eltern über ihre Verhältnisse gelebt hätten, sondern weil der Staat bereits vor deiner Geburt dein zukünftiges Einkommen verpfändet hat. Du wirst die Rechnung bezahlen. Garantiert.
+{: .drop-cap}
 
 Das ist die Welt, in der der Staat das Monopol auf das Geld hat und dies mit Zwang durchsetzen kann. Eine Welt, in der er das Geld, wofür man hart arbeitet, aus dem Nichts druckt. Die Geldpolitik ist ein Spielzeug der kurzfristigen Politikzyklen, mit denen Wähler gewonnen werden. Und Geldpolitik heißt übersetzt immer auch Gelddrucken.
 

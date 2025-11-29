@@ -32,6 +32,7 @@ Hinweis zur Nutzung:
   
 
 Die Arbeitsteilung und die resultierende Globalisierung haben uns großen Wohlstand, aber auch große Abhängigkeit gebracht. Abhängigkeit von Lieferanten, Anbietern und Staaten. Freiwillige Abhängigkeit ist nicht per se schlecht. Einseitige oder erzwungene kann aber zur Waffe werden.
+{: .drop-cap}
 
 Souverän ist, wer die volle Herrschaft über sich selbst, seine Angelegenheiten und sein Eigentum hat. Wer abhängig ist, verliert Souveränität. Er bietet Angriffsfläche, die Souveränität zu mindern. Souveränität ist die Basis von Freiheit. Nur wer seine Abhängigkeiten an Dritte minimiert, kann langfristig die Entscheidungsfreiheit über sich selbst wahren.
 
