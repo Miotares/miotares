@@ -8,7 +8,7 @@ categories: [Politik, Digitalisierung, Machtstrukturen]
 lang: de
 slug: die-dreifaltigkeit-der-kontrolle
 permalink: /articles/die-dreifaltigkeit-der-kontrolle/
-image: /assets/thumbnails/dreifaltigkeit-der-kontrolle.jpg
+image: /assets/thumbnails/die-dreifaltigkeit-der-kontrolle.jpg
 image_alt: "Symbolbild für Kontrolle über Geld, Identität und Kommunikation"
 canonical: https://miotares.de/articles/die-dreifaltigkeit-der-kontrolle/
 robots: index,follow

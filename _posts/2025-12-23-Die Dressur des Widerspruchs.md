@@ -8,7 +8,7 @@ categories: [Gesellschaft, Politik, Ideologiekritik]
 lang: de
 slug: die-dressur-des-widerspruchs
 permalink: /articles/die-dressur-des-widerspruchs/
-image: /assets/thumbnails/dressur-des-widerspruchs.jpg
+image: /assets/thumbnails/die-dressur-des-widerspruchs.jpg
 image_alt: "Symbolbild für widersprüchliche Glaubenssätze und mentale Konditionierung"
 canonical: https://miotares.de/articles/die-dressur-des-widerspruchs/
 robots: index,follow

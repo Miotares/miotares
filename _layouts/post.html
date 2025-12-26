@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="/assets/css/main.css?v=8">
 </head>
 
-<body>
+<body class="post-layout">
     <div class="container">
         <header>
             <div class="header-title-group">
@@ -46,9 +46,14 @@
                 | join: ", " }}{% endif %}</div>
         </header>
         <article class="content">
+            {% if page.image %}
+            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="thumbnail"
+                onerror="this.style.display='none'">
+            {% else %}
             {% assign thumbnail_name = page.slug | default: page.title | slugify %}
             <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}"
                 alt="{{ page.title }}" class="thumbnail" onerror="this.style.display='none'">
+            {% endif %}
             {{ content }}
         </article>
         {% include footer.html %}
