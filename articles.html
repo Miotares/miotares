@@ -55,7 +55,6 @@ per_page: 10
                 {% for post in paginator.posts %}
                 <li>
                     <a class="post-link" href="{{ post.url }}">
-                        {% comment %}
                         {% if post.image %}
                         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumbnail"
                             onerror="this.style.display='none'">
@@ -64,7 +63,6 @@ per_page: 10
                         <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}"
                             alt="{{ post.title }}" class="post-thumbnail" onerror="this.style.display='none'">
                         {% endif %}
-                        {% endcomment %}
                         <div class="post-content">
                             <div class="post-title">{{ post.title }}</div>
                             <div class="post-description">{{ post.description | default: post.excerpt | strip_html |
@@ -79,7 +77,6 @@ per_page: 10
                 {% for post in sorted_posts %}
                 <li>
                     <a class="post-link" href="{{ post.url }}">
-                        {% comment %}
                         {% if post.image %}
                         <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-thumbnail"
                             onerror="this.style.display='none'">
@@ -88,7 +85,6 @@ per_page: 10
                         <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}"
                             alt="{{ post.title }}" class="post-thumbnail" onerror="this.style.display='none'">
                         {% endif %}
-                        {% endcomment %}
                         <div class="post-content">
                             <div class="post-title">{{ post.title }}</div>
                             <div class="post-description">{{ post.description | default: post.excerpt | strip_html |
