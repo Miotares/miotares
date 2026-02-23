@@ -12,6 +12,7 @@ Hier eine Auswahl an Musik, die ich gerne höre.
 * **[Täter-Opfer-Ausgleich](https://www.youtube.com/watch?v=WdSM7GokFFY&list=PLzQO0QGvI3GTg8HFwb91hYphY5Kk6bD26){:target="_blank"}** – JAW (2010)
 * **[ Vom Nachteil, verloren zu sein](https://karlmmoor.bandcamp.com/album/vom-nachteil-verloren-zu-sein){:target="_blank"}** – Karl Mmoor (2012)
 * **[Dein Bestes](https://www.youtube.com/watch?v=jE4mdU-ft_k){:target="_blank"}** – Maexer & Stomakk (2013)
+* **[2015/2016](https://messagerap.bandcamp.com/album/2015-2016){:target="_blank"}** - Me$$age (2018)
 * **[Nimms und verreck daran](https://www.youtube.com/watch?v=0jMTMIxyGBc&list=PLzQO0QGvI3GSGaNQUCfyyl4i-Uk2ULmbP){:target="_blank"}** – PCP (2003)
 * **Lache und die Welt weint mit dir** – PCP (2009)
 * **[Emopunkrap](https://emopunkrap.bandcamp.com/album/emopunkrap){:target="_blank"}** – Private Paul (2010)
