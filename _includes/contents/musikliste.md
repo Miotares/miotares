@@ -10,6 +10,7 @@ Hier eine Auswahl an Musik, die ich gerne höre.
 * **[Gehirn im Mixer](https://www.youtube.com/watch?v=kCt5A_DSs6E&list=PLzQO0QGvI3GTLPzEHwWtQg5ihfZC4zzgf){:target="_blank"}** – JAW (2007)
 * **[Zwischen Chemie & Wahnsinn](https://www.youtube.com/watch?v=mS_eEW-2r6M&list=PL91503780409E4909){:target="_blank"}** - JAW & Me$$age (2009)
 * **[Täter-Opfer-Ausgleich](https://www.youtube.com/watch?v=WdSM7GokFFY&list=PLzQO0QGvI3GTg8HFwb91hYphY5Kk6bD26){:target="_blank"}** – JAW (2010)
+* **[ Vom Nachteil, verloren zu sein](https://karlmmoor.bandcamp.com/album/vom-nachteil-verloren-zu-sein){:target="_blank"}** – Karl Mmoor (2012)
 * **[Dein Bestes](https://www.youtube.com/watch?v=jE4mdU-ft_k){:target="_blank"}** – Maexer & Stomakk (2013)
 * **[Nimms und verreck daran](https://www.youtube.com/watch?v=0jMTMIxyGBc&list=PLzQO0QGvI3GSGaNQUCfyyl4i-Uk2ULmbP){:target="_blank"}** – PCP (2003)
 * **Lache und die Welt weint mit dir** – PCP (2009)
