@@ -7,6 +7,8 @@ Hier eine kleine Auswahl an Büchern, die ich ausnahmslos empfehle.
 *   **Die Straße** – Cormac McCarthy
 *   **All die schönen Pferde** – Cormac McCarthy
 *   **Kein Land für alte Männer** – Cormac McCarthy 
+*   **Die Abendröte im westen** - Cormac McCarthy
+*   **In Stahlgewittern** - Ernst Jünger
 
 
 ## Sachbücher
@@ -20,6 +22,6 @@ Hier eine kleine Auswahl an Büchern, die ich ausnahmslos empfehle.
 ## Philosophie
 
 *   **Sonne und Stahl** – Yukio Mishima
-* **Der Einzige und sein Eigentum** - Max Stirner
+*   **Der Einzige und sein Eigentum** - Max Stirner
 
 ---
