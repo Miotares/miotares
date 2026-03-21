@@ -7,8 +7,9 @@ Hier eine kleine Auswahl an Büchern, die ich ausnahmslos empfehle.
 *   **Die Straße** – Cormac McCarthy
 *   **All die schönen Pferde** – Cormac McCarthy
 *   **Kein Land für alte Männer** – Cormac McCarthy 
-*   **Die Abendröte im westen** - Cormac McCarthy
+*   **Die Abendröte im Westen** - Cormac McCarthy
 *   **In Stahlgewittern** - Ernst Jünger
+*   **Train Dreams** - Denis Johnson
 
 
 ## Sachbücher
