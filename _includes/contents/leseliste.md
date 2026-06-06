@@ -10,12 +10,14 @@ Hier eine kleine Auswahl an Büchern, die ich ausnahmslos empfehle.
 *   **Die Abendröte im Westen** - Cormac McCarthy
 *   **Grenzgänger** – Cormac McCarthy
 *   **Land der Freien** – Cormac McCarthy
+*   **Ein Kind Gottes** – Cormac McCarthy
 *   **In Stahlgewittern** - Ernst Jünger
 *   **Train Dreams** - Denis Johnson
 *   **Aufzeichnungen aus dem Kellerloch** – Fjodor Dostojewski
 *   **Schuld und Sühne** – Fjodor Dostojewski
 *   **Der Minus-Mann** – Heinz Sobota
 *   **Pedro Paramo** – Juan Rulfo
+*   **Schachnovelle** – Stefan Zweig
 *   **Der Untergeher** – Thomas Bernhard
 
 
