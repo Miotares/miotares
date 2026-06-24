@@ -15,6 +15,7 @@ robots: index,follow
 twitter_card: summary_large_image
 last_modified_at: 2025-11-21
 published: true
+archived: true
 ---
 
 Etwas stinkt gewaltig in unserer Gesellschaft. Es fühlt sich an, als hätte jemand die moralische Festplatte der Menschheit formatiert und mit einem Virus überschrieben. **Eigenständiges Denken, Individualität und Freiheit werden heute verachtet.** Wer danach strebt, gilt als egoistisch, gefährlich und asozial.

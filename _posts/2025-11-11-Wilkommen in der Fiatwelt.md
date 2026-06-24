@@ -15,6 +15,7 @@ robots: index,follow
 twitter_card: summary_large_image
 last_modified_at: 2025-11-11
 published: true
+archived: true
 ---
 
 Willkommen in einer Welt, in der du mit Schulden geboren wirst. Nicht, weil deine Eltern über ihre Verhältnisse gelebt hätten, sondern weil der Staat bereits vor deiner Geburt dein zukünftiges Einkommen verpfändet hat. Du wirst die Rechnung bezahlen. Garantiert.

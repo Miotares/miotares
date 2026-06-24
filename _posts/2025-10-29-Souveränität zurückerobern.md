@@ -15,6 +15,7 @@ robots: index,follow
 twitter_card: summary_large_image
 last_modified_at: 2025-10-29
 published: true
+archived: true
 ---
 
 <!--
