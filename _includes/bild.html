@@ -3,18 +3,29 @@ Bild mit optionaler Bildunterschrift. Klick öffnet das Bild in voller Größe.
 Aufruf im Markdown:
   {% include bild.html src="/assets/bilder/pcp/cover.jpg" text="Bildunterschrift" alt="Beschreibung" breite=400 %}
 Nur src ist Pflicht. alt fällt auf text zurück.
-breite / hoehe: Zahl = Pixel, sonst beliebiger CSS-Wert ("50%", "20rem").
+
+breite / hoehe: Zahl = Pixel, Bruch = Anteil der Spalte ("1/3"), sonst CSS-Wert ("50%", "20rem").
   nur breite oder nur hoehe -> Seitenverhältnis bleibt erhalten
   beide                     -> Bild wird genau auf diese Maße gebracht (ggf. verzerrt)
+seite="links" | "rechts": Bild steht neben dem Text, der Text fließt drumherum.
+  Standardbreite dann 1/2. Auf dem Handy steht das Bild wieder über dem Text.
 Nie breiter als die Textspalte.
 {% endcomment %}
 {% assign alt = include.alt | default: include.text | markdownify | strip_html | strip %}
+{% assign seite = include.seite | default: "" | downcase %}
 {% assign breite = include.breite | append: "" %}
 {% assign hoehe = include.hoehe | append: "" %}
-{% if breite != "" %}{% assign zahl = breite | plus: 0 | append: "" %}{% if zahl == breite %}{% assign breite = breite | append: "px" %}{% endif %}{% endif %}
+{% if seite != "" and breite == "" %}{% assign breite = "1/2" %}{% endif %}
+{% if breite contains "/" %}{% assign teile = breite | split: "/" %}{% assign breite = teile[0] | times: 100.0 | divided_by: teile[1] | round: 2 | append: "%" %}{% elsif breite != "" %}{% assign zahl = breite | plus: 0 | append: "" %}{% if zahl == breite %}{% assign breite = breite | append: "px" %}{% endif %}{% endif %}
 {% if hoehe != "" %}{% assign zahl = hoehe | plus: 0 | append: "" %}{% if zahl == hoehe %}{% assign hoehe = hoehe | append: "px" %}{% endif %}{% endif %}
+{% if seite == "links" or seite == "rechts" %}
+{% capture figur_stil %}width: {{ breite }};{% endcapture %}
+{% capture stil %}{% if hoehe != "" %}height: {{ hoehe }}; object-fit: cover;{% endif %}{% endcapture %}
+{% else %}
+{% assign figur_stil = "" %}
 {% capture stil %}{% if breite != "" and hoehe != "" %}width: {{ breite }}; height: {{ hoehe }};{% elsif breite != "" %}width: {{ breite }};{% elsif hoehe != "" %}height: {{ hoehe }}; width: auto; object-fit: contain;{% endif %}{% endcapture %}
-<figure class="bild">
+{% endif %}
+<figure class="bild{% if seite == 'links' %} bild-links{% elsif seite == 'rechts' %} bild-rechts{% endif %}"{% if figur_stil != "" %} style="{{ figur_stil }}"{% endif %}>
     <a href="{{ include.src }}"><img src="{{ include.src }}" alt="{{ alt | escape }}" loading="lazy"{% if stil != "" %} style="{{ stil }}"{% endif %}></a>
     {% if include.text %}<figcaption>{{ include.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
 </figure>

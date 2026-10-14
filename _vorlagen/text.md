@@ -23,6 +23,12 @@ Mit fester Größe (Zahl = Pixel; nur eins von beiden = Seitenverhältnis bleibt
 
 {% include bild.html src="/assets/bilder/titel-ohne-umlaute/bild.jpg" breite=300 %}
 
+Bild neben dem Text (seite="links" oder "rechts"; breite = Anteil des Bildes: "1/2", "1/3", "2/3", "1/4"):
+
+{% include bild.html src="/assets/bilder/titel-ohne-umlaute/bild.jpg" text="Bildunterschrift" seite="rechts" breite="1/3" %}
+
+Dieser Absatz fließt links neben dem Bild. Die nächste ##-Überschrift beginnt automatisch darunter.
+
 Bild ohne Unterschrift:
 
 ![Beschreibung](/assets/bilder/titel-ohne-umlaute/bild.jpg)

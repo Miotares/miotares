@@ -12,18 +12,19 @@ Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text br
 | Pfad | Zweck |
 |---|---|
 | `_posts/JJJJ-MM-TT-titel.md` | Texte (Blog). URL: `/articles/<slug>/` |
-| `_pcp/*.md` | Kapitel & Notizen zum PCP-Buch (Collection). URL: `/pcp/<dateiname>/` |
-| `pcp.html` | Buchseite `/pcp/`, listet `_pcp/` sortiert nach `order` |
+| `pcp.md` | Das PCP-Buch als **eine** durchgehende Markdown-Seite unter `/pcp/` (mit Inhaltsverzeichnis) |
 | `index.html` | Startseite: Intro, Buch, alle Texte, Projekte, Listen |
 | `articles.html` | `/articles/`, alle Texte nach Jahr |
 | `_layouts/default.html` | HTML-Gerüst für alle Seiten: Head, SEO/OG-Tags, Analytics, Navigation, Footer |
-| `_layouts/post.html` | Layout für Texte und Kapitel: Titel, Metazeile, Inhaltsverzeichnis, Drop Cap |
+| `_layouts/post.html` | Layout für Texte und `pcp.md`: Label, Titel, Metazeile, Inhaltsverzeichnis, Drop Cap |
 | `_includes/post-list.html` | Liste der Texte nach Jahr (blendet `archived: true` aus) |
-| `_includes/bild.html` | Bild mit Bildunterschrift |
-| `_includes/toc.html` | Inhaltsverzeichnis aus `##`/`###` |
+| `_includes/bild.html` | Bild mit Bildunterschrift, Größe und Position neben dem Text |
+| `_includes/toc.html` | Inhaltsverzeichnis aus `##`/`###` (oben im Text + Seitenleiste) |
+| `assets/js/toc.js` | Blendet die Seitenleiste ein und markiert den aktuellen Abschnitt |
+| `assets/js/galerie.js` | Galerie-Ansicht mit Zoom für alle Bilder im Text (eigener Code, keine Bibliothek) |
 | `_includes/footer.html` | Footer (Email, Nostr, RSS, Impressum, Datenschutz) |
 | `_includes/contents/*.md` | Inhalt von Leseliste, Musikliste, Tools |
-| `_vorlagen/` | Kopiervorlagen `text.md` und `pcp-kapitel.md` (wird nicht gebaut) |
+| `_vorlagen/` | Kopiervorlage `text.md` mit allen Bausteinen (wird nicht gebaut) |
 | `assets/css/main.css` | Das einzige Stylesheet (Farben als CSS-Variablen, Dark Mode automatisch) |
 | `assets/css/legacy.css` | Altes Design, nur noch für `spenden.html` (nicht verlinkt) |
 | `assets/bilder/<slug>/`, `assets/bilder/pcp/` | Bilder zu Texten bzw. zum Buch |
@@ -52,11 +53,30 @@ Im Claude-Desktop-Browser: `.claude/launch.json` enthält die Konfiguration `jek
 1. `_vorlagen/text.md` nach `_posts/JJJJ-MM-TT-titel.md` kopieren.
 2. `title` setzen, losschreiben. Alles andere ist optional.
 
-## Ein PCP-Kapitel schreiben
+## Am PCP-Buch schreiben
 
-1. `_vorlagen/pcp-kapitel.md` nach `_pcp/<name>.md` kopieren (z.B. `_pcp/01-anfaenge.md`).
-2. `title` und `order` setzen. Die Buchseite `/pcp/` listet das Kapitel automatisch.
-3. Bilder nach `assets/bilder/pcp/`.
+Das Buch ist bewusst **eine einzige Seite**: `pcp.md` im Hauptverzeichnis, URL `/pcp/`
+(Vorbild: lange Essays auf gwern.net). Kapitel sind `##`-Überschriften, Unterkapitel `###`;
+das Inhaltsverzeichnis oben entsteht daraus automatisch (`toc: true` ist gesetzt).
+Bilder nach `assets/bilder/pcp/`. Es gibt keine Unterseiten oder Kapitel-Dateien.
+
+Jedes Kapitel ist so aufgebaut (die automatische Initiale ist in `pcp.md` mit `dropcap: false`
+abgeschaltet, stattdessen bekommt jedes Kapitel seine eigene):
+
+```markdown
+## Prolog
+
+*Am Anfang…*<br>
+*…war das Ende.*
+{: .epigraph}
+
+Erster Absatz des Kapitels.
+{: .dropcap}
+
+Weiterer Text …
+```
+
+Den Text des Autors nicht umformulieren oder „verbessern“, nur so einbauen, wie er geliefert wird.
 
 ## Front Matter
 
@@ -65,15 +85,17 @@ Im Claude-Desktop-Browser: `.claude/launch.json` enthält die Konfiguration `jek
 | `title` | Pflicht. Überschrift und Seitentitel |
 | `description` | Kursiver Untertitel unter der Überschrift, Meta-Description, Vorschautext |
 | `status` | Kleines Label in Titelnähe und in Listen, z.B. `Entwurf`, `in Arbeit`, `Notiz`, `fertig` |
-| `toc: true` | Inhaltsverzeichnis über dem Text (siehe unten) |
-| `dropcap: false` | Initiale abschalten (Standard für Texte und Kapitel: an) |
+| `toc: true` | Inhaltsverzeichnis über dem Text und mitwandernd links (siehe unten) |
+| `blocksatz: true` | Alle Absätze im Blocksatz (siehe unten) |
+| `dropcap` | Initiale am Textanfang. Bei Texten in `_posts/` standardmäßig an (`false` schaltet ab), auf anderen Seiten mit `dropcap: true` einschalten |
+| `label` | Kleine farbige Zeile über dem Titel, z.B. `"Buch · Arbeitstitel"` |
 | `slug` | URL-Teil bei Texten, sonst aus dem Dateinamen. Ohne Umlaute bevorzugt |
 | `permalink` | Feste URL. Bestehende Texte haben `/articles/<slug>/`, **nie ändern** (externe Links) |
 | `tags: [A, B]` | Erscheinen in der Metazeile |
-| `last_modified_at` | Zeigt „aktualisiert TT.MM.JJJJ“; bei Kapiteln auch Datum in der Kapitelliste |
-| `order` | Nur `_pcp/`: Reihenfolge auf der Buchseite |
+| `last_modified_at` | Zeigt „aktualisiert TT.MM.JJJJ“ in der Metazeile |
 | `archived: true` | Text bleibt unter seiner URL erreichbar, verschwindet aber aus allen Listen |
 | `image` | Nur Vorschaubild für Social Media (og:image). **Wird auf der Seite nicht angezeigt** |
+| `layout: post` | Nötig für Seiten außerhalb von `_posts/` (z.B. `pcp.md`), damit sie wie ein Text aussehen |
 | `robots` | Standard `index,follow` |
 | `published: false` | Text wird gar nicht gebaut |
 
@@ -93,9 +115,27 @@ kramdown vergibt automatisch IDs (`## Die Anfänge` → `#die-anfänge`), darauf
 erzeugt, steht über dem Text und ist aufklappbar. Keine Markierung im Text nötig,
 **nicht** zusätzlich kramdowns `{:toc}` verwenden.
 
+Auf breiten Bildschirmen (≥ 1220 px) erscheint dasselbe Verzeichnis zusätzlich als
+Seitenleiste links neben dem Text, sobald man am oberen Verzeichnis vorbeigescrollt ist.
+Sie bleibt beim Scrollen stehen, der aktuelle Abschnitt ist fett markiert, ein Klick auf
+„Inhalt“ springt nach oben. Auf schmaleren Bildschirmen gibt es nur das obere Verzeichnis.
+
+### Blocksatz
+
+`blocksatz: true` im Front Matter setzt alle Absätze und Listen des Textes in Blocksatz
+(mit automatischer Silbentrennung; Mottos/Epigraphe bleiben linksbündig). In `pcp.md` ist er an.
+Einzelner Absatz im Blocksatz, ohne die ganze Seite umzustellen:
+
+```markdown
+Dieser Absatz steht im Blocksatz.
+{: .blocksatz}
+```
+
+Mehrere Klassen lassen sich kombinieren: `{: .dropcap .blocksatz}`.
+
 ### Drop Cap (Initiale)
 
-Standardmäßig an: Der erste Absatz eines Textes oder Kapitels bekommt eine große Initiale,
+Bei Texten standardmäßig an (in `pcp.md` per `dropcap: true`): Der erste Absatz bekommt eine große Initiale,
 die erste Zeile steht in Kapitälchen. Abschalten mit `dropcap: false`.
 Für einen beliebigen weiteren Absatz (z.B. Beginn eines neuen Teils) die kramdown-Klasse
 direkt **unter** den Absatz schreiben:
@@ -128,7 +168,8 @@ Ohne Unterschrift, normales Markdown:
 ```
 
 **Größe festlegen** mit `breite` und/oder `hoehe` im Include. Eine Zahl bedeutet Pixel
-(`breite=400` oder `breite="400"`), andere CSS-Werte gehen als Text (`breite="50%"`, `hoehe="15rem"`).
+(`breite=400` oder `breite="400"`), ein Bruch einen Anteil der Textspalte (`breite="1/3"`),
+andere CSS-Werte gehen als Text (`breite="50%"`, `hoehe="15rem"`).
 
 | Angabe | Ergebnis |
 |---|---|
@@ -144,8 +185,49 @@ Ohne Unterschrift, normales Markdown:
 
 Im reinen Markdown geht nur die Breite (Seitenverhältnis bleibt): `![Text](/pfad.jpg){: width="300"}`.
 
+**Bild neben dem Text** mit `seite="rechts"` oder `seite="links"`. Das Bild schwebt an den
+Rand, der Text fließt daneben und läuft darunter in voller Breite weiter, wenn er länger ist.
+`breite` bestimmt den Anteil des Bildes (Standard `"1/2"`), der Text bekommt den Rest:
+
+| Aufteilung | Angabe |
+|---|---|
+| Hälfte / Hälfte | `seite="links" breite="1/2"` (oder nur `seite="links"`) |
+| Bild 1/3, Text 2/3 | `seite="rechts" breite="1/3"` |
+| Bild 2/3, Text 1/3 | `seite="rechts" breite="2/3"` |
+| Bild 1/4, Text 3/4 | `seite="rechts" breite="1/4"` |
+
+```liquid
+{% include bild.html src="/assets/bilder/pcp/cover.jpg" text="Cover (2009)" seite="rechts" breite="1/3" %}
+
+Dieser Absatz steht links neben dem Bild …
+```
+
+Regeln dazu:
+- Das Include steht **vor** dem Absatz, der daneben stehen soll.
+- Jede `##`/`###`-Überschrift, `---` und die Fußnoten beginnen immer unterhalb des Bildes.
+- Mit `hoehe` wird das Bild auf diese Höhe zugeschnitten (nicht verzerrt).
+- Auf schmalen Bildschirmen (≤ 520 px) steht das Bild zentriert über dem Text.
+
 Bilder sind zentriert, nie breiter als die Textspalte und werden verzögert geladen.
-Beim Include führt ein Klick auf das Bild zur Originaldatei.
+**Galerie-Ansicht:** Jedes Bild im Text (Include und reines Markdown) öffnet sich per Klick
+groß in einer dunklen Ansicht mit Bildunterschrift und Zähler. Dort:
+- Zoomen: Mausrad, Doppelklick/Doppeltipp, zwei Finger, Tasten `+`/`-`, `0` setzt zurück
+- Verschieben: ziehen, wenn gezoomt
+- Blättern durch alle Bilder der Seite: Pfeiltasten, Knöpfe ‹ ›, wischen
+- Schließen: `Esc`, ×, Klick neben das Bild
+
+Bilder, die per Markdown auf eine *andere* Adresse verlinken, bleiben normale Links.
+Keine Lightbox-Bibliothek nachrüsten; `galerie.js` wird vom Post-Layout immer geladen.
+
+### Motto (Epigraph)
+
+Kurzes Motto oder Zitat am Kapitelanfang, eingerückt und gedämpft. Zeilenumbrüche mit `<br>`:
+
+```markdown
+*Am Anfang…*<br>
+*…war das Ende.*
+{: .epigraph}
+```
 
 ### Fußnoten
 
@@ -172,7 +254,8 @@ Erscheinen gesammelt am Ende. Externe Links im Text öffnen sich automatisch in 
   Gegenpart im `@media (prefers-color-scheme: dark)`-Block.
 - Akzentfarbe `--mark` sparsam: Status-Labels, Initiale, Buch-Label.
 - Keine Google Fonts oder andere externen Ressourcen (Datenschutz), keine Bild-Pflicht, keine Icons/Logos.
-- Bei CSS-Änderungen die Versionsnummer in `_layouts/default.html` (`main.css?v=N`) hochzählen.
+- Bei CSS-Änderungen die Versionsnummer in `_layouts/default.html` (`main.css?v=N`) hochzählen,
+  bei JS-Änderungen die in `_layouts/post.html` (`toc.js?v=N`, `galerie.js?v=N`).
 - Muss auf Handybreite (375px) funktionieren.
 
 ## Analytics

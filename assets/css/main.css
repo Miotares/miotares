@@ -240,6 +240,14 @@ td {
     margin-bottom: 2rem;
 }
 
+.page-header .label {
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    color: var(--mark);
+    font-size: 0.95rem;
+    margin-bottom: 0.3em;
+}
+
 .lede {
     font-size: 1.15rem;
     font-style: italic;
@@ -260,6 +268,14 @@ td {
 
 .prose h2 {
     border-bottom: 0;
+}
+
+/* Blocksatz: ganze Seite mit blocksatz: true, einzelner Absatz mit {: .blocksatz} */
+.prose.blocksatz > p:not(.epigraph),
+.prose.blocksatz > ul,
+.prose.blocksatz > ol,
+.prose p.blocksatz {
+    text-align: justify;
 }
 
 .back {
@@ -292,6 +308,13 @@ td {
     letter-spacing: 0.03em;
 }
 
+/* Motto/Epigraph am Kapitelanfang: {: .epigraph} unter den Absatz */
+.prose p.epigraph {
+    margin: 0.5em 0 2em 35%;
+    color: var(--muted);
+    line-height: 1.5;
+}
+
 /* Bilder */
 figure.bild {
     margin: 2em 0;
@@ -315,6 +338,48 @@ figure.bild figcaption {
     margin: 1.5em auto;
 }
 
+/* Bild neben dem Text (seite="links" / "rechts"), Breite kommt inline */
+figure.bild-links,
+figure.bild-rechts {
+    margin-top: 0.35em;
+    margin-bottom: 1em;
+}
+
+figure.bild-links {
+    float: left;
+    margin-right: 1.5em;
+}
+
+figure.bild-rechts {
+    float: right;
+    margin-left: 1.5em;
+}
+
+figure.bild-links img,
+figure.bild-rechts img {
+    width: 100%;
+    margin: 0;
+}
+
+figure.bild-links figcaption,
+figure.bild-rechts figcaption {
+    text-align: left;
+}
+
+/* Neue Abschnitte beginnen immer unter einem schwebenden Bild */
+.prose h2,
+.prose h3,
+.prose hr,
+.prose .footnotes {
+    clear: both;
+}
+
+.prose::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Inhaltsverzeichnis */
 .toc {
     margin: 0 0 2.2rem;
@@ -333,16 +398,29 @@ figure.bild figcaption {
 
 .toc ol {
     margin: 0.5em 0 0;
-    padding-left: 1.3em;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: toc;
 }
 
 .toc li {
     margin-bottom: 0.15em;
 }
 
+/* Nur ##-Abschnitte werden gezählt, ### eingerückt ohne Nummer */
+.toc li.toc-2 {
+    counter-increment: toc;
+}
+
+.toc li.toc-2::before {
+    content: counter(toc) ".";
+    display: inline-block;
+    min-width: 1.6em;
+    color: var(--muted);
+}
+
 .toc li.toc-3 {
-    list-style: none;
-    margin-left: 1.2em;
+    margin-left: 2.8em;
     font-size: 0.92em;
 }
 
@@ -357,6 +435,209 @@ figure.bild figcaption {
 h2[id],
 h3[id] {
     scroll-margin-top: 1.5rem;
+}
+
+/* Seitenleiste: nur auf breiten Bildschirmen, erscheint per JS (.sichtbar) */
+.toc-side {
+    display: none;
+}
+
+@media (min-width: 1220px) {
+    .toc-side {
+        display: block;
+        position: fixed;
+        top: 2.5rem;
+        left: calc(50% - 21.25rem - 14rem - 2rem);
+        width: 14rem;
+        max-height: calc(100vh - 5rem);
+        overflow-y: auto;
+        font-size: 0.85rem;
+        line-height: 1.4;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.2s, visibility 0.2s;
+    }
+
+    .toc-side.sichtbar {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.toc-side-titel {
+    display: block;
+    margin-bottom: 0.5em;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.toc-side ol {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 0.75em;
+    border-left: 1px solid var(--rule);
+    counter-reset: toc;
+}
+
+.toc-side li {
+    margin-bottom: 0.35em;
+}
+
+.toc-side li.toc-2 {
+    counter-increment: toc;
+}
+
+.toc-side li.toc-2::before {
+    content: counter(toc) ". ";
+    color: var(--muted);
+}
+
+.toc-side li.toc-3 {
+    margin-left: 1.1em;
+}
+
+.toc-side a {
+    color: var(--muted);
+    text-decoration: none;
+}
+
+.toc-side a:hover,
+.toc-side a.aktiv {
+    color: var(--text);
+}
+
+.toc-side a.aktiv {
+    font-weight: 700;
+}
+
+/* Galerie-Ansicht (assets/js/galerie.js) – immer dunkel */
+.galerie-offen,
+.galerie-offen body {
+    overflow: hidden;
+}
+
+.galerie {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: #0c0c0b;
+    color: #e4e2dc;
+    display: flex;
+    flex-direction: column;
+}
+
+.galerie[hidden] {
+    display: none;
+}
+
+.galerie-buehne {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3.5rem 4rem 0.5rem;
+    touch-action: none;
+    cursor: zoom-out;
+}
+
+.galerie-bild {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transform-origin: 0 0;
+    user-select: none;
+    -webkit-user-select: none;
+    cursor: zoom-in;
+}
+
+.galerie.gezoomt .galerie-bild {
+    cursor: grab;
+}
+
+.galerie.gezoomt .galerie-bild:active {
+    cursor: grabbing;
+}
+
+.galerie-leiste {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0.6rem 1rem 1.1rem;
+    font-size: 0.9rem;
+    color: #b8b6ae;
+    text-align: center;
+}
+
+.galerie-leiste a {
+    color: inherit;
+}
+
+.galerie-zahl {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+.galerie-knopf {
+    position: absolute;
+    border: 0;
+    background: rgba(255, 255, 255, 0.08);
+    color: #e4e2dc;
+    font: inherit;
+    font-size: 1.8rem;
+    line-height: 1;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.galerie-knopf:hover,
+.galerie-knopf:focus-visible {
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+}
+
+.galerie-zu {
+    top: 0.8rem;
+    right: 0.8rem;
+}
+
+.galerie-zurueck,
+.galerie-weiter {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.galerie-zurueck {
+    left: 0.8rem;
+}
+
+.galerie-weiter {
+    right: 0.8rem;
+}
+
+@media (max-width: 520px) {
+    .galerie-buehne {
+        padding: 3.5rem 0.5rem 0.5rem;
+    }
+
+    .galerie-zurueck,
+    .galerie-weiter {
+        top: auto;
+        bottom: 0.6rem;
+        transform: none;
+    }
+
+    .galerie-leiste {
+        flex-direction: column;
+        gap: 0.2rem;
+        padding: 0.6rem 3.8rem 0.9rem;
+        min-height: 3.8rem;
+    }
 }
 
 /* Fußnoten (kramdown) */
@@ -469,5 +750,19 @@ ul.links .note {
     ul.entries .note {
         margin-left: 0;
         padding-left: 0;
+    }
+
+    /* Auf dem Handy steht ein Bild neben Text wieder zentriert über dem Text */
+    figure.bild-links,
+    figure.bild-rechts {
+        float: none;
+        width: auto !important;
+        max-width: 75%;
+        margin: 1.5em auto;
+    }
+
+    figure.bild-links figcaption,
+    figure.bild-rechts figcaption {
+        text-align: center;
     }
 }

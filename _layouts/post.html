@@ -3,6 +3,7 @@ layout: default
 ---
 <article>
     <header class="page-header">
+        {% if page.label %}<div class="label">{{ page.label }}</div>{% endif %}
         <h1>{{ page.title }}</h1>
         {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
         {% assign meta = "" | split: "" %}
@@ -15,14 +16,14 @@ layout: default
 
     {% if page.toc %}{% include toc.html html=content %}{% endif %}
 
-    <div class="prose{% if page.dropcap %} has-dropcap{% endif %}">
+    <div class="prose{% if page.dropcap %} has-dropcap{% endif %}{% if page.blocksatz %} blocksatz{% endif %}">
         {{ content }}
     </div>
 </article>
 
-<p class="back">
-    {% if page.collection == "pcp" %}<a href="/pcp/">← Zum Buch</a>{% else %}<a href="/articles/">← Alle Texte</a>{% endif %}
-</p>
+{% if page.collection == "posts" %}
+<p class="back"><a href="/articles/">← Alle Texte</a></p>
+{% endif %}
 
 <script>
     document.querySelectorAll('.prose a').forEach(function (link) {
@@ -32,3 +33,5 @@ layout: default
         }
     });
 </script>
+{% if page.toc %}<script src="/assets/js/toc.js?v=1" defer></script>{% endif %}
+<script src="/assets/js/galerie.js?v=1" defer></script>

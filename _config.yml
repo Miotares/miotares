@@ -30,12 +30,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
-# Buch über PCP: jede Datei in _pcp/ wird eine eigene Seite unter /pcp/...
-collections:
-  pcp:
-    output: true
-    permalink: /pcp/:name/
-
 # Default settings
 defaults:
   - scope:
@@ -51,10 +45,3 @@ defaults:
       dropcap: true
       author: "miotares"
       robots: "index,follow"
-  - scope:
-      path: ""
-      type: "pcp"
-    values:
-      layout: "post"
-      dropcap: true
-      author: "miotares"
