@@ -1,0 +1,14 @@
+{% comment %}
+Inhaltsverzeichnis aus den ##- und ###-Überschriften des gerenderten Inhalts.
+Wird vom Layout eingebunden, wenn im Front Matter "toc: true" steht.
+{% endcomment %}
+{% assign parts = include.html | split: "<h" %}
+{% capture items %}{% for part in parts offset: 1 %}{% assign level = part | slice: 0 %}{% if level == "2" or level == "3" %}{% if part contains ' id="' %}{% assign id = part | split: ' id="' | slice: 1 | first | split: '"' | first %}{% assign title = part | split: "</h" | first | split: ">" | shift | join: ">" | strip_html | strip %}<li class="toc-{{ level }}"><a href="#{{ id }}">{{ title }}</a></li>{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% if items != "" %}
+<nav class="toc" aria-label="Inhalt">
+    <details open>
+        <summary>Inhalt</summary>
+        <ol>{{ items }}</ol>
+    </details>
+</nav>
+{% endif %}

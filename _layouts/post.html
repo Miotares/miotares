@@ -5,13 +5,15 @@ layout: default
     <header class="page-header">
         <h1>{{ page.title }}</h1>
         {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
-        <p class="meta">
-            {% if page.collection == "posts" %}{{ page.date | date: "%d.%m.%Y" }}{% endif %}
-            {% if page.last_modified_at %}{% assign updated = page.last_modified_at | date: "%d.%m.%Y" %}{% assign created = page.date | date: "%d.%m.%Y" %}{% if updated != created %} · aktualisiert {{ updated }}{% endif %}{% endif %}
-            {% if page.status %} · <span class="status">{{ page.status }}</span>{% endif %}
-            {% if page.tags and page.tags.size > 0 %} · {{ page.tags | join: ", " }}{% endif %}
-        </p>
+        {% assign meta = "" | split: "" %}
+        {% if page.collection == "posts" %}{% assign created = page.date | date: "%d.%m.%Y" %}{% assign meta = meta | push: created %}{% endif %}
+        {% if page.last_modified_at %}{% assign updated = page.last_modified_at | date: "%d.%m.%Y" %}{% if updated != created %}{% assign updated = "aktualisiert " | append: updated %}{% assign meta = meta | push: updated %}{% endif %}{% endif %}
+        {% if page.status %}{% capture status %}<span class="status">{{ page.status }}</span>{% endcapture %}{% assign meta = meta | push: status %}{% endif %}
+        {% if page.tags and page.tags.size > 0 %}{% assign tag_list = page.tags | join: ", " %}{% assign meta = meta | push: tag_list %}{% endif %}
+        {% if meta.size > 0 %}<p class="meta">{{ meta | join: " · " }}</p>{% endif %}
     </header>
+
+    {% if page.toc %}{% include toc.html html=content %}{% endif %}
 
     <div class="prose">
         {{ content }}

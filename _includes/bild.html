@@ -1,0 +1,11 @@
+{% comment %}
+Bild mit optionaler Bildunterschrift. Klick öffnet das Bild in voller Größe.
+Aufruf im Markdown:
+  {% include bild.html src="/assets/bilder/pcp/cover.jpg" text="Bildunterschrift" alt="Beschreibung" %}
+Nur src ist Pflicht. alt fällt auf text zurück.
+{% endcomment %}
+{% assign alt = include.alt | default: include.text | markdownify | strip_html | strip %}
+<figure class="bild">
+    <a href="{{ include.src }}"><img src="{{ include.src }}" alt="{{ alt | escape }}" loading="lazy"></a>
+    {% if include.text %}<figcaption>{{ include.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+</figure>
