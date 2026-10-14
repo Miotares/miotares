@@ -15,7 +15,7 @@ layout: default
 
     {% if page.toc %}{% include toc.html html=content %}{% endif %}
 
-    <div class="prose">
+    <div class="prose{% if page.dropcap %} has-dropcap{% endif %}">
         {{ content }}
     </div>
 </article>

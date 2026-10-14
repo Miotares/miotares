@@ -22,6 +22,8 @@ exclude:
   - node_modules
   - .bundle
   - README.md
+  - AGENTS.md
+  - CLAUDE.md
 
 # Plugins
 plugins:
@@ -46,6 +48,7 @@ defaults:
     values:
       layout: "post"
       permalink: /articles/:slug/
+      dropcap: true
       author: "miotares"
       robots: "index,follow"
   - scope:
@@ -53,4 +56,5 @@ defaults:
       type: "pcp"
     values:
       layout: "post"
+      dropcap: true
       author: "miotares"

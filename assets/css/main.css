@@ -275,6 +275,23 @@ td {
     white-space: nowrap;
 }
 
+/* Initiale: erster Absatz bei dropcap: true, oder einzelner Absatz mit {: .dropcap} */
+.has-dropcap > p:first-of-type::first-letter,
+.prose p.dropcap::first-letter {
+    float: left;
+    font-size: 3.4em;
+    line-height: 0.82;
+    font-weight: 700;
+    padding: 0.06em 0.09em 0 0;
+    color: var(--mark);
+}
+
+.has-dropcap > p:first-of-type::first-line,
+.prose p.dropcap::first-line {
+    font-variant: small-caps;
+    letter-spacing: 0.03em;
+}
+
 /* Bilder */
 figure.bild {
     margin: 2em 0;

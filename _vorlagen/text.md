@@ -7,6 +7,7 @@ title: "Titel"
 # status: Entwurf          # oder: in Arbeit, Notiz, fertig (wird als kleines Label angezeigt)
 # slug: titel-ohne-umlaute # sonst wird die URL aus dem Dateinamen gebildet
 # toc: true                # Inhaltsverzeichnis aus den ##/###-Überschriften
+# dropcap: false           # Initiale am Textanfang abschalten (Standard: an)
 # tags: [Thema]
 # last_modified_at: JJJJ-MM-TT
 # archived: true           # blendet den Text aus der Liste aus

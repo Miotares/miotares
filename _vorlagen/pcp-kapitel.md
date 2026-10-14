@@ -6,6 +6,7 @@ title: "Kapitel- oder Notiztitel"
 order: 1                   # Reihenfolge auf der Buchseite
 status: Entwurf
 toc: true                  # Inhaltsverzeichnis aus den ##/###-Überschriften
+# dropcap: false           # Initiale am Textanfang abschalten (Standard: an)
 # description: "Kurz, worum es geht."
 # image: /assets/bilder/pcp/titelbild.jpg   # nur Vorschaubild beim Teilen, wird nicht angezeigt
 # last_modified_at: JJJJ-MM-TT
