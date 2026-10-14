@@ -1,11 +1,20 @@
 {% comment %}
 Bild mit optionaler Bildunterschrift. Klick öffnet das Bild in voller Größe.
 Aufruf im Markdown:
-  {% include bild.html src="/assets/bilder/pcp/cover.jpg" text="Bildunterschrift" alt="Beschreibung" %}
+  {% include bild.html src="/assets/bilder/pcp/cover.jpg" text="Bildunterschrift" alt="Beschreibung" breite=400 %}
 Nur src ist Pflicht. alt fällt auf text zurück.
+breite / hoehe: Zahl = Pixel, sonst beliebiger CSS-Wert ("50%", "20rem").
+  nur breite oder nur hoehe -> Seitenverhältnis bleibt erhalten
+  beide                     -> Bild wird genau auf diese Maße gebracht (ggf. verzerrt)
+Nie breiter als die Textspalte.
 {% endcomment %}
 {% assign alt = include.alt | default: include.text | markdownify | strip_html | strip %}
+{% assign breite = include.breite | append: "" %}
+{% assign hoehe = include.hoehe | append: "" %}
+{% if breite != "" %}{% assign zahl = breite | plus: 0 | append: "" %}{% if zahl == breite %}{% assign breite = breite | append: "px" %}{% endif %}{% endif %}
+{% if hoehe != "" %}{% assign zahl = hoehe | plus: 0 | append: "" %}{% if zahl == hoehe %}{% assign hoehe = hoehe | append: "px" %}{% endif %}{% endif %}
+{% capture stil %}{% if breite != "" and hoehe != "" %}width: {{ breite }}; height: {{ hoehe }};{% elsif breite != "" %}width: {{ breite }};{% elsif hoehe != "" %}height: {{ hoehe }}; width: auto; object-fit: contain;{% endif %}{% endcapture %}
 <figure class="bild">
-    <a href="{{ include.src }}"><img src="{{ include.src }}" alt="{{ alt | escape }}" loading="lazy"></a>
+    <a href="{{ include.src }}"><img src="{{ include.src }}" alt="{{ alt | escape }}" loading="lazy"{% if stil != "" %} style="{{ stil }}"{% endif %}></a>
     {% if include.text %}<figcaption>{{ include.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
 </figure>

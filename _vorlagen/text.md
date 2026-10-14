@@ -19,6 +19,10 @@ Bild mit Bildunterschrift:
 
 {% include bild.html src="/assets/bilder/titel-ohne-umlaute/bild.jpg" text="Bildunterschrift" %}
 
+Mit fester Größe (Zahl = Pixel; nur eins von beiden = Seitenverhältnis bleibt, beide = genau diese Maße):
+
+{% include bild.html src="/assets/bilder/titel-ohne-umlaute/bild.jpg" breite=300 %}
+
 Bild ohne Unterschrift:
 
 ![Beschreibung](/assets/bilder/titel-ohne-umlaute/bild.jpg)

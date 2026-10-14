@@ -20,6 +20,10 @@ Text. Ein Bild mit Bildunterschrift:
 
 {% include bild.html src="/assets/bilder/pcp/beispiel.jpg" text="Bildunterschrift, gern mit *Kursiv* oder [Link](https://example.com)" %}
 
+Mit fester Größe (Zahl = Pixel; nur eins von beiden = Seitenverhältnis bleibt, beide = genau diese Maße):
+
+{% include bild.html src="/assets/bilder/pcp/beispiel.jpg" text="Bildunterschrift" breite=300 %}
+
 Oder ganz schlicht ohne Unterschrift:
 
 ![Beschreibung des Bildes](/assets/bilder/pcp/beispiel.jpg)

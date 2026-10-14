@@ -127,7 +127,24 @@ Ohne Unterschrift, normales Markdown:
 ![Beschreibung des Bildes](/assets/bilder/pcp/cover.jpg)
 ```
 
-Bilder sind zentriert, auf Spaltenbreite begrenzt und werden verzögert geladen.
+**Größe festlegen** mit `breite` und/oder `hoehe` im Include. Eine Zahl bedeutet Pixel
+(`breite=400` oder `breite="400"`), andere CSS-Werte gehen als Text (`breite="50%"`, `hoehe="15rem"`).
+
+| Angabe | Ergebnis |
+|---|---|
+| keine | volle Spaltenbreite (oder Originalgröße, falls kleiner) |
+| nur `breite` | Breite fest, Höhe passt sich an, Seitenverhältnis bleibt |
+| nur `hoehe` | Höhe fest, Breite passt sich an, Seitenverhältnis bleibt |
+| `breite` und `hoehe` | Bild wird genau auf diese Maße gebracht, wird dabei ggf. verzerrt |
+
+```liquid
+{% include bild.html src="/assets/bilder/pcp/flyer.jpg" text="Flyer" breite=300 %}
+{% include bild.html src="/assets/bilder/pcp/banner.jpg" breite=600 hoehe=150 %}
+```
+
+Im reinen Markdown geht nur die Breite (Seitenverhältnis bleibt): `![Text](/pfad.jpg){: width="300"}`.
+
+Bilder sind zentriert, nie breiter als die Textspalte und werden verzögert geladen.
 Beim Include führt ein Klick auf das Bild zur Originaldatei.
 
 ### Fußnoten
