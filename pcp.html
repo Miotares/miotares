@@ -1,0 +1,30 @@
+---
+title: "Lache und die Welt weint mit dir"
+permalink: /pcp/
+description: "Buchprojekt (Arbeitstitel): Die Geschichte von PCP, Weiße Scheiße und einer vergessenen Underground-Rap-Szene."
+---
+<header class="page-header">
+    <h1>Lache und die Welt weint mit dir</h1>
+    <p class="lede">Die Geschichte von PCP, Weiße Scheiße und einer vergessenen Underground-Rap-Szene.</p>
+    <p class="meta">Buch · Arbeitstitel · <span class="status">in Arbeit</span></p>
+</header>
+
+<p>
+    Hier entsteht mein Buch über die Rap-Gruppe PCP, offen und Stück für Stück.
+    Kapitelentwürfe, Notizen und Fundstücke landen hier, sobald sie da sind.
+</p>
+
+<h2>Kapitel &amp; Notizen</h2>
+{% assign chapters = site.pcp | sort: "order" %}
+{% if chapters.size > 0 %}
+<ul class="entries">
+    {% for chapter in chapters %}
+    <li>
+        <a href="{{ chapter.url }}">{{ chapter.title }}</a>{% if chapter.status %} <span class="status">{{ chapter.status }}</span>{% endif %}
+        {% if chapter.last_modified_at %}<span class="date">{{ chapter.last_modified_at | date: "%d.%m.%Y" }}</span>{% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p class="empty">Noch nichts veröffentlicht.</p>
+{% endif %}

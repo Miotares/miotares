@@ -1,75 +1,32 @@
-<!DOCTYPE html>
-<html lang="de">
+---
+layout: default
+---
+<article>
+    <header class="page-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}<p class="lede">{{ page.description }}</p>{% endif %}
+        <p class="meta">
+            {% if page.collection == "posts" %}{{ page.date | date: "%d.%m.%Y" }}{% endif %}
+            {% if page.last_modified_at %}{% assign updated = page.last_modified_at | date: "%d.%m.%Y" %}{% assign created = page.date | date: "%d.%m.%Y" %}{% if updated != created %} · aktualisiert {{ updated }}{% endif %}{% endif %}
+            {% if page.status %} · <span class="status">{{ page.status }}</span>{% endif %}
+            {% if page.tags and page.tags.size > 0 %} · {{ page.tags | join: ", " }}{% endif %}
+        </p>
+    </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
-    <title>{{ page.title }} — miotares</title>
-
-    <!-- Social Sharing Meta Tags -->
-    {% assign thumbnail_name = page.slug | default: page.title | slugify %}
-    {% assign base_url = 'https://miotares.com' %}
-    {% assign thumbnail_url = base_url | append: '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' %}
-    {% assign page_url = base_url | append: page.url %}
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="{{ page_url }}">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description"
-        content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
-    <meta property="og:image" content="{{ thumbnail_url }}">
-    <meta property="og:site_name" content="miotares">
-
-    <!-- Twitter / X -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{{ page_url }}">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description"
-        content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
-    <meta name="twitter:image" content="{{ thumbnail_url }}">
-
-    <!-- Additional Meta -->
-    <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | truncate: 160 }}">
-    <link rel="stylesheet" href="/assets/css/main.css?v=8">
-    <script>window.addEventListener('load',function(){var s=document.createElement('script');s.src='https://t.miotares.com/script.js';s.dataset.websiteId='e2660f2b-407d-4e48-90e6-2135e7885196';document.head.appendChild(s);},{once:true});</script>
-</head>
-
-<body class="post-layout">
-    <div class="container">
-        <header>
-            <div class="header-title-group">
-                <nav><a class="back" href="/articles/">←</a></nav>
-                <h1>{{ page.title }}</h1>
-            </div>
-            <div class="meta">{{ page.date | date: "%d.%m.%Y" }}{% if page.tags and page.tags.size > 0 %} — {{ page.tags
-                | join: ", " }}{% endif %}</div>
-        </header>
-        <article class="content">
-            {% if page.image %}
-            <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="thumbnail"
-                onerror="this.style.display='none'">
-            {% else %}
-            {% assign thumbnail_name = page.slug | default: page.title | slugify %}
-            <img src="{{ '/assets/thumbnails/' | append: thumbnail_name | append: '.jpg' | relative_url }}"
-                alt="{{ page.title }}" class="thumbnail" onerror="this.style.display='none'">
-            {% endif %}
-            {{ content }}
-        </article>
-        {% include footer.html %}
+    <div class="prose">
+        {{ content }}
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const footnoteLinks = document.querySelectorAll('.footnotes a');
-            footnoteLinks.forEach(link => {
-                if (link.hostname !== window.location.hostname) {
-                    link.setAttribute('target', '_blank');
-                    link.setAttribute('rel', 'noopener noreferrer');
-                }
-            });
-        });
-    </script>
-</body>
+</article>
 
-</html>
+<p class="back">
+    {% if page.collection == "pcp" %}<a href="/pcp/">← Zum Buch</a>{% else %}<a href="/articles/">← Alle Texte</a>{% endif %}
+</p>
+
+<script>
+    document.querySelectorAll('.prose a').forEach(function (link) {
+        if (link.hostname && link.hostname !== window.location.hostname) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+        }
+    });
+</script>
