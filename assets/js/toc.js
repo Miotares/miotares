@@ -41,12 +41,35 @@
         return li;
     }
 
+    var prose = document.querySelector('.prose');
+
+    // Aktiv ist der Abschnitt, von dem gerade am meisten im Lesebereich liegt: die Mitte des Fensters
+    // ohne die oberen und unteren 25 %.
+    // Ein Abschnitt reicht von seiner Überschrift bis zur nächsten Überschrift im Verzeichnis.
     function markieren() {
         geplant = false;
         var current = null;
+        var hoehe = window.innerHeight || document.documentElement.clientHeight;
+        var von = hoehe * 0.25;
+        var bisLese = hoehe * 0.75;
+        var ende = prose ? prose.getBoundingClientRect().bottom : hoehe;
+        var beste = 0;
+        var anfang = headings[0].getBoundingClientRect().top;
         for (var i = 0; i < headings.length; i++) {
-            if (headings[i].getBoundingClientRect().top < 120) current = headings[i];
-            else break;
+            var bis = i + 1 < headings.length ? headings[i + 1].getBoundingClientRect().top : ende;
+            var sichtbar = Math.min(bis, bisLese) - Math.max(anfang, von);
+            if (sichtbar > beste) {
+                beste = sichtbar;
+                current = headings[i];
+            }
+            anfang = bis;
+        }
+        if (!current) {
+            // Nichts im Lesebereich (etwa ganz am Ende der Seite): der letzte Abschnitt davor
+            for (var j = 0; j < headings.length; j++) {
+                if (headings[j].getBoundingClientRect().top < bisLese) current = headings[j];
+                else break;
+            }
         }
         var link = current ? links[current.id] : null;
         if (link === aktiv) return;

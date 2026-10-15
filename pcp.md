@@ -1,5 +1,5 @@
 ---
-# Das Buch über PCP, als eine durchgehende Seite unter /pcp/.
+# Der Artikel über PCP, als eine durchgehende Seite unter /pcp/.
 # Teile mit "## Teil II<br>Titel" + {: #teil-2 .teil}, Kapitel mit ##, Unterkapitel mit ###.
 # Das Inhaltsverzeichnis zeigt nur Teile und Kapitel (toc_tiefe: 2).
 # Initiale pro Kapitel: {: .dropcap} unter den ersten Absatz schreiben.
@@ -7,9 +7,8 @@
 layout: post
 permalink: /pcp/
 title: "Lache und die Welt weint mit dir"
-label: "Buch · Arbeitstitel"
+label: "Recherche"
 description: "Die Geschichte von PCP, Weisse Scheisse und einer vergessenen Underground-Rap-Szene."
-status: in Arbeit
 toc: true
 toc_tiefe: 2
 dropcap: false
@@ -51,15 +50,29 @@ So ist der Wunsch entstanden, die Fragmente nicht nur für mich zu sammeln, sond
 
 {% include bild.html src="/assets/bilder/pcp/weisse-scheisse-010.jpg" text="PCP: DJ Tjoma, JAW, Private Paul (Kash), Rynerrr, Maexer" alt="Gruppenfoto von PCP vor einer verrosteten Wellblechwand" %}
 
-Dieses Buch versucht deshalb, die Geschichte von PCP, Weisse Scheisse und ihrem Umfeld so vollständig wie möglich zu rekonstruieren. Es geht um Alben, Künstlernamen und Veröffentlichungsdaten, aber auch um Beziehungen und um die Bedingungen einer Zeit, in der sich Subkulturen zunehmend im Internet organisierten. Es ist eine Geschichte über Eigenständigkeit, Zusammenarbeit und Konflikte, und darüber, wie vergänglich digitale Spuren sind.
+Dieser Artikel versucht deshalb, die Geschichte von PCP, Weisse Scheisse und ihrem Umfeld so vollständig wie möglich zu rekonstruieren. Es geht um Alben, Künstlernamen und Veröffentlichungsdaten, aber auch um Beziehungen und um die Bedingungen einer Zeit, in der sich Subkulturen zunehmend im Internet organisierten. Es ist eine Geschichte über Eigenständigkeit, Zusammenarbeit und Konflikte, und darüber, wie vergänglich digitale Spuren sind.
 
 Nicht alles wird sich rekonstruieren lassen. Verlorene Quellen kann auch die sorgfältigste Recherche nicht ersetzen. Manches lässt sich nur aus verschiedenen Perspektiven erzählen, manches bleibt vielleicht für immer offen. Wo die Überlieferung endet, endet auch die Gewissheit. Ich glaube trotzdem, dass die Fragmente reichen, um einen Teil dieser Geschichte wieder sichtbar zu machen.
 
-Als ich im Juli 2024 den Namen Hollywood Hank hörte, hatte ich nicht vor, ein Buch zu schreiben. Ich wollte nur wissen, wer er war. Aus einer Frage wurden viele, aus einzelnen Liedern ganze Diskografien, aus einer beiläufigen Entdeckung eine Beschäftigung, die mich nicht mehr loslässt. Was ich fand, war mehr als eine Sammlung alter Rapalben. Es war der Zugang zu einer Welt, die für ihre Hörer einmal Gegenwart war und die mit ihren letzten Spuren aus dem Gedächtnis zu verschwinden droht.
+Als ich im Juli 2024 den Namen Hollywood Hank hörte, hatte ich nicht vor, einen Artikel zu schreiben. Ich wollte nur wissen, wer er war. Aus einer Frage wurden viele, aus einzelnen Liedern ganze Diskografien, aus einer beiläufigen Entdeckung eine Beschäftigung, die mich nicht mehr loslässt. Was ich fand, war mehr als eine Sammlung alter Rapalben. Es war der Zugang zu einer Welt, die für ihre Hörer einmal Gegenwart war und die mit ihren letzten Spuren aus dem Gedächtnis zu verschwinden droht.
 
-Vielleicht kann dieses Buch einen Teil davon bewahren. Die Namen, die Musik und die Geschichten von Menschen noch einmal zusammenbringen, deren Wege sich vor vielen Jahren gekreuzt haben. Nicht, um eine Vergangenheit wiederzubeleben oder ihr eine Bedeutung anzudichten, die sie nie hatte, sondern um festzuhalten, was war und was davon geblieben ist.
+Vielleicht kann dieser Artikel einen Teil davon bewahren. Die Namen, die Musik und die Geschichten von Menschen noch einmal zusammenbringen, deren Wege sich vor vielen Jahren gekreuzt haben. Nicht, um eine Vergangenheit wiederzubeleben oder ihr eine Bedeutung anzudichten, die sie nie hatte, sondern um festzuhalten, was war und was davon geblieben ist.
 
 Und vielleicht bekommt diese untergegangene Welt so noch ein kleines Stück Unendlichkeit.
+
+## Wegweiser
+{: .ohne-nummer}
+
+Dieser Artikel ist eine einzige, lange Seite. Neue Funde trage ich nach. Wer die Geschichte lesen will, beginnt mit [Teil II](#teil-2), wer die Musik sucht, mit [Teil III](#teil-3).
+
+- [Teil I](#teil-1) beschreibt das Internet, aus dem PCP kam: Foren, selbst gebrannte CDs, ein Dorf im Hochschwarzwald.
+- [Teil II](#teil-2) erzählt die Geschichte von den Anfängen bis 2026, mit einem Abschnitt über die [Reimliga Battle Arena](#rba), in der sich viele der Beteiligten begegneten.
+- [Teil III](#teil-3) analysiert die beiden Alben, Lied für Lied, jeweils mit einer Titelliste, die zu jedem Lied springt: [*Nimms und verreck daran!*](#nimms-titelliste) und [*Lache und die Welt weint mit dir*](#lache-titelliste). Dazu ein Kapitel über die Motive der Texte.
+- [Teil IV](#teil-4) stellt die Menschen vor, erst die fünf Mitglieder, dann das [Umfeld](#das-umfeld), jeweils mit Diskografie und Links.
+- [Teil V](#teil-5) ist die Diskografie der Gruppe und der Katalog des Labels.
+- Der [Anhang](#anhang) enthält die Zeitleiste, die Namen und Aliasse, die Quellen und eine Liste offener Fragen.
+
+Die Fußnoten verweisen auf archivierte Seiten, Interviews und Kritiken. Zitate aus Songtexten sind kurz, Gewaltfantasien und Beleidigungen werden benannt, aber nicht wiedergegeben.
 
 ---
 
@@ -95,13 +108,15 @@ Das **MZEE-Forum** war das große deutschsprachige Hip-Hop-Forum dieser Jahre. H
 
 **MyOwnMusic** war eine Musikplattform, auf der jeder Künstler eine eigene Seite mit Hörproben anlegen konnte, unter Adressen wie jaw.myownmusic.de oder rynerrr.myownmusic.de. Beide existierten spätestens 2003.[^k1-mom] Über MyOwnMusic wurde das erste PCP-Album im Februar 2004 kostenlos verteilt, und über MyOwnMusic kam später auch das Label auf JAW zu, bei dem sein Debüt erscheinen sollte.
 
-Die **Reimliga Battle Arena**, kurz RBA, war eine Online-Liga für Battlerap. Rapper traten mit aufgenommenen Runden gegeneinander an, die Community stimmte ab. JAW nannte die RBA 2006 „eine der wichtigsten Institutionen“, weil man sich dort „unglaublich gut weiterentwickeln“ könne.[^k1-rba] Aus derselben Liga kamen Namen, die später sehr unterschiedliche Wege gingen: Kollegah, F.R., Taichi, Hollywood Hank. Auch Rynerrr war dort, unter dem Namen *Bierspasst*.[^k1-bierspasst]
+Die **Reimliga Battle Arena**, kurz RBA, war eine Online-Liga für Battlerap (mehr im Kapitel [„Projekt Chaos Punks“](#rba)). Rapper traten mit aufgenommenen Runden gegeneinander an, die Community stimmte ab. JAW nannte die RBA 2006 „eine der wichtigsten Institutionen“, weil man sich dort „unglaublich gut weiterentwickeln“ könne.[^k1-rba] Aus derselben Liga kamen Namen, die später sehr unterschiedliche Wege gingen: Kollegah, F.R., Taichi, Hollywood Hank. Auch Rynerrr war dort, unter dem Namen *Bierspasst*.[^k1-bierspasst]
 
 Dazu kamen die Werkzeuge, die heute vergessen sind. **ICQ**, der Messenger mit der langen Nummer, über den Alben verschickt, Bankdaten ausgetauscht und sogar Interviews geführt wurden. **Gästebücher**, in die Besucher schrieben, was sie von einer Seite hielten, und in die die Betreiber zurückschrieben. **Kostenlose Foren** bei Anbietern wie Rapidforum, auf denen eine Crew ihr eigenes kleines Board eröffnen konnte. Später **MySpace**, ab 2006 fast für jeden Rapper die zweite Homepage, und ab 2007 **YouTube**, als ein Musikvideo den Webspace der Band überforderte.
 
 ### Selbst gebrannt, selbst gebaut
 
 Ein Onlineshop war für eine Gruppe wie PCP nicht erreichbar. Gekauft wurde anders. Als JAW im September 2003 seine erste CD *Seelensturm* vorstellte, beschrieb er den Ablauf so: Interessenten sollten ihm eine E-Mail mit ihrer Adresse schreiben, er schicke dann seine Bankdaten, und nach der Überweisung finde man das Album „Anfang Oktober in eurem Briefkasten“.[^k1-seelensturm] Zwei Jahre später bat er um Verständnis, dass er seine Kontoauszüge „nicht täglich kontrolliere“.[^k1-konto]
+
+{% include bild.html src="/assets/bilder/pcp/fotos/kellerstudio.jpg" text="Selbst aufgenommen, selbst produziert: das private Studio von Rynerrr. Gepostet um 2011, Aufnahmedatum unbekannt" alt="Kellerraum mit Mikrofon, Rechner und Lautsprechern" seite="rechts" breite="2/5" %}
 
 Dieses Verfahren ist umständlich, aber es hat etwas, das keinem Streamingdienst gelingt. Jede verkaufte CD war ein Kontakt zwischen zwei Menschen. Unter der Ankündigung von *Seelensturm* bat ein Nutzer um die Bankdaten per ICQ, ein anderer schrieb, er höre „seit 2 Stunden nur dieses Snippet“, und ein dritter wollte bestellen, „wenn ich geld hab“.[^k1-reaktionen]
 
@@ -149,7 +164,7 @@ Doch zunächst muss man sich ansehen, wo die Gruppe herkam.
 *das is einfach nix.*
 {: .epigraph}
 
-Auf der Rückseite des ersten PCP-Albums steht unten rechts in kleiner Schrift: „2000 – 2003 Neustadt“.[^k2-cover] Es ist die einzige Ortsangabe, die die Gruppe ihrem Debüt mitgab. Ein Jahr später hieß ein neuer Song von Maexer und Rynerrr *Neustadt Nord*.[^k2-neustadt] Mehr muss man über die Herkunft nicht wissen, und mehr soll hier auch nicht stehen. Die Mitglieder haben ihre Orte selbst nie weiter erklärt, und dieses Buch respektiert das.
+Auf der Rückseite des ersten PCP-Albums steht unten rechts in kleiner Schrift: „2000 – 2003 Neustadt“.[^k2-cover] Es ist die einzige Ortsangabe, die die Gruppe ihrem Debüt mitgab. Ein Jahr später hieß ein neuer Song von Maexer und Rynerrr *Neustadt Nord*.[^k2-neustadt] Mehr muss man über die Herkunft nicht wissen, und mehr soll hier auch nicht stehen. Die Mitglieder haben ihre Orte selbst nie weiter erklärt, und dieser Artikel respektiert das.
 {: .dropcap}
 
 Was sie selbst erzählt haben, reicht für ein Bild. JAW wurde in Köln geboren und wuchs, wie er sagt, in einem „900 Seelen-Kaff“ in der Nähe von Freiburg auf. „Da hat sich kein Mensch für Rapmusik interessiert, ganz im Gegenteil.“[^k2-kaff] Ein anderes Mal nannte er seinen Herkunftsort einen „Kuhort“.[^k2-kuhort] Die Labelseite von Weisse Scheisse schrieb 2010 in ihrer ironischen Künstlerbiografie, JAW sei „in hochschwarzwälderischen Gefilden herangezüchtet“ worden.[^k2-bio] Die Bank, bei der die CDs bezahlt wurden, trug den Hochschwarzwald im Namen.
@@ -162,7 +177,9 @@ Beschaulich ist das Wort, das immer wieder fällt. JAW selbst beschrieb Freiburg
 
 Schon zwei Jahre früher hatte JAW auf die Frage eines Fans, ob er wieder im Zett auftrete, im Forum geantwortet: „das wird erstmal nich mehr passiern glaub ich“. Es mache keinen Sinn. „man reisst sich 30 min den arsch auf und versucht welle zu machen und wird von 10 fertigen irgendwas-musik-hörern angeglotzt / kp freiburg und rap, das is einfach nix“.[^k2-zett]
 
-Die Region ist in den Quellen eher als Atmosphäre präsent denn als Thema. Ein Fan beschimpfte die Gruppe 2006 im Gästebuch liebevoll als „Rothaus Tannezäpfle-säufer“, nach dem Bier der Staatsbrauerei aus dem Hochschwarzwald.[^k2-rothaus] Auf dem Bandfoto der ersten Albumrückseite hält einer der Musiker ein Fass Rothaus Pils. Rynerrr ging 2006 zu einem Interview bei Radio Dreyeckland, dem freien Radio in Freiburg.[^k2-rdl] Und im Forum von Weisse Scheisse rappten JAW und Kash 2007 einen Freestyle teilweise im alemannischen Dialekt, was die Fans besonders feierten.[^k2-dialekt]
+{% include bild.html src="/assets/bilder/pcp/fotos/pcp-foto-vom-cover.jpg" text="Das Bandfoto von der Rückseite von *Nimms und verreck daran!*, ohne den gelben Filter des Covers. Vor 2004" alt="Vier junge Männer vor einer Hauswand, drei halten Fässer Rothaus Pils, eines davon über dem Kopf" %}
+
+Die Region ist in den Quellen eher als Atmosphäre präsent denn als Thema. Ein Fan beschimpfte die Gruppe 2006 im Gästebuch liebevoll als „Rothaus Tannezäpfle-säufer“, nach dem Bier der Staatsbrauerei aus dem Hochschwarzwald.[^k2-rothaus] Auf dem Bandfoto der ersten Albumrückseite halten die Musiker drei Fässer Rothaus Pils. Rynerrr ging 2006 zu einem Interview bei Radio Dreyeckland, dem freien Radio in Freiburg.[^k2-rdl] Und im Forum von Weisse Scheisse rappten JAW und Kash 2007 einen Freestyle teilweise im alemannischen Dialekt, was die Fans besonders feierten.[^k2-dialekt]
 
 ### Weg vom Land
 
@@ -244,6 +261,35 @@ Als ein Fan Anfang 2008 im Forum fragte, was es mit diesen Projekten auf sich ha
 
 Rynerrr hatte vor PCP offenbar ebenfalls ein anderes Projekt. Die Juice schrieb 2006 über ihn: „Ztreuzel-Brothaz war mal, jetzt ist guter, abseitiger Rap.“[^k3-ztreuzel] Im Gästebuch der Band wünschte sich ein Fan im selben Jahr „die rückkehr der streusel brothas“.[^k3-streusel] Mehr ist darüber bisher nicht bekannt. <!-- LÜCKE: Ztreuzel-/Streusel-Brothaz: Wer, wann, Aufnahmen? -->
 
+### Die Reimliga Battle Arena
+{: #rba}
+
+Bevor es PCP als Gruppe gab, trafen sich viele der Beteiligten in einer Liga, die heute fast vergessen ist. Die **Reimliga Battle Arena**, kurz RBA, war eine Online-Liga für Rap-Battles. Ihre Idee, so die Startseite, geht auf die Newsgroup de.alt.music.hiphop zurück. Wer mitmachte, nahm zu einem Beat eine Runde auf, lud sie als MP3 hoch und wartete auf die Antwort des Gegners. Es gab Hin- und Rückrunden mit einer Frist von 48 Stunden, eine Jury und die Mitglieder vergaben Punkte, und wer genug davon sammelte, stieg vom Training über Entry und Advanced bis in die Heads und die Hall of Fame auf. DJs hatten eine eigene Liga. Zuletzt zählte die Seite über 80.000 Battles und über 170.000 MP3s. Am 5. Oktober 2020 kündigte der Betreiber das Ende an, bis zum 31. Dezember durfte noch gebattlet werden.[^k3-rba2]
+
+Die Seite ist bis heute erreichbar. Jedes Mitglied hat eine Battleübersicht, und zu jedem Battle gibt es den Zeitstempel der einzelnen Runden. Daraus lässt sich ablesen, wer wann dabei war:[^k3-rba2]
+
+| Datum | Wer | Was |
+|---|---|---|
+| 05.09.2002 | Dollar Bill | erstes Battle unter diesem Namen; er ist nach der Heizipedia Kash, der spätere Private Paul[^k3-dollar] |
+| 05.12.2002 | JAW | erstes Battle (gegen *Das Peterle*) |
+| 14.02.2003 | Dr. Hollywood | erstes Battle des späteren Hollywood Hank |
+| 02.03.2003 | DJ Tjoma | erstes von zwei DJ-Battles, das zweite folgt am 28.04.2003 |
+| 25.04.2003 | bierspasst | erstes Battle von Rynerrr |
+| 12.05.2003 | Drecksmann | erstes Battle; am 03.06.2003 tritt er gegen bierspasst an |
+| 29.11.2003 | JAW | Battle gegen Drecksmann, im MZEE-Forum am Folgetag angekündigt |
+| 29.11.2004 | JAW | Rückspiel gegen Drecksmann, 14:4 |
+| 01.12.2004 | DERKOLLEGAH | erstes Battle von Kollegah unter diesem Namen |
+| 17.12.2004 | JAW | gegen Kaspah Hausa, 12:8 |
+| 05.01.2005 | bierspasst | letztes Battle von Rynerrr |
+| 09.01.2005 | Dollar Bill | verliert gegen DERKOLLEGAH, 12:5 |
+| 14.02.2006 | Dr. Hollywood | letztes Battle |
+| 05.10.2006 | JAW | letztes Battle |
+| 12.03.2007 | Dollar Bill | letztes Battle |
+
+Insgesamt trat JAW in 35 Battles an, zwischen Dezember 2002 und Oktober 2006. Er steht in der Hall of Fame auf Platz 2, mit 981 Punkten und Freiburg als Heimatstadt, das Profil verlinkt weissescheisse.de. Rynerrr hat unter dem Namen *bierspasst* 15 Battles, alle als Herausgeforderter, kein einziges hat er selbst gestartet. Er blieb mit 631 Punkten in der Liga Advanced. Dr. Hollywood kam auf 12 Battles und 678 Punkte, Kollegah auf 17 und 595, DJ Tjoma, der einzige aus dem engeren Kreis in der DJ-Liga, auf zwei Battles und 542 Punkte. Dollar Bill brachte es auf 37 Battles und 637 Punkte. Maexer taucht unter diesem Namen in der RBA nicht auf.
+
+Die Chronik zeigt, was die RBA für diese Szene war: eine gemeinsame Schule und ein Treffpunkt. JAW lernte hier Hollywood Hank und Kollegah kennen, und Drecksmann, mit dem er im November 2003 und genau ein Jahr später battelte, stellte im Februar 2004 den Webspace für das erste PCP-Album und rechnete mit Rynerrr per Chat aus, was eine CD kostet. Rynerrr und Drecksmann sind sich in der RBA nachweislich schon acht Monate früher begegnet, am 3. Juni 2003, als Drecksmann gegen bierspasst antrat. Auch Kaspah Hausa, mit dem JAW im November 2003 einen Track aufnahm und im Dezember 2004 battelte, kam aus der Liga, und er ist Gast auf *Schock fürs Leben*. Für die Gruppe selbst war die RBA nicht die Gründung, die geschah im Keller der Brüder. Aber sie war das Netz, in dem aus den Freunden eine Szene wurde.
+
 ### Bloody Bastard
 
 Der Erste aus dem Kreis, der öffentlich eine Veröffentlichung ankündigte, war JAW. Am 14. September 2003 schrieb *Bloody Bastard* im MZEE-Forum: „Wie versprochen erscheint jetzt mein erstes Album.“ Es hieß *Seelensturm* und hatte sieben Titel.[^k3-seelensturm]
@@ -261,7 +307,7 @@ Die CD war selbst gebrannt und selbst produziert, mit Cover, Inlay und Aufdruck,
 Im Herbst 2003 war JAW im Netz bereits gut beschäftigt. Im November erschien im MZEE-Forum ein Track mit H aka N und Kaspah Hausa, dessen Beat er gebaut hatte. Und er trat in der RBA gegen einen Rapper namens Drecksmann an.[^k3-rba] Drecksmann wird in dieser Geschichte noch öfter auftauchen. Als PCP zwei Monate später ihr Album ankündigten, schrieb er darunter: „Holt Euch das Album. Wegen der Musik hab ich mit Rap angefangen :)“[^k3-drecksmann]
 
 [^k3-wiki]: Wikipedia, Artikel „JAW (Rapper)“, abgerufen am 14.10.2026.
-[^k3-alter]: Nach Entwurf 1 dieses Buches, Forenbeitrag Rynerrrs vom Februar 2004. <!-- PRÜFEN: Fundstelle des Beitrags im MZEE-Forum noch nicht verlinkt. -->
+[^k3-alter]: Forenbeitrag Rynerrrs vom Februar 2004. <!-- PRÜFEN: Fundstelle des Beitrags im MZEE-Forum noch nicht verlinkt. -->
 [^k3-keller]: JAW im Interview mit rap.de, 30.03.2010. [rap.de](https://rap.de/c37-interview/6295-jaw/). Schreibweise „Rhynerr“ im Original.
 [^k3-brueder]: JAW im Interview mit laut.de, „Ich schreie der Welt ins Gesicht!“, 26.03.2007. [laut.de](https://laut.de/JAW/Interviews/Ich-schreie-der-Welt-ins-Gesicht!-26-03-2007-428).
 [^k3-crew]: *Bloody Bastard* (JAW), „PCP – Nimms und verreck daran!!!“, MZEE-Forum, 22.01.2004. [mzee.com](https://www.mzee.com/forum/threads/pcp-nimms-und-verreck-daran.226198/).
@@ -277,10 +323,13 @@ Im Herbst 2003 war JAW im Netz bereits gut beschäftigt. Im November erschien im
 [^k3-streusel]: Gästebuch von p-c-p.ws, Eintrag von *otzeone*, 27.09.2006.
 [^k3-seelensturm]: *Bloody Bastard* (JAW), „Jaw – Seelensturm“, MZEE-Forum, 14.09.2003. [mzee.com](https://www.mzee.com/forum/threads/jaw-seelensturm.218243/).
 [^k3-bootleg]: jaw.myownmusic.de. [Web Archive, 17.12.2005](https://web.archive.org/web/20051217205544/http://jaw.myownmusic.de/).
+[^k3-rba2]: r-b-a.de, Startseite („Welcome“), Regeln, News vom 05.10.2020 und die Battleübersichten der Mitglieder, abgerufen am 15.10.2026: [JAW](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=4002), [bierspasst](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=5088), [DJ Tjoma](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=4743), [Dr. Hollywood](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=4597), [DERKOLLEGAH](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=12303), [Dollar Bill](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=3292), [Drecksmann](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=5183). Die Seite weist darauf hin, dass Ergebnisse von Battles mit ID unter etwa 13800 falsch angezeigt sein können; deshalb sind hier meist nur Datum und Gegner genannt.
+[^k3-dollar]: Heizipedia, Artikel „Private Paul“: „2005, RBA Dollar Bill Vs. Kollegah (as Dollar Bill)“; das Battle selbst steht auf r-b-a.de, Battle 15095, [DERKOLLEGAH vs. Dollar Bill](https://r-b-a.de/index.php?ID=4101&BATTLE=15095), 09.01.2005. <!-- PRÜFEN: Dollar Bill = Kash nur über die Heizipedia belegt; bestätigen (Merlin: Kash-Nick in der RBA?). -->
 [^k3-rba]: MZEE-Forum, „JAW, H aka N, Kaspah Hausa – Hunde beissen Punks mit 123“, 14.11.2003, und „RBA: Drecksmann VS JAW“, 30.11.2003.
 [^k3-drecksmann]: Wie der Ankündigungsthread vom 22.01.2004, Beitrag von *Drecksmann*, 22:05 Uhr.
 
-## Nimms und verreck daran!
+## Das erste Album
+{: #das-erste-album}
 
 *Nach langem rumgefuchtel an schlechtem Equipment,*<br>
 *einfallslosen Beats und beschissener Soundqualität …*
@@ -289,61 +338,13 @@ Im Herbst 2003 war JAW im Netz bereits gut beschäftigt. Im November erschien im
 Am Abend des 22. Januar 2004, um 20:55 Uhr, eröffnete *Bloody Bastard* im MZEE-Forum einen neuen Thread. Der Text war kurz: „Nach langem rumgefuchtel an schlechtem Equipment, einfallslosen Beats und beschissener Soundqualität haben wir ein furchtbar tolles Album auf den Markt geschmissen.“ Dann die Namen der Crew, dann der Titel in Großbuchstaben: „NIMMS UND VERRECK DARAN !!!“[^k4-thread]
 {: .dropcap}
 
-{% include bild.html src="/assets/bilder/pcp/nimms-und-verreck-daran-cover-vorn.jpg" text="*Nimms und verreck daran!*, Frontcover · [Web Archive](https://web.archive.org/web/20040527175025/http://www.rynerrr.de/album/bilder/angelcoverfront3.JPG)" alt="Frontcover: Ein Engel bläst goldenen Staub aus seinen Händen, darüber PCP in Frakturschrift" seite="rechts" breite="2/5" %}
-
 Die Selbstironie war Programm. Wer ein Album mit dem Hinweis auf schlechtes Equipment ankündigt, nimmt der Kritik den Wind aus den Segeln und behauptet zugleich, dass es auf etwas anderes ankommt. Der Titel tut dasselbe. *Nimms und verreck daran!* ist eine Beschimpfung des Hörers, eine Drogenwarnung und eine Gebrauchsanweisung in einem.
-
-Das Cover zeigt einen Engel mit Blumenkranz, der aus seinen Händen eine Wolke goldenen Staubs bläst. Darüber steht „PCP“ in Frakturbuchstaben, darunter der Titel in einer gelben Zierschrift. Alles ist in Gelb und Schwarz gehalten.
-
-### Die Rückseite
-
-Die Rückseite ist eines der wichtigsten Dokumente dieser Geschichte, weil sie erhalten ist. Sie war im Februar 2004 als Bild auf der Albumseite eingebunden, und das Web Archive hat sie gesichert.[^k4-rueckseite] Sie zeigt ein vergilbtes Gruppenfoto, auf dem einer der Musiker ein Fass Rothaus Pils in den Armen hält, rechts oben ein kleines Porträt, und darüber in Handschrift die Titelliste.
-
-{% include bild.html src="/assets/bilder/pcp/nimms-und-verreck-daran-cover-hinten.jpg" text="*Nimms und verreck daran!*, Rückseite mit Titelliste und Credits · [Web Archive](https://web.archive.org/web/20040510222729/http://www.rynerrr.de/album/bilder/angelcoverbacknsphilouhomepage.jpg)" alt="Rückseite des Albums: gelb eingefärbtes Gruppenfoto mit handschriftlicher Titelliste" %}
-
-Das Album hat 25 Titel. Hinter jedem steht auf dem Cover ein Zeichen, das auf die Credits verweist. Aufgelöst sieht die Liste so aus:
-
-| Nr. | Titel | Produktion | Gäste |
-|---|---|---|---|
-| 1 | Einmarsch | Maexer Cash | |
-| 2 | Zerhamertier | JAW | |
-| 3 | Schnauze! | Maexer Cash | |
-| 4 | Tjoma-Skit A | | |
-| 5 | Pyralsex | Maexer Cash | Maggi |
-| 6 | Kuhdreck | Maexer Cash | |
-| 7 | Terrorkampf | Maexer Cash | |
-| 8 | Tjoma-Skit B | | |
-| 9 | Bitsch | JAW | Drecksmann |
-| 10 | PCP-Skit | | |
-| 11 | Respect Crime | JAW | Misstress |
-| 12 | Hurenderilz | Maexer Cash | |
-| 13 | Saufsidaz | Maexer Cash | |
-| 14 | Eure Welt | Maexer Cash | |
-| 15 | Tjoma-Skit C | | |
-| 16 | Hurennetz | Maexer Cash | |
-| 17 | Morgengrauen | Maexer Cash | |
-| 18 | Vatrtagsgeschenk | Mayutsch und Drecksmann | |
-| 19 | Themenwechsel | Maexer Cash | Misstress und Aziz |
-| 20 | Aye! | Maexer Cash | |
-| 21 | Kip den Shyz (real) | JAW | |
-| 22 | Weisser Dreck | Maexer Cash | |
-| 23 | PCP-Party | JAW | |
-| 24 | Tjoma-Skit D | | |
-| 25 | Kompanie Chaos | JAW | |
-
-<!-- PRÜFEN: Lesung der Titel 12 und 16 auf dem Cover unsicher; Titel 18 steht so auf dem Cover ("Vatrtagsgeschenk"). Abgleich mit Merlins CD. -->
-
-Dazu kommen ein „CD-Rom Bonus“ und die Zeilen: „alle Texte und raps von JAW, RYNERRR und MAEXER CASH. alle cuts von DJ TJOMA. Executive Supporting Manager: PHILOU. Cover-Design: RYNERRR.“ Ganz unten rechts: „2000 – 2003 Neustadt“.
-
-Einiges an dieser Liste verweist nach vorn. *PCP-Party* stand schon auf *Seelensturm*. *Kuhdreck* hat einen Nachfolger, *Kuhdreck 2*, der fünf Jahre später auf Rynerrrs Album *Symptome* erschien. *Pyralsex* ist das Lied, für dessen Refrain Maexer seinen Beinamen erfand. Und ein Titel heißt *Weisser Dreck*. Ob er mit dem Namen zu tun hat, unter dem die Gruppe später ein Label gründete, lässt sich nicht sagen. Auffällig ist er trotzdem.
-
-Die Liste zeigt auch, wie das Album entstand. Von den 20 Musikstücken produzierte Maexer 13, JAW sechs, eines kam von Drecksmann und einem Produzenten namens Mayutsch. Die Gäste kamen aus dem engsten Umkreis: Drecksmann, Aziz, der im Sommer 2004 auch auf einem weiteren Song mit Rynerrr und JAW auftauchte, Maggi, wohl derselbe „Maggoh“ wie auf *Seelensturm*, und eine Rapperin namens Misstress. <!-- PRÜFEN: Maggi = Maggoh? Wer ist Misstress? Wer ist Philou? -->
 
 ### Die Albumseite
 
 Bestellt und angehört wurde das Album auf einer Unterseite von rynerrr.de. Die Adresse im Forum lautete www.rynerrr.de/pcp. Die erhaltene Fassung vom 14. Februar 2004 zeigt alles, was man damals über PCP wissen konnte, auf einer einzigen schwarzen Seite in gelber Schrift: das Cover, ein Knopf zum Gästebuch, die Rückseite mit der Titelliste, einige Titel als anklickbare Snippets, „und zwar in noch arschlochmässiger Qualität als sie auf dem tollen Album sind…hahaha…!“[^k4-albumseite]
 
-Darunter stand der Hinweis auf den kostenlosen Download, und darunter ein kurzer Chatmitschnitt, der für dieses Buch zu den schönsten Funden gehört. Rynerrr und Drecksmann rechnen an einem Abend um 21:05 Uhr aus, was eine CD kostet:
+Darunter stand der Hinweis auf den kostenlosen Download, und darunter ein kurzer Chatmitschnitt, der für diesen Artikel zu den schönsten Funden gehört. Rynerrr und Drecksmann rechnen an einem Abend um 21:05 Uhr aus, was eine CD kostet:
 
 > rynerrr (09:05 PM): also sagen wir ne seite kopieren kostet 1,50€ dann kostet ein cover, da es ja vor und rückseite hat 1,50€ plus etwa 50c für den rohling plus 1,50€ für porto sind wir bei 3,50€ das passt doch, dann verkaufen wirs für 5€ und teilen die 1,50 dann brüderlich durch 4, dh jeder kriegt 37,5 cent pro verkaufter cd. in zwei wochen kauf ich meinen eltern ein haus !
 >
@@ -358,7 +359,7 @@ Darunter stand der Hinweis auf den kostenlosen Download, und darunter ein kurzer
 
 Fünf Euro für eine CD, von denen jedem der vier Mitglieder 37,5 Cent bleiben: Das ist kein Geschäftsmodell, und es sollte auch keines sein. Der Witz mit dem Haus für die Eltern zeigt, dass niemand an Gewinn dachte. Die Bestellung lief über eine E-Mail an Rynerrr und eine Überweisung, „5,00 € (inkl. Porto und Verpackung)“.[^k4-bestellung]
 
-{% include bild.html src="/assets/bilder/pcp/archiv/2004-05-10-rynerrr-bestellung.jpg" text="Die Bestellseite. Mailadresse und Bankverbindung sind für dieses Buch geschwärzt · [Web Archive, 10.05.2004](https://web.archive.org/web/20040510101039/http://www.rynerrr.de/album/bestellung.htm)" alt="Bestellseite mit geschwärzter Bankverbindung" breite="3/4" %}
+{% include bild.html src="/assets/bilder/pcp/archiv/2004-05-10-rynerrr-bestellung.jpg" text="Die Bestellseite. Mailadresse und Bankverbindung sind für diesen Artikel geschwärzt · [Web Archive, 10.05.2004](https://web.archive.org/web/20040510101039/http://www.rynerrr.de/album/bestellung.htm)" alt="Bestellseite mit geschwärzter Bankverbindung" breite="3/4" %}
 
 Weitere Unterseiten gehörten dazu. Die „Lutsch-Ecke“ bot unter der Überschrift „LAD ES AUS DEM NETZ UND VERRECK DARAN!“ drei Links: die Skits, das Album, das Cover.[^k4-lutsch] Die Skits waren DJ Tjomas vier Zwischenspiele und ein PCP-Skit. Unter „Cover“ gab es eine Druckseite, damit sich Hörer, die das Album heruntergeladen hatten, die Hülle selbst ausdrucken konnten.[^k4-cover]
 
@@ -377,23 +378,6 @@ Ob die Vermutung des Nutzers stimmt, weiß man nicht. Belegt ist etwas anderes: 
 Das ist eine frühe Form dessen, was später „Pay what you want“ hieß. Die Musik war frei, die Unterstützung freiwillig, der Tonträger ein Angebot für die, die ihn haben wollten. Für eine Gruppe, die keine Werbung hatte und deren Musik viele abschreckte, war das der einzige Weg, gehört zu werden.
 
 Am 8. Februar 2004 schrieb JAW in denselben Thread einen Satz, der fünf Jahre lang eingelöst werden sollte: „freut euch auf das nächste album….so langsam können wir nämlich alle rappen :D / quali wird auch besser werden“.[^k4-naechstes]
-
-### Was auf dem Album zu hören ist
-
-Von den 25 Titeln liegen für dieses Buch bisher nur zwei als Transkription vor, *Einmarsch* und *Zerhamertier*. Die Besprechung der übrigen Stücke folgt, sobald die Texte vorliegen. <!-- OFFEN: Lyrics der Titel 3–25. -->
-
-***Einmarsch*** ist ein Manifest. Nach dem Drogeneinspieler wechseln sich Maexer, JAW und Rynerrr in zwölf kurzen Parts ab, jeder vier Zeilen lang, jeder ein Schlag gegen etwas anderes: gegen Eltern, Staat und Banken, gegen Aktienhändler an der Wall Street, gegen Politiker, gegen das Fernsehen, gegen Hip-Hop selbst. JAWs zweite Strophe enthält den Kern dessen, was PCP in den folgenden Jahren immer wieder erzählen sollten:
-
-> P-C-P zerstört die Welt, bis alles fällt<br>
-> Und alles wieder von vorn anfängt[^k4-einmarsch]
-
-Zerstörung als Neuanfang, die Welt auf den Nullpunkt: Das ist das Projekt Chaos aus *Fight Club*, übersetzt in einen Rapsong. Rynerrrs letzter Part zieht eine zweite Linie, die man ebenso ernst nehmen sollte: „Das' nich' Hip-Hop, das' is' Punk“. JAW schließt seinen letzten Part mit einer Absage an alle Herkunftsorte, „Rap aus Deutschland, Rap aus den Staaten / Rap aus Freiburg“, und einer Einladung, die den Titel des Albums wörtlich nimmt: „Nimm PCP und spür' wie dich die Nacht umhüllt“.
-
-***Zerhamertier*** trägt den Namen von Maexers früherem Projekt *Reedram Harritz*; produziert hat es JAW. Es beginnt mit einem Filmzitat, das einen ganz anderen Ton anschlägt: Wir alle fürchteten böse Menschen, aber das Böse habe viele Gesichter, und das fürchterlichste sei die Gleichgültigkeit guter Menschen. Ein Hörer zitierte die Stelle im Forum, und JAW nannte die Quelle: „‚Der blutige Pfad Gottes‘ – Sample übrigens.“[^k4-sample] Der Film heißt im Original *The Boondock Saints* und erzählt von zwei Brüdern, die als Selbstjustizler Verbrecher töten.
-
-Was dann folgt, ist ein Battle-Track in drei Strophen, mit einem Refrain von Rynerrr, der eine einzige Drohung achtmal wiederholt. Er gehört zu den härtesten Stücken des Albums, und es wäre unehrlich, darüber hinwegzugehen. Die Strophen sind voller Gewaltfantasien gegen ein namenloses Gegenüber, dazu kommen Beleidigungen gegen Frauen und Homosexuelle und in Rynerrrs Part eine sexualisierte Gewaltfantasie gegen eine reale Sängerin. Dieses Buch zitiert diese Stellen nicht. Sie waren Pose und Provokation, so haben die Musiker sie später beschrieben und so haben viele Hörer sie verstanden. Ihre Wiederholung würde nichts erklären.
-
-Interessanter für die Geschichte sind zwei Zeilen, die das Lied datieren. In JAWs Strophe ist von Osama bin Laden und einem „vorhersehbaren“ Rückschlag gegen die USA die Rede. Maexer rappt über „scheiß Lieder gegen Gerhard“, die kein Rettungsanker seien, gemeint ist Bundeskanzler Gerhard Schröder. Zumindest dieser Song ist also nach dem 11. September 2001 entstanden und passt damit zu „2000 – 2003“.
 
 ### Wie es ankam
 
@@ -442,7 +426,7 @@ Im Oktober kam *Jott sei Dank!* dazu, ein Solostück von JAW auf einen Beat von 
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2004-08-12-rynerrr-neue-ladrunters.jpg" text="„Neue Ladrunters“ auf rynerrr.de, mit dem Song *Weisse Scheisse* von JAW und Rynerrr · [Web Archive, 12.08.2004](https://web.archive.org/web/20040812170007/http://www.rynerrr.de/album/neueladrunters.html)" alt="Schwarze Webseite mit einer Liste von Liedtiteln in violetter Schrift" %}
 
-Der erste Titel dieser Liste ist für die weitere Geschichte entscheidend. *Weisse Scheisse* war im Sommer 2004 ein Song von JAW und Rynerrr. Unter diesem Namen sollte die Gruppe dreieinhalb Jahre später ein Label gründen, und 2009 trug ein Song auf dem zweiten PCP-Album denselben Titel. Die Formel hatte sich also schon früh festgesetzt, lange bevor sie ein Firmenname wurde. Ob es vorher, auf dem ersten Album, mit *Weisser Dreck* schon eine Vorstufe gab, ist offen. <!-- LÜCKE: Ist die Aufnahme "Weisse Scheisse" (2004) erhalten? Verhältnis zum Song von 2009? -->
+Der erste Titel dieser Liste ist für die weitere Geschichte entscheidend. *Weisse Scheisse* war im Sommer 2004 ein Song von JAW und Rynerrr. Unter diesem Namen sollte die Gruppe dreieinhalb Jahre später ein Label gründen, und 2009 trug ein Song auf dem zweiten PCP-Album denselben Titel. Die Formel hatte sich also schon früh festgesetzt, lange bevor sie ein Firmenname wurde. Ob es vorher, auf dem ersten Album, mit *Weisser Dreck* schon eine Vorstufe gab, ist offen. Die Aufnahme von 2004 ist erhalten, sie liegt in einer Sammlung auf gema-betteln.de.[^k5-festival] <!-- OFFEN: Verhältnis zum Song von 2009 klären, sobald die Aufnahme angehört ist. -->
 
 *Jott sei Dank* blieb lange im Gedächtnis. Als ein Fan im März 2008 im Forum von Weisse Scheisse fragte, wo es den Track gebe, lud ein anderer ihn hoch und nannte ihn „einen der besten, alleine der beat killt alles“. Ein dritter freute sich besonders über Rynerrrs Zeile „scheisse scheisse scheisse“.[^k5-jott2008]
 
@@ -458,7 +442,7 @@ Erhalten ist nur die Übersicht. Die Beiträge selbst hat das Web Archive nicht 
 
 ### Die Arena und der Weg nach Osten
 
-Auf derselben Startseite standen zwei weitere Links: „Bierspasst in der RBA“ und „JAW in der RBA“.[^k5-forum] Beide Mitglieder traten in der Reimliga Battle Arena an. Für JAW war das in diesen Jahren die wichtigste Bühne. Er habe sich dort „unglaublich gut weiterentwickeln“ können, sagte er 2006, und die RBA biete „fast jedem die Chance, sich mit der Konkurrenz zu messen“.[^k5-rba] laut.de erwähnte 2007, JAW habe die RBA gewonnen. <!-- PRÜFEN: RBA-Sieg JAW, Jahr und Wettbewerb. -->
+Auf derselben Startseite standen zwei weitere Links: „Bierspasst in der RBA“ und „JAW in der RBA“.[^k5-forum] Beide Mitglieder traten in der Reimliga Battle Arena an. Für JAW war das in diesen Jahren die wichtigste Bühne. Er habe sich dort „unglaublich gut weiterentwickeln“ können, sagte er 2006, und die RBA biete „fast jedem die Chance, sich mit der Konkurrenz zu messen“.[^k5-rba] laut.de erwähnte 2007, JAW habe die RBA gewonnen. Die Hall of Fame der Liga führt ihn auf Platz 2 (siehe „Die Reimliga Battle Arena“).
 
 Die RBA war der Ort, an dem sich Wege kreuzten, die später weit auseinanderliefen. Kollegah, zu dem JAW Kontakt hatte, kam von hier, ebenso der Berliner Rapper Hollywood Hank, der unter dem Namen *Dr. Hollywood* antrat.[^k5-hank] Rynerrr fiel Hank schon im Februar 2004 auf. Unter einem Track, auf dem Rynerrr einen Gastpart hatte, schrieb Hank im MZEE-Forum, Rynerrr bringe einen „echt koolen“ Part.[^k5-haj] Es ist die früheste Spur einer Verbindung, die für diese Geschichte noch wichtig wird.
 
@@ -478,6 +462,7 @@ Neben der Musik lief das Leben weiter. Laut Wikipedia legte JAW 2003 das Abitur 
 
 Die Gruppe war zu diesem Zeitpunkt nicht mehr nur ein Projekt von Freunden aus dem Keller. Sie hatte eine Webseite, ein Forum, Kontakte in die Battle-Szene und ein Label im Hintergrund, zumindest für eines ihrer Mitglieder. Was ihr noch fehlte, war ein eigenes Gesicht nach außen. Das kam im Sommer 2006.
 
+[^k5-festival]: gema-betteln.de, Musikseite: Download „Rynerrr – Ein Festival der kostenlosen Stimmungshits aus 2 Jahrzehnten (1999–2015)“, nach Angabe des Autors mit den Aufnahmen von 2004. [gema-betteln.de](https://www.gema-betteln.de/music.html), abgerufen am 15.10.2026. <!-- PRÜFEN: Titelliste der ZIP-Datei prüfen und ergänzen. -->
 [^k5-ladrunters]: rynerrr.de, `album/neueladrunters.html`. [Web Archive, 12.08.2004](https://web.archive.org/web/20040812170007/http://www.rynerrr.de/album/neueladrunters.html).
 [^k5-jott]: Ebd., [Web Archive, 18.10.2004](https://web.archive.org/web/20041018233208/http://www.rynerrr.de/album/neueladrunters.html), und `album/index.htm`, [Web Archive, 02.09.2004](https://web.archive.org/web/20040902021719/http://www.rynerrr.de/album/index.htm).
 [^k5-jott2008]: Forum von weissescheisse.de, Thread „JAW feat. Rynerrr – Jott sei Dank“, Beiträge vom 01.03.2008.
@@ -525,7 +510,7 @@ Im Oktober-Heft folgte Rynerrr. *Symptome* wurde ebenfalls „Demo des Monats“
 
 *Symptome* war zu diesem Zeitpunkt immer noch eine Eigenproduktion. Auf p-c-p.ws konnte man es per Mail bestellen, für sieben Euro inklusive Porto, „Sobald das Geld bei mir eingegangen ist, geht die CD raus.“[^k6-musik] Die Cover wurden in kleinen Chargen gedruckt. Im Mai 2007 musste Rynerrr einen Interessenten vertrösten, es gebe „erst ab juni wieder neue covers“.[^k6-cover]
 
-{% include bild.html src="/assets/bilder/pcp/archiv/2007-02-21-pcp-musik.jpg" text="Die Musikseite von p-c-p.ws mit Bestellanleitung für *Symptome* und Gratis-Downloads. Bankverbindung für dieses Buch geschwärzt · [Web Archive, 21.02.2007](https://web.archive.org/web/20070221085909/http://www.p-c-p.ws/musik.php)" alt="Webseite mit Bandfoto-Kopfzeile, Bestellanleitung und Downloadliste" %}
+{% include bild.html src="/assets/bilder/pcp/archiv/2007-02-21-pcp-musik.jpg" text="Die Musikseite von p-c-p.ws mit Bestellanleitung für *Symptome* und Gratis-Downloads. Bankverbindung für diesen Artikel geschwärzt · [Web Archive, 21.02.2007](https://web.archive.org/web/20070221085909/http://www.p-c-p.ws/musik.php)" alt="Webseite mit Bandfoto-Kopfzeile, Bestellanleitung und Downloadliste" %}
 
 Anfang 2007 kam die nächste Auszeichnung. In der Jahresbilanz der Juice wurde *Symptome* zur „Demo des Jahres“ gewählt, *Schock fürs Leben* landete auf Platz drei. Die News auf p-c-p.ws meldeten es mit „ein wenig Selbstbejubelung und juchheisassa“.[^k6-demojahr] JAW schrieb ins Gästebuch: „rynerrr ist demo des jahres / eine weitere stufe auf der treppe zur eineingeschränkten weltherrschaft ist erklommen“.[^k6-weltherrschaft]
 
@@ -533,9 +518,9 @@ Zwei Mitglieder einer Gruppe, die kaum jemand kannte, standen damit auf den beid
 
 ### p-c-p.ws und das Gästebuch
 
-p-c-p.ws war gestaltet von wotan*design, „in enger Zusammenarbeit mit meiner wenigkeit“, wie Rynerrr schrieb.[^k6-wotan] Über jeder Seite lag ein Schwarzweißfoto: Fenster mit heruntergelassenen Rollläden, eine Batterie leerer Flaschen, ein Verstärker, ein Fernseher, ein Mensch, der auf einem Sofa schläft. Darunter die Navigation in Rot: News, Band, Musik, Visuals, Forum, G-Book, Links, Presse, Kontakt.
+p-c-p.ws war gestaltet von wotan\*design, „in enger Zusammenarbeit mit meiner wenigkeit“, wie Rynerrr schrieb.[^k6-wotan] Über jeder Seite lag ein Schwarzweißfoto: Fenster mit heruntergelassenen Rollläden, eine Batterie leerer Flaschen, ein Verstärker, ein Fernseher, ein Mensch, der auf einem Sofa schläft. Darunter die Navigation in Rot: News, Band, Musik, Visuals, Forum, G-Book, Links, Presse, Kontakt.
 
-Die News schrieb meistens Rynerrr, im Ton eines genervten Pressesprechers seiner selbst. Am 22. September 2006, *[verkatert]*, kündigte er die Presse-Sektion an, „nachdem jetzt sowohl JAW als auch RYNERRR die JUICE sozusagen gerockt haben“, und einen Auftritt: „Morgen Abend treten wir auf in Freiburg, im Zett. Prost, d'Rynerrr.“ Am 18. Oktober, *[ausnahmsweise nüchtern]*, berichtete er, „der verblödete Rynerrr“ sei inzwischen im Radio gewesen und habe „die Hörerschaft mit seiner Überflüssigkeit genervtötet“. JAW trete am 27. Oktober in Soest auf, „u.a. sind da wohl auch der me$$age und der hollywood“. Dann vier Monate nichts.[^k6-news]
+Die News schrieb meistens Rynerrr, im Ton eines genervten Pressesprechers seiner selbst. Am 22. September 2006, *[verkatert]*, kündigte er die Presse-Sektion an, „nachdem jetzt sowohl JAW als auch RYNERRR die JUICE sozusagen gerockt haben“, und einen Auftritt: „Morgen Abend treten wir auf in Freiburg, im Zett. Prost, d'Rynerrr.“ Am 18. Oktober, *[ausnahmsweise nüchtern]*, berichtete er, „der verblödete Rynerrr“ sei inzwischen im Radio gewesen und habe „die Hörerschaft mit seiner Überflüssigkeit genervtötet“. JAW trete am 27. Oktober in Soest auf, „u.a. sind da wohl auch der me\$\$age und der hollywood“. Dann vier Monate nichts.[^k6-news]
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2007-02-21-pcp-news.jpg" text="Die News auf p-c-p.ws, von August 2006 bis Februar 2007 · [Web Archive, 21.02.2007](https://web.archive.org/web/20070221090119/http://www.p-c-p.ws/index.php)" alt="Webseite mit Schwarzweißfoto als Kopfzeile und Newseinträgen" %}
 
@@ -549,7 +534,7 @@ Das Gästebuch von p-c-p.ws ist erhalten, mit allen Einträgen vom 3. August 200
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2007-02-21-pcp-gaestebuch.jpg" text="Das Gästebuch von p-c-p.ws, Ausschnitt · [Web Archive, 21.02.2007](https://web.archive.org/web/20070221090107/http://www.p-c-p.ws/gbook.php)" alt="Gästebuch mit Einträgen in roter und weißer Schrift" breite="3/4" %}
 
-Was dann folgt, ist ein Querschnitt durch die Hörerschaft. Ein Fan grüßt „aus Neustadt“, einer „aus dem ORTENAU“, einer aus Düsseldorf, einer aus Minden in Westfalen. Einer bedankt sich für das Gratis-Mixtape und berichtet, in Düsseldorf hätten „ne menge leute“ das Album gekauft. Einer findet die Seite schlecht und die Band gut, „Passt zu euch Jungs!“ Einer will wissen, ob man *Nimms und verreck daran* noch kaufen könne, ein anderer fragt nach einer Tracklist von Rynerrrs Album. Ein Produzent namens Nowak schreibt nach dem ersten Hören von *PCP Putsch*: „ihr seid kraaaaaaank, aber geeeeeeil!“ Me$$age hinterlässt zwei Worte: „OH GOTT!“[^k6-gb2]
+Was dann folgt, ist ein Querschnitt durch die Hörerschaft. Ein Fan grüßt „aus Neustadt“, einer „aus dem ORTENAU“, einer aus Düsseldorf, einer aus Minden in Westfalen. Einer bedankt sich für das Gratis-Mixtape und berichtet, in Düsseldorf hätten „ne menge leute“ das Album gekauft. Einer findet die Seite schlecht und die Band gut, „Passt zu euch Jungs!“ Einer will wissen, ob man *Nimms und verreck daran* noch kaufen könne, ein anderer fragt nach einer Tracklist von Rynerrrs Album. Ein Produzent namens Nowak schreibt nach dem ersten Hören von *PCP Putsch*: „ihr seid kraaaaaaank, aber geeeeeeil!“ Me\$\$age hinterlässt zwei Worte: „OH GOTT!“[^k6-gb2]
 
 Drecksmann, der das erste Album mitproduziert hatte, schrieb im Januar 2007, er habe „in leichter Depressionsbewältigung den PCP Track vom kommenden Mixtape gehört“ und fühle sich besser. „grad die PCP Sachen sind der Stoff, der die Welt normal machen könnte. Auch wenn das Normale dann ein Haufen Trümmer wäre, genau wie jetzt nur in anderem Mantel.“[^k6-drecksmann]
 
@@ -624,9 +609,11 @@ Zu Weihnachten war die Seite plötzlich verschwunden. Am 26. Dezember 2007 stand
 
 Im Januar 2008 war die neue Startseite online, schwarz, mit dem Schriftzug WEISSESCHEISSE und einer Navigation aus News, Artists, Dates, Booking, Media, Presse, Forum, Shop, Kontakt und Links.[^k7-start] Aus der Seite einer Gruppe war die Seite eines Labels geworden.
 
+{% include bild.html src="/assets/bilder/pcp/weisse-scheisse-logo.png" text="Das Logo von Weisse Scheisse" alt="Schriftzug Weisse Scheisse" breite="1/2" %}
+
 ### Ein fünftes Mitglied
 
-Mit dem Label kam ein fünftes Mitglied. Der Administrator *G-Man* war Kash, ein Rapper aus dem Umfeld der RBA. <!-- PRÜFEN: Battle Kash vs. Kollegah in der RBA belegen. --> Er stellte sich 2009 selbst so vor: „Private Paul ist der Kash aus dem Kollegah Battle; müsst ihr nicht kennen.“[^k7-kash] Den Namen *Private Paul* bekam er, wie die Labelseite später behauptete, „trotz seines immensen Widerwillens und diverser Kündigungsversuche“ von JAW verpasst.[^k7-privatepaul] Er spielt auf *Private Paula* an, den gequälten Rekruten aus Stanley Kubricks *Full Metal Jacket*.[^k7-paula]
+Mit dem Label kam ein fünftes Mitglied. Der Administrator *G-Man* war Kash, ein Rapper aus dem Umfeld der RBA. Er stellte sich 2009 selbst so vor: „Private Paul ist der Kash aus dem Kollegah Battle; müsst ihr nicht kennen.“[^k7-kash] Das Battle selbst steht in der RBA, wenn die Heizipedia mit dem Namen *Dollar Bill* recht hat: Am 9. Januar 2005 verlor er gegen Kollegah, der dort *DERKOLLEGAH* hieß (siehe [„Die Reimliga Battle Arena“](#rba)). Den Namen *Private Paul* bekam er, wie die Labelseite später behauptete, „trotz seines immensen Widerwillens und diverser Kündigungsversuche“ von JAW verpasst.[^k7-privatepaul] Er spielt auf *Private Paula* an, den gequälten Rekruten aus Stanley Kubricks *Full Metal Jacket*.[^k7-paula]
 
 Im Forum hatte Kash von Anfang an einen eigenen Bereich, neben JAW, Rynerrr, Maexer und DJ Tjoma. Seine *Tour EP* gab es kostenlos über seine MySpace-Seite mit der Adresse *emopunkrap*. Am 14. Dezember 2007 eröffnete JAW einen Thread mit dem Titel „Ein Kash Album“: „es wird eins kommen und ich kann euch sagen da werden krassere sachen drauf sein als ihr wohl erwartet“. Kash selbst kündigte an, „lustigkeit“ werde darauf „recht wenig vorhanden sein“.[^k7-kashalbum] Nebenbei verkaufte er Beats, Verhandlungsbasis „so irgendwas um 100“ Euro.[^k7-beats]
 
@@ -642,11 +629,13 @@ Das Forum hatte keinen festen Namen. Im Dezember hieß es „Das offene Ohr für
 
 Es gab einen Bereich für jedes Mitglied, einen für „Allgemeinen PCP-Müll“, Bereiche für Deutschrap, Amirap und „Andere Mucke“ und eine „Dummlaberecke“. Die Fans rieten Zeilen von JAW und Rynerrr, eröffneten Groupie-Threads für jedes Mitglied und stellten JAW in einem eigenen Thread Fragen, die er beantwortete, bis es ihm zu viel wurde. Er moderierte mit trockenen Ansagen: „ich mein wir sind hier nich im diktator rbaforum aber n bischen weniger unsinn täte hier allen ganz gut“.[^k7-diktator]
 
-Für die Geschichte der Gruppe sind einige Threads besonders wertvoll. Am 16. Dezember 2007 schrieb JAW, weil die Nachfrage nach Rynerrrs *Symptome* gestiegen sei, „überlegen wir grade ernsthaft eine pressung zu veranlassen“. Die bisherige CD sei „mit aufdruck und gedrucktem cover“ gewesen, „gute quali aber pressung is nochma was anderes“.[^k7-pressung] Im Januar 2008 erklärte Maexer seine verschollenen Frühwerke. Und am 15. Dezember 2007 antwortete JAW auf die Frage, ob er wieder im Freiburger Zett auftrete, mit dem Satz, der diesem Buch ein Motto gab: „kp freiburg und rap, das is einfach nix“.[^k7-zett]
+Für die Geschichte der Gruppe sind einige Threads besonders wertvoll. Am 16. Dezember 2007 schrieb JAW, weil die Nachfrage nach Rynerrrs *Symptome* gestiegen sei, „überlegen wir grade ernsthaft eine pressung zu veranlassen“. Die bisherige CD sei „mit aufdruck und gedrucktem cover“ gewesen, „gute quali aber pressung is nochma was anderes“.[^k7-pressung] Im Januar 2008 erklärte Maexer seine verschollenen Frühwerke. Und am 15. Dezember 2007 antwortete JAW auf die Frage, ob er wieder im Freiburger Zett auftrete, mit dem Satz, der diesem Artikel ein Motto gab: „kp freiburg und rap, das is einfach nix“.[^k7-zett]
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2007-12-16-ws-forum-symptome-pressung.jpg" text="Thread „Symptome Pressung“, eröffnet von JAW am 16.12.2007 · [Web Archive, 29.12.2007](https://web.archive.org/web/20071229203815/http://www.weissescheisse.de/forum/thread.php?postid=4828)" alt="Forenthread mit grauen Beitragsfeldern" breite="3/4" %}
 
 Die Fans waren jung, viele noch Schüler. Sie kamen aus Koblenz, Mannheim, Dresden, Bremen und dem Breisgau. Sie organisierten Fahrgemeinschaften zu Auftritten, etwa zu JAW und Kollegah im schleswig-holsteinischen Glückstadt am 22. Februar 2008, für die es Karten nur in der Umgebung und an der Abendkasse gab.[^k7-glueckstadt] Ein Schüler berichtete, er habe JAWs *Meer aus Tränen* im Deutschunterricht auswendig vorgetragen und eine Eins bekommen.[^k7-meer]
+
+{% include bild.html src="/assets/bilder/pcp/fotos/jaw-live-ws-shirt.jpg" text="JAW live, im Shirt mit dem Motiv von Weisse Scheisse. Ort und Datum unbekannt" alt="JAW rappt auf einer Bühne, im weißen T-Shirt mit dem Weisse-Scheisse-Motiv" seite="rechts" breite="1/2" %}
 
 Zum Label gehörte eine kleine Marke. Im Januar 2008 kamen die ersten Weisse-Scheisse-Shirts in den Shop, zweiseitig bedruckt, nur in Größe M und größer. Eine Leserin wünschte sich kleinere Größen, ein anderer Fan Shirts, die von Rynerrr persönlich mit Bier und Jägermeister befleckt seien.[^k7-shirts]
 
@@ -662,7 +651,9 @@ Am 16. Mai 2008 erschien das erste offizielle Release von Weisse Scheisse: Ryner
 
 Einer der Bonustracks hatte eine eigene Geschichte. Rynerrr schrieb dazu, das Lied sei ursprünglich das letzte des Originalalbums gewesen, er habe es damals aber nicht veröffentlichen wollen. Er trage den Namen Rynerrr weiter, „auch wenn ich lange nicht mehr das kaputte Symptom bin, das ich mal war“.[^k7-symptome]
 
-Im Shop kostete die Neuauflage zehn Euro, ebenso wie JAWs zwei Alben.[^k7-shop] Die Labelseite verkaufte jetzt also auch die Werke, die bei Rapz Records erschienen waren.
+{% include bild.html src="/assets/bilder/pcp/fotos/rynerrr-symptome-versand.jpg" text="Versandfertig bei Rynerrr zu Hause: Umschläge mit der gepressten Neuauflage von *Symptome*. Gepostet um 2011, Aufnahmedatum unbekannt" alt="Schreibtisch mit einem Stapel adressierter Briefumschläge und einem Karton CDs" seite="rechts" breite="2/5" %}
+
+Im Shop kostete die Neuauflage zehn Euro, ebenso wie JAWs zwei Alben.[^k7-shop] Die Labelseite verkaufte jetzt also auch die Werke, die bei Rapz Records erschienen waren. Die Pressung holte sich Rynerrr nach Hause und verschickte sie von dort selbst. Er vertreibt sie bis heute und hat noch Exemplare auf Lager. <!-- PRÜFEN: Beleg für den heutigen Vertrieb ergänzen. -->
 
 Das zweite Release kam ein Jahr später, und es war kein PCP-Album. Am 12. Juni 2009 erschien *Menschenfeind* von JAW und Hollywood Hank. Den Titel hatte JAW schon länger im Kopf: 2007 hatte er erzählt, er sample gern aus Gaspar Noés Film *Menschenfeind*.[^k7-noe] Hank war wie JAW bei Rapz Records gewesen und hatte 2008 mit Favorite das Tape *Schläge für Hip Hop* gemacht, auf dem JAW zu hören ist.[^k7-hank]
 
@@ -717,7 +708,8 @@ Ein Label im wirtschaftlichen Sinn war Weisse Scheisse nur am Rand. Weitere Kün
 [^k7-armee]: Wie das rap.de-Interview vom 30.03.2010.
 [^k7-kartons]: Ebd.
 
-## Lache und die Welt weint mit dir
+## Das zweite Album
+{: #das-zweite-album}
 
 *Das Album beginnt mit dem Ende.*
 {: .epigraph}
@@ -735,15 +727,13 @@ Mitte Juli 2009 verschickte Weisse Scheisse die Ankündigung. Die Besetzung: JAW
 
 Ab dem 20. Juli konnte man vorbestellen. Im Shop kostete die CD 11,90 Euro. Daneben gab es ein PCP-Bundle mit der CD, einem PCP-Logo-Shirt und einem „Weisse Scheisse“-Poster im Format DIN A1, einzeln 33,70 Euro, im Bundle 27,90 Euro, versendet „erst am Releasetag“.[^k8-shop]
 
-Im Shop stand der Titel allerdings anders: „PCP – Lache und die Welt *lacht* mit dir“. Auch zwei Künstlerbiografien auf der Labelseite schrieben noch 2010 „lacht“.[^k8-lacht] Auf dem Cover dagegen ist das Wort *weint* in einer anderen, roten Handschrift in den Titel gesetzt, als hätte jemand es nachträglich hineingeschrieben. Ob „lacht“ ein Arbeitstitel war, der in letzter Minute geändert wurde, oder ein Schreibfehler, der sich fortpflanzte, ist nicht belegt. <!-- PRÜFEN: Arbeitstitel "lacht"? Merlins CD: Wie steht der Titel auf Rückseite und Booklet? -->
+{% include bild.html src="/assets/bilder/pcp/fotos/pcp.jpg" text="PCP, frühestens Sommer 2009: Rynerrr, Maexer, JAW (mit *Menschenfeind*-Shirt) und Private Paul. Fotograf unbekannt" alt="Vier Männer vor einem Banner unter Gewitterwolken, einer mit dem Rücken zur Kamera" seite="rechts" breite="1/3" %}
+
+Im Shop stand der Titel allerdings anders: „PCP – Lache und die Welt *lacht* mit dir“. Auch zwei Künstlerbiografien auf der Labelseite schrieben noch 2010 „lacht“.[^k8-lacht] Auf dem Cover dagegen ist das Wort *weint* in einer anderen, roten Handschrift in den Titel gesetzt, als hätte jemand es nachträglich hineingeschrieben. Auf der CD heißt das Album *Lache und die Welt weint mit dir*. Ob „lacht“ ein Arbeitstitel war, der in letzter Minute geändert wurde, oder ein Schreibfehler, der sich fortpflanzte, ist nicht belegt.
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2009-08-30-ws-shop-musik.jpg" text="Der Labelshop Ende August 2009: „Lache und die Welt lacht mit dir“, jetzt vorbestellen · [Web Archive, 30.08.2009](https://web.archive.org/web/20090830193950/http://www.weissescheisse.de/index.php?ws=shop&kat=musik)" alt="Shopseite mit dem Albumtitel Lache und die Welt lacht mit dir" breite="3/4" %}
 
 Woher der Titel kam, erklärten die Mitglieder im MZEE-Interview vom September 2009 auf ihre Weise. Maexer: „Durch mich…! Die Geschichte dahinter war, dass wir in der kniffligen Situation waren einen Albumtitel finden zu müssen und ich habe dann einen gefunden.“ Private Paul fand ihn „nach wie vor“ einen „ziemlich dummen Namen“. Rynerrr gab eine Deutung: Wenn er seinen Schmerz so lange aufstaue, bis er „hysterisch lachend alles kurz und klein“ schlage, dann teile der Teil der Welt, der dabei sei, „eventuell meinen Schmerz, oder hat halt einfach auch Schmerzen, und weint somit mit mir“.[^k8-mzee]
-
-Das Cover nimmt das Motiv des ersten Albums wieder auf. Wieder ist es ein Engel, diesmal eine junge Frau mit Federflügeln und rot gefärbtem Haar, das ihr über die Augen fällt. Sie hält eine Hand vor das Gesicht und bläst dem Betrachter eine weiße Staubwolke entgegen. Auf ihrer Wange ist eine rote Spur, ihr weißes Hemd ist fleckig. Hinter ihr, unscharf, Trümmer. Oben links steht „PCP“ in roten Pinselbuchstaben. laut.de schrieb, das Cover deute „erneut auf die Droge Angel's Dust hin“.[^k8-laut]
-
-Der Engel von 2004 hielt den Staub in seinen Händen. Der Engel von 2009 bläst ihn dir ins Gesicht.
 
 ### Wie das Album entstand
 
@@ -751,89 +741,7 @@ Aufgenommen wurde etwa ein Jahr lang, so JAW, nachdem er zuerst behauptet hatte,
 
 Hinter den Witzen steht ein mühsamer Prozess. Private Paul hatte nach eigener Angabe „ungefähr 250 Beatvorschläge“ eingereicht, „von denen es zwei oder drei aufs Album geschafft haben“. Teilweise seien ihm „die Diskussionen über diese und jene thematische Nuance auch zu dumm“ gewesen, und er habe sich von Tracks verabschiedet. Man habe immer eine Schnittmenge gesucht „von Leuten die den Beat nicht total hassen und das Thema nicht total albern finden, und die machen dann den Track“. Rynerrr fasste es zusammen: „Keiner von uns ist in Reinform auf dem Album.“ JAW nannte den Prozess „ein einziges Ärgernis … nie wieder … ein Grauen! Lang und qualvoll!“[^k8-mzee]
 
-Zehn Produzenten waren beteiligt.[^k8-laut] Genannt werden in den Quellen die Beatgees, Nowak, Purple Maze, Tobe, Marvelous, Moretime Productions, Peter Maffya und aus der Gruppe selbst Maexer und Kash.[^k8-produzenten] Gäste waren Hollywood Hank, Me$$age und Peter Maffya.
-
-### Ein Album als Kreis
-
-| Nr. | Titel | Gäste |
-|---|---|---|
-| 1 | Am Anfang… | |
-| 2 | …war das Ende | |
-| 3 | Kein Zurück | |
-| 4 | Weisse Scheisse | |
-| 5 | Nimm die Welt wie sie ist | |
-| 6 | Asokacke | Hollywood Hank |
-| 7 | Bierliebe | |
-| 8 | Spiel mir das Lied vom Dach | |
-| 9 | Punkrockbaby | Me$$age |
-| 10 | Private Paul | |
-| 11 | Lache und die Welt weint mit dir | |
-| 12 | Harter Tag | |
-| 13 | Kommt Ran! | Peter Maffya |
-| 14 | Rinderbraten | |
-| 15 | Maschinen | |
-| 16 | Schmetterling | |
-| 17 | Engelsstaub | Me$$age |
-| 18 | Am Ende war | |
-| 19 | … | |
-| 20 | Der Anfang | |
-
-Schon die Liste erzählt das Konzept. Die ersten beiden Titel ergeben zusammen „Am Anfang… war das Ende“, die letzten drei „Am Ende war … Der Anfang“. Das Album ist ein Kreis. laut.de fasste es in einem Satz: „Am Anfang war das Ende, am Ende folgerichtig der Anfang, und zwischendrin beweint die Welt das eigene Lachen.“[^k8-laut] Zwischen Ende und Anfang finde „die Neuordnung der Gesellschaft statt“.
-
-Das ist das Programm des ersten Albums, nur größer erzählt. 2004 hieß es in *Einmarsch*, PCP zerstöre die Welt, „bis alles fällt / Und alles wieder von vorn anfängt“. 2009 ist daraus ein ganzes Hörspiel über den Weltuntergang geworden.
-
-### Der Anfang vom Ende
-
-Das Album beginnt mit einer Stimme im Ton eines Nachrichtensprechers. Er werde versuchen, mit dieser Notsendung so lange weiterzumachen, wie man sich hier halten könne. Die Stadt sei fast vollständig verlassen, Notdienste gebe es nicht mehr, ein Feuer breite sich unkontrolliert aus. Ein sinnloses Morden habe sich auf jedes Land der zivilisierten Welt übertragen, jede Stunde würden mehr Menschen davon erfasst. Wer noch nicht betroffen sei, solle sich verstecken und niemandem trauen, nicht einmal Freunden oder der eigenen Familie.[^k8-lyrics] <!-- LÜCKE: Herkunft des Samples (Film? Hörspiel?). -->
-
-Danach folgt eine Collage aus Scratches von DJ Tjoma, die jede Stimme mit einer Zeile vorstellt: „Doktor Jotta, eine Pulle mit Wodka“, „Du kanntest Private Paula, jetzt kennst du Private Paul“, und eine Warnung, sich besser nicht mit „Maexer, Cash“ anzulegen. Am Ende steht eine Zeile, die das Motto des Albums sein könnte: „PCP für Leute die ich hass', also für alle“.
-
-Der zweite Titel ist der erste Song, und er stellt die vier Rapper nacheinander vor, jeden mit seiner eigenen Art, über den Untergang zu sprechen.
-
-Rynerrr eröffnet mit einem Trinkspruch auf den Untergang. Dann kommt das Bild, aus dem der Labelname eine Mythologie macht: „Weisse Scheisse“ sammle sich und quelle „langsam aus den Gullis“, fließe durch alle Straßen und reiße Wände ein. Seine Strophe endet mit dem Satz, um den das ganze Album kreist: „Die Welt geht auf in Flammen, doch das Ende wird der Anfang sein“.
-
-JAW beschreibt eine „nukleare Wärme“, die Modelle „von Maserati bis Benz“ schmilzt, Volksaufstände, die letzten Fälle der Kommissare und „ein stilles schmerzbefreites Ende“. Private Paul erzählt von einem Alltag „zwischen saufen und Frauen ficken und Arbeitsamt“. Maexer wechselt in einen anderen, fast biografischen Ton: Man sei noch jung, und Ideale seien noch etwas wert. Er stehe „nicht hinter dem Staat“, und: „Alleine bin ich schwach, in Gruppen bin ich stark“.
-
-Am Ende des Tracks spricht wieder eine Filmstimme, diesmal begeistert: Der Boss habe einen absolut coolen Plan, „diese Weiße Scheiße“ sei brillant. Brüder und Schwestern, gehen wir es an. <!-- LÜCKE: Herkunft dieses Samples. -->
-
-*Kein Zurück* hat acht Strophen, jedes Mitglied rappt zweimal. Rynerrrs erste Zeile ist eine Antwort auf fünf Jahre Wartezeit: „Wir sind leider nicht back, wir sind nur immer noch da“. Rynerrr singt auch den Refrain. Es gebe kein Zurück mehr, hier verzeihe niemand niemandem.
-
-JAW kommentiert in einer Zeile das Verhältnis der Gruppe zur Szenepresse: „Hierfür gibt es keine Krone in der Juice“. Die Juice vergab für Kritiken Kronen, und sie hatte JAW und Rynerrr drei Jahre vorher als „Demo des Monats“ geadelt. In seiner zweiten Strophe stehen zwei Zeilen, die zu den nachdenklichsten des Albums gehören:
-
-> Du bist nicht hart, wenn du wahllos jedem aufs Maul schlägst<br>
-> Sondern wenn du, trotz aller Narben, jeden Tag aufstehst[^k8-lyrics]
-
-Und Rynerrr schließt mit einem Bild, das laut.de als Beispiel zitierte: Wenn heute „Leute mit dem Panzer“ durch das Kanzleramt führen, wisse die ganze Welt Bescheid, „Projekt Chaos Punks am Start!“ Den Refrain hielt laut.de allerdings für „dreist von Cake geklaut“.[^k8-laut]
-
-### Die Hymne
-
-Der vierte Titel trägt den Namen des Labels, und er ist die Hymne des Albums. JAW beginnt: „Das ist kein Label, das ist der Pranger der Geächteten“. Der Refrain erzählt von etwas, das sich „aus dem Dreck der Welt“ erhebt und auf dessen Emblem „Weiße Scheiße“ steht, von Vogelfreien und einem Heer „bemannt mit Deutschlands Punks“, das mit Fahnen durch die Straßen zieht, „Der Untergang für den Neuanfang“.
-
-Private Pauls Strophe enthält die Zeile, die laut.de als Überschrift über seine Kritik setzte: „Das ist kein Label, das ist ein Haufen Trunkenbolde“.
-
-Zu *Weisse Scheisse* entstand ein Musikvideo. Der erste Drehversuch endete, so erzählte Rynerrr, mit einer „Polizei-Vertreibung sowie einer Hausfriedensbruchanzeige“. Danach saß man mit dem Kameramann in einer Kneipe in Freiburg und überlegte, ob man auch zu *Bierliebe* ein Video drehen solle. „Meine Erinnerung setzt da aus und erst am nächsten Abend wieder ein.“[^k8-mzee]
-
-Für das Video änderte Rynerrr seinen Part. Auf dem Album ist der Originalpart zu hören, eine Gewaltfantasie gegen den eigenen Arbeitgeber, einen Club voller Feiernder und das Haus des Bundeskanzlers. Seine Begründung ist eine der wenigen Stellen, an denen ein Mitglied von PCP über die Wirkung seiner Texte spricht:
-
-> Begründung ist, dass der Originalpart, rausgerissen aus dem Gesamtkonzept des Albums, zu gewaltverherrlichend und unreflektiert rüberkommen kann. Und da Videos ja gerne mal eine etwas größere, unwissendere Masse erreichen als die Alben, wollte ich da ausnahmsweise mal ein wenig Verantwortungsbewusstsein vortäuschen … bzw. ich hab kein wirkliches Interesse daran, dass Leute in ihren Schulen rumballern und nebenbei Rynerrr-Parts auf dem MP3-Handy pumpen.[^k8-mzee]
-
-Das Interview erschien im September 2009, ein halbes Jahr nach dem Amoklauf von Winnenden.
-
-### Bier, Asokacke, das Dach
-
-*Nimm die Welt wie sie ist* lebt von einem Wortspiel in Maexers Refrain: Man solle die Welt nehmen, wie sie ist, nämlich „auseinander“. Rynerrr gibt in seiner Strophe offen zu, worum es geht: „Du lauschst grad sehr gespannt und suchst vergeblich nach der Aussage / Doch in diesem Lied gehts nur darum dass ich besoffen bin“.
-
-*Asokacke* ist das Stück mit Hollywood Hank. Rynerrr und Hank stellen sich darin eine Kette von Fragen, die alle mit „Warum“ beginnen. Rynerrrs Fragen sind die eines Aussteigers: warum ihm jeder Job nach einer Weile beschissen vorkomme, warum er kein Geld, kein Auto und kein Haus wolle, „sondern nur einen Ausgang“. Hanks Fragen sind härter, voller Gewalt und Menschenhass. JAW antwortet am Schluss mit einer Strophe, die nicht mehr provoziert, sondern klagt: „Meine Musik ist kein Geschenk für die Menschen / Sondern traurige Klaustrophobie im Gedränge von Engeln“.
-
-*Bierliebe* ist ein Liebeslied an das Bier, eingeleitet von einem englischsprachigen Gesangssample und getragen von einem Refrain, in dem JAW verspricht, „immer wieder zurück“ zu kommen. Rynerrr erklärte, dass es den Song in anderer Form schon gab: Auf seinem Album habe der Track „exakt der gleiche übrigens, nur anderes Instrumental“, laut YouTube aber „Eierliebe“ geheißen.[^k8-mzee] JAW stellt sich in seiner Strophe mit den Worten vor: „Bier! My name is Dokta Jotta, I'm an alcoholic“.
-
-*Spiel mir das Lied vom Dach*, im Titel ein Kalauer auf den Western, ist ein Zerstörungsrausch in vier Strophen, mit einem Refrain von Maexer, in dem „PCPunks“ das Dach niederbrennen. laut.de zählte es zu den Höhepunkten. JAWs Strophe beginnt „im Nebel des Angeldusts“, und in ihm halle die *Carmina Burana*.
-
-*Punkrockbaby* mit Me$$age hat den simpelsten Refrain des Albums, „Bier leer, Bier her“, und eine Strophe, die PCP als „die Band, die ihre Fans mit Flaschen bewirft“ vorstellt. <!-- PRÜFEN: Zuordnung der Parts 3 und 4 (Me$$age?). -->
-
-Für die übrigen elf Titel liegen die Texte noch nicht vor, darunter *Private Paul*, das laut.de besonders lobte, der Titeltrack, *Schmetterling*, *Engelsstaub* mit Me$$age, dessen Name die Droge aus dem Bandnamen ins Deutsche übersetzt, und der Schlussteil *Am Ende war … Der Anfang*. Ihre Besprechung folgt. <!-- OFFEN: Lyrics Titel 10–20. -->
-
-Aus der laut.de-Kritik ist eine Zeile aus *Schmetterling* überliefert, die direkt auf die Vorlage des Bandnamens verweist. Man fühle sich, so der Kritiker, „ebenso wie Meat Loafs Gesellen im namensgebenden Film ‚Fight Club‘“ trotz Ausbildung, Job und Freundin wie ein Haufen Weisser Scheisse, „oder eben ‚ein Stück Dreck – aber ein Stück Dreck mit einer Knarre!‘“[^k8-laut]
+Zehn Produzenten waren beteiligt.[^k8-laut] Genannt werden in den Quellen die Beatgees, Nowak, Purple Maze, Tobe, Marvelous, Moretime Productions, Peter Maffya und aus der Gruppe selbst Maexer und Kash.[^k8-produzenten] Gäste waren Hollywood Hank, Me\$\$age und Peter Maffya.
 
 ### Wie es ankam
 
@@ -872,19 +780,23 @@ Nach dem Album wurde Weisse Scheisse für eine kurze Zeit ein richtiger Betrieb.
 
 ### Ein Label mit Street Team
 
+{% include bild.html src="/assets/bilder/pcp/fotos/rynerrr-jaw-paul-juni-2010.jpg" text="Rynerrr, JAW und Private Paul, Juni 2010, vier Monate vor dem Bruch" alt="Drei Männer vor einer Graffiti-Wand" seite="rechts" breite="2/5" %}
+
 Am 14. Januar 2010 ging eine neue Labelseite online. Die News kündigten an, das Forum werde überarbeitet, der Shop bekomme einen neuen Vertriebspartner aus Freiburg, und die zweite „Schöne neue Welt“-Aktion laufe ab dem 22. Februar an. Wer ins „Street Team“ aufgenommen werde, erfahre es per Nachricht im Forum.[^k9-januar] Die Fans sollten für das Label werben, mit Promo-Artikeln, die das Label verschickte.[^k9-februar] Im selben Eintrag stand die Ankündigung zweier Alben: im Mai das zweite Soloalbum von JAW, *Täter-Opfer-Ausgleich*, und im Sommer das Album von Private Paul, *Emopunkrap*.
 
 Das neue Forum ging um den 23. Februar 2010 online.[^k9-forum2] Es wuchs schnell. Im Mai hatte es gut 300 Mitglieder und 9.000 Beiträge, im November knapp 800 Mitglieder und 60.000 Beiträge, mehr als 200 an jedem Tag.[^k9-statistik]
 
 ### Täter-Opfer-Ausgleich und die Sozioparty-Tour
 
-JAWs zweites Soloalbum erschien am 21. Mai 2010. Er hatte die Hälfte der 18 Titel selbst produziert. Gäste waren Morlockk Dilemma, Me$$age, Mach One und Absztrakkt.[^k9-toa] Der Titel sei „der Versuch, erlittenen Schmerz, psychische Abgründe und erfahrene Ungerechtigkeit mit veräußerter Gegenjustiz auf einen Nullwert zu setzen“, hieß es auf der Labelseite. JAW sagte rap.de, das Album sei „quasi ein Gerechtigkeitsschlag“, gerichtet an „die Welt, die Menschheit im Generellen und speziellen Personen, die in meiner Vergangenheit dafür gesorgt haben, dass ich durch gewisse Leidensprozesse musste“.[^k9-rapde]
+JAWs zweites Soloalbum erschien am 21. Mai 2010. Er hatte die Hälfte der 18 Titel selbst produziert. Gäste waren Morlockk Dilemma, Me\$\$age, Mach One und Absztrakkt.[^k9-toa] Der Titel sei „der Versuch, erlittenen Schmerz, psychische Abgründe und erfahrene Ungerechtigkeit mit veräußerter Gegenjustiz auf einen Nullwert zu setzen“, hieß es auf der Labelseite. JAW sagte rap.de, das Album sei „quasi ein Gerechtigkeitsschlag“, gerichtet an „die Welt, die Menschheit im Generellen und speziellen Personen, die in meiner Vergangenheit dafür gesorgt haben, dass ich durch gewisse Leidensprozesse musste“.[^k9-rapde]
 
 Wer Newsletter abonnierte, bekam vorab einen Track, der es nicht auf das Album geschafft hatte. Als Amazon mit „sehr soliden Verkaufszahlen“ rechnete und das Album günstiger anbot, senkte das Label seinen eigenen Vorbestellpreis und legte den bisherigen Bestellern ein handsigniertes Poster bei.[^k9-amazon] Zum Song *Elena* erschien im Juli ein Video. MTV habe die Ausstrahlung „aufgrund zu radikaler und suizidaler Inhalte“ abgelehnt, meldete die Labelseite, deshalb gebe es das Video auf weissescheisse.de.[^k9-elena]
 
 Erschienen ist das Album über Flavamatic Recordz, mit Rough Trade im Vertrieb.[^k9-flavamatic] Weisse Scheisse war in dieser Phase weniger eine Plattenfirma als ein Name, unter dem JAW und sein Umfeld alles organisierten, was um die Musik herum anfiel: Seite, Shop, Forum, Street Team, Auftritte.
 
 Im Sommer 2010 ging JAW mit Private Paul auf Tour. Die „Sozioparty Tour 2010“ begann am 20. August in Münster und führte nach Berlin, Frankfurt am Main, Osnabrück, Forst und Hannover. Mit dabei waren Das Neue Prekariat und Pimpulsiv, ab dem 27. August auch Adolph Gandhi aus Freiburg. Ein Termin in Lahr fiel aus.[^k9-tour] Zur Tour veröffentlichte rap.de einen Track von JAW, Adolph Gandhi und Private Paul auf einen Beat von Nowak.[^k9-tourtrack] Schon im Juli waren JAW und Pvt. Paul beim Invasion-Kulturfestival in Freiburg aufgetreten, für drei Euro Eintritt.[^k9-invasion]
+
+{% include bild.html src="/assets/bilder/pcp/fotos/pcp-live.jpg" text="PCP live. Gepostet um 2011, Aufnahmedatum unbekannt, Ort nicht gesichert" alt="Rapper auf einer kleinen Bühne" %}
 
 Sechs Wochen nach dem letzten Tourtermin war einer der beiden nicht mehr dabei.
 
@@ -896,13 +808,17 @@ Am 17. Oktober 2010 erschien auf weissescheisse.de diese Mitteilung:
 
 An diesem Sonntagabend um 21:54 Uhr waren 56 Menschen gleichzeitig im Forum von Weisse Scheisse. Die Startseite des Forums führte das noch Monate später als Besucherrekord.[^k9-rekord] Ob die Mitteilung der Grund war, sagt die Statistik nicht.
 
-Dieses Buch hält sich an die Formulierung des Labels. Die Gründe waren „überwiegend privater Natur“, und was privat war, bleibt hier privat. Öffentlich ist, was danach geschah. Private Pauls Album *Emopunkrap* erschien im Januar 2011, nicht bei Weisse Scheisse. rap.de nannte es „eines der besten des noch jungen Jahres“.[^k9-emopunkrap] In einem Interview mit rap.de äußerte sich Paul zur Trennung. <!-- LÜCKE: Dieses Interview ist noch nicht gefunden. --> Am 5. Februar 2011 veröffentlichte JAW darauf einen Disstrack mit dem Titel *Private Paul*, exklusiv auf meinrap.de, „um seine Sicht auf die Geschehnisse zu schildern“.[^k9-diss] Die Labelseite verwies darauf mit dem Satz: „Nachdem sich Private Paul ausgelassen über seine ehemaligen Labelkollegen und die Trennung von WS äusserte, gibt es nun eine offizielle Stellungsnahme zum Thema von JAW persönlich“.[^k9-stellungnahme] Auch Private Paul veröffentlichte einen Track gegen JAW. <!-- PRÜFEN: Datum und Titel von Private Pauls Disstrack (YouTube-Link in "PCP Dokumentation.md"). -->
+Dieser Artikel hält sich an die Formulierung des Labels. Die Gründe waren „überwiegend privater Natur“, und was privat war, bleibt hier privat. Öffentlich ist, was danach geschah. Private Pauls Album *Emopunkrap* erschien um den Jahreswechsel 2010/11 (Bandcamp: 21. Dezember 2010), nicht bei Weisse Scheisse. rap.de nannte es „eines der besten des noch jungen Jahres“.[^k9-emopunkrap] In einem Interview mit rap.de äußerte sich Paul zur Trennung. <!-- LÜCKE: Dieses Interview ist noch nicht gefunden. --> Am 5. Februar 2011 veröffentlichte JAW darauf einen Disstrack mit dem Titel *Private Paul*, exklusiv auf meinrap.de, „um seine Sicht auf die Geschehnisse zu schildern“.[^k9-diss] Die Labelseite verwies darauf mit dem Satz: „Nachdem sich Private Paul ausgelassen über seine ehemaligen Labelkollegen und die Trennung von WS äusserte, gibt es nun eine offizielle Stellungsnahme zum Thema von JAW persönlich“.[^k9-stellungnahme] Auch Private Paul veröffentlichte einen Track gegen JAW. <!-- PRÜFEN: Datum und Titel von Private Pauls Disstrack (YouTube-Link in "PCP Dokumentation.md"). -->
 
 Auf dem zweiten PCP-Album gibt es einen Track, der *Private Paul* heißt. Seit Februar 2011 gibt es zwei.
 
 ### Das letzte Jahr
 
-Danach wurde es um die Gruppe wieder still, um JAW nicht. Für den 15. Januar 2011 lud die Labelseite zu einem „Weisse Scheisse / PCP Konzert“ ins Jugendzentrum JBB in Freiburg, mit Adolph Gandhi und Rahzkroneprinz im Vorprogramm, Eintritt 3,80 Euro.[^k9-jbb] Im Februar ging JAW als Support mit dem französischen Rapper Soprano auf Tour, zwölf Termine von Hamburg bis Basel. Es folgten eine zweite Sozioparty-Tour, das Splash-Festival und eine Release-Show in Trier.[^k9-2011]
+{% include bild.html src="/assets/bilder/pcp/fotos/2011-01-15-jbb-plakat.jpg" text="Plakat zum Konzert im Jugendzentrum JBB, Freiburg, 15.01.2011. Angekündigt sind JAW, Rynerrr, Maexer und DJ Tjoma, ohne Private Paul" alt="Konzertplakat" seite="rechts" breite="1/3" %}
+
+Danach wurde es um die Gruppe wieder still, um JAW nicht. Für den 15. Januar 2011 lud die Labelseite zu einem „Weisse Scheisse / PCP Konzert“ ins Jugendzentrum JBB in Freiburg, mit Adolph Gandhi und Rahzkroneprinz im Vorprogramm, Eintritt 3,80 Euro, auf dem Plakat stehen 5 Euro.[^k9-jbb] Im Februar ging JAW als Support mit dem französischen Rapper Soprano auf Tour, zwölf Termine von Hamburg bis Basel. Es folgten eine zweite Sozioparty-Tour, das Splash-Festival und eine Release-Show in Trier.[^k9-2011]
+
+{% include bild.html src="/assets/bilder/pcp/fotos/pcp-januar-2011-freiburg.jpg" text="PCP im Januar 2011 in Freiburg, vermutlich beim Konzert im JBB" alt="Zwei Rapper in schwarzen Shirts mit Mikrofonen mitten im Publikum" seite="links" breite="2/5" %}
 
 Am 27. Mai 2011 standen bei einer Albumreleaseparty des Freiburger Rappers Platon am Waldsee in Freiburg drei Namen im Vorprogramm: JAW, Rynerrr, Maexer.[^k9-platon] Es ist der letzte Auftritt, bei dem drei Gründungsmitglieder von PCP gemeinsam angekündigt wurden, soweit die Quellen reichen.
 
@@ -956,7 +872,7 @@ weissescheisse.de blieb länger, aber es wurde leiser. Die letzte Nachricht auf 
 
 > nach langer zeit des friedlichem schlafens mal wieder ein album des hausinternen künstlers „maexer“ zusammen mit dem noch reichlich unbekannten „stomakk“. auf dem album „dein bestes“ finden aber auch die bekannten labelurgesteine „jaw“ und „rynerrr“ einen platz (bzw. in person von rynerrr, mehrere plätze (das halbe album)).[^k10-deinbestes]
 
-Weitere Gäste waren Me$$age, Lasse Green, Illoyal und Karl Mmoor. Das Album gab es kostenlos, als ZIP-Datei mit 127 Megabyte. Neun Jahre nach dem ersten PCP-Album, das an achtzig Megabyte Webspace gescheitert war, lag wieder ein ganzes Album als ein einziger Download auf der Seite. „hören, laden, teilen, nachbarn nerven. viel spass!“
+Weitere Gäste waren Me\$\$age, Lasse Green, Illoyal und Karl Mmoor. Das Album gab es kostenlos, als ZIP-Datei mit 127 Megabyte. Neun Jahre nach dem ersten PCP-Album, das an achtzig Megabyte Webspace gescheitert war, lag wieder ein ganzes Album als ein einziger Download auf der Seite. „hören, laden, teilen, nachbarn nerven. viel spass!“
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2013-11-04-ws-news.jpg" text="Die letzte News auf weissescheisse.de: *Dein Bestes* von Maexer & Stomakk · [Web Archive, 04.11.2013](https://web.archive.org/web/20131104002058/http://www.weissescheisse.de/cms/index.php?page=news)" alt="Labelseite mit dem Cover von Dein Bestes" breite="3/4" %}
 
@@ -970,7 +886,7 @@ Am Ende war das Forum von Weisse Scheisse ein Treffpunkt von Menschen, die sich 
 
 Die Mitglieder machten weiter, jeder auf seine Weise und meistens allein.
 
-**JAW** lebte ab etwa 2011 in Berlin. Im Dezember 2013 erzählte er laut.de, dass er nebenher im Vertrieb einer Firma arbeite und seine Magisterarbeit über die Rezeption von Hip-Hop bei Jugendlichen geschrieben habe. Wie es mit Weisse Scheisse weitergehe, wisse er nicht, „ich weiß noch nicht einmal, ob ich überhaupt ein Label weiterführen will“. Über Rynerrr sagte er: „Ich weiß, dass er momentan was in der Mache hat. Ein Projekt mit mehreren Leuten, an dem ich ebenfalls beteiligt sein werde. Wir sind immer in Kontakt und tauschen uns aus.“[^k10-laut2014] Nach einigen Freetracks erschien 2018 sein drittes Soloalbum *Die unerträgliche Dreistigkeit des Seins*. Es erreichte Platz vier der deutschen Albumcharts.[^k10-charts] <!-- PRÜFEN: einzige Chartplatzierung eines PCP-Mitglieds? -->
+**JAW** lebte ab etwa 2011 in Berlin. Im Dezember 2013 erzählte er laut.de, dass er nebenher im Vertrieb einer Firma arbeite und seine Magisterarbeit über die Rezeption von Hip-Hop bei Jugendlichen geschrieben habe. Wie es mit Weisse Scheisse weitergehe, wisse er nicht, „ich weiß noch nicht einmal, ob ich überhaupt ein Label weiterführen will“. Über Rynerrr sagte er: „Ich weiß, dass er momentan was in der Mache hat. Ein Projekt mit mehreren Leuten, an dem ich ebenfalls beteiligt sein werde. Wir sind immer in Kontakt und tauschen uns aus.“[^k10-laut2014] Nach einigen Freetracks erschien 2018 sein drittes Soloalbum *Die unerträgliche Dreistigkeit des Seins*. Es kam als erstes Album eines PCP-Mitglieds in die deutschen Albumcharts.[^k10-charts] <!-- PRÜFEN: Chartplatz. Wikipedia nennt Platz 4, die Shopseite auf jawonline.de „DE #14 · AT #39 · CH #96“. -->
 
 **Rynerrr** verschenkte 2014 ein unfertiges Album mit dem Titel *Album*, einen „Nachtrag“ zu *Symptome*. 2016 stellte ihn rap.de in der Reihe „Fundkiste“ vor, als Rapper für alle, „die auf durchdachten ‚Antirap‘ stehen, der nicht von Fame oder Kohle gelenkt wird“.[^k10-fundkiste] Im Mai 2017 erschien, per Crowdfunding finanziert, *Gutmensch/Wutbürger*, mit Maexer als Gast auf zwei Titeln. MZEE.com erinnerte in seiner Kritik an ein Label namens Weisse Scheisse, das „als Untergrund-Geheimtipp durch das Netz geisterte“, und nannte *Symptome* „durchaus als kleines Meisterwerk“.[^k10-gutmensch]
 
@@ -980,15 +896,15 @@ Die Mitglieder machten weiter, jeder auf seine Weise und meistens allein.
 
 Über **DJ Tjoma** liegen nach 2010 keine öffentlichen Informationen vor.
 
-Was jeder Einzelne heute macht, steht ausführlicher in den Porträts in Teil III.
+Was jeder Einzelne heute macht, steht ausführlicher in den Porträts in Teil IV.
 
 ### Ein Name, der fehlt
 
-Einer aus dem Umfeld ist nicht mehr da. Hollywood Hank, der mit JAW *Menschenfeind* aufgenommen hatte und auf *Lache und die Welt weint mit dir* in *Asokacke* zu hören ist, hörte nach 2009 weitgehend mit der Musik auf. 2014 meldete er sich unter einem neuen Namen kurz zurück und verschwand wieder. Er starb am 3. Dezember 2023 in Segovia in Spanien.[^k10-hank]
+Einer aus dem Umfeld ist nicht mehr da. Hollywood Hank, der mit JAW *Menschenfeind* aufgenommen hatte und auf *Lache und die Welt weint mit dir* in *Asokacke* zu hören ist, hörte nach 2009 weitgehend mit der Musik auf. 2014 meldete er sich unter dem Namen Bak Ta Ehli zurück, mit dem Album *True Lies*, und verschwand wieder. Er starb am 3. Dezember 2023 in Segovia in Spanien.[^k10-hank]
 
 Am 12. Juli 2024 veröffentlichten Kollegah und Favorite den Song *Blessed*. Mittendrin fällt ein kurzer Satz: „Rest in Peace Hollywood Hank.“
 
-Mit diesem Satz beginnt dieses Buch.
+Mit diesem Satz beginnt dieser Artikel.
 
 ### Was bleibt
 
@@ -1013,8 +929,593 @@ Am Anfang war das Ende. Und am Ende, das wussten PCP schon 2009, steht der Anfan
 
 ---
 
-## Teil III<br>Die Menschen
+## Teil III<br>Die Alben
 {: #teil-3 .teil}
+
+## Nimms und verreck daran! (2004)
+{: #nimms-und-verreck-daran}
+
+*P-C-P zerstört die Welt, bis alles fällt*<br>
+*Und alles wieder von vorn anfängt*<br>
+– *Einmarsch*, 2004
+{: .epigraph}
+
+Dieses Kapitel geht durch das erste Album. Wie es angekündigt, verschenkt und aufgenommen wurde, steht im Kapitel [„Das erste Album“](#das-erste-album), die vollständige Titelliste mit Produzenten und Gästen in der [Diskografie](#diskografie-nimms).
+{: .dropcap}
+
+<!-- OFFEN: Die Analyse der übrigen 23 Titel folgt, sobald die Texte vorliegen. Pro Lied: Inhalt, Anspielungen, Easter Eggs, Samples, Verweise auf andere Titel. -->
+
+### Das Cover
+
+{% include bild.html src="/assets/bilder/pcp/nimms-und-verreck-daran-cover-vorn.jpg" text="*Nimms und verreck daran!*, Frontcover · [Web Archive](https://web.archive.org/web/20040527175025/http://www.rynerrr.de/album/bilder/angelcoverfront3.JPG)" alt="Frontcover: Ein Engel bläst goldenen Staub aus seinen Händen, darüber PCP in Frakturschrift" seite="rechts" breite="2/5" %}
+
+Das Cover zeigt einen Engel mit Blumenkranz, der aus seinen Händen eine Wolke goldenen Staubs bläst. Darüber steht „PCP“ in Frakturbuchstaben, darunter der Titel in einer gelben Zierschrift. Alles ist in Gelb und Schwarz gehalten.
+
+### Die Rückseite
+
+Die Rückseite ist eines der wichtigsten Dokumente dieser Geschichte, weil sie erhalten ist. Sie war im Februar 2004 als Bild auf der Albumseite eingebunden, und das Web Archive hat sie gesichert.[^k4-rueckseite] Sie zeigt ein vergilbtes Gruppenfoto, auf dem die Musiker drei Fässer Rothaus Pils in den Armen halten, eines davon über dem Kopf, rechts oben ein kleines Porträt, und darüber in Handschrift die Titelliste.
+
+{% include bild.html src="/assets/bilder/pcp/nimms-und-verreck-daran-cover-hinten.jpg" text="*Nimms und verreck daran!*, Rückseite mit Titelliste und Credits · [Web Archive](https://web.archive.org/web/20040510222729/http://www.rynerrr.de/album/bilder/angelcoverbacknsphilouhomepage.jpg)" alt="Rückseite des Albums: gelb eingefärbtes Gruppenfoto mit handschriftlicher Titelliste" %}
+
+Das Album hat 25 Titel. Hinter jedem steht auf dem Cover ein Zeichen, das auf die Credits verweist. Aufgelöst steht die Liste mit allen Produzenten und Gästen in der [Diskografie](#diskografie-nimms).
+
+Dazu kommen ein „CD-Rom Bonus“ und die Zeilen: „alle Texte und raps von JAW, RYNERRR und MAEXER CASH. alle cuts von DJ TJOMA. Executive Supporting Manager: PHILOU. Cover-Design: RYNERRR.“ Ganz unten rechts: „2000 – 2003 Neustadt“.
+
+Einiges an der Titelliste verweist nach vorn. *PCP-Party* stand schon auf *Seelensturm*. *Kuhdreck* hat einen Nachfolger, *Kuhdreck 2*, der fünf Jahre später auf Rynerrrs Album *Symptome* erschien. *Pyralsex* ist das Lied, für dessen Refrain Maexer seinen Beinamen erfand. Und ein Titel heißt *Weisser Dreck*. Ob er mit dem Namen zu tun hat, unter dem die Gruppe später ein Label gründete, lässt sich nicht sagen. Auffällig ist er trotzdem.
+
+Die Titelliste zeigt auch, wie das Album entstand. Von den 20 Musikstücken produzierte Maexer 13, JAW sechs, eines kam von Drecksmann und einem Produzenten namens Mayutsch. Die Gäste kamen aus dem engsten Umkreis: Drecksmann, Aziz, der im Sommer 2004 auch auf einem weiteren Song mit Rynerrr und JAW auftauchte, Maggi, wohl derselbe „Maggoh“ wie auf *Seelensturm*, und eine Rapperin namens Misstress. <!-- PRÜFEN: Maggi = Maggoh? Wer ist Misstress? Wer ist Philou? -->
+
+### Titelliste
+{: #nimms-titelliste}
+
+Die Titel, zu denen eine Besprechung vorliegt, sind verlinkt. Zu den übrigen fehlen die Texte. Die Titelliste nach der Rückseite des Covers, mit Produzenten und Gästen:
+
+| Nr. | Titel | Produktion | Gäste |
+|---|---|---|---|
+| 1 | [Einmarsch](#nimms-01-einmarsch) | Maexer Cash |  |
+| 2 | [Zerhamertier](#nimms-02-zerhamertier) | JAW |  |
+| 3 | Schnauze! | Maexer Cash |  |
+| 4 | Tjoma-Skit A |  |  |
+| 5 | Pyralsex | Maexer Cash | Maggi |
+| 6 | Kuhdreck | Maexer Cash |  |
+| 7 | Terrorkampf | Maexer Cash |  |
+| 8 | Tjoma-Skit B |  |  |
+| 9 | Bitsch | JAW | Drecksmann |
+| 10 | PCP-Skit |  |  |
+| 11 | Respect Crime | JAW | Misstress |
+| 12 | Hurendevilz | Maexer Cash |  |
+| 13 | Saufsidaz | Maexer Cash |  |
+| 14 | Eure Welt | Maexer Cash |  |
+| 15 | Tjoma-Skit C |  |  |
+| 16 | Hurennetz | Maexer Cash |  |
+| 17 | Morgengrauen | Maexer Cash |  |
+| 18 | Vatertagsgeschenk | Mayutsch und Drecksmann |  |
+| 19 | Themenwechsel | Maexer Cash | Misstress und Aziz |
+| 20 | Aye! | Maexer Cash |  |
+| 21 | Kip den Shyz (real) | JAW |  |
+| 22 | Weisser Dreck | Maexer Cash |  |
+| 23 | PCP-Party | JAW |  |
+| 24 | Tjoma-Skit D |  |  |
+| 25 | Kompanie Chaos | JAW |  |
+
+Dazu kommt ein Bonustrack von Maexer, *Euer Scheiß Gemüse*, in dem es ums Fleisch geht und Veganer aufs Korn genommen werden. <!-- PRÜFEN: Schreibweise; Verhältnis zum „CD-Rom Bonus“ auf der Rückseite; Produzent. -->
+
+<!-- OFFEN: Weitere Titel verlinken, sobald ihre Besprechung steht. Anker-Schema: nimms-NN-titel, Überschrift #### mit {: #… .lied}. -->
+
+### Was auf dem Album zu hören ist
+
+Von den 25 Titeln liegen für diesen Artikel zwei als Transkription vor, *Einmarsch* und *Zerhamertier*. Zu den übrigen Titeln fehlen die Texte. <!-- OFFEN: Lyrics der Titel 3–25. -->
+
+#### 1. Einmarsch
+{: #nimms-01-einmarsch .lied}
+
+*Einmarsch* ist ein Manifest. Nach dem Drogeneinspieler wechseln sich Maexer, JAW und Rynerrr in zwölf kurzen Parts ab, jeder vier Zeilen lang, jeder ein Schlag gegen etwas anderes: gegen Eltern, Staat und Banken, gegen Aktienhändler an der Wall Street, gegen Politiker, gegen das Fernsehen, gegen Hip-Hop selbst. JAWs zweite Strophe enthält den Kern dessen, was PCP in den folgenden Jahren immer wieder erzählen sollten:
+
+> P-C-P zerstört die Welt, bis alles fällt<br>
+> Und alles wieder von vorn anfängt[^k4-einmarsch]
+
+Zerstörung als Neuanfang, die Welt auf den Nullpunkt: Das ist das Projekt Chaos aus *Fight Club*, übersetzt in einen Rapsong. Rynerrrs letzter Part zieht eine zweite Linie, die man ebenso ernst nehmen sollte: „Das' nich' Hip-Hop, das' is' Punk“. JAW schließt seinen letzten Part mit einer Absage an alle Herkunftsorte, „Rap aus Deutschland, Rap aus den Staaten / Rap aus Freiburg“, und einer Einladung, die den Titel des Albums wörtlich nimmt: „Nimm PCP und spür' wie dich die Nacht umhüllt“.
+
+#### 2. Zerhamertier
+{: #nimms-02-zerhamertier .lied}
+
+*Zerhamertier* trägt den Namen von Maexers früherem Projekt *Reedram Harritz*; produziert hat es JAW. Es beginnt mit einem Filmzitat, das einen ganz anderen Ton anschlägt: Wir alle fürchteten böse Menschen, aber das Böse habe viele Gesichter, und das fürchterlichste sei die Gleichgültigkeit guter Menschen. Ein Hörer zitierte die Stelle im Forum, und JAW nannte die Quelle: „‚Der blutige Pfad Gottes‘ – Sample übrigens.“[^k4-sample] Der Film heißt im Original *The Boondock Saints* und erzählt von zwei Brüdern, die als Selbstjustizler Verbrecher töten.
+
+Was dann folgt, ist ein Battle-Track in drei Strophen, mit einem Refrain von Rynerrr, der eine einzige Drohung achtmal wiederholt. Er gehört zu den härtesten Stücken des Albums, und es wäre unehrlich, darüber hinwegzugehen. Die Strophen sind voller Gewaltfantasien gegen ein namenloses Gegenüber, dazu kommen Beleidigungen gegen Frauen und Homosexuelle und in Rynerrrs Part eine sexualisierte Gewaltfantasie gegen eine reale Sängerin. Dieser Artikel zitiert diese Stellen nicht. Sie waren Pose und Provokation, so haben die Musiker sie später beschrieben und so haben viele Hörer sie verstanden. Ihre Wiederholung würde nichts erklären.
+
+Interessanter für die Geschichte sind zwei Zeilen, die das Lied datieren. In JAWs Strophe ist von Osama bin Laden und einem „vorhersehbaren“ Rückschlag gegen die USA die Rede. Maexer rappt über „scheiß Lieder gegen Gerhard“, die kein Rettungsanker seien, gemeint ist Bundeskanzler Gerhard Schröder. Zumindest dieser Song ist also nach dem 11. September 2001 entstanden und passt damit zu „2000 – 2003“.
+
+### Anspielungen und Easter Eggs
+
+<!-- OFFEN: Sammlung der Anspielungen, Filmzitate, Namen und Verweise auf Seelensturm, Kuhdreck 2 und andere Werke. -->
+
+## Lache und die Welt weint mit dir (2009)
+{: #lache-und-die-welt-weint-mit-dir}
+
+*Das ist kein Label, das ist der Pranger der Geächteten*<br>
+– JAW, *Weisse Scheisse*, 2009
+{: .epigraph}
+
+Dieses Kapitel geht durch das zweite Album, Lied für Lied. Wie es angekündigt, produziert und aufgenommen wurde, steht im Kapitel [„Das zweite Album“](#das-zweite-album), die Produzenten und Gäste in der [Diskografie](#diskografie-lache). Die [Titelliste](#lache-titelliste) unten führt zu jedem Lied.
+{: .dropcap}
+
+### Das Cover
+
+{% include bild.html src="/assets/bilder/pcp/cover/lache-und-die-welt-weint-mit-dir.jpg" text="*Lache und die Welt weint mit dir*, Cover" alt="Cover: Ein Engel mit roten Haaren bläst eine weiße Staubwolke dem Betrachter entgegen" seite="rechts" breite="2/5" %}
+
+Das Cover nimmt das Motiv des ersten Albums wieder auf. Wieder ist es ein Engel, diesmal eine junge Frau mit Federflügeln und rot gefärbtem Haar, das ihr über die Augen fällt. Sie hält eine Hand vor das Gesicht und bläst dem Betrachter eine weiße Staubwolke entgegen. Auf ihrer Wange ist eine rote Spur, ihr weißes Hemd ist fleckig. Hinter ihr, unscharf, Trümmer. Oben links steht „PCP“ in roten Pinselbuchstaben. laut.de schrieb, das Cover deute „erneut auf die Droge Angel's Dust hin“.[^k8-laut]
+
+Schon der Engel von 2004 blies den Staub aus seinen Händen. Der Engel von 2009 bläst ihn dem Betrachter direkt entgegen.
+
+### Die Rückseite
+
+{% include bild.html src="/assets/bilder/pcp/lache-und-die-welt-weint-mit-dir-cover-back.jpg" text="*Lache und die Welt weint mit dir*, Rückseite mit Titelliste und Logos" alt="Rückseite der CD: Titelliste in roter Schrift links, rechts eine junge Frau mit Flügeln vor einem feurigen Licht, unten die Logos von Weisse Scheisse und FM Recordz" %}
+
+Die Rückseite zeigt offenbar dieselbe Figur wie die Vorderseite, jetzt im Halbbild und mit Blick nach vorn: dunkles Haar, ein Flügel aus Fell oder Federn hinter der Schulter, ein feuriges Licht im Hintergrund, unter dem Auge eine dunkle Spur, die über die Wange läuft. Links steht die Titelliste in einer gelben Pinselschrift, die Nummern in Rot. Sie bestätigt die zwanzig Titel und ihre Reihenfolge, auch den neunzehnten, der nur aus drei Punkten besteht. Bei vier Titeln stehen Gäste: *Asokacke* mit Hollywood Hank, *Punkrockbaby* und *Engelsstaub* mit Me\$\$age, *Kommt Ran!* mit Peter Maffya.
+
+Unten stehen die Logos von Weisse Scheisse und von FM Recordz, daneben der Hinweis „Compact Disc Digital Audio“, ein Label-Code (LC 10239), das Zeichen der GEMA und ein Strichcode. Anders als 2004, als sich die Musiker mit Bierfässern fotografieren ließen, kommt die Gruppe auf dieser Rückseite nicht vor. Produzenten und weitere Credits stehen nicht darauf. <!-- OFFEN: Welche Rolle hat FM Recordz (Vertrieb, Presswerk)? Booklet und Innenseiten abbilden, falls vorhanden. -->
+
+### Ein Album als Kreis
+
+Schon die Liste erzählt das Konzept. Die ersten beiden Titel ergeben zusammen „Am Anfang… war das Ende“, die letzten drei „Am Ende war … Der Anfang“. Das Album ist ein Kreis. laut.de fasste es in einem Satz: „Am Anfang war das Ende, am Ende folgerichtig der Anfang, und zwischendrin beweint die Welt das eigene Lachen.“[^k8-laut] Zwischen Ende und Anfang finde „die Neuordnung der Gesellschaft statt“.
+
+Das ist das Programm des ersten Albums, nur größer erzählt. 2004 hieß es in *Einmarsch*, PCP zerstöre die Welt, „bis alles fällt / Und alles wieder von vorn anfängt“. 2009 ist daraus ein ganzes Hörspiel über den Weltuntergang geworden.
+
+Grob lässt es sich in drei Teile gliedern. Die ersten vier Titel kündigen den Untergang an und stellen Gruppe und Label vor. Von *Nimm die Welt wie sie ist* bis *Rinderbraten* (5 bis 14) steht die Welt noch, und die Musiker saufen, schimpfen und machen Witze, vor allem über sich selbst. Mit *Maschinen* (15) beginnt der Schluss, der vom Ende handelt. Er hält sich allerdings nicht an die Chronologie: *Engelsstaub* (17) spielt Jahre nach dem Knall, in Bunkern und Luftschleusen, *Am Ende war* (18) am Tag des Knalls selbst, *Der Anfang* (20) am Morgen danach. Das Album springt am Ende in der Zeit, und das macht den Kreis erst rund.
+
+### Titelliste
+{: #lache-titelliste}
+
+Die Titel führen zur jeweiligen Besprechung weiter unten. „Alle vier“ steht für Rynerrr, JAW, Maexer und Private Paul. Die Spalte nennt, wer auf dem Stück rappt, soweit die Texte es zuordnen lassen; bei einzelnen Parts ist die Zuordnung offen. Produzenten und Gäste stehen in der [Diskografie](#diskografie-lache).
+
+| Nr. | Titel | Rap |
+|---|---|---|
+| 1 | [Am Anfang…](#lache-01-am-anfang) | Cuts von DJ Tjoma |
+| 2 | […war das Ende](#lache-02-war-das-ende) | alle vier |
+| 3 | [Kein Zurück](#lache-03-kein-zurueck) | alle vier |
+| 4 | [Weisse Scheisse](#lache-04-weisse-scheisse) | JAW, Rynerrr, Private Paul |
+| 5 | [Nimm die Welt wie sie ist](#lache-05-nimm-die-welt-wie-sie-ist) | JAW, Maexer, Rynerrr |
+| 6 | [Asokacke](#lache-06-asokacke) | Rynerrr, Maexer, Hollywood Hank, JAW |
+| 7 | [Bierliebe](#lache-07-bierliebe) | alle vier |
+| 8 | [Spiel mir das Lied vom Dach](#lache-08-spiel-mir-das-lied-vom-dach) | Private Paul, JAW und weitere |
+| 9 | [Punkrockbaby](#lache-09-punkrockbaby) | Private Paul, JAW, Me\$\$age und weitere |
+| 10 | [Private Paul](#lache-10-private-paul) | Private Paul, JAW |
+| 11 | [Lache und die Welt weint mit dir](#lache-11-lache-und-die-welt-weint-mit-dir) | alle vier |
+| 12 | [Harter Tag](#lache-12-harter-tag) | JAW |
+| 13 | [Kommt Ran!](#lache-13-kommt-ran) | Rynerrr, JAW, Private Paul, Peter Maffya |
+| 14 | [Rinderbraten](#lache-14-rinderbraten) | Rynerrr |
+| 15 | [Maschinen](#lache-15-maschinen) | Rynerrr, JAW, Private Paul und ein weiterer |
+| 16 | [Schmetterling](#lache-16-schmetterling) | JAW, Private Paul, Rynerrr |
+| 17 | [Engelsstaub](#lache-17-engelsstaub) | Maexer, Rynerrr, Me\$\$age, JAW |
+| 18 | [Am Ende war](#lache-18-am-ende-war) | alle vier |
+| 19 | […](#lache-19-drei-punkte) | Maexer |
+| 20 | [Der Anfang](#lache-20-der-anfang) | alle vier |
+
+<!-- PRÜFEN: Zuordnung der Parts in 8 (Parts 2 und 3, Refrain), 9 (Parts 3 und 4), 15 (Part 3) und der Hooks in 4 und 8. Auch die Kopfzeilen der einzelnen Besprechungen anpassen, wenn sich etwas ändert. -->
+
+### Lied für Lied
+
+Die Besprechungen folgen der Reihenfolge des Albums. Jede sagt, was in dem Stück passiert, und sammelt, was sich an Anspielungen, Samples und Verweisen finden ließ. Die Texte sind nach Gehör transkribiert.[^k8-lyrics] Zu einigen Zeilen liegen Annotationen vor, die zum Teil aus öffentlichen Textsammlungen stammen;[^k8-anno] wo sich eine Besprechung auf sie stützt, steht das dabei. Wie im Kapitel zum ersten Album werden die schlimmsten Gewaltfantasien und Beleidigungen nicht zitiert, sondern benannt. Querverweise auf Lieder des Albums sind Links zurück in diese Liste.
+
+#### 1. Am Anfang…
+{: #lache-01-am-anfang .lied}
+
+Cuts von DJ Tjoma, Sprecher aus einem Film
+{: .steckbrief}
+
+Das Album beginnt mit einer Stimme im Ton eines Nachrichtensprechers. Er werde versuchen, mit dieser Notsendung so lange weiterzumachen, wie man sich hier halten könne. Die Stadt sei fast vollständig verlassen, Notdienste gebe es nicht mehr, ein Feuer breite sich unkontrolliert aus. Ein sinnloses Morden habe sich auf jedes Land der zivilisierten Welt übertragen, jede Stunde würden mehr Menschen davon erfasst. Wer noch nicht betroffen sei, solle sich verstecken und niemandem trauen, nicht einmal Freunden oder der eigenen Familie.
+
+Die Stimme stammt aus John Carpenters Horrorfilm *Die Mächte des Wahnsinns* (*In the Mouth of Madness*, 1994), dem dritten Teil seiner Apokalypse-Reihe nach *Das Ding aus einer anderen Welt* und *Die Fürsten der Dunkelheit*. Die Szene steht ganz am Ende des Films.[^k8-anno] Das Album fängt also dort an, wo der Film aufhört.
+
+Danach folgt eine Collage aus Scratches von DJ Tjoma, die jede Stimme mit einer Zeile vorstellt: „Du kanntest Private Paula, jetzt kennst du Private Paul“, eine Warnung, sich besser nicht mit „Maexer, Cash“ anzulegen, und am Ende ein Satz, der das Motto des Albums sein könnte: „PCP für Leute die ich hass', also für alle“. Fast jede Zeile ist ein Selbstzitat, die Collage also ein Schnelldurchlauf durch das, was die Gruppe vorher gemacht hatte:[^k8-anno]
+
+- „Ich hab Gott im Herz doch den Teufel im Kopf sitzen“ stammt aus *Punkrapper*, einem Lied von Rynerrrs *Symptome* (2008).
+- „Du kanntest Private Paula, jetzt kennst du Private Paul / Er sieht genauso scheiße aus und ist genauso scheiße drauf“ stammt aus dem Titel [*Private Paul*](#lache-10-private-paul) auf diesem Album.
+- „Die Erde brennt, und die Hölle bahnt sich den Weg unterm Firmament“ stammt aus JAWs *Bis zum Ende* auf dem Mixtape *Gehirn im Mixer* (2007).
+- „Es gibt kein Glück, nur jede Menge Scheiß / Und ich bin der lebende Beweis“ kehrt 2010 in *40%* auf Private Pauls *Emopunkrap* wieder.
+- „PCP für Leute die ich hass', also für alle“ stammt aus *PCP-Party*, dem ersten PCP-Lied, veröffentlicht auf JAWs EP *Seelensturm*, damals noch ohne Private Paul.
+
+Die Zeile „Ich bin auch nur organischer Abfall mit 'nem Gehirn / Und 'ner Seele, auf der ihr rumtrampelt, bis sie dran stirbt“ nimmt ein Bild aus dem ersten Album auf und dreht es um (siehe [„Die Texte“](#die-texte)). Hinter dem Bild steht vermutlich *Fight Club*: Tyler Durden sagt dort, der Mensch sei nichts als verrottende organische Materie wie alles andere. <!-- PRÜFEN: Wortlaut und Stelle in der deutschen Fassung. -->
+
+#### 2. …war das Ende
+{: #lache-02-war-das-ende .lied}
+
+Rynerrr, JAW, Private Paul, Maexer
+{: .steckbrief}
+
+Der zweite Titel ist der erste Song, und er stellt die vier Rapper nacheinander vor, jeden mit seiner eigenen Art, über den Untergang zu sprechen.
+
+[Rynerrr](#rynerrr) eröffnet mit einem Trinkspruch auf den Untergang. Dann kommt das Bild, aus dem der Labelname eine Mythologie macht: „Weisse Scheisse“ sammle sich und quelle „langsam aus den Gullis“, fließe durch alle Straßen und reiße Wände ein. Seine Strophe endet mit dem Satz, um den das ganze Album kreist: „Die Welt geht auf in Flammen, doch das Ende wird der Anfang sein“.
+
+[JAW](#jaw) beschreibt eine „nukleare Wärme“, die „diese Scheiß-Menschheit seit Nagasaki nicht kennt“, schmilzt Modelle „von Maserati bis Benz“ und kündigt Volksaufstände, die letzten Fälle der Kommissare und „ein stilles schmerzbefreites Ende“ an. Die Atombombe ist damit im ersten Song gesetzt, und sie wird in den letzten Titeln zurückkehren. [Private Paul](#private-paul) erzählt von einem Alltag „zwischen saufen und Frauen ficken und Arbeitsamt“, und er bekommt den Satz, der das Label zusammenfasst: „Das ist weiße Scheiße, der Rest ist nur Dreck“. [Maexer](#maexer) wechselt in einen anderen, fast biografischen Ton: Man sei noch jung, und Ideale seien noch etwas wert. Er stehe „nicht hinter dem Staat“, und: „Alleine bin ich schwach, in Gruppen bin ich stark“. Sein letzter Satz kehrt das Bild vom Anfang um. Aus dem Dreck, der bei Rynerrr die Straßen flutet, wird Dünger: „Man erstickt alles in Scheiße und sieht dann was neu entsteht“.
+
+Am Ende des Tracks spricht wieder eine Filmstimme, diesmal begeistert: Der Boss habe einen absolut coolen Plan, „diese Weiße Scheiße“ sei brillant. Brüder und Schwestern, gehen wir es an. <!-- LÜCKE: Herkunft dieses Samples. -->
+
+#### 3. Kein Zurück
+{: #lache-03-kein-zurueck .lied}
+
+Rynerrr, Maexer, JAW, Private Paul
+{: .steckbrief}
+
+*Kein Zurück* hat acht Strophen, jedes Mitglied rappt zweimal, dazwischen steht Rynerrrs Refrain. Rynerrrs erste Zeile ist eine Antwort auf fünf Jahre Wartezeit: „Wir sind leider nicht back, wir sind nur immer noch da“. Wenig später kommt ein Seitenhieb auf die Rapszene, „So viel zum Thema ‚so fresh and so clean‘“, benannt nach einem Titel von OutKast. Es gebe kein Zurück mehr, singt er im Refrain, hier verzeihe niemand niemandem. Die letzte Zeile widerspricht dem gleich: Das Glück währe „ab heute nur noch wenn wirs verzeihen“.
+
+Maexers Strophen sind die der Leistungsverweigerung: „scheiß auf Leistungsgesellschaft!“, und die Pointe, dass er ja gern etwas leisten würde: „Zeigt mir was, was mir was abverlangt“. In der zweiten rechnet er eine Karriere durch, die „mit 50, an ’ner Herzattacke“ endet. Mehr dazu im Abschnitt „Gegen die Arbeit“ im Kapitel [„Die Texte“](#die-texte).
+
+JAW kommentiert in einer Zeile das Verhältnis der Gruppe zur Szenepresse: „Hierfür gibt es keine Krone in der Juice“. Die Juice vergab für Kritiken Kronen, und sie hatte JAW und Rynerrr drei Jahre vorher als „Demo des Monats“ geadelt. In seiner zweiten Strophe stehen zwei Zeilen, die zu den nachdenklichsten des Albums gehören:
+
+> Du bist nicht hart, wenn du wahllos jedem aufs Maul schlägst<br>
+> Sondern wenn du, trotz aller Narben, jeden Tag aufstehst
+
+Private Paul, der als Neuzugang zwei Strophen bekommt, sagt in der ersten „Scheiß auf die Menschheit“, jemand ruft „Gib mir ’n roten Knopf!!“, und er antwortet: „Ich tu es!“ Der Knopf kehrt am Ende des Albums zurück, in [*Der Anfang*](#lache-20-der-anfang). In seiner zweiten Strophe holt er „die Fahnen wieder raus“ und spricht vom „gelobten Land, das Projekt Chaos Paradies“. Er zweifelt dort auch am eigenen Erfolg: Wenn „diese scheiß Platte“ seinem Portemonnaie kein Geld bringe, gebe es „Molotowcocktail-Partys“.
+
+Und Rynerrr schließt mit einem Bild, das laut.de als Beispiel zitierte: Wenn heute „Leute mit dem Panzer“ durch das Kanzleramt führen, wisse die ganze Welt Bescheid, „Projekt Chaos Punks am Start!“ Den Refrain hielt laut.de allerdings für „dreist von Cake geklaut“. Sie zählte *Kein Zurück* neben *Maschinen* zu den Schwächen des Albums.[^k8-laut]
+
+#### 4. Weisse Scheisse
+{: #lache-04-weisse-scheisse .lied}
+
+JAW, Rynerrr, Private Paul
+{: .steckbrief}
+
+Der vierte Titel trägt den Namen des Labels, und er ist die Hymne des Albums. JAW beginnt: „Das ist kein Label, das ist der Pranger der Geächteten“. Der Refrain erzählt von etwas, das sich „aus dem Dreck der Welt“ erhebt und auf dessen Emblem „Weiße Scheiße“ steht, von Vogelfreien und einem Heer „bemannt mit Deutschlands Punks“, das mit Fahnen durch die Straßen zieht, „Der Untergang für den Neuanfang“. Die Fahnen, die bei Private Paul in [*Kein Zurück*](#lache-03-kein-zurueck) „wieder rausgeholt“ wurden, hängen hier im Refrain.
+
+JAWs Strophe richtet sich an die Hip-Hop-Szene. Er nennt die Backspin, spottet über den Gruß „One Love“ und braucht nach eigener Aussage keinen „Shukobeat“, um zu sagen, dass ihm alles egal ist. Der Rest ist eine Gewaltfantasie gegen eine angesprochene Frau, in der man die Szene sehen kann. <!-- PRÜFEN: Shukobeat = Produzent Shuko? -->
+
+Private Pauls Strophe enthält die Zeile, die laut.de als Überschrift über seine Kritik setzte: „Das ist kein Label, das ist ein Haufen Trunkenbolde“. Es ist dieselbe Wendung, mit der JAW den Titel eröffnete, und die beiden Fortsetzungen könnten kaum weiter auseinanderliegen: erst der Pranger der Geächteten, dann die Kneipe. Er singt von der Labelkasse, aus der er trinke, von einer Jam, die endet, weil „die besoffenen Rapper die Gäste hauen“, und ruft das erste Lied der Gruppe auf: „Ist es PCP-Party“. Er schließt mit einer Zählung: „Ein Phänomen, das es nur viermal gibt“. Gemeint sind die vier Rapper des Labels, auch wenn in den Strophen nur drei von ihnen rappen.
+
+Rynerrrs Strophe ist eine Fantasie in zwei Teilen. Er geht „eines Tages“ zur Arbeit wie immer und schlägt den Chef tot, plündert den Safe, wirft „Fuffies durch den Club“ und probiert eine Panzerfaust am Haus des Bundeskanzlers aus. „Ich mach alles kaputt, wie früher als Kind beim Playmobil spielen.“ Er schließt: „Warum? Weil ich ein von Gott verdammtes Stück Weiße Scheiße bin“.
+
+Zu *Weisse Scheisse* entstand ein Musikvideo. Der erste Drehversuch endete, so erzählte Rynerrr, mit einer „Polizei-Vertreibung sowie einer Hausfriedensbruchanzeige“. Danach saß man mit dem Kameramann in einer Kneipe in Freiburg und überlegte, ob man auch zu *Bierliebe* ein Video drehen solle. „Meine Erinnerung setzt da aus und erst am nächsten Abend wieder ein.“[^k8-mzee]
+
+Für das Video änderte Rynerrr seinen Part. Auf dem Album ist der Originalpart zu hören. Seine Begründung ist eine der wenigen Stellen, an denen ein Mitglied von PCP über die Wirkung seiner Texte spricht:
+
+> Begründung ist, dass der Originalpart, rausgerissen aus dem Gesamtkonzept des Albums, zu gewaltverherrlichend und unreflektiert rüberkommen kann. Und da Videos ja gerne mal eine etwas größere, unwissendere Masse erreichen als die Alben, wollte ich da ausnahmsweise mal ein wenig Verantwortungsbewusstsein vortäuschen … bzw. ich hab kein wirkliches Interesse daran, dass Leute in ihren Schulen rumballern und nebenbei Rynerrr-Parts auf dem MP3-Handy pumpen.[^k8-mzee]
+
+Das Interview erschien im September 2009, ein halbes Jahr nach dem Amoklauf von Winnenden.
+
+#### 5. Nimm die Welt wie sie ist
+{: #lache-05-nimm-die-welt-wie-sie-ist .lied}
+
+JAW, Maexer, Rynerrr, Refrain von Maexer
+{: .steckbrief}
+
+Das Stück lebt von einem Wortspiel in Maexers Refrain: Erst heißt es „Scheiß auf die Welt, wie sie ist!“, dann im selben Atemzug „Nimm die Welt, wie sie ist, auseinander!“. Man soll die Welt also nehmen, wie sie ist, nämlich „auseinander“.
+
+JAWs Strophe ist eine Reihe von Pointen aus dem Alltag, von „kontrollierten Anfällen“ über das „Grillen an ’ner Tankstelle“ bis zu MySpace. Dazwischen stehen die Namen von 2Pac und Proof, zwei erschossenen Rappern. Er schließt mit einem Satz, der das Projekt als Film beschreibt: Zum Ende der Zeit drehe das Projekt Chaos „’nen eig’nen Film“. Der Film kommt später im Album zurück, wenn sich in [*Schmetterling*](#lache-16-schmetterling) die Menschen in „Splatterstatisten“ verwandeln.
+
+Maexers Strophe ist ein Selbstgespräch über Arbeit und Sucht. Er brauche „so viel Zeug um die Gründe zu ertränken“, die ihn daran hindern, „dass ich meinem Wissen Freizeit schenke“. Gegen Ende widerruft er den Refrain fast: „Die Dinge ändern sich, Arbeit kann auch wichtig sein / PCP ist keine Garantie auf Richtigkeit“.
+
+Rynerrr gibt in seiner Strophe offen zu, worum es geht: „Du lauschst grad sehr gespannt und suchst vergeblich nach der Aussage / Doch in diesem Lied gehts nur darum dass ich besoffen bin“. Dazwischen steht eine seiner politischsten Zeilen: „Dieses Land spricht eine Sprache: Staat gleich Vater, Sohn gleich Sklave“. Er ärgert sich, dass „einige Punker“ den Dreck nicht verstehen, und fordert sie auf, „mit PCP fleißig Crack ins System“ zu schaufeln. Es endet mit einer Herausforderung: „Und dann werden wir ja sehen wer als letztes noch steht“. Der Letzte, der steht, kommt im nächsten Stück wieder, im Refrain von [*Spiel mir das Lied vom Dach*](#lache-08-spiel-mir-das-lied-vom-dach).
+
+#### 6. Asokacke
+{: #lache-06-asokacke .lied}
+
+Rynerrr, Maexer, Hollywood Hank, JAW; Refrain von JAW und Maexer
+{: .steckbrief}
+
+*Asokacke* ist das Stück mit [Hollywood Hank](#hollywood-hank), und es hat den klügsten Bau des Albums. Rynerrr stellt eine Kette von Fragen, die alle mit „Warum“ beginnen. Der Refrain, den JAW und Maexer sprechen, beantwortet sie nicht, er winkt ab: „Denk noch lange drüber nach was der Typ da sagte / Aber ganz ehrlich: Was der sagt ist Asokacke“. Die letzte Frage in Rynerrrs Strophe liefert diese Antwort gleich selbst: „Und warum ist alles was ich laber’ Asokacke?!“
+
+Rynerrrs Fragen sind die eines Aussteigers: warum ihm jeder Job nach einer Weile beschissen vorkomme, warum er nicht mehr Sinn im Studium sehe als darin, bei den „Sehern Ruf“ zu farmen, „bis ich ehrfürchtig bin“, warum er kein Geld, kein dickes Auto und kein Haus wolle, nicht erfolgreich sein und nicht bausparen, „sondern nur einen Ausgang“. Der Ruf bei den Sehern und das „Ehrfürchtig“ sind ein Verweis auf *World of Warcraft*, in dem Rynerrr, wie seine Bandbiografie sagt, viel Zeit verbrachte. In Maexers Strophe stehen „zwei Bier in mein’ Händen“, und er sagt dazu: „Das bringt die Wende nicht, das macht das Warten besser“.
+
+Hanks Fragen sind härter, voller Gewalt und Menschenhass. Er fragt auch, warum er seine Fans hasse und warum er „darauf so zu denken auch noch stolz“ sei.
+
+JAW antwortet am Schluss mit einer Strophe, die nicht mehr provoziert, sondern klagt. Sie beginnt wie der Refrain, „Ich denk nicht lange drüber nach, was dieser Typ mir sagt“, und biegt dann ab: „Meine Musik ist kein Geschenk für die Menschen / Sondern traurige Klaustrophobie im Gedränge von Engeln“. Der Satz „Oft versuch ich zu lachen, aber der Witz zerbricht mich“ lässt sich als Kommentar zum Albumtitel lesen.
+
+#### 7. Bierliebe
+{: #lache-07-bierliebe .lied}
+
+Maexer, JAW, Rynerrr, Private Paul; Refrain von JAW
+{: .steckbrief}
+
+*Bierliebe* ist ein Liebeslied an das Bier, und es ist so gebaut, dass man es ein Stück weit auch als echtes hören kann. Eingeleitet wird es von einem englischsprachigen Gesangssample, in dem jemand dem Geliebten sagt, er werde ihn eines Tages zurückwollen. Es stammt aus dem Song *You’re Gonna Need Me* der Sängerin Dionne Warwick.[^k8-anno] Gewissermaßen singt das Bier zu ihm, und der Refrain, in dem JAW verspricht, „immer wieder zurück“ zu kommen, ist die Antwort darauf. Die Annotation liest den Refrain so, dass „was immer du getan hast“ eigentlich meint, was er selbst getan hat; weil er betrunken war, schiebt er dem Bier die Schuld zu.
+
+Rynerrr erklärte, dass es den Song in anderer Form schon gab: Auf seinem Album habe der Track „exakt der gleiche übrigens, nur anderes Instrumental“, laut YouTube aber „Eierliebe“ geheißen.[^k8-mzee] Schon Ende 2007 lobten Fans auf Maexers MySpace-Seite ein Stück namens *Bierliebe* (siehe [Maexer](#maexer)), und auf Rynerrrs *Symptome* steht es ebenfalls, mit JAW und Maexer. 2010 erschien dann auch ein Video, mit allen vier Rappern, wie es die Heizipedia führt.[^t-heiz]
+
+Maexer beginnt mit einem Morgen, an dem ihn „zwei Becher in der Ecke“ anlächeln und „die Welt gerettet“ ist. Er lade nur Leute ein, die nicht austrinken, das seien „gute Freunde, die man nicht versteht aber braucht“. „Ich lieg auf dem Boden herum, doch du stehst senkrecht zu mir“, heißt es dann, ein Doppelsinn: Das Bier steht aufrecht, und es „steht zu ihm“, wie man zu jemandem steht, den man trotz seiner Fehler nicht im Stich lässt.[^k8-anno]
+
+JAW stellt sich in seiner Strophe mit den Worten vor: „Bier! My name is Dokta Jotta, I’m an alcoholic“. Das ist die Begrüßungsformel der Anonymen Alkoholiker, die auch Eminem in *Just Don’t Give a Fuck* mit seinem bürgerlichen Namen benutzt hat.[^k8-anno] Und doch steckt in derselben Strophe die Zeile, dass er „kein starker Mensch“ sei. Rynerrr zählt seine Liebeserklärungen auf, bis hin zur tätowierten Leber, und schließt: „Ich kann mir wirklich alles vorstellen, nur kein Leben ohne Bier“.
+
+Private Pauls Strophe spielt mit dem Bild der Prinzessin: „Weil du ohne Krone meine Königin bist / Und die Krone kommt wieder, wenn du dein Kleid ablegst“. Nach einer Genius-Annotation, die laut den Notizen des Autors von Private Paul selbst stammt, ist „ohne Krone“ die Flasche ohne Kronkorken, das „Kleid“ die Flasche, die beim Eingießen abgelegt wird, und die Krone, die wiederkommt, die Schaumkrone.[^k8-anno] Seine Strophe endet mit den Worten „Wo bist du hin, Baby, ich will ich zurück“.
+
+#### 8. Spiel mir das Lied vom Dach
+{: #lache-08-spiel-mir-das-lied-vom-dach .lied}
+
+Private Paul, JAW und weitere; Refrain von Maexer
+{: .steckbrief}
+
+*Spiel mir das Lied vom Dach* ist im Titel ein Kalauer auf den Western *Spiel mir das Lied vom Tod*, im Stück ein Zerstörungsrausch in vier Strophen. Im Refrain heißt es: „Alles reizt mich, alles reiß ich nieder / Treibt den Pegel auf die Spitze, PCPunks brennt das Dach nieder“, und die letzte Zeile, „Der Letzte, der steht, entzündet den Haufen“, nimmt Rynerrrs Herausforderung aus [*Nimm die Welt wie sie ist*](#lache-05-nimm-die-welt-wie-sie-ist) wieder auf. Am Ende scratchen die Cuts eine Zeile, die auf den Song *The Roof Is on Fire* anspielt. <!-- PRÜFEN: Welche Fassung (Rock Master Scott & The Dynamic Three, 1984, oder Bloodhound Gang, *Fire Water Burn*) wird gescratcht? Cuts anhören. -->
+
+Das Stück hat keine Handlung. Jede Strophe ist ein kleiner Film, in dem jemand durch eine Stadt zieht und alles zerlegt, was sich ihm in den Weg stellt: Gartengeräte, ein Haus, ein Auto, ein Supermarkt. Eine Strophe zeigt, wie das gemeint ist. Der Rapper zerschießt dem Jungen den Fußball, wirft eine Wasserbombe voller Kot in ein Cabrio und fährt mit dem Einkaufswagen Kunden um, die „wie Kegel“ fallen. Das ist die Slapstick-Gewalt, die im Kapitel [„Die Texte“](#die-texte) beschrieben wird.
+
+Private Paul erklärt gleich in der ersten Strophe, was ein „Projekt-Chaos-Punk“ sei: Sobald die Fackel entflammt ist, könne er es zeigen. Der Rest dieser Strophe enthält Witze, die dieser Artikel nicht wiedergibt.
+
+JAWs Strophe beginnt „im Nebel des Angeldusts“, und in ihm halle die *Carmina Burana*, Carl Orffs Chorwerk, dessen „O Fortuna“ zum Inbegriff des Epischen geworden ist. Wenig später wirft er „Napalm auf den Bohrturm“. laut.de zählte das Stück zu den Höhepunkten des Albums.[^k8-laut]
+
+#### 9. Punkrockbaby
+{: #lache-09-punkrockbaby .lied}
+
+Private Paul, JAW, Me\$\$age und weitere
+{: .steckbrief}
+
+*Punkrockbaby* hat den simpelsten Refrain des Albums: „Dadadada, Bier leer / Dadadada, Bier her“, dazu die Zeile „Bring mir was, ich trinke alles, was brennt“. Es ist das Stück, das die Gruppe als Band zeigt, wie sie sich selbst sieht: „PCP, die Band, die ihre Fans mit Flaschen bewirft“, mit „Massenselbstmord auf der Bühne und die Waffe ist Bier“. Auf Tour, heißt es weiter, bezahle man für Bus und Bahn nichts, „weil man uns für Pflegefälle hält“.
+
+Der erste und der vierte Part beginnen fast gleich. Erst: „Ich nehm die Pille vom Arzt, dann die Klinge vom Arm / Denk, dank Kindern und Charts bin ich bald Klingeltonstar“. Dann, im vierten Part: „Ich sehe Kinder in Charts und ritz mir Notizen in’ Arm / Dank der Pillen vom Arzt bin ich bald Klingeltonstar“. Der vierte Part spiegelt also den ersten, ob vom selben Rapper oder als Antwort, ist offen. Beide Fassungen setzen Selbstverletzung und die Klingelton-Charts der Zeit in einen Satz, und sie sind einer der Punkte, an denen die Satire ernst wird. <!-- PRÜFEN: Wer rappt Part 3 und Part 4? Wo kommt Me$$age vor? -->
+
+JAW stellt sich in seinem Part als Gastgeber einer Party „mit Leichen“ vor und endet bei der Idee, dass man in der Anarchie nicht destruktiv sei, wenn man alles verloren habe: „Denn wer alles verliert, der fühlt sich im Chaos nicht destruktiv“. Der Satz klingt wie ein Zitat aus *Fight Club*, in dem Tyler Durden sagt, erst wenn man alles verloren habe, sei man frei, alles zu tun. Der vierte Part streut Namen und Anspielungen ein, die sich nicht alle einordnen ließen, und endet mit einer Bombe, die „die Location in einem Atompilz“ verschwinden lässt. <!-- PRÜFEN: Namen in Part 2 und 4 (Grup Tekkan, Movassat, Eko, Rati) einordnen. -->
+
+#### 10. Private Paul
+{: #lache-10-private-paul .lied}
+
+Private Paul, JAW (Refrain und Skit)
+{: .steckbrief}
+
+*Private Paul* ist ein Lied, das sein Sprecher über sich selbst geschrieben hat, und zwar als Diss, den er in der dritten Person vorträgt. [Paul](#private-paul) stellt sich als „Gesicht, das keinen Namen hat“ vor, als einen Kerl, „der seine Drinks immer selbst bezahlt“, dessen EP „mehr Features als Hörer hat“, und der „bei Jotta immer im Backstage sitzt“. Dann kommt die Auflösung: „Ja, es ist der Kash aus dem Kollegaa-Battle“. Gemeint ist offenbar ein Battle gegen Kollegah (siehe [Private Paul](#private-paul)). Im Refrain fragt JAW, „Wer ist diese geile Sau?“, und die Antwort „Private Paul“ folgt jeweils in Klammern.
+
+Den Namen erklärt die zweite Strophe in der Zeile, die schon im Intro des Albums zu hören ist: „Du kanntest Private Paula, jetzt kennst du Private Paul“. Der Name spielt auf den gequälten Rekruten aus Stanley Kubricks *Full Metal Jacket* an, der in der deutschen Fassung „Private Paula“ heißt. Die Strophe ist dann ein Katalog der Selbstverachtung: Er schneide sich „Zeug in die Arme“, weil er für ein echtes Tattoo „deutlich zu arm“ sei, seine Beats würden „wortlos weggeskippt“, und er bete, „dass er eines Tages nicht mehr lebt“. Und sie erklärt in einem Nebensatz, warum das Album so spät kam: „Wegen diesem Track kam das Album nicht im Mai“. Rynerrr erzählte später, Paul habe damit Mai 2008 gemeint (siehe [„Das zweite Album“](#das-zweite-album)).
+
+Die dritte Strophe bricht nach wenigen Zeilen ab, mit „Und JAW says:“ beginnt ein Skit. JAW stellt Paul im Studio zur Rede, warum er aufnehme, obwohl man in zwei, drei Wochen fertig sein müsse. Paul antwortet, er nehme einen Track für das Album auf. JAW wirft ihn hinaus: „Kannst du dich bitte einfach verpissen?“ Hier wird die Hierarchie der Gruppe als Gag hörbar: der Gründer und sein Neuzugang. laut.de lobte das Stück besonders.[^k8-laut]
+
+#### 11. Lache und die Welt weint mit dir
+{: #lache-11-lache-und-die-welt-weint-mit-dir .lied}
+
+JAW, Maexer, Rynerrr, Private Paul
+{: .steckbrief}
+
+Der Titeltrack ist der Moment, in dem das Album seinen Titel erklärt, und er tut es mit einem Zitat. Der Refrain nimmt *I Started a Joke* auf, das Lied der Bee Gees von 1968: Zwei englische Zeilen daraus stehen in Klammern, dazwischen setzt die Gruppe zwei deutsche: „Doch die Welt lacht nicht mit und sie fällt in die Helligkeit des Lichts“ und „Denn der Mensch weint erst, wenn ihn die Welt enterbt!“ Die „Helligkeit des Lichts“, in die die Welt fällt, lässt sich als Atomblitz lesen, wie ihn [*Am Ende war*](#lache-18-am-ende-war) später zeigt.
+
+Der Albumtitel selbst dreht ein bekanntes Sprichwort um. „Lache, und die Welt lacht mit dir; weine, und du weinst allein“, schrieb Ella Wheeler Wilcox 1883 in ihrem Gedicht *Solitude*.[^k8-wilcox] PCP lassen die Welt weinen, wo sie lachen sollte. Wie Maexer auf den Titel kam und wie Rynerrr ihn deutet, steht im Kapitel [„Das zweite Album“](#das-zweite-album).
+
+Die vier Strophen sind vier Arten zu lachen. JAW beginnt: „Ich bin ein Menschenfeind“, der Titel seines Albums mit Hollywood Hank, das zwei Monate vorher erschienen war. Er bietet „verkohlte Ente“ beim „Candle-Light-Dinner“ auf dem Grab an und erzählt von einem Witz, der „euch das Gift durch die Wasserwerke“ spült. Maexer spielt einen Bösewicht aus dem Zeichentrick, der „Familien von Rindern“ überfährt, „mit brüllenden Lachen vor weinenden Kindern“, und sich über die kaputte Wirtschaft freut: „Ich scheiß’ auf meine Kohle, nur um das zu sehen!“ Rynerrr erzählt als Einziger eine Geschichte: Er wacht in seiner Kotze auf, holt sich beim Amt 8 Euro, die „reichen, um einen Monat zu wohnen“, sitzt auf Parkbank Nummer 8, freut sich auf den Pfannkuchentag bei der Caritas und lernt eine Frau kennen, die „auch besoffen“ ist. Es ist eine der zärtlichsten und traurigsten Strophen des Albums. Private Paul schließlich frisiert sich im Rückspiegel „bei zweihundert Km/h“, kifft, „bis ich nicht mehr kann“, und liefert „flache Parts wie ein Pizza-Mann“. Er schließt: „Ich hab’ den Part fertig – immerhin“.
+
+#### 12. Harter Tag
+{: #lache-12-harter-tag .lied}
+
+JAW
+{: .steckbrief}
+
+*Harter Tag* ist der ruhigste Titel des Albums. JAW rappt allein, eine Strophe lang, ohne Refrain. Es ist zwei Uhr nachts, er kann nicht schlafen, „körperlich am Ende, doch Gedanken versklaven“. Die Bilder in seinem Kopf verlockten ihn jeden Abend zum „Pillenschmeißen“. Um Hilfe schreien müsse er nicht, „denn Gott hat in meinem Leben dank meiner Willensfreiheit keinen Job“. Er hält sich an dem fest, was er hat: „Und das sind, neben vielen verlorenen Jahren, die Tracks“.
+
+Die „verlorenen Jahre“ beziehen sich auf Mobbing und Ausgrenzung in der Schule. Das ist kein Gerücht, JAW behandelt es selbst auf *Schock fürs Leben* und *Täter-Opfer-Ausgleich*; die Genius-Annotation verweist außerdem auf ein Lied *Sein Tag*.[^k8-anno] Das Tier, das er aus dem „Käfig“ lassen will, „das ihr geschlagen habt“, liest sie als Bild für den Ausbruch durch Musik. <!-- OFFEN: Titel und Zeilen auf *Schock fürs Leben* und *Täter-Opfer-Ausgleich* nachtragen, in denen JAW das Mobbing behandelt; Album von „Sein Tag“ klären. -->
+
+Der Schlusssatz richtet sich an den Hörer: „Nimm dir heute vielleicht mal lieber frei / Das wird ein harter Tag!“ Es ist das Stück des Albums, in dem es keinen Witz gibt.
+
+#### 13. Kommt Ran!
+{: #lache-13-kommt-ran .lied}
+
+Rynerrr, JAW, Private Paul, Peter Maffya
+{: .steckbrief}
+
+*Kommt Ran!* ist ein Battle-Stück, und es parodiert die Rolle, die es einnimmt. Der Refrain verspricht: „Egal wie hart ihr seid, wir haben gut gespart für hundert Mann / Kommt ran, kommt ran – Unser Debüt ist euer Untergang“. Das Album nennt sich dort „unser Debüt“, obwohl es das zweite ist. Das erste war 2004 verschenkt worden, im Shop lag wohl erst dieses. <!-- PRÜFEN: Wurde Nimms und verreck daran! je verkauft? Sonst bleibt „Debüt“ als Pointe stehen. -->
+
+[Rynerrr](#rynerrr) eröffnet auf der Bühne, in „Rynerrrs Club“, mit der Flasche in der Hand und einer Menge, die „Hände und Füße in die Luft“ wirft. Seine beste Zeile ist keine Drohung, sondern eine Bilanz: „Ich find das Land scheiße und das Land wohl mich / Ich hab den Frust in Alk ertränkt, aber das Land noch nicht“.
+
+JAW spielt „Kaiser Jotta mit Lorbeerkranz“, der „Panzer“ rollen lässt und sein Volk drangsaliert, am Ende aber klagt. Er sei „sehr geschafft von den Strapazen der Herrschaft“, denn „manche Dinge ist er nicht gewohnt wie Arbeit am Werktag“. Private Paul spielt den Reichen, dem es „trotz verfickt viel Kohle“ beschissen geht und der „noch nie in meinem scheiß Leben glücklich ohne zu drücken“ war.
+
+Die letzte Strophe gehört Peter Maffya. Sein Name spielt auf den Rocksänger Peter Maffay an. Er trat 2009 mit JAW als *$pitt Klikk* auf dem Gratis-Tape *Chüars!* auf, einer Parodie auf deutsche Straßenrap-Videos, und er lieferte für das Album auch Beats (siehe [Das Umfeld](#das-umfeld)). Seine Strophe ist die härteste des Stücks. Sie arbeitet mit Gewalt und Geschichtsvergleichen als Schockeffekt, und sie wird hier nicht zitiert. Man kann sie als Parodie auf die Prahlerei des Battleraps hören.
+
+#### 14. Rinderbraten
+{: #lache-14-rinderbraten .lied}
+
+Rynerrr
+{: .steckbrief}
+
+*Rinderbraten* ist der kürzeste Spaß des Albums und eine Aufzählung von Unglücken. Der Refrain sagt nur: „Ich hab ehrlich keine Wünsche / Außer Rinderbraten“. Die Strophe erzählt, wie das Leben des Sprechers an einem Tag zerfällt. Er kündigt den Job, verliert den Führerschein, weil er „über eine Oma“ gefahren ist, und begeht Fahrerflucht. Am nächsten Morgen verlässt ihn seine Freundin. Die Kumpels haben Frau und Kind, die Gilde hat sich aufgelöst, „weil das Reallife stinkt“. In der Band ist er „nicht mehr erwünscht, weil KASH der neue Star ist“. Sein Dealer schlägt ihn nieder, er wacht in einer Mülltonne auf, tritt in Hundekot, schluckt zwei gefundene Tabletten und bekommt „herrlich feinen Dünnschiss“. Sein Fazit: „Dieser Tag war voll für’n Arsch, doch ich hab ehrlich keine Wünsche“.
+
+Rynerrr rappt das Stück allein. Die „Gilde“ ist die seiner *World of Warcraft*-Zeit, und die Zeile über „KASH“ ist ein Witz über den Neuzugang der Band. 2015 stellte Rynerrr *Tofuwurst (Rinderbraten 2015)* online, die Fortsetzung mit umgekehrtem Vorzeichen (siehe [Rynerrr](#rynerrr)). Der Rinderbraten gehört zur „Bier- und Fleischliebe“, mit der das Label das Album ankündigte. Das Thema hat eine Vorgeschichte: Auf dem ersten Album gibt es einen Bonustrack von Maexer mit dem Titel *Euer Scheiß Gemüse*, in dem es ums Fleisch geht und Veganer aufs Korn genommen werden. <!-- PRÜFEN: Schreibweise des Titels (laut Merlin auf dem Medium zusammen- und kleingeschrieben). -->
+
+Der Refrain hat eine einzige Variante: Beim letzten Mal geht er weiter mit „Außer Rinderbraten und dem Untergang der Welt“. Es ist der Moment, in dem der Witz das Konzept einholt.
+
+#### 15. Maschinen
+{: #lache-15-maschinen .lied}
+
+Rynerrr, JAW, Private Paul und ein weiterer
+{: .steckbrief}
+
+*Maschinen* beginnt mit einem Intro, das sich wie *Einmarsch* von Rap abgrenzt: „Macht Platz, hier kommt weißer Dreck / Du hast ein Mic, dann schmeiß es weg / Ich mag Musik, doch ich scheiß auf Rap“. Danach ist es ein Konzeptstück, in dem die Sprecher Maschinen sind, und es ist eine Variation des Bildes von der „organischen Masse“ (siehe [„Die Texte“](#die-texte)). Dort waren die anderen „sich bewegende organische Masse“, hier sind es die anderen „Biomasse“, und die Rapper nennen sich selbst Maschinen.
+
+Rynerrr ernährt sich „von Benzin“, hat „keine Seele, kein Herz“ und ein „Betriebssystem“, das ihn in den Wahnsinn treibt. Er ist „ein Zahnrad wie der Rest nur eben nicht kompatibel“. JAW erklärt: „Du dummes Ding, ich bin kein Mensch“, und sieht in den anderen einen „Haufen Biomasse“, der „apathisch durch Straßen zieht“. Der dritte Part erzählt, wie Maschinen ein Bewusstsein „aufgezwungen“ bekommen, und lässt sie an jedem Schachabend die „karierten Brillenträger“ schlagen, die sie erschaffen haben. Er endet mit einer Anrufbeantworter-Stimme, die ihre Kunden höflich bittet: „Einen wunderschönen guten Tag, würden sie bitte weiße Scheiße reden?“ Der Labelname wird zur Servicefloskel.
+
+Private Pauls Strophe beginnt mit „Die Bootsequenz startet“, kennt „Kritischer Fehler“ und „Formatierungstool“ und sieht in jeder Frau „Sarah Connor“, die Heldin aus *Terminator*. Er trägt „das chromfarbene Monster“ in sich, wohl das T-1000 aus dem zweiten Teil, und seine Narben sind „Schweißnähte“. laut.de zählte das Stück zu den Schwächen des Albums.[^k8-laut]
+
+#### 16. Schmetterling
+{: #lache-16-schmetterling .lied}
+
+JAW, Private Paul, Rynerrr
+{: .steckbrief}
+
+*Schmetterling* ist der Amoklauf des Albums, und es erzählt ihn nacheinander aus drei Blickwinkeln. Es beginnt mit einem Sample: „Ich bin ein Stück Dreck, aber ein Stück Dreck mit einer Knarre“. laut.de stellt die Zeile in den Zusammenhang von *Fight Club*, aus dem der Gruppenname stammt.[^k8-laut] <!-- PRÜFEN: Herkunft des Samples belegen (Film, Szene, deutsche Fassung). -->
+
+JAW spielt den Tyrannen des ersten Tages, der „Hand an der Axt“ hat und seine Opfer bittet, besser im Haus zu bleiben. Seine Welt sei „von jetzt an“ voller „Splatterstatisten“, und dieser Film laufe, „bis auch der letzte verreckt“. Die Brücke danach ist der Moment, in dem die Wut ihre Begründung bekommt: „Ich gab euch jede scheiß Chance, die ich konnte“, „keiner von euch gab mir die Hand, um meine Tränen zu nehmen“. Private Paul, der in dieser Strophe „Kompanie Chaos“ sagt, rechnet ab mit der Einsamkeit: „Das ist Rache für Jahre der kalten Einsamkeit“. Das Wort kehrt 2026 im Titel von JAWs Single *Statisten Sterben* wieder. <!-- PRÜFEN: Ob das eine Anspielung ist, bleibt offen. --> „Kompanie Chaos“ war schon der Titel des letzten Stücks auf *Nimms und verreck daran!* (2004), für einen Rekruten namens Private passt es doppelt. Und der „Film“, der hier „bis auch der letzte verreckt“ läuft, ist der, den das Projekt Chaos in [*Nimm die Welt wie sie ist*](#lache-05-nimm-die-welt-wie-sie-ist) angekündigt hatte.
+
+Rynerrr erzählt den Lauf selbst, im Präsens: das Auto, das Rathaus, die Knarre, das Blaulicht, das Büro. Er endet, als ihn offenbar eine Kugel trifft: „alles wird schwarz, heut war kein guter Tag“. Was danach kommt, ist die wichtigste Stelle des Stücks. Die Brücke blickt zurück: „Eigentlich ist es krass, wie angepasst ich schon war“. Der Täter hatte eine „hübsche Freundin“, eine Ausbildung, einen „netten Job“, den Führerschein, er hatte aufgehört zu rauchen und zu saufen. Und trotzdem: „irgendwie drückt mir doch jeden Tag die Welt den Colt aufs Herz“. Das Stück endet damit nicht bei der Rache der Ausgegrenzten, sondern bei einem, der eigentlich dazugehörte.
+
+Warum das Stück *Schmetterling* heißt, sagt der Text nicht. Man kann den Titel als Bild einer Verwandlung lesen: JAWs Erzähler ist „kein tragender Sklave mehr“ und „offenbart sich der Welt“. Das Album erschien knapp ein halbes Jahr nach dem Amoklauf von Winnenden. Ob und wie sich die Gruppe dazu verhielt, ist nicht belegt, aber Rynerrrs Satz im Interview über die Schulen, in denen Leute „rumballern“, bekommt vor diesem Stück Gewicht (siehe [*Weisse Scheisse*](#lache-04-weisse-scheisse)).
+
+#### 17. Engelsstaub
+{: #lache-17-engelsstaub .lied}
+
+Maexer (Refrain), Rynerrr, Me\$\$age, JAW
+{: .steckbrief}
+
+Mit *Engelsstaub* ist die Welt wirklich untergegangen, und die Rapper sind nicht mehr die Zerstörer, sondern die Überlebenden. Der Refrain deutet die Droge aus dem Gruppennamen um: „Das ist der wahre Engelsstaub, der auf die Erde rieselt / Das ist nicht das Paradies, für welches wir es hielten“. Der Staub aus dem Titel, auf dem Cover des Albums die weiße Wolke, die der Engel dem Betrachter entgegenbläst, ist hier der Fallout.
+
+Die vier Strophen sind vier Orte. Maexer steht mit gebundenen Händen da, atmet „Staub statt Luft“, und für ihn ist der „Überlebensdrang“ nur „Folter“. Rynerrr lebt mit „ein paar Tausend ander’n“ in einem „Glaskasten“, im Raumanzug an der Luftschleuse, und fragt, ob er sich „Sauerstoff holt“ oder „Schluss macht“. Me\$\$age ist unter der Vorstadt auf der Suche nach Grundwasser, in „Plastiktanks“, mit verrosteten Schaufeln, und er nennt den Ort „unterirdische Sahara“. JAW dagegen sitzt „nackt auf den Steinen“ und findet in der Kälte zum ersten Mal Ruhe. Seine Strophe endet: „Es ist verstummt – mein Lied des Zorns / Und ich sitz’ gefunden im Dunkeln und erwarte den Morgen“.
+
+Rynerrrs Strophe schließt mit einem Reimpaar, das in *Am Ende war* wiederkehrt: „wer hat geglaubt, dass das mal endet? / Ein kleiner Knopfdruck und schon hat sich das Blatt gewendet“. Hier blickt er zurück, in *Am Ende war* steckt er mittendrin.
+
+Den Schluss bildet ein Filmsample, in dem jemand erzählt, die Leute hätten „komische Träume“ gehabt, ein kleines Mädchen habe „das Ende der Welt“ gesehen, „alles voller Rauch und Feuer im blutigen Regen“, „Heulen und Zähneklappern“. Es leitet in das nächste Stück über. <!-- LÜCKE: Herkunft dieses Samples. -->
+
+#### 18. Am Ende war
+{: #lache-18-am-ende-war .lied}
+
+Private Paul, Rynerrr, JAW, Maexer
+{: .steckbrief}
+
+*Am Ende war* ist der Knall. Der Refrain zählt auf, was man dabei hört und spürt, in Zeilen ohne Reim: „Donner, gleißendes Licht, sengende Hitze / Todgeweihte Schreie, entmenschlichte Blicke“, bis zum Satz, der den ganzen Gedanken des Albums trägt: „Ein Fluch für die Welt, ein Geschenk für die Menschheit“.
+
+Private Paul beginnt dort, wo das Album angefangen hat: „Das Radio rauscht, im Fernsehen läuft Testbild“. Es ist die Radiowelt aus [*Am Anfang…*](#lache-01-am-anfang), jetzt kurz vor dem Ende. Er setzt „die Maske auf“, denn am Ende sei er nur „ein Kleinstadtpenner von der Schweizer Grenze“, und er schließt mit einem Bild: „Ich blinzel in das Licht des Neubeginns“. <!-- PRÜFEN: Herkunft Private Pauls (Schweizer Grenze) mit dem Porträt abgleichen. -->
+
+Rynerrr steht auf dem Hausdach, die Post brennt, „die Volksbank ist niedergebrannt“, und die Feuerwehr versucht, „sich gerade selbst zu löschen“. Das ist die Fantasie gegen Banken und Staat, die schon *Einmarsch* hatte, nun als Wirklichkeit: „Jetzt herrscht hier nur noch Chaos, doch das Chaos bringt mir Frieden“. Er sieht die Chance für „Bonzen neben Pennern in der Scheiße“ und die Einsicht, „dass Kreditkarten nicht essbar sind“. Sein Schlusspaar ist das aus [*Engelsstaub*](#lache-17-engelsstaub): „Ein kleiner Knopfdruck und schon hat sich das Blatt gewendet“.
+
+JAW hebt in die Höhe ab, mit dem Meer, das sich teilt, und dem „dämonischen Trommeln des Todes“. Seine Strophe ist die feierlichste des Albums: „Tausende Menschen sind zum Ende hin eins / Denn das einfachste Teilen ist das Teilen von Leid“. Maexer schließt mit einer Liste dessen, was es nach dem Knall nicht mehr gibt: „Das Gefängnis ein Luftschloss, die Marken nichts wert“, „Ein Moment ohne Sucht, ein PC ohne Netz“, „Keine Aggressivität gegen unnormale Dinge“. Es ist die Utopie eines Süchtigen, und sie ist erstaunlich zart. Gott kommt in diesem Stück gleich mehrfach vor. Paul fragt „Wo ist euer Gott jetzt?“, JAW sieht das „Feuer“ an der „Säule menschlicher Glaubenstempel“ nagen. Schon in [*Harter Tag*](#lache-12-harter-tag) hatte Gott „keinen Job“, in [*Schmetterling*](#lache-16-schmetterling) ist Rynerrr „nicht mehr auf Gottes Hilfe angewiesen“. Und die Bombe, die JAW in [*…war das Ende*](#lache-02-war-das-ende) mit Nagasaki beschrieben hatte, fällt hier. Wie in diesem ersten Song rappen alle vier. <!-- PRÜFEN: Maexers letzte Zeile „Einen Tag auf PCP nach 2000 ohne“ ist unklar. -->
+
+#### 19. …
+{: #lache-19-drei-punkte .lied}
+
+Maexer
+{: .steckbrief}
+
+Der neunzehnte Titel hat keinen Namen, nur drei Punkte, und er ist ein Refrain aus vier Zeilen, der zweimal vorgetragen wird. Er beginnt mit „Endlich bin ich nicht der Mensch, der ich war“, die zweite Zeile lautet „Fünf Züge PCP und endlich wird’s Nacht“, und er endet damit, dass der Rest Mensch im Grab liegt. Die drei Punkte sind die Mitte des Satzes, den die letzten drei Titel zusammen bilden: „Am Ende war … Der Anfang“.
+
+Es ist das Stück, in dem PCP als Droge am deutlichsten genannt wird. Die „Nacht“ erinnert an *Einmarsch* von 2004, wo JAW einlädt: „Nimm PCP und spür’ wie dich die Nacht umhüllt“. Dort war das eine Drohung oder ein Versprechen. Hier ist es der Übergang vom Ende zum Anfang: Der alte Mensch liegt im Grab, der neue ist wach.
+
+#### 20. Der Anfang
+{: #lache-20-der-anfang .lied}
+
+Rynerrr, Private Paul, Maexer, JAW
+{: .steckbrief}
+
+Das letzte Stück erzählt den Morgen danach, und es ist komisch und traurig zugleich. Rynerrr wacht verkatert auf: „gestern ham’ wir’s geschafft / Auf den roten Knopf gedrückt und das Licht ausgemacht“. Es ist der Knopf, den Private Paul in [*Kein Zurück*](#lache-03-kein-zurueck) verlangt hatte. Jetzt gibt es keine Apotheke mehr, die Milch stinkt, weil der Kühlschrank nicht läuft, die Heizung geht nicht an. Er bricht Bretter aus dem Zaun, steigt beim Bäcker ein, und die Brote sind „steinhart“. Trotzdem: „Doch ich bin trotzdem glücklich, denn jetzt weiß ich, ich bin frei“.
+
+Private Paul blickt Monate später auf ein Wohnwagencamp, in dem man „aus Tierhaut Kleider“ macht und das Bier „auch scheiße“ schmeckt. Maexer erzählt in einem Rückblick, was die Welt vorher war: „Ein Second Life im Internet, mein erstes davor“, „mein Steakhouse in der Mikrowelle“, ein „Anzug“, der seine Schwächen verbirgt, und ein „Image“, das nur Macht und Geld ist. Sein Schluss: Sobald man nur für sich ist, werde alles unerträglich, „doch endlich ist Platz“.
+
+JAW schließt das Album, und er schließt es als der Hilflose, der er neben den anderen ist: „Fuck, ich will nicht allein sein heute Nacht“. Er könne kein Feuer machen, keine Maus ohne Dynamit fangen, und von den Dingen, die man zum Überleben braucht, habe er nichts geübt. Dann wird es still. Sich umzubringen sei „eine Lösung, der Tod ist peinbefreiend“, aber das Nichts sei „nichts als ein weiterer Einheitsbrei“. Der letzte Satz des Albums lautet: „Und so wähle ich das Leben hier am Anfang der Welt“.
+
+Das Album, das mit dem Ende begann, hört also mit einer Entscheidung auf. Die Punks haben den Knopf gedrückt und stehen nun in der Welt, die sie sich gewünscht haben, und sie sind schlecht darin. Das ist die Pointe, und sie ist ernster, als es klingt.
+
+### Anspielungen und Easter Eggs
+
+Die meisten Anspielungen stehen bei den Liedern, in denen sie vorkommen: das Carpenter-Sample am Anfang, Bee Gees und Sprichwort im Titeltrack, Dionne Warwick und Eminem in *Bierliebe*, *Full Metal Jacket* hinter dem Namen Private Paul, *Terminator* in *Maschinen*, *Spiel mir das Lied vom Tod* und die *Carmina Burana* im Lied vom Dach. Hier steht, was sich durch das ganze Album zieht.
+
+Das Album ist dicht vernäht. Der rote Knopf, nach dem in [*Kein Zurück*](#lache-03-kein-zurueck) jemand ruft, ist in [*Der Anfang*](#lache-20-der-anfang) gedrückt. Rynerrr reimt dasselbe Paar vom Knopfdruck in [*Engelsstaub*](#lache-17-engelsstaub) und in [*Am Ende war*](#lache-18-am-ende-war), einmal im Rückblick, einmal mittendrin. Das Radio aus [*Am Anfang…*](#lache-01-am-anfang) läuft in Private Pauls erster Zeile von *Am Ende war* weiter, nur dass es jetzt rauscht. Rynerrrs Frage, wer „als letztes noch steht“, kehrt als Refrain von [*Spiel mir das Lied vom Dach*](#lache-08-spiel-mir-das-lied-vom-dach) wieder. Vom „eig’nen Film“ des Projekts Chaos in [*Nimm die Welt wie sie ist*](#lache-05-nimm-die-welt-wie-sie-ist) bis zu den „Splatterstatisten“ in [*Schmetterling*](#lache-16-schmetterling) bleibt das Album ein Film, und rap.de nannte es 2016 tatsächlich einen „musikgewordenen Film“. Auch die Zahl taucht auf: Wenn Private Paul in [*Weisse Scheisse*](#lache-04-weisse-scheisse) von einem „Phänomen“ spricht, „das es nur viermal gibt“, zählt er die Rapper des Labels, obwohl Maexer in den Strophen dieser Hymne nicht rappt.
+
+Dazu kommen Verweise nach außen auf das, was die Gruppe vorher gemacht hatte. Die Scratch-Collage am Anfang zitiert Rynerrrs *Punkrapper*, JAWs *Bis zum Ende*, *PCP-Party* und *Private Paul*. „Fünf Züge PCP und endlich wird’s Nacht“ in [*…*](#lache-19-drei-punkte) beantwortet JAWs „Nimm PCP und spür’ wie dich die Nacht umhüllt“ aus *Einmarsch*, „Kompanie Chaos“ ist ein Titel des ersten Albums. Auch nach vorn führen Spuren: *Rinderbraten* kehrt 2015 in Rynerrrs *Tofuwurst* wieder, die „Statisten“ 2026 in JAWs Single. Selbst *Bierliebe* gab es nach Rynerrrs Angabe vorher schon in anderer Form.
+
+Und schließlich ist das Album ein Dokument seiner Zeit. Es kennt MySpace, *World of Warcraft*, Second Life, Klingeltöne, die Juice-Kronen und die Backspin, die Wirtschaftskrise und, wenn man so will, Winnenden. Die Kleinstadt ist als Ort immer da, von der „Schweizer Grenze“ in *Am Ende war* bis zum REWE, der in einer Viertelstunde aufmacht.
+
+[^k8-anno]: Annotationen von Genius-Nutzern zu den Texten, [Albumseite](https://genius.com/albums/Pcp/Lache-und-die-welt-weint-mit-dir), abgerufen am 15.10.2026: [*Am Anfang*](https://genius.com/Pcp-am-anfang-lyrics) (nerdy_punka, 2022), [*Kein Zurück*](https://genius.com/Pcp-kein-zuruck-lyrics) (nerdy_punka), [*Bierliebe*](https://genius.com/Pcp-bierliebe-lyrics) (VinzRex, 2015; die Auflösung der „Krone“ von Electrofensterheber, 2015), [*Lache und die Welt weint mit dir*](https://genius.com/Pcp-lache-und-die-welt-weint-mit-dir-lyrics) (nerdy_punka; dort der Hinweis, die Lyrics stünden auch im Booklet der CD), [*Harter Tag*](https://genius.com/Pcp-harter-tag-lyrics) (LoStTaPeZ, 2013; Mx02, 2019), [*Der Anfang*](https://genius.com/Pcp-der-anfang-lyrics) (assssa, 2020). Zu den übrigen Titeln gibt es dort keine Annotationen. Für die Annotation zur „Krone“ vermerken die Notizen des Autors, sie stamme von Private Paul selbst; Genius nennt als Autor den Nutzer *Electrofensterheber*. <!-- PRÜFEN: Ist Electrofensterheber Private Paul? Sonst „nach einer Genius-Annotation“. -->
+[^k8-wilcox]: Ella Wheeler Wilcox, „Solitude“, 1883: „Laugh, and the world laughs with you; Weep, and you weep alone.“ Die deutsche Fassung des Sprichworts lautet „Lache, und die Welt lacht mit dir; weine, und du weinst allein.“
+
+## Die Texte
+
+*so kämpft man halt gegen was,*<br>
+*oder auch alles…*<br>
+– Rynerrr, 2009
+{: .epigraph}
+
+Für dieses Kapitel liegen die Texte von 22 Titeln vor, zwei vom ersten Album und alle zwanzig vom zweiten, nach Gehör transkribiert. Das ist weniger als die Hälfte der 45 Titel. Was folgt, ist deshalb kein abschließendes Urteil, sondern ein Querschnitt: die Motive, die in diesen Texten immer wiederkehren, mit kurzen Zitaten und dem, was die Musiker selbst dazu gesagt haben. <!-- OFFEN: Lyrics der Titel 3–25 des ersten Albums; mit ihnen die Abschnitte zu 2004 ausbauen. Rynerrrs *Tofuwurst* und die Soloalben sind noch nicht einbezogen. -->
+{: .dropcap}
+
+### Der Nullpunkt
+
+Das wichtigste Motiv ist in beiden Alben dasselbe, und es steckt schon im Namen. Rynerrr erklärte den Namen 2009 mit dem Projekt Chaos aus *Fight Club* und dem Gedanken, „die Zivilisation von innen zu zerfressen und alles auf den Nullpunkt zu bringen“.[^t-name] 2004 heißt es in *Einmarsch*, PCP zerstöre die Welt, „bis alles fällt / Und alles wieder von vorn anfängt“. 2009 endet Rynerrrs Strophe in *…war das Ende* mit „doch das Ende wird der Anfang sein“, und der Refrain der Labelhymne *Weisse Scheisse* fasst das Programm in fünf Worte: „Der Untergang für den Neuanfang“.[^t-lyrics]
+
+Was nach dem Untergang kommen soll, sagen die Texte nicht. Der Untergang selbst wird dagegen in allen Farben ausgemalt: Senfgas, Napalm, Panzer im Kanzleramt, eine „nukleare Wärme“, eine Stadt, die nur noch aus Notsendungen besteht. Gemeint ist kein bestimmter Feind, sondern die Ordnung als solche, mit Banken, Aktien, Staat, Arbeitsamt und Kundenkarten. Am genauesten zielt Rynerrr in der letzten Strophe von *Kein Zurück*, mit einem Bild, das die Gewalt von den Einzelnen weg auf das System richtet:
+
+> Es bringt nichts Schafe abzuschlachten, um die Herde zu retten<br>
+> Die Schäfer und ihre Hunde gehören in Särge gesteckt[^t-lyrics]
+
+Woher dieser Hass auf alles kommt, hat Rynerrr im selben Interview beantwortet, mit dem Satz, der über diesem Kapitel steht. Erst ein Witz, „Aus der miesen Kindheit natürlich!“, dann die ernstere Antwort: „vermutlich einfach aus Langeweile und Perspektivlosigkeit, weil man aufwächst ohne für irgendwas kämpfen zu müssen“.[^t-name] Das ist eine Selbstdiagnose, wie sie im Rap dieser Jahre selten war. Sie beschreibt keine Not, sondern eine Leere. Und sie erklärt, warum diese Musik so oft vom Land handelt, von Langeweile, von Bier und vom Warten.
+
+### Nach dem Knall
+
+Auf dem zweiten Album bleibt der Untergang keine Fantasie. In den letzten Titeln fällt die Bombe, und die Texte wechseln dabei die Seite: Aus den Zerstörern werden Überlebende. *Am Ende war* zählt auf, was man hört und spürt, „Donner, gleißendes Licht, sengende Hitze“, und nennt das Ergebnis „Ein Fluch für die Welt, ein Geschenk für die Menschheit“. *Engelsstaub* spielt Jahre später in Bunkern und Luftschleusen, mit Wasser aus Plastiktanks und der Frage, ob man sich Sauerstoff holt oder Schluss macht. Der Refrain deutet den Gruppennamen um: Das sei „der wahre Engelsstaub“, der auf die Erde rieselt, „nicht das Paradies, für welches wir es hielten“.[^t-lyrics]
+
+Was überrascht, ist die Zuneigung, mit der die Katastrophe beschrieben wird. Rynerrr sieht im Chaos „Frieden“ und eine Chance für „Bonzen neben Pennern in der Scheiße“. JAW findet im Untergang eine einzige Gemeinsamkeit: „das einfachste Teilen ist das Teilen von Leid“. Maexer zählt auf, was es danach nicht mehr gibt, Gefängnisse, Marken, Sucht und einen PC ohne Netz. Es ist die Utopie eines Süchtigen, und sie ist erstaunlich zart.
+
+Und dann der Morgen danach. In *Der Anfang* stehen die Punks in der Welt, die sie sich gewünscht haben, und sind schlecht darin. Rynerrr bricht Bretter aus dem Zaun und klaut beim Bäcker altes Brot. Paul erzählt von Kleidern aus Tierhaut. Maexer erinnert sich an *Second Life* und die Mikrowelle. JAW gesteht, dass er kein Feuer machen kann, und erwägt den Tod. Das Album, das mit dem Ende begann, endet mit einer Entscheidung: „Und so wähle ich das Leben hier am Anfang der Welt“.[^t-lyrics]
+
+### Gegen die Arbeit
+
+Neben dem großen Untergang steht ein kleinerer, alltäglicher Widerstand: gegen Arbeit, Karriere und Leistung. Schon das alte PCP-Forum hatte einen Bereich namens „Leistungsgesellschaft – an die arbeit, genossen!“. In *Kein Zurück* ruft Maexer „scheiß auf Leistungsgesellschaft!“, und gleich danach kommt die Pointe: Er würde ja gern Leistung bringen, „Zeigt mir was, was mir was abverlangt“. In seiner zweiten Strophe rechnet er eine Karriere durch, an deren Ende man „mit 50, an 'ner Herzattacke“ stirbt.
+
+Rynerrrs Fragen in *Asokacke* sind ein ganzes Programm des Aussteigens: Warum finde er jeden Job nach einer Weile beschissen, warum langweile er sich nicht, auch wenn er zwanzig Tage nichts tue, warum wolle er kein Geld, kein dickes Auto und kein Haus, nicht erfolgreich sein, nicht bausparen, „Sondern nur einen Ausgang!“ In der Hymne *Weisse Scheisse* steht dasselbe als Gewaltfantasie: Er geht eines Tages zur Arbeit wie immer, „Aber heute schlag ich meinen Arbeitgeber tot“.[^t-lyrics]
+
+Das passt zu den Biografien, die die Mitglieder über sich schrieben, und zu den Interviews. Maexer studierte und konnte „Trottel nicht leiden“. Rynerrr widmete seine Zeit „dem Bier, dem Fleisch“ und World of Warcraft. Die Texte nehmen diese Haltung und übertreiben sie, bis sie komisch wird oder bedrohlich, oft beides zugleich.
+
+Auf dem zweiten Album kommt eine dritte Variante dazu: die Arbeit als Maschine. In *Maschinen* sagt Private Paul, er mache „nur das, was der Server befiehlt“, und kennt kein Denken mehr, „weil ich das Funktionieren gewählt hab“. In *Rinderbraten* hat Rynerrr den Job gekündigt und die Freunde sind zu Familien geworden, was bleibt, ist ein Braten. Und in *Der Anfang* erinnert sich Maexer an einen Anzug, „der meine Schwächen auf der Arbeit verbirgt“, und an ein Ich, das nur noch aus „Image“ besteht.[^t-lyrics]
+
+### Engelsstaub und Bier
+
+Der Name der Gruppe ist auch der Name einer Droge, und die Texte spielen damit von der ersten Sekunde an. Das erste Album beginnt mit einem Einspieler über Phencyclidin, „Angel Dust“, und der Frage, was der Stoff bei Jugendlichen anrichte. Die Antwort gibt JAW am Ende desselben Songs: „Nimm PCP und spür' wie dich die Nacht umhüllt“. Das Album selbst ist die Droge, vor der gewarnt wird.[^t-einmarsch]
+
+Auf dem zweiten Album heißt ein Titel *Engelsstaub*, JAW watet „im Nebel des Angeldusts“ durch eine Schlacht, und Rynerrr schaufelt „mit PCP fleißig Crack ins System“.[^t-lyrics] Die Cover beider Alben zeigen einen Engel, der Staub bläst. „Daher auch ständig der Engel überall bei uns“, sagte Rynerrr.[^t-name]
+
+Wo die Texte konkret werden, geht es seltener um Partydrogen als um Medikamente. JAW stellte sich auf der Bandseite als „der medizinisch musterbeispielartig versorgte Jotta“ vor, der zum Frühstück Kapseln esse, und in *…war das Ende* wünscht er den „Pharmaziejunks“ ein „stilles schmerzbefreites Ende“. In *Kein Zurück* und *Punkrockbaby* kommen Pillen vom Arzt, Klingen und Selbstverletzung vor, als Pointe erzählt und doch erkennbar ernst. Maexer fasst die Ambivalenz 2004 in eine Zeile: „Ich brauch' Drogen zum leben will aber keine nehm'n“.[^t-einmarsch] Was hier als Pointe daherkommt, ist auf JAWs Soloalben und auf Private Pauls *Emopunkrap* ein ernstes Thema. Dieser Artikel belässt es bei dem Hinweis.
+
+Kein Motiv ist so beständig wie das Bier. Auf der Rückseite des ersten Albums halten die Musiker Fässer Rothaus Pils im Arm, ein Titel heißt *Saufsidaz*, und die News auf p-c-p.ws endeten mit „Prost“. Auf dem zweiten Album gibt es ein ganzes Liebeslied, *Bierliebe*, und den einfachsten Refrain der Gruppe, „Dadadada, Bier leer / Dadadada, Bier her“. Rynerrr fragt in *Asokacke*: „Warum kam ich nicht in einer Tonne Bier auf die Welt?!“ JAW kündigte das Album mit den Worten an, es handle von „unserer Trinksucht, unserer Sexsucht und unsrer Möchtegern-Punkattitüde“.[^t-meinrap] Die Ankündigung des Labels sprach von „Bier- und Fleischliebe“,[^t-ankuendigung] und Private Paul lieferte der Kritik die Überschrift: „Das ist kein Label, das ist ein Haufen Trunkenbolde“.
+
+*Bierliebe* zeigt, wie das funktioniert. Das Lied ist als Liebeslied gebaut, mit einem schmachtenden Gesangssample am Anfang, einem Refrain über die Rückkehr zur Geliebten und vier Strophen, die das Bier besingen wie eine Geliebte. Rynerrr hat sich „aus Liebe zu dir mit dir die Leber tätowiert“. JAW parodiert die Anonymen Alkoholiker: „Bier! My name is Dokta Jotta, I'm an alcoholic“. Und doch steckt in derselben Strophe die Zeile, dass er „kein starker Mensch“ sei. Der Witz und das, worüber er gemacht wird, liegen in diesen Texten nie weit auseinander.
+
+Zum Bier kommt das Fleisch. Das Label sprach in seiner Ankündigung von „Bier- und Fleischliebe“,[^t-ankuendigung] und *Rinderbraten* macht daraus das einzige Lied des Albums, in dem ein Mensch nur noch einen Wunsch hat. Schon auf dem ersten Album gab es einen Bonustrack von Maexer, *Euer Scheiß Gemüse*, in dem es ums Fleisch geht und Veganer aufs Korn genommen werden. Zu *Bierliebe* entstand 2010 tatsächlich ein Video, mit allen vier Rappern, so führt es die Heizipedia.[^t-heiz] Die Pillen vom Arzt, die Klingen und die Selbstverletzung, die in *Punkrockbaby* und *Kein Zurück* vorkommen, stehen dagegen nie als Witz da. Sie sind der Teil des Albums, den man nicht wegwitzeln kann.
+
+### Gegen die Szene
+
+PCP haben sich nie als Teil der Rapszene verstanden, jedenfalls haben sie es nie gesagt. „Das' nich' Hip-Hop, das' is' Punk“, rappt Rynerrr 2004, und JAW zählt auf, auf welchen Rap er alles scheiße: aus Deutschland, aus den Staaten, „Rap aus Freiburg und Rap aus Albanien“.[^t-einmarsch] 2009 klingt es kaum anders. In *Kein Zurück* beginnt JAW mit „Hierfür gibt es keine Krone in der Juice“ und nennt Rap „ein deliziöses Mahl für das Phrasenschwein“. In der Hymne spricht er von „Gequälte[n] Seelen, die nix drauf geben, ob sie die Backspin kennt“.[^t-lyrics]
+
+Das ist eine schöne Pointe, weil es nicht stimmt. Gerade die Backspin und die Juice hatten JAW und Rynerrr 2006 als Erste ernst genommen, und die Gruppe hatte die Kritiken auf ihrer Presseseite abgetippt. Die Abgrenzung von der Szene war auch ein Teil des Images, mit dem man in dieser Szene auffiel. Rynerrr sagte es 2009 genauer: Rap sei „an und für sich keine so schlechte Musikrichtung“. Aber die Rapszene „ist halt furchtbar“.[^t-name]
+
+Auch das zweite Album spielt damit weiter. *Maschinen* beginnt mit dem Satz „Ich mag Musik, doch ich scheiß auf Rap“. *Punkrockbaby* nennt das Publikum, das Eintritt zahlt, „einen Haufen erbärmliche Wichser“ und stellt sich selbst als „die Band, die ihre Fans mit Flaschen bewirft“ vor. Und *Kommt Ran!* spielt das Battle-Ritual so übertrieben durch, dass daraus Parodie wird: Rynerrr im „Club“, JAW als „Kaiser“ im Lorbeerkranz, Peter Maffya als Gast, der im Umfeld der Gruppe für Parodien bekannt war.[^t-lyrics]
+
+### Allein
+
+Hinter der Pose steht auf dem zweiten Album oft ein Satz über Einsamkeit. *Harter Tag* ist das ganze Lied davon: Es ist zwei Uhr nachts, JAW kann nicht schlafen, und für die Frau, der er alles geben würde, ist er „leider gerade der Falsche“. In *Schmetterling* nennt Private Paul seine Gewalt „Rache für Jahre der kalten Einsamkeit“, in *Engelsstaub* steht Rynerrr „ganz allein hier draußen“, in *Der Anfang* sagt JAW „Ich will nicht allein sein heute Nacht“. Sogar *Rinderbraten* endet damit, dass der Sprecher von allen verlassen ist.[^t-lyrics] Die Gewalt der Lieder gehört in diesen Fällen zu einem Menschen, der niemanden mehr hat. Und die Textstellen, die dies ohne Verkleidung sagen, gehören zu den stillsten des Albums.
+
+### Witz gegen sich selbst
+
+Die Gruppe macht die meisten ihrer Witze auf eigene Kosten. In *Private Paul* schreibt der Neuzugang einen Diss auf sich selbst, und JAW wirft ihn im Skit aus dem Studio. In *Rinderbraten* ist Rynerrr der, der in der Band „nicht mehr erwünscht“ ist, weil „KASH der neue Star ist“. In *Kommt Ran!* gibt JAW den Kaiser, der unter den „Strapazen der Herrschaft“ stöhnt. Und der Titel des Albums gehört dazu: Lache, und die Welt weint mit dir. Der Witz trifft zuerst die, die ihn erzählen.[^t-lyrics]
+
+### Gewalt als Pose
+
+Es wäre unehrlich, über diese Texte zu schreiben, ohne zu sagen, wie gewalttätig viele davon sind. Auf beiden Alben stehen Gewaltfantasien gegen namenlose Gegner, gegen Frauen, gegen Homosexuelle, gegen Politiker und gegen „die Schönen und Reichen“. Es gibt Beleidigungen, die heute kaum jemand mehr auf eine Platte schreiben würde, und vereinzelt Anspielungen auf den Nationalsozialismus als Schockeffekt. Dieser Artikel zitiert diese Stellen nicht. Er verschweigt sie aber auch nicht.
+
+Man kann in den Texten zwei Arten von Gewalt unterscheiden. Die eine ist Slapstick. In *Spiel mir das Lied vom Dach* zieht Rynerrr durch eine Stadt, zerschießt einem Jungen den Fußball, wirft eine Wasserbombe voller Kot in ein Cabrio und fährt mit dem Einkaufswagen durch den Supermarkt, „Menschen fallen um wie Kegel“. In *Weisse Scheisse* sagt er es selbst: „Ich mach alles kaputt, wie früher als Kind beim Playmobil spielen“.[^t-lyrics] Das ist Zeichentrick und Slapstick, eine Gewalt, die niemand ernst nehmen soll.
+
+Die andere Art ist die, die sich gegen bestimmte Menschen richtet, und sie lässt sich nicht so leicht als Witz lesen. Die Musiker wussten das. Rynerrr änderte 2009 seinen Part für das Video zu *Weisse Scheisse*, weil er „rausgerissen aus dem Gesamtkonzept des Albums, zu gewaltverherrlichend und unreflektiert rüberkommen kann“.[^t-name] JAW schrieb im selben Jahr eine Zeile, die wie ein Kommentar zu all dem klingt: „Du bist nicht hart, wenn du wahllos jedem aufs Maul schlägst / Sondern wenn du, trotz aller Narben, jeden Tag aufstehst“.[^t-lyrics]
+
+Eine dritte Art ist *Schmetterling*. Es erzählt einen Amoklauf in drei Rollen, erst als „Tag der Vergeltung“, dann als Rache des Einsamen, dann als Lauf durch ein Rathaus, der in einer Kugel endet. JAW nennt die Opfer „Splatterstatisten“ und sagt, dieser Film laufe, „bis auch der letzte verreckt“, das Stück bleibt also im Bild des Films. Doch die Brücke danach bricht es auf. Der Täter hatte „eine hübsche Freundin“, eine Ausbildung, einen „netten Job“, und trotzdem „drückt mir doch jeden Tag die Welt den Colt aufs Herz“.[^t-lyrics] Das Album erschien knapp ein halbes Jahr nach dem Amoklauf von Winnenden.
+
+Wie man diese Texte heute hört, muss jeder selbst entscheiden. Die Kritik von damals nahm sie gelassen. Die Juice nannte *Symptome* „eine äußerst verstörende, aber unbedingt unterhaltsame Angelegenheit“.[^t-juice] Für die Geschichte von PCP wichtiger ist etwas anderes: Die Gewalt in diesen Liedern richtet sich oft auch gegen die Sprecher selbst.
+
+### Organische Masse
+
+Am deutlichsten wird das an einem Bild, das sich durch die Jahre zieht. 2004 begrüßte der Besucherzähler der Albumseite jeden Gast als „Haufen sich bewegender organischer Masse“. Im selben Jahr beschimpft Rynerrr in *Zerhamertier* sein Gegenüber als „nichts als sich bewegende organische Masse“. Fünf Jahre später ist das Bild zurück, aber umgedreht. In der Scratch-Collage am Anfang des zweiten Albums sagt eine Stimme über sich selbst:
+
+> Ich bin auch nur organischer Abfall mit 'nem Gehirn<br>
+> Und 'ner Seele, auf der ihr rumtrampelt, bis sie dran stirbt[^t-lyrics]
+
+{% include bild.html src="/assets/bilder/pcp/archiv/2004-09-02-rynerrr-zaehler.jpg" text="„Haufen sich bewegender organischer Masse“: der Besucherzähler der Albumseite · rynerrr.de · [Web Archive, 02.09.2004](https://web.archive.org/web/20040902070307/http://www.rynerrr.de/album/albumindex.htm)" alt="Screenshot: PCP – PROJEKT CHAOS PUNKS – PCP, KLICK AUF DEN ENGEL, Besucherzähler" seite="rechts" breite="1/2" %}
+
+Das ist der Weg, den die Texte zwischen den beiden Alben gehen. 2004 ist der Hass nach außen gerichtet, auf Eltern, Staat, Banken, Rapper, auf alles. 2009 ist er immer noch da, aber er hat einen zweiten Adressaten bekommen. Rynerrr ist in der Hymne „ein von Gott verdammtes Stück Weiße Scheiße“. Hollywood Hank fragt am Ende seiner Strophe, warum er auf seine Art zu denken „auch noch stolz“ sei. Maexer sitzt „schweratmend, nichtschlafend da, und warte[t]“. Und JAW hat in *Asokacke* die Zeile, die man als Kommentar zum Albumtitel lesen kann: „Oft versuch ich zu lachen, aber der Witz zerbricht mich“.[^t-lyrics]
+
+Auf dem zweiten Album taucht das Bild ein drittes Mal auf, in *Maschinen*. Dort sind die anderen ein „Haufen Biomasse“, der „apathisch durch Straßen zieht“, und die Rapper nennen sich selbst Maschinen: Rynerrr ernährt sich „von Benzin“, JAW sagt „Du dummes Ding, ich bin kein Mensch“, Private Paul braucht ein „Formatierungstool“. Hinter dem Bild steht vermutlich *Fight Club*, in dem Tyler Durden den Menschen für verrottende organische Materie erklärt. <!-- PRÜFEN: Wortlaut und Stelle in der deutschen Fassung. -->
+
+Rynerrr hat den Titel *Lache und die Welt weint mit dir* 2009 so gedeutet: Wenn er seinen Schmerz so lange aufstaue, bis er „hysterisch lachend alles kurz und klein schlag[e]“, dann teile der Teil der Welt, der dabei sei, vielleicht seinen Schmerz, „oder hat halt einfach auch Schmerzen, und weint somit mit mir“.[^t-name] Das Lachen und der Schmerz sind in dieser Musik dasselbe.
+
+### Dreck, der stolz ist
+
+Zuletzt der Name, den die Gruppe ihrem Label gab und der in den Texten zu einem Mythos wird. In *…war das Ende* sammelt sich die „Weisse Scheisse“ und quillt „langsam aus den Gullis“. In der Hymne heißt es: „Etwas erhebt sich aus dem Dreck der Welt“, und auf seinem Emblem steht „Weiße Scheiße“. Ein „Heer bemannt mit Deutschlands Punks“ zieht mit Fahnen durch die Straßen.[^t-lyrics]
+
+Die Selbstbezeichnung als Dreck zieht sich durch alles, was die Gruppe über sich schrieb. Die Labelphilosophie lautete „Dreck, der stolz ist, Dreck zu sein!“.[^t-hiphopde] Das Forum hieß „Das offene Ohr für den Dreck der Straße“ und „Der Bodensatz der Zivilisation“. Aus *Schmetterling* überliefert laut.de die Zeile über „ein Stück Dreck – aber ein Stück Dreck mit einer Knarre!“, ein Zitat, das wieder auf *Fight Club* verweist.[^t-laut] Man kann in dem Namen die deutsche Entsprechung dessen hören, was im Englischen *white trash* heißt: ein Schimpfwort, das die Beschimpften sich aneignen. JAW selbst hat 2010 nur gesagt, mit der Droge habe der Name nichts zu tun. Weisse Scheisse sei eine Plattform für „ein paar zufällig weiße Gestalten, die ne Menge Hass, Humor, Trauer aber auch Ulk loswerden müssen, um nicht verrückt zu werden“.[^t-bassdraft]
+
+Legt man das Manifest „Was ist Weisse Scheisse?“ neben die Texte, liest es sich wie ein Register der Lieder. Es nennt Wut und Verzweiflung, die Sinnlosigkeit des Daseins, die Sehnsucht nach Drogen als Flucht „aus der Leere oder der Enge“, die Kotze nach einer durchzechten Nacht, Einsamkeit und den Wunsch nach Lärm.[^t-manifest] Für fast jedes dieser Stichworte findet sich in den vorliegenden Texten eine Zeile. Der Hass, der Humor und die Trauer, von denen JAW sprach, stehen dort selten nacheinander. Meistens stehen sie in derselben Zeile.
+
+[^t-heiz]: Heizipedia, Artikel „Private Paul“, Abschnitt Musikvideos: „2010, Bierliebe (PCP, feat. JAW, Rynerrr & Maexer)“. [heizmusik.de](https://heizmusik.de/wiki/index.php?title=Private_Paul), abgerufen am 15.10.2026. <!-- PRÜFEN: Video auf YouTube suchen und verlinken. -->
+[^t-name]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/).
+[^t-lyrics]: *Lache und die Welt weint mit dir*, Titel 1–20; *Nimms und verreck daran!*, *Einmarsch* und *Zerhamertier*. Transkription nach Gehör, Fassung von Oktober 2026.
+[^t-einmarsch]: *Einmarsch* auf *Nimms und verreck daran!*. Transkription nach Gehör.
+[^t-meinrap]: JAW im Interview mit meinrap.de, 01.06.2009. [Web Archive](https://web.archive.org/web/20090612150318/http://meinrap.de:80/2009/06/01/jaw-menschenfeind-special-interview-exclusive/).
+[^t-juice]: Juice 10/2006, „Demo des Monats“, zitiert nach der Presseseite von p-c-p.ws. [Web Archive](https://web.archive.org/web/20070516175001/http://www.p-c-p.ws/presse.php).
+[^t-hiphopde]: Pressetext zu *Symptome*, hiphop.de, 15.05.2008. [hiphop.de](https://hiphop.de/release/rynerrr-symptome).
+[^t-laut]: Philipp Gässlein, Kritik zu *Lache und die Welt weint mit dir*, laut.de. [laut.de](https://laut.de/PCP/Alben/Lache-Und-Die-Welt-Weint-Mit-Dir-43654).
+[^t-bassdraft]: JAW im Interview mit Bassdraft, April 2010. [Web Archive](https://web.archive.org/web/20101208160203/http://www.bassdraft.com:80/de/content/interview/JAW/index.html).
+[^t-ankuendigung]: hiphop.de, „PCP: Lache und die Welt weint mit dir“, 14.07.2009. [hiphop.de](https://hiphop.de/magazin/news/pcp-lache-und-die-welt-weint-mit-dir-167311).
+[^t-manifest]: weissescheisse.de, „Was ist Weisse Scheisse?“, ab Februar 2010. [Web Archive](https://web.archive.org/web/20100424031613/http://www.weissescheisse.de/cms/index.html).
+
+
+---
+
+## Teil IV<br>Die Menschen
+{: #teil-4 .teil}
 
 ## JAW
 
@@ -1062,34 +1563,35 @@ Für PCP war JAW die treibende Kraft, und er war sich dessen bewusst. Als Rynerr
 
 #### Alben, EPs und Mixtapes
 
-| Jahr | Titel | Art | Anmerkungen |
+| Jahr | Cover | Titel | Anmerkungen |
 |---|---|---|---|
-| 2003 | {% include cover.html name="seelensturm" titel="Seelensturm" %} *Seelensturm* | EP, selbst gebrannt | Angekündigt am 14.09.2003 als *Bloody Bastard*, erschienen etwa im Oktober. 7 Titel: *Seelensturm*, *In deinen Augen*, *Im roten Feuer der Sonne*, *Human Ocean* (feat. Maggoh), *Taucher in der Tiefe*, *Neun Kugeln*, *PCP Party* (feat. Rynerrr One und Mäxer Ca$h). 4 Euro plus 1,50 Euro Porto. Ende 2005 als „Bootleg“ mit Schwarzweiß-Cover für 4 Euro neu aufgelegt |
-| 2006 | {% include cover.html name="schock-fuers-leben" titel="Schock fürs Leben" %} *Schock fürs Leben* | Album, Rapz Records | 04.08.2006 laut Discogs, angekündigt für den 05.04.2006. 19 Titel, rund 76 Minuten, von JAW produziert, Cuts von DJ Tjoma, Artwork von Rynerrr. Gäste u. a. Rynerrr, Maexer, Hollywood Hank, Kaspah Hausa, Plasti. 12 Euro inklusive Versand. Juice „Demo des Monats“ (Heft 07/2006), „Demo des Jahres“ auf Platz drei |
-| 2006 | {% include cover.html name="gehirn-im-mixer" titel="Gehirn im Mixer" %} *Gehirn im Mixer* | Mixtape, kostenlos | Ende August 2006 über die Seite von Rapz Records, zum Erscheinen der Extended-Fassung wieder entfernt |
-| 2006 | {% include cover.html name="zwischen-chemie-und-wahnsinn" titel="Zwischen Chemie & Wahnsinn" %} *Zwischen Chemie & Wahnsinn* | EP mit Me$$age, kostenlos | mit Rynerrr auf *Himmel* |
-| 2007 | {% include cover.html name="gehirn-im-mixer-extended" titel="Gehirn im Mixer (Extended)" %} *Gehirn im Mixer (Extended)* | Mixtape, Rapz Records und Flavamatic Recordz | 30.03.2007, 25 Titel, davon 12 neu, rund 80 Minuten. Gäste u. a. Peter Maffya, Headtrick, Hollywoodsfinest, Rynerrr, Illoyal, PCP. Beats u. a. von den Beatgees, Nowak, Maexer |
-| 2007 | {% include cover.html name="kuhmelker-tape-vol-1" titel="Kuhmelker Tape Vol. 1" %} *Kuhmelker Tape Vol. 1* | als *Konnegah* | Parodie auf Kollegah |
-| 2009 | {% include cover.html name="menschenfeind" titel="Menschenfeind" %} *Menschenfeind* | EP mit Hollywood Hank, Weisse Scheisse | 12.06.2009, 11 Titel, rund 35 Minuten. Juice „Kollabo-Album des Monats“ |
-| 2009 | {% include cover.html name="chueaers" titel="Chüars!" %} *Chüars!* | Tape als *$pitt Klikk* mit Peter Maffya, kostenlos | Parodie auf Straßenrap |
-| 2010 | {% include cover.html name="taeter-opfer-ausgleich" titel="Täter-Opfer-Ausgleich" %} *Täter-Opfer-Ausgleich* | Album, Flavamatic Recordz | 21.05.2010, Digipak, 18 Titel, im Vorverkauf 10,90 Euro. Gäste Morlockk Dilemma, Me$$age, Mach One, Absztrakkt. Beats von JAW (neun), Nowak, Peet, Cheebabeatz, Blazin Hand. Videos zu *Meine Fans* und *Elena*. Juice: viereinhalb von sechs Kronen |
-| 2018 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins" titel="Die unerträgliche Dreistigkeit des Seins" %} *Die unerträgliche Dreistigkeit des Seins* | Album | 25.05.2018, eigenes Label über Groove Attack. Platz vier der deutschen Albumcharts |
-| 2019 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins-old-habits" titel="Old Habits Version" %} *Die unerträgliche Dreistigkeit des Seins – Old Habits Version* | Bandcamp | 25.02.2019, 14 Titel, darunter sechs, die vorher einzeln erschienen waren, und *Masken* mit Maeckes |
-| 2026 | {% include cover.html name="grobes-kino" titel="Grobes Kino" %} *Grobes Kino* | Album | Vinyl angekündigt, Stand Oktober 2026 ohne Datum |
+| 2003 | {% include cover.html name="seelensturm" titel="Seelensturm" %} | **Seelensturm**<br><span class="art">EP, selbst gebrannt</span> | Angekündigt am 14.09.2003 als *Bloody Bastard*, erschienen etwa im Oktober. 7 Titel: *Seelensturm*, *In deinen Augen*, *Im roten Feuer der Sonne*, *Human Ocean* (feat. Maggoh), *Taucher in der Tiefe*, *Neun Kugeln*, *PCP Party* (feat. Rynerrr One und Mäxer Ca$h). 4 Euro plus 1,50 Euro Porto. Ende 2005 als „Bootleg“ mit Schwarzweiß-Cover für 4 Euro neu aufgelegt |
+| 2006 | {% include cover.html name="schock-fuers-leben" titel="Schock fürs Leben" %} | **Schock fürs Leben**<br><span class="art">Album, Rapz Records</span> | 04.08.2006 laut Discogs, angekündigt für den 05.04.2006. 19 Titel, rund 76 Minuten, von JAW produziert, Cuts von DJ Tjoma, Artwork von Rynerrr. Gäste u. a. Rynerrr, Maexer, Hollywood Hank, Kaspah Hausa, Plasti. 12 Euro inklusive Versand. Juice „Demo des Monats“ (Heft 07/2006), „Demo des Jahres“ auf Platz drei |
+| 2006 | {% include cover.html name="zwischen-chemie-und-wahnsinn" titel="Zwischen Chemie & Wahnsinn" %} | **Zwischen Chemie & Wahnsinn**<br><span class="art">EP mit Me\$\$age, kostenlos</span> | mit Rynerrr auf *Himmel* |
+| 2007 | {% include cover.html name="gehirn-im-mixer-extended" titel="Gehirn im Mixer" %} | **Gehirn im Mixer**<br><span class="art">Mixtape, Rapz Records und Flavamatic Recordz</span> | Offiziell erschienen am 30.03.2007 als Extended-Fassung, 25 Titel, davon 12 neu, rund 80 Minuten. Gäste u. a. Peter Maffya, Headtrick, Hollywoodsfinest, Rynerrr, Illoyal, PCP. Beats u. a. von den Beatgees, Nowak, Maexer. Schon Ende August 2006 gab es das Mixtape kostenlos über die Seite von Rapz Records, es wurde zum Erscheinen der Extended-Fassung wieder entfernt |
+| 2007 | {% include cover.html name="konnegah" titel="Kuhmelker Tape Vol. 1" %} | **Kuhmelker Tape Vol. 1**<br><span class="art">als *Konnegah*</span> | Parodie auf Kollegah |
+| 2009 | {% include cover.html name="menschenfeind" titel="Menschenfeind" %} | **Menschenfeind**<br><span class="art">EP mit Hollywood Hank, Weisse Scheisse</span> | 12.06.2009, 11 Titel, rund 35 Minuten. Juice „Kollabo-Album des Monats“ |
+| 2009 | {% include cover.html name="chueaers" titel="Chüars!" %} | **Chüars!**<br><span class="art">Tape als *$pitt Klikk* mit Peter Maffya, kostenlos</span> | Parodie auf Straßenrap |
+| 2010 | {% include cover.html name="taeter-opfer-ausgleich" titel="Täter-Opfer-Ausgleich" %} | **Täter-Opfer-Ausgleich**<br><span class="art">Album, Flavamatic Recordz</span> | 21.05.2010, Digipak, 18 Titel, im Vorverkauf 10,90 Euro. Gäste Morlockk Dilemma, Me\$\$age, Mach One, Absztrakkt. Beats von JAW (neun), Nowak, Peet, Cheebabeatz, Blazin Hand. Videos zu *Meine Fans* und *Elena*. Juice: viereinhalb von sechs Kronen |
+| 2018 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins" titel="Die unerträgliche Dreistigkeit des Seins" %} | **Die unerträgliche Dreistigkeit des Seins**<br><span class="art">Album</span> | 25.05.2018, eigenes Label über Groove Attack. In den deutschen Albumcharts (Wikipedia: Platz 4, jawonline.de: Platz 14) <!-- PRÜFEN: Chartplatz. Wikipedia nennt Platz 4, die Shopseite auf jawonline.de „DE #14 · AT #39 · CH #96“. -->. Die Box enthält JAWs Magisterarbeit in gedruckter Form |
+| 2019 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins-old-habits" titel="Old Habits Version" %} | **Die unerträgliche Dreistigkeit des Seins – Old Habits Version**<br><span class="art">Bandcamp</span> | 25.02.2019, 14 Titel, darunter sechs, die vorher einzeln erschienen waren, und *Masken* mit Maeckes |
+| 2026 | {% include cover.html name="grobes-kino" titel="Grobes Kino" %} | **Grobes Kino**<br><span class="art">Album</span> | seit 2019 angekündigt. Vinyl seit Mai 2026 im Shop, „Coming Soon“, Stand Oktober 2026 ohne Datum |
+{: .diskografie}
 
 #### Singles und Freetracks
 
-| Jahr | Titel | Art | Anmerkungen |
-|---|---|---|---|
-| 2004 | {% include cover.html name="das-ist" titel="Das ist!" %} *Das ist!* | Track | „Alles selbst produziert“ |
-| 2007 | {% include cover.html name="crapz-records" titel="Crapz Records" %} *Crapz Records* | Disstrack | gegen Rapz Records |
-| 2011 | {% include cover.html name="private-paul-diss" titel="Private Paul" %} *Private Paul* | Disstrack | 05.02.2011, exklusiv auf meinrap.de |
-| 2011 | {% include cover.html name="pisse-aus-weinglaesern" titel="Pisse aus Weingläsern" %} *Pisse aus Weingläsern* | mit Maeckes | Juice Exclusive |
-| 2014–2017 | Einzeltitel | Freetracks | u. a. *Rap hat dich kaputt gemacht*, *Fremdkörper*, *Weltenpendler*, *Lost in Space*, *Survival of the Sickest*, *Niemandsland*, *TOA 3*, *Exit* |
-| 2019 | {% include cover.html name="falling-down" titel="Falling Down" %} *Falling Down* | Single | |
-| 2019 | *Grobes Kino* (Snippet) | SoundCloud | Vorbote des Albums von 2026 |
-| 2026 | {% include cover.html name="statisten-sterben" titel="Statisten Sterben" %} *Statisten Sterben* | Single, mit Rynerrr | aus *Grobes Kino* |
-| 2026 | {% include cover.html name="hanna" titel="Hanna" %} *Hanna* | Single | aus *Grobes Kino* |
+| Jahr | Titel | Anmerkungen |
+|---|---|---|
+| 2004 | **Das ist!**<br><span class="art">Track</span> | „Alles selbst produziert“ |
+| 2007 | **Crapz Records**<br><span class="art">Disstrack</span> | gegen Rapz Records |
+| 2011 | **Private Paul**<br><span class="art">Disstrack</span> | 05.02.2011, exklusiv auf meinrap.de |
+| 2011 | **Pisse aus Weingläsern**<br><span class="art">mit Maeckes</span> | Juice Exclusive |
+| 2014–2017 | Einzeltitel<br><span class="art">Freetracks</span> | u. a. *Rap hat dich kaputt gemacht*, *Fremdkörper*, *Weltenpendler*, *Lost in Space*, *Survival of the Sickest*, *Niemandsland*, *TOA 3*, *Exit* |
+| 2019 | **Falling Down**<br><span class="art">Single</span> |  |
+| 2019 | **Grobes Kino** (Snippet)<br><span class="art">SoundCloud</span> | Vorbote des Albums von 2026 |
+| 2026 | **Statisten Sterben**<br><span class="art">Single, mit Rynerrr</span> | aus *Grobes Kino* |
+| 2026 | **Hanna**<br><span class="art">Single</span> | aus *Grobes Kino* |
+{: .diskografie .ohne-cover}
 
 #### Vertreten auf
 
@@ -1108,11 +1610,20 @@ Quellen: Wikipedia, Discogs, die Foren- und Shopseiten der jeweiligen Jahre, Ban
 
 ### Heute
 
-Um 2011 zog er nach Berlin. Er schrieb seine Magisterarbeit über die Rezeption von Hip-Hop bei Jugendlichen und arbeitete danach im Vertrieb einer Firma.[^p1-laut2014] Die Musik entstand jetzt abends und am Wochenende. 2018 erschien sein drittes Soloalbum *Die unerträgliche Dreistigkeit des Seins*, das Platz vier der deutschen Charts erreichte.[^p1-wiki] Ein Jahr später folgte eine zweite Fassung unter dem Zusatz *Old Habits Version*, mit Maeckes als Gast.[^p1-bandcamp]
+Im Wintersemester 2011/12 schloss er sein Studium in Freiburg ab. Seine Magisterarbeit trägt den Titel *Rezeption von Popularmusik bei Jugendlichen. Untersuchungen ausgewählter Stücke aus dem Bereich Hip-Hop*. Als Verfasser nennt das Titelblatt „Dr. J. aus Niemandsland“, und die Semesterangabe „WS 2011–2012“ liest man bei ihm unweigerlich doppelt, als Wintersemester und als Weisse Scheisse. Untersucht hat er fünf Stücke: Kollegahs *Flex, Sluts & Rock'n'Roll*, *Engel links, Teufel rechts* von Sido und Bushido, *Urlaub fürs Gehirn* von K.I.Z, Caspers *So perfekt* und *Diamantgeiszt* von Absztrakkt.[^p1-magister]
+
+Vier davon gehörten 2011 zum Bekanntesten, was deutscher Rap zu bieten hatte. Das fünfte ist die Ausnahme. Absztrakkt war ein Nischenkünstler, einer der Gäste auf *Täter-Opfer-Ausgleich*, und JAW hatte 2010 eine gemeinsame EP mit ihm angekündigt, die nie erschien. In einem Interview nannte JAW ihn einen echten Künstler und eine Inspiration. <!-- PRÜFEN: Fundstelle des Interviews zu Absztrakkt. --> Dass er ihn in einer wissenschaftlichen Arbeit neben Kollegah, Sido und Casper stellt, sagt viel darüber, wen er ernst nahm. Öffentlich wurde die Arbeit sieben Jahre später: Sie liegt gedruckt der Box zu seinem dritten Album bei.
+
+Um dieselbe Zeit zog er nach Berlin und arbeitete im Vertrieb einer Firma.[^p1-laut2014] Die Musik entstand jetzt abends und am Wochenende. 2018 erschien sein drittes Soloalbum *Die unerträgliche Dreistigkeit des Seins*, sein erstes in den deutschen Charts.[^p1-wiki] <!-- PRÜFEN: Chartplatz. Wikipedia nennt Platz 4, die Shopseite auf jawonline.de „DE #14 · AT #39 · CH #96“. --> Ein Jahr später folgte eine zweite Fassung unter dem Zusatz *Old Habits Version*, mit Maeckes als Gast.[^p1-bandcamp]
 
 Ganz verließ er die Battle-Szene, aus der er kam, nie. Im Juni 2018 trat er beim OLYMP-Festival in einem Rapbattle gegen Finch Asozial an.[^p1-olymp] Danach erschienen nur noch einzelne Stücke, 2019 *Falling Down* und auf SoundCloud ein Snippet zu einem Mixtape namens *Grobes Kino*.[^p1-sc]
 
-Sieben Jahre später ist daraus ein Album geworden. Auf seiner Webseite heißt es 2026 schlicht „Das Album“, das Vinyl komme bald, und die erste Single, *Statisten Sterben*, sei „Jetzt auf allen Plattformen“. Aufgenommen hat er sie mit Rynerrr. Eine zweite Single heißt *Hanna*. Im Shop gibt es ein „WS Shirt“, 300 Stück, „Gleiches Motiv. Neues Teil.“, und unten auf der Seite steht „JAW / Weisse Scheisse 2026“.[^p1-2026] Der Name des Labels, das er zum Jahreswechsel 2008 gegründet hatte, ist damit wieder in Gebrauch, zumindest als Marke. <!-- PRÜFEN: Erscheinungsdatum von „Grobes Kino“; Stand jawonline.de am 15.10.2026: ohne Datum, „Vinyl coming soon“. -->
+*Grobes Kino* blieb danach jahrelang eine Ankündigung. 2026 kam wieder Bewegung hinein, als JAW auf Instagram zurückkehrte. Auf seiner Webseite [jawonline.de](https://jawonline.de) heißt es jetzt schlicht „Das Album“, und die erste Single, *Statisten Sterben*, sei „Jetzt auf allen Plattformen“. Aufgenommen hat er sie mit Rynerrr. Eine zweite Single heißt *Hanna*. Die Vinyl steht seit Mai 2026 im Shop, mit dem Vermerk „Coming Soon“, bestellen kann man sie noch nicht.[^p1-2026] <!-- PRÜFEN: Erscheinungsdatum von „Grobes Kino“. -->
+
+Der Shop zeigt auch, was sonst wieder auflebt. Im Mai 2026 kam ein Hoodie mit dem Schriftzug von Weisse Scheisse heraus, „Nur 350 Stück“, „Kein Restock“, im Juli ein „WS Shirt“. Daneben verkauft JAW Restbestände aus zwei Jahrzehnten: CDs von *Schock fürs Leben*, jahrelang eingelagerte *Menschenfeind*-Shirts mit dem Hinweis auf mögliche „Lagerspuren“ und die Vinyl von *Die unerträgliche Dreistigkeit des Seins*. Unten auf der Seite steht „JAW / Weisse Scheisse 2026“.[^p1-shop] Neue Musik unter dem Namen des Labels gibt es nicht. Aber der Name, den er zum Jahreswechsel 2008 einem Label gab, ist wieder in Gebrauch, zumindest als Marke.
+
+**Links:** [SoundCloud](https://soundcloud.com/jottaw) · [Bandcamp](https://besserjaw.bandcamp.com/) · [jawonline.de](https://jawonline.de)
+{: .links}
 
 [^p1-wiki]: Wikipedia, Artikel „JAW (Rapper)“, abgerufen am 14.10.2026; JAW im Interview mit rap.de, 30.03.2010.
 [^p1-rapde]: JAW im Interview mit rap.de, 30.03.2010. [rap.de](https://rap.de/c37-interview/6295-jaw/).
@@ -1130,6 +1641,8 @@ Sieben Jahre später ist daraus ein Album geworden. Auf seiner Webseite heißt e
 [^p1-infekt]: „JAW feat. Illoyal & DIA – Infektionsgefahr“, rap.de, 06.01.2010. [rap.de](https://rap.de/soundandvideo/9241-jaw-feat-illoyal-dia-infektionsgefahr/).
 [^p1-olymp]: Wikipedia, Artikel „JAW (Rapper)“, Abschnitt zur Biografie, abgerufen am 15.10.2026.
 [^p1-2026]: [jawonline.de](https://jawonline.de), abgerufen am 15.10.2026; Wikipedia, Artikel „JAW (Rapper)“, Abschnitt „Verschiedenes“ („Statistensterben (mit Rynerrr)“, „Hanna“).
+[^p1-magister]: JAW, *Rezeption von Popularmusik bei Jugendlichen. Untersuchungen ausgewählter Stücke aus dem Bereich Hip-Hop*, Magisterarbeit an der Philologischen, Philosophischen und Wirtschafts- und Verhaltenswissenschaftlichen Fakultät der Albert-Ludwigs-Universität Freiburg im Breisgau, WS 2011–2012; als Druck in der Box zu *Die unerträgliche Dreistigkeit des Seins* (2018). Exemplar des Autors. <!-- PRÜFEN: Schreibweise des Kollegah-Titels mit dem Inhaltsverzeichnis abgleichen. -->
+[^p1-shop]: jawonline.de, Shop: „WS HOODIE“ (eingestellt am 04.05.2026), „Schock fürs Leben — JAW“ und „Grobes Kino — Vinyl“ (12.05.2026), „WS SHIRT“ (18.07.2026), „VINYL Die unerträgliche Dreistigkeit des Seins“ (10.08.2026), „MSF SHIRT ARCHIV“ (19.08.2026). [jawonline.de](https://jawonline.de), abgerufen am 15.10.2026.
 [^s-jaw]: Wikipedia, Artikel „JAW (Rapper)“, „Menschenfeind (Album)“, „Täter-Opfer-Ausgleich (Album)“; Discogs, Releases 2655837 und 2938776; MZEE-Forum, 14.09.2003, 14.11.2003, 12.01.2004, 14.03.2007; jaw.myownmusic.de, [Web Archive, 09.05.2006](https://web.archive.org/web/20060509154513/http://jaw.myownmusic.de:80/artistpage_info.php?artist_id=12594); weissescheisse.de, News vom 13. und 22.04.2010; [besserjaw.bandcamp.com](https://besserjaw.bandcamp.com/); jawonline.de, abgerufen am 15.10.2026.
 
 ## Rynerrr
@@ -1166,27 +1679,38 @@ Sein Rap ist roh, sein Humor bitter, und er richtet sich gern gegen die eigene S
 
 Wo PCP in Gewaltbildern schwelgten, war Rynerrr oft der Lauteste. Er war aber auch derjenige, der 2009 als einziger öffentlich darüber nachdachte, wie solche Zeilen auf ein größeres Publikum wirken könnten, und seinen Part für das Video zu *Weisse Scheisse* entschärfte.[^p2-mzee]
 
-Ein großer Teil dessen, was dieses Buch erzählen kann, stammt von Rynerrrs Seiten. Auf seiner Domain lag die Albumseite von 2004, mit dem Chatprotokoll über 37,5 Cent pro CD. Er moderierte das PCP-Forum auf Rapidforum mit seinem „forum für scheiss trottel“. Er schrieb, soweit erkennbar, die meisten News auf p-c-p.ws, die mit „…so ihr Assis“ begannen und mit „Prost, d'Rynerrr“ endeten, und er war es, der im Juni 2007 meldete, das Video habe die Seite „kaputt“ gemacht, und um Hilfe bat: „Unser Technik-Team (ich…)“.[^p2-news] JAW sagte 2007, Rynerrr habe ihn „gut beeinflusst“.[^p2-laut]
+Ein großer Teil dessen, was dieser Artikel erzählen kann, stammt von Rynerrrs Seiten. Auf seiner Domain lag die Albumseite von 2004, mit dem Chatprotokoll über 37,5 Cent pro CD. Er moderierte das PCP-Forum auf Rapidforum mit seinem „forum für scheiss trottel“. Er schrieb, soweit erkennbar, die meisten News auf p-c-p.ws, die mit „…so ihr Assis“ begannen und mit „Prost, d'Rynerrr“ endeten, und er war es, der im Juni 2007 meldete, das Video habe die Seite „kaputt“ gemacht, und um Hilfe bat: „Unser Technik-Team (ich…)“.[^p2-news] JAW sagte 2007, Rynerrr habe ihn „gut beeinflusst“.[^p2-laut]
+
+Wer Rynerrrs Lieder in der Reihenfolge ihres Erscheinens hört, hört jemanden, der sich verändert und das selbst zum Thema macht. *Rynerrr's Tod*, das Lied, das er um 2005 zurückhielt und 2008 als Bonustrack nachreichte, ist ein Abschied von der Figur, die er bis dahin gespielt hatte. Er lässt darin Rynerrr hinter sich, will sich auf sein eigenes Leben konzentrieren und nicht mehr nur wütend sein. Die Stücke danach sind freundlicher. Am deutlichsten zeigt das ein Paar. Auf dem zweiten PCP-Album steht *Rinderbraten*, ein Lied, in dem alles schlecht ist. 2015 stellte Rynerrr *Tofuwurst* online, mit dem Zusatz *Rinderbraten 2015* in Klammern, und drehte es um: Hier ist alles gut. <!-- OFFEN: Merlin liefert die Lyrics von Rynerrr nach. Dann Rynerrr's Tod, Rinderbraten/Tofuwurst und die späten Stücke mit kurzen Zitaten belegen und diesen Absatz ausbauen. -->
+
+Ganz verschwunden ist die Wut nicht. Auf *Gutmensch/Wutbürger* (2017) kehrt sie zurück, schon im Titel. Aber sie hat eine andere Richtung bekommen. MZEE.com schrieb, Rynerrr deute den Begriff des Wutbürgers um: Statt gegen die Obrigkeit richte sich seine Ablehnung „gleich gegen die gesamte Menschheit“.[^p2-gutmensch] <!-- PRÜFEN: Mit den Lyrics genauer fassen, wogegen sich die Wut auf Gutmensch/Wutbürger richtet. -->
+
+{% include bild.html src="/assets/bilder/pcp/archiv/rynerrr-facebook-projekt-eichhorn.jpg" text="Rynerrrs Aufruf auf Facebook, aus dem *Projekt Eichhorn* entstand. Namen der Kommentierenden geschwärzt" alt="Facebook-Beitrag von Rynerrr mit Kommentaren" breite="3/4" %}
+<!-- Vor dem Ablegen alle Namen und Profilbilder der Kommentierenden schwärzen. -->
+
+Ein Sonderfall ist *Projekt Eichhorn*. An einem 9. Oktober, wohl 2011, schrieb Rynerrr auf Facebook, er habe „bald“ wieder eine eigene Aufnahmemöglichkeit zuhause, „ab dann wird ebb's g'schafft bi gott!“ Um den „Geräteschrott“ zu testen, wolle er ein paar Freetracks aufnehmen, und dafür hätte er gern Inspiration: „Schreibt mir hier per Kommentar ein Thema über das ihr mich gerne fachmännisch fachsimpeln hören würdet.“ Die ersten Antworten kamen nach drei Minuten und reichten von „9/11 insidejob“ über „Whiskyliebe“ bis „Voluntarismus“.[^p2-eichhorn] Aus solchen Vorschlägen entstanden die Stücke von *Projekt Eichhorn*, die er zwischen 2011 und 2013 aufnahm. Die Hörer bestimmten die Themen, Rynerrr machte daraus Lieder.
 
 ### Diskografie
 
 #### Alben
 
-| Jahr | Titel | Art | Anmerkungen |
+| Jahr | Cover | Titel | Anmerkungen |
 |---|---|---|---|
-| 2005 | {% include cover.html name="symptome-2005" titel="Symptome" %} *Symptome* (Erstfassung) | Album, selbst gebrannt | Snippet im April 2005. 14 Titel, 7 Euro inklusive Porto, Cover in kleinen Mengen nachgedruckt. Gast: JAW, mit zwei Features, dazu Beats und Backgroundgesang. Juice „Demo des Monats“ (Heft 10/2006) und „Demo des Jahres“ |
-| 2008 | {% include cover.html name="symptome" titel="Symptome" %} *Symptome* (Neuauflage) | Album, Weisse Scheisse | 15./16.05.2008, gemastert und gepresst, 17 Titel, davon drei Bonustitel: *Punkrapper Remix*, *Rynerrr's Tod*, *Spiegel*. 10 Euro |
-| 2013 | {% include cover.html name="projekt-eichhorn" titel="Projekt Eichhorn" %} *Projekt Eichhorn* | SoundCloud | nummerierte Stücke, hochgeladen 2013 bis 2015 |
-| 2014 | {% include cover.html name="album-2014" titel="album" %} *"album"* | Bandcamp, kostenlos | 16.09.2014, 10 Titel, unfertig. rap.de nannte es einen Nachtrag zu *Symptome* |
-| 2017 | {% include cover.html name="gutmensch-wutbuerger" titel="Gutmensch/Wutbürger" %} *Gutmensch/Wutbürger* | Album, Bandcamp, per Crowdfunding finanziert | 19.05.2017, als Rynerrr Schrott. 15 Titel, davon 14 abrufbar. Gäste Rahzkroneprinz, Stomakk, Etogate, Defcon, Rotten Monkey, Maexer. Video zu *Schaschlik* |
+| 2008 | {% include cover.html name="symptome" titel="Symptome" %} | **Symptome**<br><span class="art">Album, Weisse Scheisse</span> | Neuauflage vom 15./16.05.2008, gemastert und gepresst, 17 Titel, davon drei Bonustitel: *Punkrapper Remix*, *Rynerrr's Tod*, *Spiegel*. 10 Euro. Die Erstfassung kursierte schon ab 2005 als selbst gebrannte CD (Snippet im April 2005, 14 Titel, 7 Euro inklusive Porto, Cover in kleinen Mengen nachgedruckt, Gast JAW mit zwei Features, dazu Beats und Backgroundgesang). Juice „Demo des Monats“ (Heft 10/2006) und „Demo des Jahres“ |
+| 2013 | {% include cover.html name="projekt-eichhorn" titel="Projekt Eichhorn" %} | **Projekt Eichhorn**<br><span class="art">SoundCloud, gema-betteln.de</span> | Themen von Fans per Facebook-Kommentar. Entstanden 2011–2013, auf SoundCloud hochgeladen 2013 bis 2015 |
+| 2014 | {% include cover.html name="grim-inc" titel="Grim Inc." %} | **Grim Inc.**<br><span class="art">Mixtape, Projekt mit Me\$\$age, Karl Mmoor, Lasse Green und Stomakk</span> | 31.12.2014 auf SoundCloud, 14 Titel. Mehr unter [Grim Inc.](#grim-inc) |
+| 2014 | {% include cover.html name="album-2014" titel="album" %} | **"album"**<br><span class="art">Bandcamp, kostenlos</span> | 16.09.2014, 10 Titel, unfertig. rap.de nannte es einen Nachtrag zu *Symptome* |
+| 2017 | {% include cover.html name="gutmensch-wutbuerger" titel="Gutmensch/Wutbürger" %} | **Gutmensch/Wutbürger**<br><span class="art">Album, Bandcamp, per Crowdfunding finanziert</span> | 19.05.2017, als Rynerrr Schrott. 15 Titel, davon 14 abrufbar. Gäste Rahzkroneprinz, Stomakk, Etogate, Defcon, Rotten Monkey, Maexer. Video zu *Schaschlik* |
+{: .diskografie}
 
 #### Singles und Freetracks
 
-| Jahr | Titel | Art | Anmerkungen |
-|---|---|---|---|
-| 2009 | {% include cover.html name="schreierei" titel="Schreierei" %} *Schreierei* | Freetrack mit Private Paul | Labelseite |
-| 2010 | {% include cover.html name="zukunftsmusik" titel="Zukunftsmusik" %} *Zukunftsmusik* | Freetrack | Labelseite |
-| 2015 | *Bettelrap*, *Tofuwurst (Rinderbraten 2015)*, *Kotzbalade* (feat. Stomakk), *Die Rache des Eichhorngottes* | SoundCloud und Labelseite | |
+| Jahr | Titel | Anmerkungen |
+|---|---|---|
+| 2009 | **Schreierei**<br><span class="art">Freetrack mit Private Paul</span> | Labelseite |
+| 2010 | **Zukunftsmusik**<br><span class="art">Freetrack</span> | Labelseite |
+| 2015 | *Bettelrap*, *Tofuwurst (Rinderbraten 2015)*, *Kotzbalade* (feat. Stomakk), *Die Rache des Eichhorngottes*<br><span class="art">SoundCloud und Labelseite</span> |  |
+{: .diskografie .ohne-cover}
 
 #### Vertreten auf
 
@@ -1195,23 +1719,27 @@ Ein großer Teil dessen, was dieses Buch erzählen kann, stammt von Rynerrrs Sei
 | 2003 | JAW, *Seelensturm* | *PCP Party* |
 | 2004 | Haj, Track mit Orat und Daze | Gastpart, MZEE-Forum, 04.02.2004 |
 | 2006 | JAW, *Schock fürs Leben* | *Die Sendung mit Applaus*, *PCP Putsch*; Artwork |
-| 2006 | JAW und Me$$age, *Zwischen Chemie & Wahnsinn* | *Himmel* |
+| 2006 | JAW und Me\$\$age, *Zwischen Chemie & Wahnsinn* | *Himmel* |
 | 2007 | JAW, *Gehirn im Mixer (Extended)* | *Alles was du willst*, *Was passiert* |
 | 2013 | Maexer und Stomakk, *Dein Bestes* | das halbe Album |
+| 2018 | Me\$\$age, *2015/2016* | *Schwarzes Loch*, auch im Me\$\$age-Remix |
 | 2018 | Knorki, Stomakk und Aytee, *Schule* | Gastpart, SoundCloud |
 | 2026 | JAW, *Statisten Sterben* | Single |
-
-Vor PCP gehörte Rynerrr zu den *Ztreuzel-Brothaz*, von denen nur der Name bekannt ist, aus der Juice 10/2006 und dem Gästebuch von p-c-p.ws.
 
 Zwei Titel wandern durch die Jahre. *born dead* von 2014 kehrt 2017 als *Born Dead 17* wieder. Und *Rinderbraten*, ein Titel des zweiten PCP-Albums, taucht 2015 in Klammern hinter einem Stück namens *Tofuwurst* auf.[^s-rynerrr]
 
 ### Heute
 
-Nach *Symptome* wurde es um Rynerrr ruhiger. 2013 rappte er auf dem halben Album von Maexer und Stomakk. 2014 verschenkte er eine Sammlung unfertiger Stücke unter dem Titel *Album*, auf SoundCloud tauchten ein *Projekt Eichhorn* und ein Track namens *Bettelrap* auf.[^p2-bandcamp] 2017 erschien, per Crowdfunding finanziert, *Gutmensch/Wutbürger*, mit Gästen wie Rahzkroneprinz, Stomakk, Rotten Monkey und seinem Bruder Maexer. MZEE.com schrieb, er rappe darauf, „als sei er nie weg gewesen“, und deute den Begriff des Wutbürgers um: Statt gegen die Obrigkeit richte sich seine Ablehnung „gleich gegen die gesamte Menschheit“.[^p2-gutmensch]
+Nach *Symptome* wurde es um Rynerrr ruhiger. 2013 rappte er auf dem halben Album von Maexer und Stomakk. 2014 verschenkte er eine Sammlung unfertiger Stücke unter dem Titel *Album*, auf SoundCloud tauchten ein *Projekt Eichhorn* und ein Track namens *Bettelrap* auf.[^p2-bandcamp] Zum Jahreswechsel 2014/15 erschien das Mixtape von [Grim Inc.](#grim-inc), einem Projekt mit Me\$\$age, Karl Mmoor, Lasse Green und Stomakk. 2017 erschien *Gutmensch/Wutbürger*. Für die Endproduktion sammelte er Geld per Crowdfunding, die Zielsumme war nach fünf Tagen erreicht, am Ende kam das Doppelte zusammen.[^p2-gema] Gäste waren Rahzkroneprinz, Stomakk, Rotten Monkey und sein Bruder Maexer. MZEE.com schrieb, er rappe darauf, „als sei er nie weg gewesen“, und deute den Begriff des Wutbürgers um: Statt gegen die Obrigkeit richte sich seine Ablehnung „gleich gegen die gesamte Menschheit“.[^p2-gutmensch]
 
 Danach wurde es still um ihn. Auf seinen Seiten bei Bandcamp und SoundCloud ist seit 2017 nichts Neues erschienen. Der letzte Upload ist ein Teaser zu *Gutmensch/Wutbürger*, mit dem Handy aufgenommen. 2018 rappte er noch auf *Schule*, einem Track auf dem Profil von Stomakk.[^p2-sc]
 
-Umso mehr fällt die Single von 2026 auf. Auf *Statisten Sterben* ist Rynerrr wieder neben JAW zu hören, dreiundzwanzig Jahre nach *PCP Party*, dem ersten Lied, auf dem beide gemeinsam standen.[^p2-2026]
+Seine Musik verteilt er seitdem selbst, auf einer eigenen Seite namens [gema-betteln.de](https://www.gema-betteln.de). Sie sei eine „Einfache Seite um die Musik einiger toller Musikanten einem Publikum zugänglich zu machen“, alles unter einer Creative-Commons-Lizenz, die nichtkommerzielles Weitergeben erlaubt. Zum freien Download liegen dort *"album"*, *Projekt Eichhorn*, die Freetracks *Bettelrap*, *LWA* und *Terrorismas in the Heart*, seine RBA-Runden aus den Jahren um 2005 bis 2008, eine Sammlung mit dem Titel *Ein Festival der kostenlosen Stimmungshits aus 2 Jahrzehnten (1999 – 2015)*, die *Kammerflimmern EP* von Me\$\$age, *Dein Bestes* von Maexer und Stomakk, das erste PCP-Album und eine Remix-Fassung des zweiten. *Symptome* und *Gutmensch/Wutbürger* gibt es seit Juni 2018 auch auf den großen Streaming-Portalen.[^p2-gema] Von der Pressung von *Symptome* aus dem Jahr 2008 hat er noch Exemplare auf Lager und verschickt sie selbst. Wer will, kann spenden. Es ist dasselbe Prinzip wie 2004 auf rynerrr.de: Die Musik ist frei, die Unterstützung freiwillig.
+
+Sein bisher letztes musikalisches Lebenszeichen ist ein Feature. Auf JAWs Single *Statisten Sterben* ist Rynerrr 2026 wieder neben JAW zu hören, dreiundzwanzig Jahre nach *PCP Party*, dem ersten Lied, auf dem beide gemeinsam standen. Ob auch Maexer darauf rappt, ist nicht ganz klar. Im Text wird er genannt.[^p2-2026]
+
+**Links:** [SoundCloud](https://soundcloud.com/rynerrr) · [Bandcamp](https://rynerrr.bandcamp.com) · [gema-betteln.de](https://www.gema-betteln.de)
+{: .links}
 
 [^p2-mzee]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/).
 [^p2-juice]: Juice 10/2006, „Demo des Monats“, zitiert nach der Presseseite von p-c-p.ws. [Web Archive](https://web.archive.org/web/20070516175001/http://www.p-c-p.ws/presse.php).
@@ -1227,6 +1755,8 @@ Umso mehr fällt die Single von 2026 auf. Auf *Statisten Sterben* ist Rynerrr wi
 [^p2-gutmensch]: Florian Peking, „Rynerrr – Gutmensch/Wutbürger“, MZEE.com, 25.05.2017. [mzee.com](https://www.mzee.com/2017/05/rynerrr-gutmenschwutbuerger/).
 [^p2-2026]: Wikipedia, Artikel „JAW (Rapper)“; jawonline.de, abgerufen am 15.10.2026.
 [^p2-sc]: SoundCloud [rynerrr](https://soundcloud.com/rynerrr) und [stomakk](https://soundcloud.com/stomakk), abgerufen am 15.10.2026.
+[^p2-gema]: gema-betteln.de, Seiten „neues“ (Einträge vom 04.04.2017 bis 12.06.2018), „aktion“ und „musik“. [gema-betteln.de](https://www.gema-betteln.de), abgerufen am 15.10.2026.
+[^p2-eichhorn]: Rynerrr, Beitrag auf seiner Facebook-Seite vom 9. Oktober, 12:24 Uhr, mit Kommentaren ab 12:27 Uhr. Das Jahr ist auf dem Screenshot nicht zu sehen. Die Namen der Kommentierenden werden hier nicht genannt. Zu *Projekt Eichhorn* (2011–2013): gema-betteln.de, Musikseite. <!-- PRÜFEN: Jahr und Fundstelle des Beitrags; Merlin sucht den Original-Post. -->
 [^s-rynerrr]: Juice 10/2006, zitiert nach p-c-p.ws, `presse.php`; Gästebuch von p-c-p.ws, 04.10.2006 und 20.05.2007; hiphop.de, 15.05.2008; [rynerrr.bandcamp.com](https://rynerrr.bandcamp.com/music), abgerufen am 15.10.2026; rap.de, „Fundkiste #7“, 08.03.2016; SoundCloud [rynerrr](https://soundcloud.com/rynerrr) und [stomakk](https://soundcloud.com/stomakk).
 
 ## Maexer
@@ -1257,11 +1787,13 @@ Seine eigenen Stücke klangen anders als die der anderen. Auf p-c-p.ws gab es 20
 
 Maexer hat mehr Projekte begonnen als veröffentlicht. Auf der Labelseite zählte er 2009 auf: ein Album unter dem Namen *Mäxer*, „ausverkauft“; die *Zigeuner EP*, „nie erschienen/ausser Internet“; *Die legendären Nordnigger*, „nie erschienen“; *Reedram Harritz*, „nix gemacht ausser 1 lied“. Darunter die Bilanz seiner Bühnenkarriere: „Auftritte: 3 oder 4“.[^p3-bio] Im Forum erklärte er, von den meisten Aufnahmen sei nichts mehr übrig. Was es gebe, liege bei den Sachen, „die ins pcp forum gestellt worden sind“.[^p3-zigeuner] Dieses Forum ist verloren.
 
+{% include bild.html src="/assets/bilder/pcp/fotos/maexer-rappt.jpg" text="Maexer am Mikrofon. Gepostet um 2011, Aufnahmedatum unbekannt" alt="Maexer rappt" seite="links" breite="2/5" %}
+
 In den Texten von PCP ist Maexer oft der Rohste, mit einer Vorliebe für ein bestimmtes Wort. Drecksmann erzählte im Forum, er habe auf dem ersten Album mitgezählt, wie oft in einem Track „Scheiße“ vorkommt, und Kash ergänzte: „kein mäxer part ohne unverhältnismäßigen gebrauch von scheiße“.[^p3-scheisse]
 
 Auf dem zweiten Album aber hat Maexer die nachdenklichsten Zeilen. In *…war das Ende*, in dem die anderen den Weltuntergang feiern, spricht er davon, dass man noch jung sei und Ideale noch etwas wert seien, dass er nicht hinter dem Staat stehe und dass er allein schwach sei und in Gruppen stark. In *Asokacke* rappt er über das Warten: „Das bringt die Wende nicht, das macht das Warten besser“.[^p3-lyrics] Für JAW war gerade die Disziplin der Gruppe sein Problem: Dass man sich auch noch an das vereinbarte Thema eines Songs halten müsse, sei „ein Gedanke, der vor allem Maexer bittersüß aufstößt“.[^p3-infekt] Und den Titel des Albums hat er gefunden. „Durch mich…!“[^p3-mzee]
 
-Maexer lebte Anfang 2006 in Berlin und Ende 2007 in Köln, um zu studieren.[^p3-orte] Er blieb trotzdem dabei. Ende 2007 richtete er eine MySpace-Seite ein, auf der Fans *Bierliebe* und *Kämpfe mich nach oben* lobten. „ich entscheid dann am besten auch was aufs album kommt und was nich“, schrieb er dazu.[^p3-myspace] Im Mai 2011 wurde er mit JAW und Rynerrr bei einer Releaseparty in Freiburg angekündigt.
+Er studierte und lebte dafür zeitweise in Berlin und Köln (siehe „Breisgau und Hochschwarzwald“), blieb aber dabei. Ende 2007 richtete er eine MySpace-Seite ein, auf der Fans *Bierliebe* und *Kämpfe mich nach oben* lobten. „ich entscheid dann am besten auch was aufs album kommt und was nich“, schrieb er dazu.[^p3-myspace] Im Mai 2011 wurde er mit JAW und Rynerrr bei einer Releaseparty in Freiburg angekündigt.
 
 ### Diskografie
 
@@ -1277,13 +1809,23 @@ Maexers Diskografie ist die kürzeste und die rätselhafteste. Er hat sie 2009 s
 
 Was sonst belegt ist: fünf Solotracks zum Download auf p-c-p.ws im Jahr 2006 (*Verlose dein Club*, *Positiv*, *Crack und Piece*, *Frieden*, *Mix Down von den Toten*), *Maexer Positiv* im Forum (Dezember 2007), *Bierliebe* und *Kämpfe mich nach oben* auf MySpace (Anfang 2008) und *Frieden* noch einmal im Downloadbereich der Labelseite 2010.
 
-2013 erschien *Dein Bestes* mit Stomakk, kostenlos über Bandcamp und die Labelseite, 13 Titel, mit Gästen wie Rynerrr, JAW, Illoyal, Me$$age, Lasse Green und Karl Mmoor und einem Video zu *Falscher Weg*. Danach folgten auf SoundCloud *All Time Classics* mit Me$$age und Stomakk (2015), *jez soviel* (2016) und ein Stück, das für eine LP von Me$$age gedacht war (2017). Im selben Jahr ist er zweimal auf Rynerrrs *Gutmensch/Wutbürger* zu hören.[^s-maexer2]
+#### Alben
+
+| Jahr | Cover | Titel | Anmerkungen |
+|---|---|---|---|
+| 2013 | {% include cover.html name="dein-bestes" titel="Dein Bestes" %} | **Dein Bestes**<br><span class="art">Album mit Stomakk, kostenlos</span> | Im Grunde ein Maexer-Album, auf der Hälfte der Titel ist auch Rynerrr zu hören. Kostenlos über Bandcamp und die Labelseite, 13 Titel. Gäste Rynerrr, JAW, Illoyal, Me\$\$age, Lasse Green und Karl Mmoor. Video zu *Falscher Weg*.[^s-maexer2] |
+{: .diskografie}
+
+Danach folgten auf SoundCloud *All Time Classics* mit Me\$\$age und Stomakk (2015), *jez soviel* (2016) und ein Stück, das für eine LP von Me\$\$age gedacht war (2017). Im selben Jahr ist er zweimal auf Rynerrrs *Gutmensch/Wutbürger* zu hören.
 
 ### Heute
 
-2013 erschien sein Album mit Stomakk, *Dein Bestes*, kostenlos und mit dem halben Album voller Rynerrr. 2017 ist er auf zwei Titeln von Rynerrrs *Gutmensch/Wutbürger* zu hören. Auf SoundCloud nennt er sich *maexer noise* und hat bis 2017 einzelne Stücke hochgeladen, darunter eines, das auf einer LP von Me$$age erscheinen sollte.[^p3-sc]
+Auf SoundCloud nennt er sich *maexer noise*. Er hat dort bis 2017 einzelne Stücke hochgeladen, darunter eines, das auf einer LP von Me\$\$age erscheinen sollte.[^p3-sc]
 
-Danach wird es still. Das letzte Stück auf seinem SoundCloud-Profil stammt vom November 2017 und trägt einen Titel, der wie eine Pointe auf die ganze Geschichte klingt: „lied von message lp, erscheint letztes jahr november bald! ohne message, schlechte quali“.[^p3-sc] Seitdem ist von Maexer nichts Neues bekannt. Er hat gehalten, was er 2009 über sich schrieb: „das letzte was ich werden will ist bekannt.“
+Danach wird es still. Das letzte Stück auf seinem SoundCloud-Profil stammt vom November 2017 und trägt einen Titel, der wie eine Pointe auf die ganze Geschichte klingt: „lied von message lp, erscheint letztes jahr november bald! ohne message, schlechte quali“. Er stammt vom 7. November 2017, die Beschreibung lautet: „messi bring endlich das album raus! ;)“.[^p3-sc] Ob das Album, auf das er wartet, die EP *2015/2016* ist, die Me\$\$age im September 2018 veröffentlichte, ist nicht belegt. Maexer steht dort nicht in den Credits. Seitdem ist von Maexer nichts Neues bekannt. 2026 fällt sein Name noch einmal, in JAWs Single *Statisten Sterben*, auf der Rynerrr zu Gast ist. Ob Maexer dort selbst rappt, ist nicht ganz klar. Er hat gehalten, was er 2009 über sich schrieb: „das letzte was ich werden will ist bekannt.“
+
+**Links:** [SoundCloud](https://soundcloud.com/maexer-1-1) (maexer noise)
+{: .links}
 
 [^p3-laut]: JAW im Interview mit laut.de, 26.03.2007. [laut.de](https://laut.de/JAW/Interviews/Ich-schreie-der-Welt-ins-Gesicht!-26-03-2007-428).
 [^p3-bio]: weissescheisse.de, `pcp/maexer.php`. [Web Archive, 23.01.2009](https://web.archive.org/web/20090123165739/http://www.weissescheisse.de/pcp/maexer.php). Schreibweise im Original.
@@ -1295,7 +1837,6 @@ Danach wird es still. Das letzte Stück auf seinem SoundCloud-Profil stammt vom 
 [^p3-scheisse]: Forum von weissescheisse.de, Thread „Maexer..“, Beiträge von *Drecksmann* (21.12.2007) und *G-Man* (26.02.2008).
 [^p3-lyrics]: *…war das Ende* und *Asokacke* auf *Lache und die Welt weint mit dir*. Transkription nach Gehör.
 [^p3-infekt]: „JAW feat. Illoyal & DIA – Infektionsgefahr“, rap.de, 06.01.2010. [rap.de](https://rap.de/soundandvideo/9241-jaw-feat-illoyal-dia-infektionsgefahr/).
-[^p3-orte]: JAW im Interview mit MyOwnMusic, 29.01.2006; *rynerrr* im Forum von weissescheisse.de, Thread „Kommende Auftritte“, 15.12.2007.
 [^p3-myspace]: Forum von weissescheisse.de, Thread „Myspace *NEW*“, 24.12.2007 bis 09.01.2008.
 [^p3-sc]: SoundCloud *maexer noise*, [soundcloud.com/maexer-1-1](https://soundcloud.com/maexer-1-1), abgerufen am 15.10.2026; [rynerrr.bandcamp.com](https://rynerrr.bandcamp.com/album/dein-bestes).
 [^s-maexer]: weissescheisse.de, `pcp/maexer.php`, [Web Archive, 23.01.2009](https://web.archive.org/web/20090123165739/http://www.weissescheisse.de/pcp/maexer.php); *Maexer* im Forum von weissescheisse.de, Thread „Zigeuner ep? Maexer? Zerhahmertiere? Nordnigger?“, 13. bis 16.01.2008. Schreibweise im Original.
@@ -1324,13 +1865,15 @@ Die Fans mochten gerade diese Beiträge. Im ersten Thread über ihn, eröffnet a
 
 Seine zwei Forenbeiträge drehen sich um Technik. Im Januar 2008 schrieb er, er besitze eine MPC 2000XL, wolle aber „demnächst noch eine 2500 kaufen weil die 2000er mittlerweile veraltet ist aber für drums noch ganz ok ist“.[^p4-mpc] Die Labelbiografie von 2010 machte daraus eine Pointe: Eine „recht neu angeschaffte MPC“ und die daraus resultierenden Erzeugnisse glichen „die instrumentalen Ausrutscher eines gewissen Rynerrr Schrotts vehement aus“. Außerdem sehe es in Tjomas Zimmer „wie in einem professionellen Studio aus, worauf wir alle viel Wert legen“.[^p4-bio]
 
+{% include bild.html src="/assets/bilder/pcp/fotos/rynerrr-tjoma-jaw.jpg" text="Rynerrr, DJ Tjoma und JAW. Gepostet um 2011, Aufnahmedatum unbekannt" alt="Drei Männer auf einem Sofa, in der Mitte einer mit Laptop" %}
+
 ### Diskografie
 
-DJ Tjoma hat keine eigene Veröffentlichung hinterlassen. Seine Arbeit steckt in den Platten der anderen: „alle cuts“ und vier Skits auf *Nimms und verreck daran!*, die Cuts auf *Schock fürs Leben* und *Symptome* (dort unter anderem auf *Kuhdreck 2*) und die Scratch-Collage am Anfang von *Lache und die Welt weint mit dir*. Die Labelseite verlinkte 2010 eine MySpace-Seite unter seinem Namen.[^s-tjoma]
+DJ Tjoma hat keine eigene Veröffentlichung hinterlassen. Seine Arbeit steckt in den Platten der anderen: „alle cuts“ und vier Skits auf *Nimms und verreck daran!*, die Cuts auf *Schock fürs Leben* und *Symptome* (dort unter anderem auf *Kuhdreck 2*) und die Scratch-Collage am Anfang von *Lache und die Welt weint mit dir*.[^s-tjoma]
 
 ### Heute
 
-Die Labelseite verlinkte 2010 noch eine eigene MySpace-Seite von ihm. Danach verliert sich seine Spur. Über DJ Tjoma liegen nach 2010 keine öffentlichen Informationen vor, und dieses Buch sucht nicht weiter.
+Die Labelseite verlinkte 2010 noch eine eigene MySpace-Seite von ihm. Danach verliert sich seine Spur. Über DJ Tjoma liegen nach 2010 keine öffentlichen Informationen vor, und dieser Artikel sucht nicht weiter.
 
 [^p4-cover]: Rückseite von *Nimms und verreck daran!*; rynerrr.de, `album/skits.htm`. [Web Archive, 16.02.2004](https://web.archive.org/web/20040216035305/http://www.rynerrr.de/album/skits.htm).
 [^p4-mom]: JAW im Interview mit MyOwnMusic, 29.01.2006. [Web Archive](https://web.archive.org/web/20060509154619/http://jaw.myownmusic.de:80/artistpage_interview.php?artist_id=12594). Ebenso die Cut-Angaben auf weissescheisse.de, 2010.
@@ -1345,11 +1888,11 @@ Die Labelseite verlinkte 2010 noch eine eigene MySpace-Seite von ihm. Danach ver
 *jetzt kennst du Private Paul.*
 {: .epigraph}
 
-**Auch bekannt als:** Kash, KASH, Pvt. Paul, G-Man (Forenname)<br>
+**Auch bekannt als:** Kash, KASH, Pvt. Paul, G-Man (Forenname), Dollar Bill (RBA, nach der Heizipedia)<br>
 **Bei PCP:** Rapper und Produzent, ab etwa Ende 2007 bis Oktober 2010
 {: .steckbrief}
 
-{% include bild.html src="/assets/bilder/pcp/portraits/private_paul.png" text="Private Paul" alt="Porträt von Private Paul" seite="rechts" breite="1/3" %}
+{% include bild.html src="/assets/bilder/pcp/portraits/private_paul.jpg" text="Private Paul" alt="Porträt von Private Paul" seite="rechts" breite="1/3" %}
 <!-- Bildquelle/Fotograf und Jahr in der Bildunterschrift ergänzen. -->
 
 Private Paul kam als Letzter zu PCP und ging als Erster. In den drei Jahren dazwischen war er eine der auffälligsten Stimmen der Gruppe. Die Kritik zum zweiten Album nannte ihn den eigentlichen Gewinner der Platte.
@@ -1365,38 +1908,51 @@ Den neuen Namen bekam er, nach Darstellung der Labelseite, von JAW, „trotz sei
 
 Für das Album war er „das neuste Rad am Wagen“. Er habe mit dem Vertrag die Themen aller Tracks und Rohfassungen seiner Texte bekommen, und von seinen „ungefähr 250 Beatvorschläge[n]“ hätten es „zwei oder drei aufs Album geschafft“.[^p5-mzee] Den Albumtitel fand er „ziemlich dumm“. Und doch war er es, den die Kritik hervorhob. laut.de schrieb, Private Paul füge sich „nicht nur textlich absolut homogen in dieses emotional derangierte Trio ein, auch technisch ist er seit der ‚Kash EP‘ einen Riesenschritt gegangen“, und zählte seinen Solotrack zu den Höhepunkten.[^p5-laut]
 
-Was er unter *Emopunkrap* verstand, beschrieb die Labelseite 2010 halb im Spott: „menschenverachtende Psychoweinereien auf Streicher- und Gitarrenbeats“.[^p5-bio] Sein Album dieses Namens war seit Ende 2007 angekündigt, zuerst als „Ein Kash Album“, dann für den Sommer 2010. Es erschien im Januar 2011, nachdem er das Label verlassen hatte.[^p5-emopunk]
+Was er unter *Emopunkrap* verstand, beschrieb die Labelseite 2010 halb im Spott: „menschenverachtende Psychoweinereien auf Streicher- und Gitarrenbeats“.[^p5-bio] Sein Album dieses Namens war seit Ende 2007 angekündigt, zuerst als „Ein Kash Album“, dann für den Sommer 2010. Es erschien um den Jahreswechsel 2010/11 (Bandcamp: 21. Dezember 2010; die Kritik bei rap.de ist vom 28. Januar 2011), nachdem er das Label verlassen hatte.[^p5-emopunk]
 
 Die Kritik bei rap.de war begeistert und zugleich beunruhigt. Die Beats seien „dunkel, monoton, total depressiv“, die Texte erzählten von Rauschmitteln, Selbstverletzung, Hass auf andere und vor allem auf sich selbst. Ob das eine Kunstfigur sei oder ein Mensch, „der wirklich so kaputt“ ist, lasse das Album offen. „Wenn Private Paul tatsächlich nur eine reine Kunstfigur ist, dann Riesenprops für den Rapper“.[^p5-emopunk]
 
-Am 17. Oktober 2010 meldete Weisse Scheisse seinen Austritt, „aufgrund von persönlichen Differenzen“, deren Gründe „überwiegend privater Natur“ seien. Danach folgten ein Interview Pauls bei rap.de, ein Disstrack von JAW mit dem Titel *Private Paul* und ein Disstrack Pauls gegen JAW.[^p5-bruch] Dieses Buch belässt es bei dem, was die Beteiligten öffentlich gesagt haben. Der Rest ist ihre Sache.
+Am 17. Oktober 2010 meldete Weisse Scheisse seinen Austritt, „aufgrund von persönlichen Differenzen“, deren Gründe „überwiegend privater Natur“ seien. Danach folgten ein Interview Pauls bei rap.de, ein Disstrack von JAW mit dem Titel *Private Paul* und ein Disstrack Pauls gegen JAW.[^p5-bruch] Dieser Artikel belässt es bei dem, was die Beteiligten öffentlich gesagt haben. Der Rest ist ihre Sache.
 
 ### Diskografie
 
 #### Alben und EPs
 
-| Jahr | Titel | Art | Anmerkungen |
+| Jahr | Cover | Titel | Anmerkungen |
 |---|---|---|---|
-| um 2007 | {% include cover.html name="tour-ep" titel="Tour EP" %} *Tour EP* | als Kash, kostenlos über MySpace | Fans nannten *All for the KASH*, *Killazone* und *K2V2* als beste Titel. laut.de erwähnte 2009 eine „Kash EP“, vermutlich dieselbe |
-| 2011 | {% include cover.html name="emopunkrap" titel="Emopunkrap" %} *Emopunkrap* | Album | erschien im Januar 2011, nach dem Austritt, nicht mehr bei Weisse Scheisse. Bandcamp und Discogs nennen Dezember 2010 <!-- PRÜFEN: Erscheinungsdatum Emopunkrap --> |
-| 2012 | {% include cover.html name="lotus" titel="Lotus" %} *Lotus* | EP |  |
-| 2013 | {% include cover.html name="suff" titel="SUFF" %} *SUFF* | Album, als Kash |  |
-| 2014 | {% include cover.html name="schwarzweissrot" titel="Schwarzweissrot" %} *Schwarzweissrot* | Album, Emopunkrap | 17.01.2014, 18 Titel |
-| 2016 | {% include cover.html name="live-fast-die-young" titel="Live Fast Die Young" %} *Live Fast Die Young* | Album mit Rotten Monkey |  |
-| 2019 | {% include cover.html name="dsepr" titel="DSEPR" %} *DSEPR* | Album |  |
-| 2019 | {% include cover.html name="faded" titel="Faded" %} *Faded* | EP mit Duzoe und MXP |  |
-| 2021 | {% include cover.html name="dsep" titel="DSEP" %} *DSEP* | EP |  |
+| um 2007 | {% include cover.html name="tour-ep" titel="Tour EP" %} | **Tour EP**<br><span class="art">als Kash, kostenlos über MySpace</span> | Fans nannten *All for the KASH*, *Killazone* und *K2V2* als beste Titel. laut.de erwähnte 2009 eine „Kash EP“, vermutlich dieselbe. Heute auf YouTube abrufbar. Die Heizipedia datiert sie auf 2006 |
+| 2010 | {% include cover.html name="emopunkrap" titel="Emopunkrap" %} | **Emopunkrap**<br><span class="art">Album</span> | 21.12.2010 auf Bandcamp, nach dem Austritt, nicht mehr bei Weisse Scheisse; rap.de besprach es am 28.01.2011. Bandcamp listet acht Titel (*Emopunkrap*, *.50 AE*, *40 %*, *WS Lifestyle*, *Lolipop*, *Drowning*, *Slut*, *Flieg*), das Downloadpaket soll 21 Titel enthalten. Laut rap.de „dunkel, monoton, total depressiv“ |
+| 2012 | {% include cover.html name="lotus" titel="Lotus" %} | **Lotus**<br><span class="art">EP</span> | Nur in der Heizipedia verzeichnet, Titelliste unbekannt <!-- OFFEN: Lotus, Titelliste und Datum ergänzen. --> |
+| 2013 | {% include cover.html name="suff" titel="SUFF" %} | **SUFF**<br><span class="art">Album, als Kash</span> | 09.08.2013, 22 Titel in rund 58 Minuten, alles von Private Paul geschrieben und gemacht. Kash als Rolle für Alkohol, Sex und das Vermeiden von Problemen, so die Bandcamp-Beschreibung. Dazu *Fight Club*, *Verlierer*, *KASHDERBOSS*, *Ein Schluck Mut*; Videos zu *Verlierer* und *Ein Schluck Mut* |
+| 2014 | {% include cover.html name="schwarzweissrot" titel="Schwarzweissrot" %} | **Schwarzweissrot**<br><span class="art">Album, Emopunkrap</span> | 17.01.2014, 18 Titel von *Intromental* bis *Outromental*. Ursprünglich als „Emopunkrap 2“ gedacht, laut Bandcamp dunkler und depressiver als der Vorgänger. Alles von Private Paul. Videos zu *Frei* und *F41.1* |
+| 2016 | {% include cover.html name="live-fast-die-young" titel="Live Fast Die Young" %} | **Live Fast Die Young**<br><span class="art">Album mit Rotten Monkey</span> | 15.09.2016, das erste gemeinsame Album, auf Private Pauls Label Emopunkrap. Vorher gab es *Willkommen im Dreck* auf dem Distri-Sampler (Ende 2015). Videos zu *Live Fast Die Young* und *Vier Fäuste* |
+| 2019 | {% include cover.html name="dsepr" titel="DSEPR" %} | **DSEPR**<br><span class="art">Album</span> | Zu Titelliste und Entstehung liegen noch keine belegten Angaben vor <!-- OFFEN: DSEPR, Datum und Titelliste ergänzen. --> |
+| 2019 | {% include cover.html name="faded" titel="Faded" %} | **Faded**<br><span class="art">EP mit Duzoe und MXP</span> | Nur in der Heizipedia verzeichnet. Mit Duzoe und MXP entstand 2019 auch das Video zu *Suicide* <!-- OFFEN: Faded, Datum und Titelliste ergänzen. --> |
+| 2021 | {% include cover.html name="dsep" titel="DSEP" %} | **DSEP**<br><span class="art">EP</span> | laut.de führt es unter den Alben. Titelliste unbekannt <!-- OFFEN: DSEP, Datum und Titelliste ergänzen. --> |
+{: .diskografie}
 
 #### Singles und Freetracks
 
-| Jahr | Titel | Art | Anmerkungen |
-|---|---|---|---|
-| 2009 | {% include cover.html name="schreierei" titel="Schreierei" %} *Schreierei* | Freetrack mit Rynerrr | Labelseite |
-| 2010 | {% include cover.html name="bei-dir" titel="Bei Dir" %} *Bei Dir* | Freetrack | Labelseite |
-| 2011 | {% include cover.html name="lieder-ueber-autos" titel="Lieder über Autos" %} *Lieder über Autos* | mit Prezident | 10.02.2011 |
-| 2016–2025 | *Statusbericht* | Videoreihe, jährlich | 2023 als *KEIN Statusbericht* |
-| 2024, 2026 | *Stadionbericht 2024*, WM-Song 2026 | Videos | zur EM 2024 und zur WM 2026 |
-| 2026 | {% include cover.html name="killswitch" titel="KILLSWITCH" %} *KILLSWITCH* | Track | prod. von Wiesel |
+| Jahr | Titel | Anmerkungen |
+|---|---|---|
+| 2008 | **Kein ganz normaler Junge**<br><span class="art">feat. JAW</span> | |
+| 2009 | **Schreierei**<br><span class="art">Freetrack mit Rynerrr</span> | Labelseite |
+| 2009 | **Get A Life**<br><span class="art">feat. JAW und Sime</span> | |
+| 2009 | **Deine Bitch, Mein Keller**<br><span class="art">feat. JAW und Adolph Gandhi</span> | |
+| 2009 | **Weisse Scheisse**<br><span class="art">Video, PCP</span> | mit JAW und Rynerrr |
+| 2010 | **Bei Dir**<br><span class="art">Freetrack</span> | Labelseite |
+| 2010 | **Bierliebe**<br><span class="art">Video, PCP</span> | mit JAW, Rynerrr und Maexer, nach der Heizipedia |
+| 2011 | **Lieder über Autos**<br><span class="art">mit Prezident</span> | 10.02.2011 |
+| 2011 | **Kash der Boss**<br><span class="art">feat. JAW</span> | |
+| 2012 | **Dorfdisco**<br><span class="art">feat. Schulte</span> | |
+| 2012–2015 | VBT-Runden<br><span class="art">Videos als KASH</span> | Qualifikation und Vorrunden 2012, 64tel-Finale 2012, Vorrunde 2013, 8tel-Finale 2015 <!-- PRÜFEN: VBT genauer einordnen (Turnier, Veranstalter). --> |
+| 2014 | **Der offizielle WM 2014 Song**, **Metro 2014** | |
+| 2015–2019 | Stücke als *Paulchen Punker* mit Harminizer und als *Dat Eve* | u. a. *Wir saufen es*, *Freiheit*, *Hurra Dosenbier!*, *Saufen bis ich sterbe*, *Flixbus*; als LionP das Video *Löwensohn* (2015) |
+| 2016–2025 | **Statusbericht**<br><span class="art">Videoreihe, jährlich</span> | 2023 als *KEIN Statusbericht* |
+| 2019 | **Zombiekalypze**<br><span class="art">mit zahlreichen Gästen</span> | laut Heizipedia u. a. mit Haiyti, King Orgasmus One, Blokkmonsta und Zombiez |
+| 2024, 2026 | **Stadionbericht 2024**, WM-Song 2026<br><span class="art">Videos</span> | zur EM 2024 und zur WM 2026 |
+| 2026 | **KILLSWITCH**<br><span class="art">Track</span> | prod. von Wiesel |
+{: .diskografie .ohne-cover}
 
 #### Vertreten auf
 
@@ -1406,7 +1962,7 @@ Am 17. Oktober 2010 meldete Weisse Scheisse seinen Austritt, „aufgrund von per
 | 2009 | JAW und Hollywood Hank, *Menschenfeind* | *Ackergaul Konfekt Remix* |
 | 2010 | JAW, *Sozioparty Tour* | Freetrack zur Tour, mit Adolph Gandhi |
 
-Dazu kommt ein Disstrack von Private Paul gegen JAW aus der Zeit der Trennung, der auf YouTube steht.[^s-paul] <!-- PRÜFEN: Titel und Datum von Private Pauls Disstrack. -->
+Dazu kommt ein Disstrack von Private Paul gegen JAW aus der Zeit der Trennung, der auf YouTube steht.[^s-paul][^p5-bandcamp] <!-- PRÜFEN: Titel und Datum von Private Pauls Disstrack. -->
 
 ### Heute
 
@@ -1416,7 +1972,10 @@ Seitdem ist eine Veröffentlichung nach der anderen dazugekommen: 2019 das Album
 
 Aus dem Ein-Mann-Label ist ein kleiner Betrieb geworden. Der YouTube-Kanal hat fast 19.000 Abonnenten, das Label verkauft CDs, Vinyl und Shirts, wer will, kann ihn über Patreon unterstützen, und er spielt Konzerte mit Band, etwa im Februar 2025 in Hamburg.[^p5-yt] Von allen, die einmal bei PCP waren, ist der, der als Letzter kam und als Erster ging, heute der aktivste.
 
-[^p5-mzee]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/). <!-- PRÜFEN: Battle Kash vs. Kollegah in der RBA. -->
+**Links:** [emopunkrap.de](https://emopunkrap.de) · [YouTube](https://www.youtube.com/@PrivatePaul)
+{: .links}
+
+[^p5-mzee]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/).
 [^p5-myspace]: myspace.com/emopunkrap. [Web Archive, 18.01.2008](https://web.archive.org/web/20080118172112/http://www.myspace.com:80/emopunkrap); Forum von weissescheisse.de, Thread „KASH ist mein Lieblingsrapper!“, 21.12.2007.
 [^p5-beats]: *G-Man* im Forum von weissescheisse.de, Thread „KASHBEATS“, 25.12.2007.
 [^p5-forum]: Siehe Kapitel „Weisse Scheisse“. Zur Gleichsetzung *G-Man* = Kash dort Anm. zur Person.
@@ -1424,13 +1983,95 @@ Aus dem Ein-Mann-Label ist ein kleiner Betrieb geworden. Der YouTube-Kanal hat f
 [^p5-emopunk]: beni-mike, „Private Paul – Emopunkrap“, rap.de, 28.01.2011. [rap.de](https://rap.de/allgemein/8360-private-paul-emopunkrap/).
 [^p5-laut]: Philipp Gässlein, Kritik zu *Lache und die Welt weint mit dir*, laut.de. [laut.de](https://laut.de/PCP/Alben/Lache-Und-Die-Welt-Weint-Mit-Dir-43654).
 [^p5-bruch]: Siehe Kapitel „Sozioparty“.
+[^p5-bandcamp]: Bandcamp [emopunkrap.bandcamp.com](https://emopunkrap.bandcamp.com), Alben *Emopunkrap*, *S.U.F.F.* und *Schwarzweissrot*; Heizipedia, Artikel „Private Paul“ [heizmusik.de](https://heizmusik.de/wiki/index.php?title=Private_Paul); laut.de, Seite „Private Paul“; rap.de, 02.08.2016; abgerufen am 15.10.2026.
 [^p5-label]: „Private Paul gründet mit Emopunkrap sein inoffizielles Label“, rap.de, 11.10.2014. [rap.de](https://rap.de/news/46807-private-paul-gruendet-emopunkrap-sein-inoffizielles-label/); „Private Paul: ‚Schwarzweissrot‘ erscheint am 17. Januar“, rap.de, 02.01.2014.
 [^p5-rapde]: rap.de, Meldungen vom 02.08.2016 bis 2019. [rap.de](https://rap.de/news/87436-private-paul-und-rotten-monkey-kuendigen-neues-album-live-fast-die-young-an/).
 [^p5-heizi]: Heizipedia, Artikel „Private Paul“. [heizmusik.de](https://heizmusik.de/wiki/index.php?title=Private_Paul), abgerufen am 15.10.2026.
 [^p5-yt]: YouTube-Kanal von Private Paul, Videoliste und Kanalbeschreibung. [youtube.com/@PrivatePaul](https://www.youtube.com/@PrivatePaul), abgerufen am 15.10.2026; [emopunkrap.de](https://emopunkrap.de).
 [^s-paul]: Forum von weissescheisse.de, Threads „Tour EP“ und „KASH ist mein Lieblingsrapper!“, Dezember 2007; laut.de, Kritik zu *Lache und die Welt weint mit dir*; rap.de, 28.01.2011, 02.01.2014, 11.10.2014 und 02.08.2016; Wikipedia, „Menschenfeind (Album)“.
 
-## Hollywood Hank
+## Das Umfeld
+
+*Holt Euch das Album.*<br>
+*Wegen der Musik hab ich mit Rap angefangen.*<br>
+– Drecksmann, 2004
+{: .epigraph}
+
+PCP waren fünf Leute, aber ihre Musik entstand nicht im Vakuum. Um die Gruppe herum gab es Freunde, die Webspace verschenkten, Rapper, die in Strophen und Forenbeiträgen auftauchen, Produzenten, die Beats lieferten, und ein Publikum, das sich als Teil des Ganzen verstand. Dieses Kapitel versammelt die Namen, die in den Quellen immer wieder auftauchen. Sie sind nach ihrem Einfluss auf die Gruppe geordnet, die wichtigsten zuerst. <!-- OFFEN: Wer fehlt? Merlins Wissen ergänzen. -->
+{: .dropcap}
+
+### Drecksmann
+
+Kein Name aus dem Umfeld taucht in den frühen Quellen so oft auf wie Drecksmann. Er war ein Rapper aus der RBA, der im November 2003 gegen JAW battelte und unter drecksrap.de eine eigene Seite hatte.[^u-rba] Auf *Nimms und verreck daran!* hat er mit einem Produzenten namens Mayutsch den Beat zu *Vatertagsgeschenk* gebaut, die Hook von *Bitsch* stammt nach eigener Aussage von ihm.[^u-cover] Er ist der Gesprächspartner im Chatprotokoll über die Kosten einer CD, und er stellte dem Album den ersten Webspace zur Verfügung, „space sponsored by DRECKSMANN“.[^u-space] Unter die erste Ankündigung im MZEE-Forum schrieb er: „Holt Euch das Album. Wegen der Musik hab ich mit Rap angefangen :)“.[^u-mzee] Noch Ende 2007 schrieb er im Forum von Weisse Scheisse über die Gruppe, er habe auf dem ersten Album mitgezählt, wie oft „Scheiße“ in einem Track vorkommt.
+
+Wie er selbst über seine Musik dachte, steht in einem Profil, das er 2005 auf einer anderen Musikplattform anlegte: Er mache Rap nicht, „weil ich wien Trottel in Baggys rumrenne und in Weed versinke, sondern als Ventil für Sachen, die mich ankotzen oder – was nicht oft vorkommt – freuen“.[^u-drecksmann-sc] In der Datenbank Discogs ist er als Produzent verzeichnet, mit Beats für die Alben *Wut 2004* und *Wut 2006* des Rappers T BurnA.[^u-drecksmann-discogs]
+
+Aufgehört hat er nie ganz. Sein Profil bei MyOwnMusic, der Plattform, über die 2004 das erste PCP-Album verschenkt wurde, gibt es bis heute. Es nennt ihn Rapper, Gitarrist, Keyboarder und Beatbauer, die Plattform führt ihn als „MOM-Star“. Nach einigen Stücken um den Jahreswechsel 2010/11 kamen dort im Dezember 2023 zwei neue dazu und zwischen Januar und Februar 2025 fünf weitere, mit Titeln wie *Neunfungno*, *Traumaliität* und *AbDankStelle*. Darüber steht: „Wird mal wieder Zeit für neue Tracks.“[^u-drecksmann-mom] Sein YouTube-Kanal heißt nach der alten Domain *Drecksrap* und beschreibt sich als „Drecksmann Rap und was sonst so in der Midlife so ansteht“. Wer Lust auf eine Kollaboration habe, könne sich melden. Im Frühjahr 2026 kamen dort zwei kurze Videos dazu.[^u-drecksmann-yt] Gut zwanzig Jahre nachdem er schrieb, er habe wegen der Musik von PCP mit Rap angefangen, macht er immer noch welchen.
+
+#### Diskografie
+
+**Singles und Freetracks**
+
+| Jahr | Titel | Anmerkungen |
+|---|---|---|
+| 2010/11 | Einzelstücke | bei MyOwnMusic |
+| 2023 | zwei Stücke | bei MyOwnMusic, Dezember |
+| 2025 | fünf Stücke | bei MyOwnMusic, Januar bis Februar, u. a. *Neunfungno*, *Traumaliität* und *AbDankStelle* |
+| 2026 | zwei kurze Videos | auf YouTube, im Frühjahr |
+{: .diskografie .ohne-cover}
+
+**Vertreten auf**
+
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| 2004 | PCP, *Nimms und verreck daran!* | Beat zu *Vatertagsgeschenk* (mit Mayutsch), Hook von *Bitsch*, Gast; stellte den ersten Webspace |
+| 2004 | T BurnA, *Wut 2004* | Beats (laut Discogs) |
+| 2006 | T BurnA, *Wut 2006* | Beats (laut Discogs) |
+
+**Links:** [MyOwnMusic](https://www.myownmusic.de/drecksmann)
+{: .links}
+
+### Me\$\$age
+
+Me\$\$age ist der Rapper, mit dem JAW 2006 die Gratis-EP *Zwischen Chemie & Wahnsinn* aufnahm, auf der auch Rynerrr zu hören ist.[^u-badaboom] Ein Hörer schrieb 2007 ins Gästebuch, schon das Intro dieser EP gebe ihm Kraft.[^u-gb] Für den Auftritt in Soest im Oktober 2006 war er mit angekündigt, er ist auf *Lache und die Welt weint mit dir* in *Punkrockbaby* und *Engelsstaub* zu hören, auf JAWs *Täter-Opfer-Ausgleich* und auf Maexers *Dein Bestes*. Ins Gästebuch der Bandseite schrieb er 2006 zwei Worte: „OH GOTT!“[^u-message]
+
+Danach erschien von ihm nur noch selten etwas, aber jedes Mal mit Gewicht. Am 26. Juli 2015 stellte er die *Kammerflimmern EP* auf SoundCloud, sieben nummerierte Stücke: *Kammerflimmern*, *Selbstjustiz*, *Limit*, *Entzugsucht*, *Erwachsen werden*, *Der rote Faden* und *Das leere Tal zwischen Extremen*. Das letzte ist mit über zehntausend Abrufen sein meistgehörtes Stück. Drei Wochen später folgte *Ahds* mit Lasse Green, im selben Jahr mit Maexer und Stomakk *All Time Classics*.[^u-message-sc] Schon Ende 2014 war er Teil des Projekts [Grim Inc.](#grim-inc) – die nächste EP trägt als Titel die Jahre, aus denen sie stammt: *2015/2016* erschien erst am 16. September 2018, auf Bandcamp, mit sieben Titeln, alle Beats von Me\$\$age. Gäste sind Modnar Prac, Mandelbavm und Rynerrr, der in *Schwarzes Loch* rappt, das es auch als Remix von Me\$\$age gibt.[^u-message-bc] <!-- PRÜFEN: Ob die LP, für die Maexer 2017 ein Stück hochlud, diese EP ist; siehe Maexer, „Heute“. -->
+
+Sechs Jahre lang kam dann nichts. Am 24. Dezember 2024 erschien *Das Metall ist ein Zug*, ein Duo-Album von Karl Mmoor und Me\$\$age: Karl Mmoor rappt, Me\$\$age baut alle Beats. Es hat fünf lange Stücke und gut eine halbe Stunde Spielzeit. Bei Spotify steht es unter dem Namen Karl Mmoor, auf SoundCloud kündigte Me\$\$age es als Werk von „Karl Mmoor & Me\$\$age“ an. Ein Hörer schrieb darunter: „HUH me\$\$age 2024??????“[^u-metall]
+
+#### Diskografie
+
+**Alben und EPs**
+
+| Jahr | Cover | Titel | Anmerkungen |
+|---|---|---|---|
+| 2006 | {% include cover.html name="zwischen-chemie-und-wahnsinn" titel="Zwischen Chemie & Wahnsinn" %} | **Zwischen Chemie & Wahnsinn**<br><span class="art">EP mit JAW, kostenlos</span> | Auf der EP ist auch Rynerrr zu hören. Ein Hörer schrieb 2007 ins Gästebuch, schon das Intro gebe ihm Kraft |
+| 2014 | {% include cover.html name="grim-inc" titel="Grim Inc." %} | **Grim Inc.**<br><span class="art">Mixtape, Projekt mit Rynerrr, Karl Mmoor, Lasse Green und Stomakk</span> | 31.12.2014 auf SoundCloud, 14 Titel. Mehr unter [Grim Inc.](#grim-inc) |
+| 2015 | {% include cover.html name="kammerflimmern" titel="Kammerflimmern EP" %} | **Kammerflimmern EP**<br><span class="art">EP, SoundCloud</span> | 26.07.2015, sieben nummerierte Stücke: *Kammerflimmern*, *Selbstjustiz*, *Limit*, *Entzugsucht*, *Erwachsen werden*, *Der rote Faden* und *Das leere Tal zwischen Extremen*. Das letzte ist mit über zehntausend Abrufen sein meistgehörtes Stück |
+| 2018 | {% include cover.html name="2015-2016" titel="2015/2016" %} | **2015/2016**<br><span class="art">EP, Bandcamp</span> | 16.09.2018, sieben Titel: *Me\$\$erstiche* (mit Modnar Prac), *Lobotomie*, *Enneagramm* (mit Mandelbavm), *Echter Hustle*, *Schwarzes Loch* (mit Rynerrr), *Doppelmoral* und der *Schwarzes Loch*-Remix von Me\$\$age. Alle Beats von Me\$\$age, Artwork von Modnar Prac, aufgenommen bei Modnar Prac, Marshall Arts und Mandelbavm, *Enneagramm* gemixt von Mandelbavm. Der Titel nennt 2015/2016, erschienen ist die EP erst 2018 |
+| 2024 | {% include cover.html name="das-metall-ist-ein-zug" titel="Das Metall ist ein Zug" %} | **Das Metall ist ein Zug**<br><span class="art">Duo-Album mit Karl Mmoor</span> | 24.12.2024, fünf lange Stücke, gut eine halbe Stunde. Karl Mmoor rappt, Me\$\$age macht alle Beats. Bei Spotify unter dem Namen Karl Mmoor, auf SoundCloud als Werk von „Karl Mmoor & Me\$\$age“ angekündigt |
+{: .diskografie}
+
+**Singles und Freetracks**
+
+| Jahr | Titel | Anmerkungen |
+|---|---|---|
+| 2015 | **Ahds**<br><span class="art">mit Lasse Green</span> | drei Wochen nach der *Kammerflimmern EP* |
+| 2015 | **All Time Classics**<br><span class="art">mit Maexer und Stomakk</span> | SoundCloud |
+{: .diskografie .ohne-cover}
+
+**Vertreten auf**
+
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| 2009 | PCP, *Lache und die Welt weint mit dir* | *Punkrockbaby*, *Engelsstaub* |
+| 2010 | JAW, *Täter-Opfer-Ausgleich* | Gast |
+| 2013 | Maexer und Stomakk, *Dein Bestes* | Gast |
+
+**Links:** [SoundCloud](https://soundcloud.com/messagerap) · [Bandcamp](https://messagerap.bandcamp.com)
+{: .links}
+
+### Hollywood Hank
 
 *Rest in Peace Hollywood Hank.*
 {: .epigraph}
@@ -1439,32 +2080,51 @@ Aus dem Ein-Mann-Label ist ein kleiner Betrieb geworden. Der YouTube-Kanal hat f
 **Bei PCP:** kein Mitglied. Gast, Weggefährte, Partner von JAW auf *Menschenfeind*
 {: .steckbrief}
 
-<!-- BILD FEHLT: Porträt Hollywood Hank. Einbinden mit: include bild.html src="/assets/bilder/pcp/portraits/hollywood-hank.jpg" text="Hollywood Hank" seite="rechts" breite="1/3" -->
+{% include bild.html src="/assets/bilder/pcp/portraits/hollywood-hank.jpg" text="Hollywood Hank" alt="Porträt von Hollywood Hank" seite="rechts" breite="1/3" %}
 
-Hollywood Hank war nie Teil von PCP. Trotzdem gehört er in dieses Buch, und nicht nur, weil sein Name am Anfang der Suche stand, aus der es entstanden ist. Er war über Jahre einer der engsten musikalischen Partner von JAW, er ist auf beiden Soloplatten von JAW aus der Rapz-Zeit zu hören, er hat mit ihm das zweite Release von Weisse Scheisse aufgenommen, und auf dem zweiten PCP-Album hat er einen eigenen Part. Für viele, die die Musik dieses Umfelds heute entdecken, ist er der Weg hinein. So war es auch für den Autor dieses Buches.
+Hollywood Hank war nie Teil von PCP. Trotzdem gehört er in diesen Artikel, und nicht nur, weil sein Name am Anfang der Suche stand, aus der es entstanden ist. Er war über Jahre einer der engsten musikalischen Partner von JAW, er ist auf beiden Soloplatten von JAW aus der Rapz-Zeit zu hören, er hat mit ihm das zweite Release von Weisse Scheisse aufgenommen, und auf dem zweiten PCP-Album hat er einen eigenen Part. Für viele, die die Musik dieses Umfelds heute entdecken, ist er der Weg hinein. So war es auch für den Autor dieses Artikels.
 {: .dropcap}
 
-### Porträt
+#### Porträt
 
-Hank wurde 1985 in Berlin geboren und wuchs im Prenzlauer Berg auf, als Jugendlicher zog er in die Oberlausitz. Er produzierte seine ersten Beats mit einem einfachen Musikprogramm und trat in Freestyle-Battles an.[^p6-wiki] In der Reimliga Battle Arena war er als *Dr. Hollywood* einer der bekanntesten Namen. Eines seiner Battles steht bis heute in der Bestenliste der Liga. Dort lernten sich er und JAW Mitte 2003 kennen.[^p6-menschenfeind]
+Hank wurde 1985 in Berlin geboren und wuchs im Prenzlauer Berg auf, als Jugendlicher zog er in die Oberlausitz. Er produzierte seine ersten Beats mit einem einfachen Musikprogramm und trat in Freestyle-Battles an.[^p6-wiki] In der Reimliga Battle Arena war er als *Dr. Hollywood* einer der bekanntesten Namen. Eines seiner Battles steht bis heute in der Bestenliste der Liga. Dort lernten sich er und JAW Mitte 2003 kennen.[^p6-menschenfeind] Ebenfalls 2003 erschien unter dem Gruppennamen *Projekt Alzheimer* sein erstes Album, *…nur ein Versuch*, gemeinsam mit Johnny Flexxx. <!-- PRÜFEN: Quelle, Erscheinungsmonat, Titelliste, Label. -->
 
 Seine erste Spur im Umfeld von PCP ist ein Forenbeitrag vom 4. Februar 2004, dem Tag, an dem PCP ihr Album verschenkten. Unter einem Track, auf dem Rynerrr einen Gastpart hatte, schrieb Hank, Rynerrr bringe einen „echt koolen“ Part.[^p6-haj]
 
 Wie JAW kam auch Hank zu Rapz Records, wo 2006 sein Debüt *Soziopath* erschien, mit JAW als Gast. Umgekehrt ist Hank auf JAWs *Schock fürs Leben* zu hören, im Posse-Track *Lebendig begraben*, und als *Hollywoodsfinest* auf *Gehirn im Mixer*. Für einen Auftritt von JAW in Soest im Oktober 2006 kündigte die Bandseite auch „den hollywood“ an.[^p6-gegenseitig] Als JAW Rapz Records 2007 verließ, schrieb ein Fan im Labelforum: „und nehm verdammt nochmal holly mit“.[^p6-rapz] 2008 machte Hank mit Favorite das Tape *Schläge für Hip Hop*, das nur im Shop von Selfmade Records erhältlich und vor der Veröffentlichung ausverkauft war. JAW ist darauf zu hören.[^p6-wiki]
 
-Im Juni 2009 erschien *Menschenfeind*. Hank sei für eine Woche zu ihm gekommen, erzählte JAW, „wir haben eine Woche getrunken und musiziert“.[^p6-meinrap] Die meisten Beats bauten beide selbst, jeder auf seinem Rechner mit Fruity Loops. Abgemischt hat JAW.[^p6-menschenfeind] Die Juice nannte das Ergebnis „ein Alptraumpaar im besten Sinne“ und „ekelhaft bis zum Dorthinaus, dabei aber höchst ansprechend gerappt“.[^p6-juice] Es war das letzte Album, das Hank veröffentlichte.[^p6-menschenfeind]
+Im Juni 2009 erschien *Menschenfeind*. Hank sei für eine Woche zu ihm gekommen, erzählte JAW, „wir haben eine Woche getrunken und musiziert“.[^p6-meinrap] Die meisten Beats bauten beide selbst, jeder auf seinem Rechner mit Fruity Loops. Abgemischt hat JAW.[^p6-menschenfeind] Die Juice nannte das Ergebnis „ein Alptraumpaar im besten Sinne“ und „ekelhaft bis zum Dorthinaus, dabei aber höchst ansprechend gerappt“.[^p6-juice] Es war das letzte Album, das Hank unter diesem Namen veröffentlichte.[^p6-menschenfeind]
 
 Zweieinhalb Monate später erschien *Lache und die Welt weint mit dir*. In *Asokacke* stellt Hank eine Reihe von Fragen, die alle mit „Warum“ beginnen: warum er die Welt hasse, warum er alle Rapper scheiße finde, warum er nicht einfach „so standard sein und blind wie ihr“ könne. Am Ende fragt er, warum er auf diese Art zu denken auch noch stolz sei.[^p6-lyrics]
 
 JAW hat über Hank immer mit einer Mischung aus Respekt und Kopfschütteln gesprochen. 2010 nannte er ihn „ein[en] ziemlich wechselhafte[n] Typ“ und „schwierige[n] Kopf, aber deswegen ist halt auch die Musik so geil. Als durchschnittlich denkender Mensch kann man so ein Album vermutlich nicht einfach rausschütteln.“ Unzuverlässig sei er nur, wenn er keine Lust habe: Bei *Menschenfeind* sei er es gewesen, der „morgens schon um zehn mit einem Bierkasten in der Hand in meinem Zimmer stand und meinte, wir müssen jetzt Musik machen“.[^p6-rapde] Wenige Wochen später sagte JAW, sie hätten zurzeit wenig Kontakt, „ich glaub er hat kein Bock mehr auf Rap, aber bei ihm weiss man nie“.[^p6-bassdraft]
 
-Hanks Texte gehörten zum Extremsten, was diese Szene hervorbrachte: Gewalt, Sexualität, Menschenhass und Anspielungen auf den Nationalsozialismus, die die Wikipedia ausführlich dokumentiert.[^p6-wiki] Unter dem Namen *Bak Ta Ehli* meldete er sich 2014 kurz zurück, nannte sich nun Friedensaktivist und rief zum Kampf gegen Faschismus, Sexismus und Rechtsradikalismus auf. Eine Woche später war er wieder verschwunden.[^p6-wiki]
+Hanks Texte gehörten zum Extremsten, was diese Szene hervorbrachte: Gewalt, Sexualität, Menschenhass und Anspielungen auf den Nationalsozialismus, die die Wikipedia ausführlich dokumentiert.[^p6-wiki] Unter dem Namen *Bak Ta Ehli* meldete er sich 2014 kurz zurück, nannte sich nun Friedensaktivist und rief zum Kampf gegen Faschismus, Sexismus und Rechtsradikalismus auf. Eine Woche später war er wieder verschwunden.[^p6-wiki] Unter diesem Namen erschien das Album *True Lies* (2014), 13 Titel, die zuerst einzeln auf YouTube hochgeladen wurden. In *Image oder Imagine* schießt Hank gegen JAW.[^s-truelies]
 
-### Diskografie
+#### Diskografie
 
-Hank war kein Mitglied von PCP. Seine Platten gehören aber in diese Geschichte, weil JAW auf fast allen zu hören ist. 2006 erschien bei Rapz Records sein Debüt *Soziopath*, mit JAW als Gast. Im selben Jahr rappte er auf JAWs *Schock fürs Leben* in *Lebendig begraben*, 2007 als *Hollywoodsfinest* auf *Gehirn im Mixer* in *Parental Advisory*. 2008 kam mit Favorite das Tape *Schläge für Hip Hop*, nur im Shop von Selfmade Records und vor dem Erscheinen ausverkauft, JAW war Gast. 2009 folgten *Menschenfeind* mit JAW, für das Hank zwei Beats baute, einen davon für den *Sozialphobie Remix* mit Favorite, und sein Part auf *Asokacke*. *Menschenfeind* war sein letztes Album.[^s-hank]
+Hank war kein Mitglied von PCP. Seine Platten gehören aber in diese Geschichte, weil JAW auf fast allen zu hören ist.[^s-hank]
 
-### Das Ende
+**Alben und Tapes**
+
+| Jahr | Cover | Titel | Anmerkungen |
+|---|---|---|---|
+| 2003 | {% include cover.html name="nur-ein-versuch" titel="…nur ein Versuch" %} | **…nur ein Versuch**<br><span class="art">Album von Projekt Alzheimer</span> | Gemeinsam mit Johnny Flexxx unter dem Gruppennamen *Projekt Alzheimer*, 2003. Hanks erstes Album, noch vor dem Soloalbum *Soziopath* |
+| 2006 | {% include cover.html name="soziopath" titel="Soziopath" %} | **Soziopath**<br><span class="art">Album, Rapz Records</span> | Hanks erstes Soloalbum, mit JAW als Gast |
+| 2008 | {% include cover.html name="schlaege-fuer-hiphop" titel="Schläge für Hip Hop" %} | **Schläge für Hip Hop**<br><span class="art">Tape mit Favorite</span> | Nur im Shop von Selfmade Records und vor dem Erscheinen ausverkauft. JAW war Gast |
+| 2009 | {% include cover.html name="menschenfeind" titel="Menschenfeind" %} | **Menschenfeind**<br><span class="art">EP mit JAW, Weisse Scheisse</span> | 12.06.2009. Hank baute zwei Beats, einen davon für den *Sozialphobie Remix* mit Favorite. Es war sein letztes Album unter dem Namen Hollywood Hank |
+| 2014 | {% include cover.html name="true-lies" titel="True Lies" %} | **True Lies**<br><span class="art">Album als Bak Ta Ehli, YouTube</span> | 13 Titel, zuerst als einzelne Tracks auf YouTube hochgeladen, alle im ähnlichen Stil: *True Lies*, *Die Welle Pt. 1 (Changes)*, *Die Welle Pt. 2 (Hip Hop)*, *I am Johnny*, *Halt deine Fresse*, *Discovery Channel*, *Image oder Imagine*, *Gangsta Rap*, *Eine Welt ohne Dich*, *Me against the World*, *Moviestar*, *Was wäre wenn* und *History X / Stromausfall*. In *Image oder Imagine* richtet sich Hank gegen JAW[^s-truelies] |
+{: .diskografie}
+
+**Vertreten auf**
+
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| 2006 | JAW, *Schock fürs Leben* | *Lebendig begraben* (Posse-Track) |
+| 2007 | JAW, *Gehirn im Mixer* | *Parental Advisory*, als Hollywoodsfinest |
+| 2009 | PCP, *Lache und die Welt weint mit dir* | Part in *Asokacke* |
+
+#### Das Ende
 
 Nach *Menschenfeind* hörte Hank weitgehend auf, Musik zu machen. 2012 meldete Selfmade Records, er sitze im Gefängnis.[^p6-wiki] Danach lebte er abseits der Öffentlichkeit. Am 3. Dezember 2023 starb er in Segovia in Spanien.
 
@@ -1480,33 +2140,93 @@ Sieben Monate später erschien *Blessed* von Kollegah, den Hank aus der RBA kann
 [^p6-lyrics]: *Asokacke* auf *Lache und die Welt weint mit dir*, Part von Hollywood Hank. Transkription nach Gehör.
 [^p6-rapde]: JAW im Interview mit rap.de, 30.03.2010. [rap.de](https://rap.de/c37-interview/6295-jaw/).
 [^p6-bassdraft]: JAW im Interview mit Bassdraft, April 2010. [Web Archive](https://web.archive.org/web/20101208160203/http://www.bassdraft.com:80/de/content/interview/JAW/index.html).
+[^s-truelies]: Tracklist nach der Albumseite bei einem Streamingdienst (Screenshot des Autors), 13 Songs, 2014; Veröffentlichung der Tracks zuerst auf YouTube nach Angabe des Autors. <!-- PRÜFEN: YouTube-Kanal, Upload-Daten und Zeilen aus Image oder Imagine belegen. -->
 [^s-hank]: Wikipedia, Artikel „Hollywood Hank“ und „Menschenfeind (Album)“; Discogs, Release 2655837; MZEE-Forum, 14.03.2007.
 
-## Das Umfeld
+### Stomakk
 
-*Holt Euch das Album.*<br>
-*Wegen der Musik hab ich mit Rap angefangen.*<br>
-– Drecksmann, 2004
-{: .epigraph}
+Als Weisse Scheisse im Juli 2013 seine letzte Nachricht veröffentlichte, galt sie Maexer und einem „noch reichlich unbekannten ‚stomakk‘“.[^u-stomakk] Das Album hieß *Dein Bestes*, kostenlos, 13 Titel, im Grunde ein Maexer-Album, an dem Stomakk als Partner mitwirkte. Auf *Petersilie* und *Basilikum* ist JAW zu hören.
 
-PCP waren fünf Leute, aber ihre Musik entstand nicht im Vakuum. Um die Gruppe herum gab es Freunde, die Webspace verschenkten, Rapper, die in Strophen und Forenbeiträgen auftauchen, Produzenten, die Beats lieferten, und ein Publikum, das sich als Teil des Ganzen verstand. Dieses Kapitel versammelt die Namen, die in den Quellen immer wieder auftauchen. Es ist eine Liste, die wachsen wird. <!-- OFFEN: Wer fehlt? Merlins Wissen ergänzen. -->
-{: .dropcap}
+2015 rappte er auf Rynerrrs *Kotzbalade* und gab mit Maexer und Me\$\$age *All Time Classics* heraus, 2017 war er Gast auf Rynerrrs *Gutmensch/Wutbürger*. Danach machte er eigene Stücke, meist mit Mtsh X und Knorki 101: *Mondschein* im Oktober 2017, im Dezember 2017 ein Stück mit Mtsh X, am 10. Mai 2018 *Schule* mit Knorki, Aytee und Rynerrr, Ende Mai 2018 eine Reihe weiterer Tracks mit Mtsh X und Nash One, mit Beats von Fugazity und Headaway. Der letzte Upload stammt vom 28. Mai 2018. Sein SoundCloud-Profil hat 55 Tracks und verweist heute auf einen anderen Namen: „aktuelles -> @sprechmusik“.[^u-stomakk-sc] Er gehörte auch zu [Grim Inc.](#grim-inc).
 
-### Drecksmann
+#### Diskografie
 
-Kein Name aus dem Umfeld taucht in den frühen Quellen so oft auf wie Drecksmann. Er war ein Rapper aus der RBA, der im November 2003 gegen JAW battelte und unter drecksrap.de eine eigene Seite hatte.[^u-rba] Auf *Nimms und verreck daran!* hat er mit einem Produzenten namens Mayutsch den Beat zu *Vatrtagsgeschenk* gebaut, die Hook von *Bitsch* stammt nach eigener Aussage von ihm.[^u-cover] Er ist der Gesprächspartner im Chatprotokoll über die Kosten einer CD, und er stellte dem Album den ersten Webspace zur Verfügung, „space sponsored by DRECKSMANN“.[^u-space] Unter die erste Ankündigung im MZEE-Forum schrieb er: „Holt Euch das Album. Wegen der Musik hab ich mit Rap angefangen :)“.[^u-mzee] Noch Ende 2007 schrieb er im Forum von Weisse Scheisse über die Gruppe, er habe auf dem ersten Album mitgezählt, wie oft „Scheiße“ in einem Track vorkommt.
+**Alben**
 
-Wie er selbst über seine Musik dachte, steht in einem Profil, das er 2005 auf einer anderen Musikplattform anlegte: Er mache Rap nicht, „weil ich wien Trottel in Baggys rumrenne und in Weed versinke, sondern als Ventil für Sachen, die mich ankotzen oder – was nicht oft vorkommt – freuen“.[^u-drecksmann-sc] In der Datenbank Discogs ist er als Produzent verzeichnet, mit Beats für die Alben *Wut 2004* und *Wut 2006* des Rappers T BurnA.[^u-drecksmann-discogs]
+| Jahr | Cover | Titel | Anmerkungen |
+|---|---|---|---|
+| 2013 | {% include cover.html name="dein-bestes" titel="Dein Bestes" %} | **Dein Bestes**<br><span class="art">Album mit Maexer, kostenlos</span> | Siehe [Maexer](#maexer). Gäste Rynerrr, JAW, Illoyal, Me\$\$age, Lasse Green und Karl Mmoor |
+| 2014 | {% include cover.html name="grim-inc" titel="Grim Inc." %} | **Grim Inc.**<br><span class="art">Mixtape, Projekt mit Rynerrr, Me\$\$age, Karl Mmoor und Lasse Green</span> | 31.12.2014, 14 Titel. Mehr unter [Grim Inc.](#grim-inc) |
+{: .diskografie}
 
-Aufgehört hat er nie ganz. Sein Profil bei MyOwnMusic, der Plattform, über die 2004 das erste PCP-Album verschenkt wurde, gibt es bis heute. Es nennt ihn Rapper, Gitarrist, Keyboarder und Beatbauer, die Plattform führt ihn als „MOM-Star“. Nach einigen Stücken um den Jahreswechsel 2010/11 kamen dort im Dezember 2023 zwei neue dazu und zwischen Januar und Februar 2025 fünf weitere, mit Titeln wie *Neunfungno*, *Traumaliität* und *AbDankStelle*. Darüber steht: „Wird mal wieder Zeit für neue Tracks.“[^u-drecksmann-mom] Sein YouTube-Kanal heißt nach der alten Domain *Drecksrap* und beschreibt sich als „Drecksmann Rap und was sonst so in der Midlife so ansteht“. Wer Lust auf eine Kollaboration habe, könne sich melden. Im Frühjahr 2026 kamen dort zwei kurze Videos dazu.[^u-drecksmann-yt] Gut zwanzig Jahre nachdem er schrieb, er habe wegen der Musik von PCP mit Rap angefangen, macht er immer noch welchen.
+**Singles und Freetracks**
 
-### Me$$age
+| Jahr | Titel | Anmerkungen |
+|---|---|---|
+| 2015 | **All Time Classics**<br><span class="art">mit Maexer und Me\$\$age</span> | SoundCloud |
+| 2017 | **Mondschein**<br><span class="art">mit Knorki 101</span> | 31.10.2017 |
+| 2018 | **Schule**<br><span class="art">mit Knorki, Aytee und Rynerrr</span> | 10.05.2018 |
+| 2018 | Tracks mit Mtsh X und Nash One | 27. und 28.05.2018, darunter *Parkhausetage*, *Hollywood* und *PaffPaffPass*; Beats u. a. von Fugazity und Headaway |
+{: .diskografie .ohne-cover}
 
-Me$$age ist der Rapper, mit dem JAW 2006 die Gratis-EP *Zwischen Chemie & Wahnsinn* aufnahm, auf der auch Rynerrr zu hören ist.[^u-badaboom] Ein Hörer schrieb 2007 ins Gästebuch, schon das Intro dieser EP gebe ihm Kraft.[^u-gb] Für den Auftritt in Soest im Oktober 2006 war er mit angekündigt, er ist auf *Lache und die Welt weint mit dir* in *Punkrockbaby* und *Engelsstaub* zu hören, auf JAWs *Täter-Opfer-Ausgleich* und auf Maexers *Dein Bestes*. Ins Gästebuch der Bandseite schrieb er 2006 zwei Worte: „OH GOTT!“[^u-message]
+**Vertreten auf**
 
-Danach erschien von ihm nur noch selten etwas, aber jedes Mal mit Gewicht. Am 26. Juli 2015 stellte er sieben nummerierte Stücke auf SoundCloud, dem Aufbau nach eine zusammenhängende Platte: *Kammerflimmern*, *Selbstjustiz*, *Limit*, *Entzugsucht*, *Erwachsen werden*, *Der rote Faden* und *Das leere Tal zwischen Extremen*. Das letzte ist mit über zehntausend Abrufen sein meistgehörtes Stück. Drei Wochen später folgte *Ahds* mit Lasse Green, im selben Jahr mit Maexer und Stomakk *All Time Classics*.[^u-message-sc] Die LP, für die Maexer 2017 ein Stück hochlud, ist bisher nicht nachweisbar.
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| 2015 | Rynerrr, *Kotzbalade* | Feature |
+| 2017 | Rynerrr, *Gutmensch/Wutbürger* | Gast |
 
-Neun Jahre lang kam dann nichts. Im Dezember 2024 erschien *Das Metall ist ein Zug*, eine EP mit fünf langen Stücken und gut einer halben Stunde Spielzeit. Bei Spotify steht sie unter dem Namen Karl Mmoor, auf SoundCloud kündigte Me$$age sie als Werk von „Karl Mmoor & Me$$age“ an. Ein Hörer schrieb darunter: „HUH me$$age 2024??????“[^u-metall]
+**Links:** [SoundCloud](https://soundcloud.com/stomakk)
+{: .links}
+
+### Karl Mmoor
+
+Karl Mmoor ist der Unbekannteste in diesem Kreis. Bei PCP selbst war er kaum zu hören, aber er gehört zu dem Geflecht um Rynerrr, Me\$\$age und Lasse Green, und wer die Spur von Me\$\$age oder Grim Inc. verfolgt, landet bei ihm. Auf SoundCloud tauchte er im Oktober 2011 mit *Blechmann* und dem *Thekenschmutz (Interlude)* auf.[^u-karl] Im Juni 2012 erschien auf Bandcamp *Vom Nachteil, verloren zu sein*, im September 2012 folgte eine Remix-EP mit Lasse Green, und ein Snippet dazu hat Gäste, die man kennt: Me\$\$age und Rynerrr. <!-- PRÜFEN: Ist *Vom Nachteil, verloren zu sein* ein Gemeinschaftsalbum mit Lasse Green? Titelliste ergänzen. -->
+
+2013 war er einer der Gäste auf *Dein Bestes* von Maexer und Stomakk. Zum Jahreswechsel 2014/15 erschien das Mixtape von [Grim Inc.](#grim-inc), im November 2015 folgte mit Lasse Green *alte bettdecke hellblau*, mit einem Video, im Februar 2016 ein Snippet zu *Suchen.Altern*. Sein SoundCloud-Profil verweist bis heute auf ein „Album mit Lasse Green“. Dann wurde es still, bis zum 24. Dezember 2024, als er mit Me\$\$age *Das Metall ist ein Zug* herausbrachte, ein Duo-Album, auf dem er rappt und Me\$\$age alle Beats baut. Die fünf Stücke dauern zwischen knapp fünf und gut acht Minuten und heißen *Unter meinem Hochbett eine Höhle*, *Und herauf führt eine Wendeltreppe*, *Falle, sinke tief*, *Bei jedem Kuss, jedem Stoß* und *Bis es streut*. Bandcamp ordnet es unter „experimental hip-hop“ und „storytelling“ ein. Sein SoundCloud-Profil hat 14 Tracks und 570 Follower. Manche Quellen schreiben ihn „Karl Moor“ oder „Karl Mohr“.
+
+#### Diskografie
+
+**Alben und EPs**
+
+| Jahr | Cover | Titel | Anmerkungen |
+|---|---|---|---|
+| 2012 | {% include cover.html name="vom-nachteil-verloren-zu-sein" titel="Vom Nachteil, verloren zu sein" %} | **Vom Nachteil, verloren zu sein**<br><span class="art">Bandcamp</span> | Juni 2012 |
+| 2012 | {% include cover.html name="vom-nachteil-verloren-zu-sein-remix-ep" titel="Vom Nachteil, verloren zu sein Remix EP" %} | **Vom Nachteil, verloren zu sein Remix EP**<br><span class="art">Remix-EP mit Lasse Green</span> | September 2012. Ein Snippet davon, „mit Me\$\$age und Rynerrr und Lisa“, steht seit August 2012 auf SoundCloud |
+| 2014 | {% include cover.html name="grim-inc" titel="Grim Inc." %} | **Grim Inc.**<br><span class="art">Mixtape, Projekt mit Rynerrr, Me\$\$age, Lasse Green und Stomakk</span> | 31.12.2014 auf SoundCloud, 14 Titel. Mehr unter [Grim Inc.](#grim-inc) |
+| 2024 | {% include cover.html name="das-metall-ist-ein-zug" titel="Das Metall ist ein Zug" %} | **Das Metall ist ein Zug**<br><span class="art">Duo-Album mit Me\$\$age</span> | 24.12.2024, fünf Stücke, Bandcamp. Karl Mmoor rappt, Me\$\$age macht alle Beats |
+{: .diskografie}
+
+**Singles und Freetracks**
+
+| Jahr | Titel | Anmerkungen |
+|---|---|---|
+| 2011 | **Blechmann**<br><span class="art">mit *Thekenschmutz (Interlude)*</span> | 29.10.2011, SoundCloud |
+| 2012 | **Sehnsucht**<br><span class="art">feat. Juli▲n</span> | 31.03.2012 |
+| 2012 | **Blechmann**<br><span class="art">Remixe von Epipto und Lasse Green</span> | März und April 2012 |
+| 2013 | **Mmoogli**<br><span class="art">feat. Tim Tonic</span> | 15.09.2013 |
+| 2014 | **Whacknomination**<br><span class="art">2014 Takeover</span> | 05.02.2014 |
+| 2015 | **alte bettdecke hellblau**<br><span class="art">mit Lasse Green</span> | 02.11.2015, Video in der Beschreibung |
+| 2016 | **Suchen.Altern**<br><span class="art">Snippet, mit Lasse Green</span> | 10.02.2016 |
+{: .diskografie .ohne-cover}
+
+**Vertreten auf**
+
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| 2013 | Maexer und Stomakk, *Dein Bestes* | Gast |
+
+**Links:** [SoundCloud](https://soundcloud.com/karlmmoor) · [Bandcamp](https://karlmmoor.bandcamp.com) · [MyOwnMusic](http://www.myownmusic.de/karl-mmoor) · [Facebook](https://www.facebook.com/karl.mmoor.rap)
+{: .links}
+
+[^u-karl]: SoundCloud [karlmmoor](https://soundcloud.com/karlmmoor), 14 Tracks, 570 Follower; Bandcamp [karlmmoor](https://karlmmoor.bandcamp.com), Releases vom Juni und September 2012 und vom 24.12.2024; abgerufen am 15.10.2026.
+
+### Grim Inc.
+
+Grim Inc. war ein Projekt aus Rynerrrs Umkreis. Zu den Mitgliedern gehörten Rynerrr, Me\$\$age, Karl Mmoor, Lasse Green und Stomakk, nach der Aussage des Autors. <!-- PRÜFEN: Mitglieder aus Merlins Wissen, SoundCloud nennt keine Namen. --> Das SoundCloud-Profil beschreibt sich selbst nur so: „Grimmige Gesellschaft. Diverse Leute sind Mitglieder.“ Am 31. Dezember 2014 erschien dort ein Mixtape mit vierzehn Titeln: *Alles wird gut*, *Einer zurück*, *Wortgulasch*, *Käfigkörper*, *Bedürfnispyramide*, *Was sind das für Menschen?*, *Young Gunz*, *Totengräber*, *Wahrheit*, *Fick dich*, *Tierversuch 179*, *Exodus* und Remixe von *Totengräber* und *Käfigkörper*.[^u-grim] Auf SoundCloud sind nur die Titel 5 bis 14 abrufbar, die Titel 1 bis 4 stammen aus der Albumseite eines Streamingdienstes. Das Profil verlinkt eine Facebook-Seite, zwei Teaser, ein Video zu *Totengräber* und einen Snippet. Der Download lag auf einer eigenen Seite, grim-inc.de. Die Archivkopie von Anfang 2016 zeigt nur ein Logo und den Link auf eine ZIP-Datei. JAW sprach im Dezember 2013 von einem Projekt Rynerrrs „mit mehreren Leuten“, an dem er beteiligt sein werde. Ob das dasselbe ist, lässt sich nicht sagen.[^s-grim] <!-- OFFEN: Credits, Beats und Produzenten des Mixtapes; wer waren die weiteren Mitglieder („z. B. #1, #2, #3“)? -->
+
+**Links:** [SoundCloud](https://soundcloud.com/grim-inc) · [Archivkopie von grim-inc.de](https://web.archive.org/web/20160110103647/http://grim-inc.de/)
+{: .links}
 
 ### Weitere Rapper aus dem Umfeld
 
@@ -1516,23 +2236,21 @@ Zum Freiburger Kreis um Weisse Scheisse gehörten die Rapper Adolph Gandhi und R
 
 Illoyal schrieb den allerersten Eintrag ins Gästebuch von p-c-p.ws. Er rappte mit JAW und DIA auf *Infektionsgefahr* (2010), mit Schulte auf *Plastikpalmen & Billigbier* und 2013 auf Maexers *Dein Bestes*.[^u-illoyal] Bei der Releaseparty des Freiburger Rappers Platon traten 2011 JAW, Rynerrr und Maexer im Vorprogramm auf. Rahzkroneprinz trat früher als MekOne auf, unter anderem mit der Formation LaRassa. 2011 stellte er ältere Stücke auf SoundCloud, darunter einen *Freiburg Hymnus*. Von Adolph Gandhi stehen dort zwei Stücke aus dem Jahr 2015. Neuere Veröffentlichungen der beiden ließen sich nicht finden.[^u-freiburg-sc]
 
-Als Weisse Scheisse 2013 seine letzte Nachricht veröffentlichte, galt sie Maexer und einem „noch reichlich unbekannten ‚stomakk‘“. Stomakk machte mit Maexer das Album *Dein Bestes*, ist auf Rynerrrs *Gutmensch/Wutbürger* zu hören und rappte 2018 mit Rynerrr auf einem Track namens *Schule*.[^u-stomakk] Auf *Dein Bestes* waren außerdem Lasse Green und Karl Mmoor zu Gast. Lasse Green remixte 2015 JAWs *Meine Fans*. Zu einem Projekt namens *Grim Inc.* sollen Rynerrr, Me$$age und Karl Mmoor gehört haben. Sein SoundCloud-Profil sagt nur: „Grimmige Gesellschaft. Diverse Leute sind Mitglieder.“ Ende 2014 lud es dort ein Album mit vierzehn Titeln hoch.[^u-grim] <!-- PRÜFEN: Mitglieder von Grim Inc. (Quelle: Links.md). -->
-
-Stomakk machte nach *Dein Bestes* noch einige Jahre weiter, zuletzt mit Mtsh X und Knorki 101. Sein letzter Upload stammt vom Mai 2018.[^p2-sc] Karl Mmoor dagegen ist der Einzige aus diesem Kreis, der 2024 eine neue Platte herausbrachte, die EP mit Me$$age.[^u-metall]
+Auf *Dein Bestes* war außerdem Lasse Green zu Gast. Er remixte 2015 JAWs *Meine Fans* und machte mit Karl Mmoor mehrere Veröffentlichungen.[^u-metall] Zu Karl Mmoor, Stomakk und Grim Inc. siehe die eigenen Abschnitte oben.
 
 ### Hinter den Kulissen
 
-Hinter den Beats standen außer Maexer, JAW und Kash eine Reihe von Produzenten, die man nur aus Credits kennt: **Paya** (*Weisse Scheisse* und *Radioedit*, 2004), **Che** (*Jott sei Dank*, 2004), **Mayutsch** (*Vatrtagsgeschenk*, 2004), **Nowak**, der 2006 ins Gästebuch schrieb, *PCP Putsch* sei „kraaaaaaank, aber geeeeeeil“, und später für *Gehirn im Mixer*, das PCP-Album, *Täter-Opfer-Ausgleich* und den Sozioparty-Track arbeitete, die **Beatgees**, **Purple Maze**, **Tobe**, **Marvelous**, **Moretime Productions**, vermutlich derselbe, der im Forum von Weisse Scheisse als *moretimeproductions* mitdiskutierte, und **Peet**.[^u-produzenten]
+Hinter den Beats standen außer Maexer, JAW und Kash eine Reihe von Produzenten, die man nur aus Credits kennt: **Paya** (*Weisse Scheisse* und *Radioedit*, 2004), **Che** (*Jott sei Dank*, 2004), **Mayutsch** (*Vatertagsgeschenk*, 2004), **Nowak**, der 2006 ins Gästebuch schrieb, *PCP Putsch* sei „kraaaaaaank, aber geeeeeeil“, und später für *Gehirn im Mixer*, das PCP-Album, *Täter-Opfer-Ausgleich* und den Sozioparty-Track arbeitete, die **Beatgees**, **Purple Maze**, **Tobe**, **Marvelous**, **Moretime Productions**, vermutlich derselbe, der im Forum von Weisse Scheisse als *moretimeproductions* mitdiskutierte, und **Peet**.[^u-produzenten]
 
-Manche Namen stehen nur einmal irgendwo und waren trotzdem wichtig. **Philou**, auf dem Cover des ersten Albums „Executive Supporting Manager“. **Der böse Waldgeist**, der 2004 einen zweiten Download-Server stellte. **wotan*design**, die p-c-p.ws gestalteten. **Sergej Mattukat**, der das Video zu *Titellos* produzierte. **Martin Eklund**, von dem die Fotoserie stammt, aus der das Gruppenfoto im Prolog dieses Buches kommt. **Andreas Stickel**, der die Fotos zum MZEE-Interview 2009 machte. Und **badaboombadabang**, ein Blogger, der im Oktober 2006 einen der ersten Texte über PCP veröffentlichte, „PCP: Rap trifft Punk“, und ein Jahr später im Forum das erste Album einen „Classic“ nannte.[^u-helfer]
+Manche Namen stehen nur einmal irgendwo und waren trotzdem wichtig. **Philou**, auf dem Cover des ersten Albums „Executive Supporting Manager“. **Der böse Waldgeist**, der 2004 einen zweiten Download-Server stellte. **wotan\*design**, die p-c-p.ws gestalteten. **Sergej Mattukat**, der das Video zu *Titellos* produzierte. **Martin Eklund**, von dem die Fotoserie stammt, aus der das Gruppenfoto im Prolog dieses Artikels kommt. **Andreas Stickel**, der die Fotos zum MZEE-Interview 2009 machte. Und **badaboombadabang**, ein Blogger, der im Oktober 2006 einen der ersten Texte über PCP veröffentlichte, „PCP: Rap trifft Punk“, und ein Jahr später im Forum das erste Album einen „Classic“ nannte.[^u-helfer]
 
 ### Die Nachbarn
 
-Zur Welt von PCP gehörten auch Rapper, die größer wurden als die Gruppe selbst. **Kollegah** kannte JAW aus der RBA. JAW produzierte fünf Titel für dessen erstes Album und parodierte ihn als *Konnegah*. Im Februar 2008 traten beide gemeinsam in Glückstadt auf. 2014 sagte JAW, der Kontakt sei eingeschlafen, es gebe aber „keinen Stress oder Beef“.[^u-kollegah] **Favorite** machte mit Hank *Schläge für Hip Hop* und sprach 2024 den Satz, mit dem dieses Buch beginnt. Dazu kommen **Morlockk Dilemma**, **Mach One** und **Absztrakkt**, die auf *Täter-Opfer-Ausgleich* zu hören sind, **Maeckes**, der auf JAWs Album von 2019 rappt, und **Schulte**, der Kash und JAW 2008 auf sein Album *Der Herr der Biere* holte.
+Zur Welt von PCP gehörten auch Rapper, die größer wurden als die Gruppe selbst. **Kollegah** kannte JAW aus der RBA. JAW produzierte fünf Titel für dessen erstes Album und parodierte ihn als *Konnegah*. Im Februar 2008 traten beide gemeinsam in Glückstadt auf. 2014 sagte JAW, der Kontakt sei eingeschlafen, es gebe aber „keinen Stress oder Beef“.[^u-kollegah] **Favorite** machte mit Hank *Schläge für Hip Hop* und sprach 2024 den Satz, mit dem dieser Artikel beginnt. Dazu kommen **Morlockk Dilemma**, **Mach One** und **Absztrakkt**, die auf *Täter-Opfer-Ausgleich* zu hören sind, **Maeckes**, der auf JAWs Album von 2019 rappt, und **Schulte**, der Kash und JAW 2008 auf sein Album *Der Herr der Biere* holte.
 
 ### Die Armee
 
-Und dann gab es die Fans. JAW nannte sie 2010 „eine Armee von vermutlich vielen, kleinen, verlorenen, aber auch aggressiven und Identitäts-suchenden Kids“.[^u-armee] Im Gästebuch und im Forum sind sie mit ihren Namen erhalten, mit ihren Witzen, ihren Fahrgemeinschaften, ihren Fragen nach Tracklisten und Pressungen. Einer trug ein Lied von JAW im Deutschunterricht vor, einer sprühte die Schablone an eine Wand, einer überwies Geld für ein Album, das gerade gratis geworden war. Ohne sie gäbe es die meisten Quellen dieses Buches nicht. Sie haben die Gegenwart aufgeschrieben, aus der jetzt Geschichte geworden ist.
+Und dann gab es die Fans. JAW nannte sie 2010 „eine Armee von vermutlich vielen, kleinen, verlorenen, aber auch aggressiven und Identitäts-suchenden Kids“.[^u-armee] Im Gästebuch und im Forum sind sie mit ihren Namen erhalten, mit ihren Witzen, ihren Fahrgemeinschaften, ihren Fragen nach Tracklisten und Pressungen. Einer trug ein Lied von JAW im Deutschunterricht vor, einer sprühte die Schablone an eine Wand, einer überwies Geld für ein Album, das gerade gratis geworden war. Ohne sie gäbe es die meisten Quellen dieses Artikels nicht. Sie haben die Gegenwart aufgeschrieben, aus der jetzt Geschichte geworden ist.
 
 [^u-rba]: MZEE-Forum, „RBA: Drecksmann VS JAW“, 30.11.2003; Gästebuch von p-c-p.ws, Eintrag von *Drecksmann* mit Homepage drecksrap.de, 12.01.2007.
 [^u-cover]: Rückseite von *Nimms und verreck daran!*; *Drecksmann* im MZEE-Thread „Unser PCP Album umsonst!!!“, 05.02.2004.
@@ -1546,7 +2264,8 @@ Und dann gab es die Fans. JAW nannte sie 2010 „eine Armee von vermutlich viele
 [^u-freiburg]: weissescheisse.de, News 2010/11; Bassdraft-Interview, April 2010; Bandcamp *Gutmensch / Wutbürger*.
 [^u-illoyal]: Gästebuch von p-c-p.ws, 03.08.2006; rap.de, 06.01.2010; Forum von weissescheisse.de, Thread „jaw outtakes vom schulte feature“, März 2008; Bandcamp *Dein Bestes*.
 [^u-stomakk]: weissescheisse.de, News vom 29.07.2013; Bandcamp; SoundCloud *Stomakk*, abgerufen am 15.10.2026.
-[^u-grim]: SoundCloud *Grim Inc.*, [soundcloud.com/grim-inc](https://soundcloud.com/grim-inc); SoundCloud JAW, „Meine Fans (Lasse Green RMX)“, 06.02.2015.
+[^u-grim]: SoundCloud *Grim Inc.*, [soundcloud.com/grim-inc](https://soundcloud.com/grim-inc), Uploads vom 31.12.2014, abgerufen am 15.10.2026; [Web Archive](https://web.archive.org/web/20160110103647/http://grim-inc.de/), 10.01.2016; SoundCloud JAW, „Meine Fans (Lasse Green RMX)“, 06.02.2015.
+[^u-stomakk-sc]: SoundCloud [stomakk](https://soundcloud.com/stomakk), 55 Tracks, 452 Follower, abgerufen am 15.10.2026.
 [^u-produzenten]: rynerrr.de, „neue ladrunters“, 2004; Rückseite von *Nimms und verreck daran!*; Gästebuch von p-c-p.ws, 16.10.2006; hiphop.de, 14.07.2009; weissescheisse.de, 13.04.2010; rap.de, 23.08.2010.
 [^u-helfer]: Rückseite von *Nimms und verreck daran!*; rynerrr.de, `album/albumdownload.htm`, 10.05.2004; p-c-p.ws, News vom 23.06.2007; weissescheisse.de, Media-Seite 2010; MZEE-Interview, 01.09.2009.
 [^u-kollegah]: Wikipedia, Artikel „JAW (Rapper)“; Forum von weissescheisse.de, Thread „JAW & Kollegah/Glückstadt 22.2.“; laut.de-Interview, 16.04.2014.
@@ -1555,14 +2274,15 @@ Und dann gab es die Fans. JAW nannte sie 2010 „eine Armee von vermutlich viele
 [^u-drecksmann-discogs]: Discogs, Künstlerseite „Drecksmann“ (German hip hop producer), Credits für T BurnA, *Wut 2004* und *Wut 2006*. [discogs.com](https://www.discogs.com/artist/3464607-Drecksmann), abgerufen am 15.10.2026.
 [^u-drecksmann-mom]: MyOwnMusic, Künstlerseite „Drecksmann“, Songliste mit Datumsangaben. [myownmusic.de](https://www.myownmusic.de/drecksmann), abgerufen am 15.10.2026.
 [^u-drecksmann-yt]: YouTube-Kanal *Drecksrap*, Kanalbeschreibung und Videoliste. [youtube.com/@Drecksrap](https://www.youtube.com/@Drecksrap), abgerufen am 15.10.2026.
-[^u-message-sc]: SoundCloud [messagerap](https://soundcloud.com/messagerap/tracks), Uploads vom 26.07. und 14.08.2015, abgerufen am 15.10.2026; [maexer noise](https://soundcloud.com/maexer-1-1), Upload vom 23.03.2015.
-[^u-metall]: Karl Mmoor, *Das Metall ist ein Zug*, EP, 18.12.2024. [Spotify](https://open.spotify.com/album/2YSf5R00o0zUglIHrlDEYY); SoundCloud, Me$$age, „Unter meinem Hochbett eine Höhle Preview“, 21.12.2024, mit Kommentaren. [soundcloud.com](https://soundcloud.com/messagerap/unter-meinem-hochbett-eine-hohle-preview), abgerufen am 15.10.2026.
+[^u-message-sc]: SoundCloud [messagerap](https://soundcloud.com/messagerap/tracks), Uploads vom 26.07. und 14.08.2015, abgerufen am 15.10.2026; [maexer noise](https://soundcloud.com/maexer-1-1), Upload vom 23.03.2015. Als *Kammerflimmern EP* (2015) auch zum Download auf [gema-betteln.de](https://www.gema-betteln.de/music.html).
+[^u-message-bc]: Bandcamp, [messagerap.bandcamp.com](https://messagerap.bandcamp.com), Album *2015/2016*, veröffentlicht am 16.09.2018, mit Credits; abgerufen am 15.10.2026.
+[^u-metall]: Karl Mmoor, *Das Metall ist ein Zug*, Duo-Album, nach Bandcamp veröffentlicht am 24.12.2024 (Rap: Karl Mmoor, Beats: Me\$\$age); auf Spotify mit dem Datum 18.12.2024. [Spotify](https://open.spotify.com/album/2YSf5R00o0zUglIHrlDEYY); SoundCloud, Me\$\$age, „Unter meinem Hochbett eine Höhle Preview“, 21.12.2024, mit Kommentaren. [soundcloud.com](https://soundcloud.com/messagerap/unter-meinem-hochbett-eine-hohle-preview), abgerufen am 15.10.2026.
 [^u-freiburg-sc]: SoundCloud [Rahzkroneprinz](https://soundcloud.com/saschamichel-1) und [Adolph Gandhi](https://soundcloud.com/adolph-gandhi), abgerufen am 15.10.2026.
 
 ---
 
-## Teil IV<br>Das Werk
-{: #teil-4 .teil}
+## Teil V<br>Das Werk
+{: #teil-5 .teil}
 
 ## Diskografie
 {: #diskografie-pcp}
@@ -1571,7 +2291,7 @@ Und dann gab es die Fans. JAW nannte sie 2010 „eine Armee von vermutlich viele
 – JAW, 2004
 {: .epigraph}
 
-Dieses Kapitel ist zum Nachschlagen da. Es verzeichnet die beiden Alben von PCP, alle Titel, auf denen die Gruppe oder mehrere ihrer Mitglieder gemeinsam bei anderen zu hören sind, und den kleinen Katalog des Labels Weisse Scheisse. Die Soloarbeiten der Mitglieder stehen in ihren Porträts in Teil III.
+Dieses Kapitel ist zum Nachschlagen da. Es verzeichnet die beiden Alben von PCP, alle Titel, auf denen die Gruppe oder mehrere ihrer Mitglieder gemeinsam bei anderen zu hören sind, und den kleinen Katalog des Labels Weisse Scheisse. Die Soloarbeiten der Mitglieder und der Menschen aus dem Umfeld stehen in ihren Porträts in Teil IV.
 {: .dropcap}
 
 Ein Datum ist das Erscheinungsdatum, wenn es belegt ist, sonst das Datum der ersten Erwähnung. Preise stehen so da, wie sie damals verlangt wurden. Wo sich Quellen widersprechen, stehen beide Angaben. Vieles, was hier fehlt, ließe sich mit einem Blick in die Booklets klären. <!-- OFFEN: Fotos der CDs (Rückseiten, Booklets) für Credits und Produzenten je Titel. -->
@@ -1579,6 +2299,9 @@ Ein Datum ist das Erscheinungsdatum, wenn es belegt ist, sonst das Datum der ers
 ### Die beiden Alben
 
 #### Nimms und verreck daran! (2004)
+{: #diskografie-nimms}
+
+{% include bild.html src="/assets/bilder/pcp/nimms-und-verreck-daran-cover-vorn.jpg" text="*Nimms und verreck daran!*, Frontcover" alt="Frontcover: Ein Engel bläst goldenen Staub aus seinen Händen, darüber PCP in Frakturschrift" seite="rechts" breite="1/2" %}
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2004-02-15-rynerrr-lutsch-ecke.jpg" text="Die Downloadseite des ersten Albums · rynerrr.de · [Web Archive, 15.02.2004](https://web.archive.org/web/20040215104642/http://www.rynerrr.de/album/download.htm)" alt="Screenshot: LAD ES AUS DEM NETZ UND VERRECK DARAN! mit drei Links zu Skits, Album und Cover" seite="rechts" breite="1/2" %}
 
@@ -1590,9 +2313,44 @@ Ein Datum ist das Erscheinungsdatum, wenn es belegt ist, sonst das Datum der ers
 - **Produktion:** Maexer Cash (13 Titel), JAW (6), Mayutsch und Drecksmann (1)
 - **Gäste:** Drecksmann, Misstress, Aziz, Maggi
 - **Cover:** Rynerrr; „Executive Supporting Manager: Philou“
-- **Heute:** keine Wiederveröffentlichung bekannt. Titelliste und Besprechung im Kapitel [„Nimms und verreck daran!“](#nimms-und-verreck-daran).
+- **Heute:** keine Wiederveröffentlichung, aber kostenlos als Download auf gema-betteln.de.[^d-remix] Besprechung der Lieder im Kapitel [„Nimms und verreck daran! (2004)“](#nimms-und-verreck-daran).
+
+**Titelliste**
+
+| Nr. | Titel | Produktion | Gäste |
+|---|---|---|---|
+| 1 | [Einmarsch](#nimms-01-einmarsch) | Maexer Cash | |
+| 2 | [Zerhamertier](#nimms-02-zerhamertier) | JAW | |
+| 3 | Schnauze! | Maexer Cash | |
+| 4 | Tjoma-Skit A | | |
+| 5 | Pyralsex | Maexer Cash | Maggi |
+| 6 | Kuhdreck | Maexer Cash | |
+| 7 | Terrorkampf | Maexer Cash | |
+| 8 | Tjoma-Skit B | | |
+| 9 | Bitsch | JAW | Drecksmann |
+| 10 | PCP-Skit | | |
+| 11 | Respect Crime | JAW | Misstress |
+| 12 | Hurendevilz | Maexer Cash | |
+| 13 | Saufsidaz | Maexer Cash | |
+| 14 | Eure Welt | Maexer Cash | |
+| 15 | Tjoma-Skit C | | |
+| 16 | Hurennetz | Maexer Cash | |
+| 17 | Morgengrauen | Maexer Cash | |
+| 18 | Vatertagsgeschenk | Mayutsch und Drecksmann | |
+| 19 | Themenwechsel | Maexer Cash | Misstress und Aziz |
+| 20 | Aye! | Maexer Cash | |
+| 21 | Kip den Shyz (real) | JAW | |
+| 22 | Weisser Dreck | Maexer Cash | |
+| 23 | PCP-Party | JAW | |
+| 24 | Tjoma-Skit D | | |
+| 25 | Kompanie Chaos | JAW | |
+
+<!-- PRÜFEN: Lesung von Titel 16 (Hurennetz) auf dem Cover unsicher. Titel 12 (Hurendevilz) und 18 (Vatertagsgeschenk) hat Merlin korrigiert. -->
 
 #### Lache und die Welt weint mit dir (2009)
+{: #diskografie-lache}
+
+{% include bild.html src="/assets/bilder/pcp/cover/lache-und-die-welt-weint-mit-dir.jpg" text="*Lache und die Welt weint mit dir*, Cover" alt="Cover: Ein Engel mit roten Haaren bläst eine weiße Staubwolke dem Betrachter entgegen" seite="rechts" breite="1/2" %}
 
 {% include bild.html src="/assets/bilder/pcp/archiv/2009-08-30-ws-shop-bundles.jpg" text="Die Bundles im Shop von Weisse Scheisse, kurz vor dem Erscheinen des Albums · weissescheisse.de · [Web Archive, 30.08.2009](https://web.archive.org/web/20090830222345/http://www.weissescheisse.de/index.php?ws=shop&kat=bundles)" alt="Screenshot: PCP-Bundle für 27,90 Euro, Menschenfeind-Bundle und JAW-Fanpaket" seite="rechts" breite="1/2" %}
 
@@ -1600,12 +2358,38 @@ Ein Datum ist das Erscheinungsdatum, wenn es belegt ist, sonst das Datum der ers
 - **Erschienen:** 28. August 2009 bei Weisse Scheisse, Vorbestellung ab 20. Juli 2009. Angekündigt seit Februar 2004, einmal geplant für Mai 2008.[^d-lache]
 - **Preis:** 11,90 Euro. Als PCP-Bundle mit Shirt und einem Poster in DIN A1 für 27,90 Euro, versandt ab dem Erscheinungstag. Der Shop führte das Album als „Lache und die Welt lacht mit dir“.
 - **Besetzung:** JAW, Rynerrr, Maexer, Private Paul, DJ Tjoma
-- **Gäste:** Hollywood Hank (*Asokacke*), Me$$age (*Punkrockbaby*, *Engelsstaub*), Peter Maffya (*Kommt Ran!*)
-- **Produktion:** laut laut.de zehn Produzenten. Genannt werden die Beatgees, Nowak, Purple Maze, Tobe, Marvelous, Moretime Productions, Peter Maffya, Maexer und Kash. Welcher Beat von wem stammt, ist noch nicht erfasst.
+- **Label:** Weisse Scheisse; auf der Rückseite der CD steht zusätzlich das Logo von FM Recordz <!-- OFFEN: Rolle von FM Recordz klären. -->
+- **Gäste:** Hollywood Hank (*Asokacke*), Me\$\$age (*Punkrockbaby*, *Engelsstaub*), Peter Maffya (*Kommt Ran!*)
+- **Produktion:** laut laut.de zehn Produzenten. Genannt werden die Beatgees, Nowak, Purple Maze, Tobe, Marvelous, Moretime Productions, Peter Maffya, Maexer und Kash. Welcher Beat von wem stammt, ist nicht erfasst.
 - **Video:** *Weisse Scheisse* (2009)
-- **Heute:** Titelliste und Besprechung im Kapitel [„Lache und die Welt weint mit dir“](#lache-und-die-welt-weint-mit-dir).
+- **Heute:** Besprechung der Lieder im Kapitel [„Lache und die Welt weint mit dir (2009)“](#lache-und-die-welt-weint-mit-dir).
 
-In den Vorarbeiten zu diesem Buch ist außerdem eine Remix-Fassung des Albums notiert. Eine Quelle dafür hat sich bisher nicht gefunden. <!-- OFFEN: Remix-Version von "Lache …" – woher stammt der Hinweis? -->
+**Titelliste**
+
+| Nr. | Titel | Gäste |
+|---|---|---|
+| 1 | [Am Anfang…](#lache-01-am-anfang) | |
+| 2 | […war das Ende](#lache-02-war-das-ende) | |
+| 3 | [Kein Zurück](#lache-03-kein-zurueck) | |
+| 4 | [Weisse Scheisse](#lache-04-weisse-scheisse) | |
+| 5 | [Nimm die Welt wie sie ist](#lache-05-nimm-die-welt-wie-sie-ist) | |
+| 6 | [Asokacke](#lache-06-asokacke) | Hollywood Hank |
+| 7 | [Bierliebe](#lache-07-bierliebe) | |
+| 8 | [Spiel mir das Lied vom Dach](#lache-08-spiel-mir-das-lied-vom-dach) | |
+| 9 | [Punkrockbaby](#lache-09-punkrockbaby) | Me\$\$age |
+| 10 | [Private Paul](#lache-10-private-paul) | |
+| 11 | [Lache und die Welt weint mit dir](#lache-11-lache-und-die-welt-weint-mit-dir) | |
+| 12 | [Harter Tag](#lache-12-harter-tag) | |
+| 13 | [Kommt Ran!](#lache-13-kommt-ran) | Peter Maffya |
+| 14 | [Rinderbraten](#lache-14-rinderbraten) | |
+| 15 | [Maschinen](#lache-15-maschinen) | |
+| 16 | [Schmetterling](#lache-16-schmetterling) | |
+| 17 | [Engelsstaub](#lache-17-engelsstaub) | Me\$\$age |
+| 18 | [Am Ende war](#lache-18-am-ende-war) | |
+| 19 | […](#lache-19-drei-punkte) | |
+| 20 | [Der Anfang](#lache-20-der-anfang) | |
+
+Außerdem gibt es eine Remix-Fassung des Albums. Auf Rynerrrs Seite gema-betteln.de liegt sie als „PCP – Lache und die Welt weint mit dir – Remix-Version (2009)“ zum freien Download, eine ZIP-Datei von 78 Megabyte, hochgeladen im Dezember 2014.[^d-remix] Wer die Remixe gemacht hat und wie sie sich vom Original unterscheiden, ist nicht bekannt. <!-- OFFEN: Remix-Version anhören, Titelliste und Produzenten erfassen. -->
 
 ### PCP auf anderen Platten
 
@@ -1623,7 +2407,7 @@ Zwischen den beiden Alben und danach waren PCP selten als Gruppe zu hören, aber
 | vor 2007 | *Winnetou* | PCP | altes PCP-Forum; im Dezember 2007 im Forum von Weisse Scheisse neu hochgeladen |
 | 2006 | *Die Sendung mit Applaus* | JAW feat. Rynerrr | JAW, *Schock fürs Leben*, Nr. 13 |
 | 2006 | *PCP Putsch* | JAW feat. Maexer, Rynerrr | ebenda, Nr. 15 |
-| 2006 | *Himmel* | JAW und Me$$age feat. Rynerrr | *Zwischen Chemie & Wahnsinn* |
+| 2006 | *Himmel* | JAW und Me\$\$age feat. Rynerrr | *Zwischen Chemie & Wahnsinn* |
 | 2007 | *Alles was du willst* | JAW feat. Rynerrr | JAW, *Gehirn im Mixer (Extended)*, Nr. 15 |
 | 2007 | *Was passiert* | JAW feat. PCP | ebenda, Nr. 20 |
 | 2008 | *Das beste Lied der Welt*, *Kuhdreck 2*, *Bierliebe* | Rynerrr feat. JAW, Maexer | Rynerrr, *Symptome* |
@@ -1638,7 +2422,7 @@ Zwischen den beiden Alben und danach waren PCP selten als Gruppe zu hören, aber
 
 Quellen: siehe die Kapitel der Teile II und III.[^d-tabelle] Ob *PCP Party* von 2003 und *PCP-Party* von 2004 dieselbe Aufnahme sind, ist offen.
 
-Der letzte neue Titel, der unter dem Namen PCP erschien, ist nach heutigem Stand *MoS Exklusiv*, ein Beitrag zur *Mile of Style EP* vom Januar 2010, „in präventivem Andenken an das anstehende Konzert in Aurich“.[^d-mos] Er ist erhalten: Das Web Archive hat im Januar 2011 die Downloads der Labelseite gesichert, darunter diesen Track und *Kein Zurück*.[^d-mosarchiv] Die Freetracks von 2004 dagegen sind im Archiv nicht erhalten. Von allen Downloads auf rynerrr.de hat das Archiv eine einzige Tondatei aufbewahrt, das Snippet zu *Symptome*.
+Der letzte neue Titel, der unter dem Namen PCP erschien, ist nach heutigem Stand *MoS Exklusiv*, ein Beitrag zur *Mile of Style EP* vom Januar 2010, „in präventivem Andenken an das anstehende Konzert in Aurich“.[^d-mos] Er ist erhalten: Das Web Archive hat im Januar 2011 die Downloads der Labelseite gesichert, darunter diesen Track und *Kein Zurück*.[^d-mosarchiv] Die Freetracks von 2004 hat das Web Archive dagegen nicht gesichert, sie sind aber auf gema-betteln.de erhalten. Von allen Downloads auf rynerrr.de hat das Archiv eine einzige Tondatei aufbewahrt, das Snippet zu *Symptome*.
 
 ### Der Katalog von Weisse Scheisse
 
@@ -1664,16 +2448,13 @@ Manches aus dieser Geschichte gibt es nur noch als Namen. Die folgende Liste sam
 
 - **Das alte PCP-Forum.** Von 2005 bis mindestens Herbst 2007 lag auf Rapidforum ein Forum mit Bereichen wie „Neustadt Nord“, „Leistungsgesellschaft – an die arbeit, genossen!“ und „forum für scheiss trottel“. Nach Maexers Worten lagen dort die letzten Reste der Frühwerke. Das Web Archive hat nur die Übersicht gesichert.[^s-rapid]
 - **Die Frühwerke von Maexer**, siehe sein Porträt, und die **Ztreuzel-Brothaz** von Rynerrr.
-- **Die Freetracks von 2004**: *Weisse Scheisse*, *Mein Lurch*, *Radioedit*, *Keine Lust mehr*, *Neustadt Nord*. Die Seite, auf der sie lagen, ist archiviert, die Dateien sind es nicht.
-- ***Winnetou***, ein PCP-Titel mit, so ein Fan, „mörder jotta parts“, zuletzt im Dezember 2007 im Forum.
 - **Die Erstfassung von *Symptome*** mit 14 Titeln, so wie die Juice sie 2006 hörte. Die Neuauflage von 2008 ist gemastert und hat drei Bonustitel. Wie sich die beiden Fassungen sonst unterscheiden, ist offen.
-- **Die *Tour EP* von Kash**, die nur über MySpace zu haben war.
 - **Was angekündigt und nie erschienen ist**: ein Album von Kash bei Weisse Scheisse (es erschien als *Emopunkrap* anderswo), die EP *Volksmusik* von JAW und Adolph Gandhi und eine EP von JAW mit Absztrakkt, beide 2010 angekündigt.[^s-angekuendigt]
 - **Die *Weisse Scheisse Collection*.** Auf YouTube stehen zwei Videos mit den Titeln *Weisse Scheisse Collection CD01/02* und *CD02/02*. Ob es eine solche Zusammenstellung je als CD gab, ist unbekannt.
-- **Grim Inc.**, ein Projekt mit vierzehn Titeln, das am letzten Tag des Jahres 2014 auf SoundCloud erschien und angeblich Rynerrr, Me$$age und Karl Mmoor versammelte. JAW sprach im Dezember 2013 von einem Projekt Rynerrrs „mit mehreren Leuten“, an dem er beteiligt sein werde. Ob das dasselbe ist, lässt sich nicht sagen.[^s-grim]
+- **Grim Inc.**, ein Projekt mit vierzehn Titeln, das am letzten Tag des Jahres 2014 auf SoundCloud erschien. Von den Titeln liegen 5 bis 14 auf SoundCloud, alle vierzehn nennt die Albumseite eines Streamingdienstes (siehe [Grim Inc.](#grim-inc)). Die Beteiligten und die Credits sind noch zu klären.
 - **Das zweite Forum von Weisse Scheisse.** Zwischen 2010 und 2013 schrieben dort einige hundert Mitglieder über 165.000 Beiträge. Erhalten sind nur Startseiten und Mitgliederlisten.
 
-*Kuhdreck* dagegen, lange ein Kandidat für diese Liste, weil *Symptome* einen zweiten Teil enthält, ist gefunden. Es ist der sechste Titel des ersten PCP-Albums.
+*Kuhdreck* dagegen, lange ein Kandidat für diese Liste, weil *Symptome* einen zweiten Teil enthält, ist gefunden. Es ist der sechste Titel des ersten PCP-Albums. Auch die Aufnahmen von 2004, darunter *Weisse Scheisse*, *Neustadt Nord* und *Winnetou* („mörder jotta parts“, schrieb ein Fan), sind erhalten: Sie liegen in Rynerrrs Sammlung *Ein Festival der kostenlosen Stimmungshits aus 2 Jahrzehnten* auf gema-betteln.de. Auch die *Tour EP* von Kash, die ursprünglich nur über MySpace zu haben war, ist wieder aufgetaucht: Sie ist auf YouTube abrufbar.
 
 [^d-mzee]: MZEE-Forum, „PCP – Nimms und verreck daran!!!“, 22.01.2004, mit der Rechnung für eine Sammelbestellung vom 24.01.2004. [mzee.com](https://www.mzee.com/forum/threads/pcp-nimms-und-verreck-daran.226198/).
 [^d-umsonst]: MZEE-Forum, „Unser PCP Album umsonst!!!“, 04.02.2004. [mzee.com](https://www.mzee.com/forum/threads/unser-pcp-album-umsonst.226888/); rynerrr.de, `album/bestellung.htm`, [Web Archive, 10.05.2004](https://web.archive.org/web/20040510101039/http://www.rynerrr.de/album/bestellung.htm); Gästebuch von p-c-p.ws, Eintrag von *RYNERRR*, 04.10.2006. Das Motto dieses Kapitels stammt von JAW aus dem Thread vom 04.02.2004.
@@ -1681,6 +2462,7 @@ Manches aus dieser Geschichte gibt es nur noch als Namen. Die folgende Liste sam
 [^d-tabelle]: Wichtigste Fundstellen: MZEE-Forum, 14.09.2003 (*Seelensturm*); rynerrr.de, „neue ladrunters“, 2004; Discogs, *Schock fürs Leben*; MZEE-Forum, 14.03.2007 (*Gehirn im Mixer*); Discogs, *Symptome*; Wikipedia, „Menschenfeind (Album)“; weissescheisse.de, News vom 11.01.2010; rap.de, 23.08.2010; Bandcamp, *Dein Bestes* und *Gutmensch / Wutbürger*.
 [^d-mos]: weissescheisse.de, News vom 11.01.2010. [Web Archive, 24.04.2010](https://web.archive.org/web/20100424031613/http://www.weissescheisse.de/cms/index.html).
 [^d-mosarchiv]: *PCP – MoS Exklusiv*, [Web Archive, 10.01.2011](https://web.archive.org/web/20110110162527/http://weissescheisse.de/cms/component/docman/doc_download/17-pcp-mos-exklusiv); *PCP – Kein Zurück*, [Web Archive, 10.01.2011](https://web.archive.org/web/20110110161954/http://weissescheisse.de/cms/component/docman/doc_download/16-pcp-kein-zurueck). Abfrage der gesicherten Tondateien über die CDX-Schnittstelle des Web Archive, 15.10.2026.
+[^d-remix]: gema-betteln.de, Musikseite: Downloads `PCP_-_Nimms_und_verreck_daran.zip` und `PCP_-_LUDWWMD_-_REMIX.zip` (77,6 MB, Stand 23.12.2014). [gema-betteln.de](https://www.gema-betteln.de/music.html), abgerufen am 15.10.2026.
 [^d-katalog]: hiphop.de, 15.05.2008; Bandcamp, *Symptome*; Discogs, Release 3325338; Musik-Sammler, Eintrag 231979; weissescheisse.de, Shop, [Web Archive, 23.10.2008](https://web.archive.org/web/20081023225709/http://www.weissescheisse.de/index.php?ws=shop&kat=musik).
 [^d-media]: weissescheisse.de, Media-Bereich, 2010; News vom 21.03. und 13.04.2010; Wikipedia, „Täter-Opfer-Ausgleich (Album)“.
 [^d-spaet]: weissescheisse.de, News 2011; News vom 29.07.2013, [Web Archive, 04.11.2013](https://web.archive.org/web/20131104002058/http://www.weissescheisse.de/cms/index.php?page=news); Media-Bereich, [Web Archive, 17.04.2015](https://web.archive.org/web/20150417000609/http://www.weissescheisse.de/).
@@ -1688,95 +2470,6 @@ Manches aus dieser Geschichte gibt es nur noch als Namen. Die folgende Liste sam
 [^s-rapid]: 54707.rapidforum.com, [Web Archive, 20.04.2005](https://web.archive.org/web/20050420052007/http://54707.rapidforum.com/) und [08.10.2007](https://web.archive.org/web/20071008092617/http://54707.rapidforum.com/).
 [^s-angekuendigt]: Forum von weissescheisse.de, Thread „Ein Kash Album“, 14.12.2007; weissescheisse.de, News vom 14.01.2010; JAW im Interview mit rap.de, 30.03.2010.
 [^s-grim]: SoundCloud [Grim Inc.](https://soundcloud.com/grim-inc), abgerufen am 15.10.2026; JAW im Interview mit laut.de, 16.04.2014 (geführt im Dezember 2013).
-
-## Die Texte
-
-*so kämpft man halt gegen was,*<br>
-*oder auch alles…*<br>
-– Rynerrr, 2009
-{: .epigraph}
-
-Für dieses Kapitel liegen die Texte von elf Titeln vor, zwei vom ersten Album und neun vom zweiten, alle nach Gehör transkribiert. Das ist weniger als die Hälfte. Was folgt, ist deshalb kein abschließendes Urteil, sondern ein Querschnitt: die Motive, die in diesen Texten immer wiederkehren, mit kurzen Zitaten und dem, was die Musiker selbst dazu gesagt haben. Wenn weitere Texte vorliegen, wird das Kapitel wachsen. <!-- OFFEN: weitere Lyrics, besonders Schmetterling, Engelsstaub, Private Paul, Titeltrack, Am Ende war … Der Anfang und Titel 3–25 des ersten Albums. -->
-{: .dropcap}
-
-### Der Nullpunkt
-
-Das wichtigste Motiv ist in beiden Alben dasselbe, und es steckt schon im Namen. Rynerrr erklärte den Namen 2009 mit dem Projekt Chaos aus *Fight Club* und dem Gedanken, „die Zivilisation von innen zu zerfressen und alles auf den Nullpunkt zu bringen“.[^t-name] 2004 heißt es in *Einmarsch*, PCP zerstöre die Welt, „bis alles fällt / Und alles wieder von vorn anfängt“. 2009 endet Rynerrrs Strophe in *…war das Ende* mit „doch das Ende wird der Anfang sein“, und der Refrain der Labelhymne *Weisse Scheisse* fasst das Programm in fünf Worte: „Der Untergang für den Neuanfang“.[^t-lyrics]
-
-Was nach dem Untergang kommen soll, sagen die Texte nicht. Der Untergang selbst wird dagegen in allen Farben ausgemalt: Senfgas, Napalm, Panzer im Kanzleramt, eine „nukleare Wärme“, eine Stadt, die nur noch aus Notsendungen besteht. Gemeint ist kein bestimmter Feind, sondern die Ordnung als solche, mit Banken, Aktien, Staat, Arbeitsamt und Kundenkarten. Am genauesten zielt Rynerrr in der letzten Strophe von *Kein Zurück*, mit einem Bild, das die Gewalt von den Einzelnen weg auf das System richtet:
-
-> Es bringt nichts Schafe abzuschlachten, um die Herde zu retten<br>
-> Die Schäfer und ihre Hunde gehören in Särge gesteckt[^t-lyrics]
-
-Woher dieser Hass auf alles kommt, hat Rynerrr im selben Interview beantwortet, mit dem Satz, der über diesem Kapitel steht. Erst ein Witz, „Aus der miesen Kindheit natürlich!“, dann die ernstere Antwort: „vermutlich einfach aus Langeweile und Perspektivlosigkeit, weil man aufwächst ohne für irgendwas kämpfen zu müssen“.[^t-name] Das ist eine Selbstdiagnose, wie sie im Rap dieser Jahre selten war. Sie beschreibt keine Not, sondern eine Leere. Und sie erklärt, warum diese Musik so oft vom Land handelt, von Langeweile, von Bier und vom Warten.
-
-### Gegen die Arbeit
-
-Neben dem großen Untergang steht ein kleinerer, alltäglicher Widerstand: gegen Arbeit, Karriere und Leistung. Schon das alte PCP-Forum hatte einen Bereich namens „Leistungsgesellschaft – an die arbeit, genossen!“. In *Kein Zurück* ruft Maexer „scheiß auf Leistungsgesellschaft!“, und gleich danach kommt die Pointe: Er würde ja gern Leistung bringen, „Zeigt mir was, was mir was abverlangt“. In seiner zweiten Strophe rechnet er eine Karriere durch, an deren Ende man „mit 50, an 'ner Herzattacke“ stirbt.
-
-Rynerrrs Fragen in *Asokacke* sind ein ganzes Programm des Aussteigens: Warum finde er jeden Job nach einer Weile beschissen, warum langweile er sich nicht, auch wenn er zwanzig Tage nichts tue, warum wolle er kein Geld, kein dickes Auto und kein Haus, nicht erfolgreich sein, nicht bausparen, „Sondern nur einen Ausgang!“ In der Hymne *Weisse Scheisse* steht dasselbe als Gewaltfantasie: Er geht eines Tages zur Arbeit wie immer, „Aber heute schlag ich meinen Arbeitgeber tot“.[^t-lyrics]
-
-Das passt zu den Biografien, die die Mitglieder über sich schrieben, und zu den Interviews. Maexer studierte und konnte „Trottel nicht leiden“. Rynerrr widmete seine Zeit „dem Bier, dem Fleisch“ und World of Warcraft. Die Texte nehmen diese Haltung und übertreiben sie, bis sie komisch wird oder bedrohlich, oft beides zugleich.
-
-### Engelsstaub und Bier
-
-Der Name der Gruppe ist auch der Name einer Droge, und die Texte spielen damit von der ersten Sekunde an. Das erste Album beginnt mit einem Einspieler über Phencyclidin, „Angel Dust“, und der Frage, was der Stoff bei Jugendlichen anrichte. Die Antwort gibt JAW am Ende desselben Songs: „Nimm PCP und spür' wie dich die Nacht umhüllt“. Das Album selbst ist die Droge, vor der gewarnt wird.[^t-einmarsch]
-
-Auf dem zweiten Album heißt ein Titel *Engelsstaub*, JAW watet „im Nebel des Angeldusts“ durch eine Schlacht, und Rynerrr schaufelt „mit PCP fleißig Crack ins System“.[^t-lyrics] Die Cover beider Alben zeigen einen Engel, der Staub bläst. „Daher auch ständig der Engel überall bei uns“, sagte Rynerrr.[^t-name]
-
-Wo die Texte konkret werden, geht es seltener um Partydrogen als um Medikamente. JAW stellte sich auf der Bandseite als „der medizinisch musterbeispielartig versorgte Jotta“ vor, der zum Frühstück Kapseln esse, und in *…war das Ende* wünscht er den „Pharmaziejunks“ ein „stilles schmerzbefreites Ende“. In *Kein Zurück* und *Punkrockbaby* kommen Pillen vom Arzt, Klingen und Selbstverletzung vor, als Pointe erzählt und doch erkennbar ernst. Maexer fasst die Ambivalenz 2004 in eine Zeile: „Ich brauch' Drogen zum leben will aber keine nehm'n“.[^t-einmarsch] Was hier als Pointe daherkommt, ist auf JAWs Soloalben und auf Private Pauls *Emopunkrap* ein ernstes Thema. Dieses Buch belässt es bei dem Hinweis.
-
-Kein Motiv ist so beständig wie das Bier. Auf der Rückseite des ersten Albums hält einer der Musiker ein Fass Rothaus Pils im Arm, ein Titel heißt *Saufsidaz*, und die News auf p-c-p.ws endeten mit „Prost“. Auf dem zweiten Album gibt es ein ganzes Liebeslied, *Bierliebe*, und den einfachsten Refrain der Gruppe, „Dadadada, Bier leer / Dadadada, Bier her“. Rynerrr fragt in *Asokacke*: „Warum kam ich nicht in einer Tonne Bier auf die Welt?!“ JAW kündigte das Album mit den Worten an, es handle von „unserer Trinksucht, unserer Sexsucht und unsrer Möchtegern-Punkattitüde“.[^t-meinrap] Die Ankündigung des Labels sprach von „Bier- und Fleischliebe“,[^t-ankuendigung] und Private Paul lieferte der Kritik die Überschrift: „Das ist kein Label, das ist ein Haufen Trunkenbolde“.
-
-*Bierliebe* zeigt, wie das funktioniert. Das Lied ist als Liebeslied gebaut, mit einem schmachtenden Gesangssample am Anfang, einem Refrain über die Rückkehr zur Geliebten und vier Strophen, die das Bier besingen wie eine Geliebte. Rynerrr hat sich „aus Liebe zu dir mit dir die Leber tätowiert“. JAW parodiert die Anonymen Alkoholiker: „Bier! My name is Dokta Jotta, I'm an alcoholic“. Und doch steckt in derselben Strophe die Zeile, dass er „kein starker Mensch“ sei. Der Witz und das, worüber er gemacht wird, liegen in diesen Texten nie weit auseinander.
-
-### Gegen die Szene
-
-PCP haben sich nie als Teil der Rapszene verstanden, jedenfalls haben sie es nie gesagt. „Das' nich' Hip-Hop, das' is' Punk“, rappt Rynerrr 2004, und JAW zählt auf, auf welchen Rap er alles scheiße: aus Deutschland, aus den Staaten, „Rap aus Freiburg und Rap aus Albanien“.[^t-einmarsch] 2009 klingt es kaum anders. In *Kein Zurück* beginnt JAW mit „Hierfür gibt es keine Krone in der Juice“ und nennt Rap „ein deliziöses Mahl für das Phrasenschwein“. In der Hymne spricht er von „Gequälte[n] Seelen, die nix drauf geben, ob sie die Backspin kennt“.[^t-lyrics]
-
-Das ist eine schöne Pointe, weil es nicht stimmt. Gerade die Backspin und die Juice hatten JAW und Rynerrr 2006 als Erste ernst genommen, und die Gruppe hatte die Kritiken auf ihrer Presseseite abgetippt. Die Abgrenzung von der Szene war auch ein Teil des Images, mit dem man in dieser Szene auffiel. Rynerrr sagte es 2009 genauer: Rap sei „an und für sich keine so schlechte Musikrichtung“. Aber die Rapszene „ist halt furchtbar“.[^t-name]
-
-### Gewalt als Pose
-
-Es wäre unehrlich, über diese Texte zu schreiben, ohne zu sagen, wie gewalttätig viele davon sind. Auf beiden Alben stehen Gewaltfantasien gegen namenlose Gegner, gegen Frauen, gegen Homosexuelle, gegen Politiker und gegen „die Schönen und Reichen“. Es gibt Beleidigungen, die heute kaum jemand mehr auf eine Platte schreiben würde, und vereinzelt Anspielungen auf den Nationalsozialismus als Schockeffekt. Dieses Buch zitiert diese Stellen nicht. Es verschweigt sie aber auch nicht.
-
-Man kann in den Texten zwei Arten von Gewalt unterscheiden. Die eine ist Slapstick. In *Spiel mir das Lied vom Dach* zieht Rynerrr durch eine Stadt, zerschießt einem Jungen den Fußball, wirft eine Wasserbombe voller Kot in ein Cabrio und fährt mit dem Einkaufswagen durch den Supermarkt, „Menschen fallen um wie Kegel“. In *Weisse Scheisse* sagt er es selbst: „Ich mach alles kaputt, wie früher als Kind beim Playmobil spielen“.[^t-lyrics] Das ist Zeichentrick und Slapstick, eine Gewalt, die niemand ernst nehmen soll.
-
-Die andere Art ist die, die sich gegen bestimmte Menschen richtet, und sie lässt sich nicht so leicht als Witz lesen. Die Musiker wussten das. Rynerrr änderte 2009 seinen Part für das Video zu *Weisse Scheisse*, weil er „rausgerissen aus dem Gesamtkonzept des Albums, zu gewaltverherrlichend und unreflektiert rüberkommen kann“.[^t-name] JAW schrieb im selben Jahr eine Zeile, die wie ein Kommentar zu all dem klingt: „Du bist nicht hart, wenn du wahllos jedem aufs Maul schlägst / Sondern wenn du, trotz aller Narben, jeden Tag aufstehst“.[^t-lyrics]
-
-Wie man diese Texte heute hört, muss jeder selbst entscheiden. Die Kritik von damals nahm sie gelassen. Die Juice nannte *Symptome* „eine äußerst verstörende, aber unbedingt unterhaltsame Angelegenheit“.[^t-juice] Für die Geschichte von PCP wichtiger ist etwas anderes: Die Gewalt in diesen Liedern richtet sich oft auch gegen die Sprecher selbst.
-
-### Organische Masse
-
-Am deutlichsten wird das an einem Bild, das sich durch die Jahre zieht. 2004 begrüßte der Besucherzähler der Albumseite jeden Gast als „Haufen sich bewegender organischer Masse“. Im selben Jahr beschimpft Rynerrr in *Zerhamertier* sein Gegenüber als „nichts als sich bewegende organische Masse“. Fünf Jahre später ist das Bild zurück, aber umgedreht. In der Scratch-Collage am Anfang des zweiten Albums sagt eine Stimme über sich selbst:
-
-> Ich bin auch nur organischer Abfall mit 'nem Gehirn<br>
-> Und 'ner Seele, auf der ihr rumtrampelt, bis sie dran stirbt[^t-lyrics]
-
-{% include bild.html src="/assets/bilder/pcp/archiv/2004-09-02-rynerrr-zaehler.jpg" text="„Haufen sich bewegender organischer Masse“: der Besucherzähler der Albumseite · rynerrr.de · [Web Archive, 02.09.2004](https://web.archive.org/web/20040902070307/http://www.rynerrr.de/album/albumindex.htm)" alt="Screenshot: PCP – PROJEKT CHAOS PUNKS – PCP, KLICK AUF DEN ENGEL, Besucherzähler" seite="rechts" breite="1/2" %}
-
-Das ist der Weg, den die Texte zwischen den beiden Alben gehen. 2004 ist der Hass nach außen gerichtet, auf Eltern, Staat, Banken, Rapper, auf alles. 2009 ist er immer noch da, aber er hat einen zweiten Adressaten bekommen. Rynerrr ist in der Hymne „ein von Gott verdammtes Stück Weiße Scheiße“. Hollywood Hank fragt am Ende seiner Strophe, warum er auf seine Art zu denken „auch noch stolz“ sei. Maexer sitzt „schweratmend, nichtschlafend da, und warte[t]“. Und JAW hat in *Asokacke* die Zeile, die man als Kommentar zum Albumtitel lesen kann: „Oft versuch ich zu lachen, aber der Witz zerbricht mich“.[^t-lyrics]
-
-Rynerrr hat den Titel *Lache und die Welt weint mit dir* 2009 so gedeutet: Wenn er seinen Schmerz so lange aufstaue, bis er „hysterisch lachend alles kurz und klein schlag[e]“, dann teile der Teil der Welt, der dabei sei, vielleicht seinen Schmerz, „oder hat halt einfach auch Schmerzen, und weint somit mit mir“.[^t-name] Das Lachen und der Schmerz sind in dieser Musik dasselbe.
-
-### Dreck, der stolz ist
-
-Zuletzt der Name, den die Gruppe ihrem Label gab und der in den Texten zu einem Mythos wird. In *…war das Ende* sammelt sich die „Weisse Scheisse“ und quillt „langsam aus den Gullis“. In der Hymne heißt es: „Etwas erhebt sich aus dem Dreck der Welt“, und auf seinem Emblem steht „Weiße Scheiße“. Ein „Heer bemannt mit Deutschlands Punks“ zieht mit Fahnen durch die Straßen.[^t-lyrics]
-
-Die Selbstbezeichnung als Dreck zieht sich durch alles, was die Gruppe über sich schrieb. Die Labelphilosophie lautete „Dreck, der stolz ist, Dreck zu sein!“.[^t-hiphopde] Das Forum hieß „Das offene Ohr für den Dreck der Straße“ und „Der Bodensatz der Zivilisation“. Aus *Schmetterling* überliefert laut.de die Zeile über „ein Stück Dreck – aber ein Stück Dreck mit einer Knarre!“, ein Zitat, das wieder auf *Fight Club* verweist.[^t-laut] Man kann in dem Namen die deutsche Entsprechung dessen hören, was im Englischen *white trash* heißt: ein Schimpfwort, das die Beschimpften sich aneignen. JAW selbst hat 2010 nur gesagt, mit der Droge habe der Name nichts zu tun. Weisse Scheisse sei eine Plattform für „ein paar zufällig weiße Gestalten, die ne Menge Hass, Humor, Trauer aber auch Ulk loswerden müssen, um nicht verrückt zu werden“.[^t-bassdraft]
-
-Legt man das Manifest „Was ist Weisse Scheisse?“ neben die Texte, liest es sich wie ein Register der Lieder. Es nennt Wut und Verzweiflung, die Sinnlosigkeit des Daseins, die Sehnsucht nach Drogen als Flucht „aus der Leere oder der Enge“, die Kotze nach einer durchzechten Nacht, Einsamkeit und den Wunsch nach Lärm.[^t-manifest] Für fast jedes dieser Stichworte findet sich in den vorliegenden Texten eine Zeile. Der Hass, der Humor und die Trauer, von denen JAW sprach, stehen dort selten nacheinander. Meistens stehen sie in derselben Zeile.
-
-[^t-name]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/).
-[^t-lyrics]: *Lache und die Welt weint mit dir*, Titel 1–9; *Nimms und verreck daran!*, *Einmarsch* und *Zerhamertier*. Transkription nach Gehör, Fassung von Oktober 2026.
-[^t-einmarsch]: *Einmarsch* auf *Nimms und verreck daran!*. Transkription nach Gehör.
-[^t-meinrap]: JAW im Interview mit meinrap.de, 01.06.2009. [Web Archive](https://web.archive.org/web/20090612150318/http://meinrap.de:80/2009/06/01/jaw-menschenfeind-special-interview-exclusive/).
-[^t-juice]: Juice 10/2006, „Demo des Monats“, zitiert nach der Presseseite von p-c-p.ws. [Web Archive](https://web.archive.org/web/20070516175001/http://www.p-c-p.ws/presse.php).
-[^t-hiphopde]: Pressetext zu *Symptome*, hiphop.de, 15.05.2008. [hiphop.de](https://hiphop.de/release/rynerrr-symptome).
-[^t-laut]: Philipp Gässlein, Kritik zu *Lache und die Welt weint mit dir*, laut.de. [laut.de](https://laut.de/PCP/Alben/Lache-Und-Die-Welt-Weint-Mit-Dir-43654).
-[^t-bassdraft]: JAW im Interview mit Bassdraft, April 2010. [Web Archive](https://web.archive.org/web/20101208160203/http://www.bassdraft.com:80/de/content/interview/JAW/index.html).
-[^t-ankuendigung]: hiphop.de, „PCP: Lache und die Welt weint mit dir“, 14.07.2009. [hiphop.de](https://hiphop.de/magazin/news/pcp-lache-und-die-welt-weint-mit-dir-167311).
-[^t-manifest]: weissescheisse.de, „Was ist Weisse Scheisse?“, ab Februar 2010. [Web Archive](https://web.archive.org/web/20100424031613/http://www.weissescheisse.de/cms/index.html).
 
 ---
 
@@ -1792,9 +2485,14 @@ Die wichtigsten Daten dieser Geschichte in einer Tabelle. Die Belege stehen in d
 |---|---|
 | 2000–2003 | Aufnahmen zu *Nimms und verreck daran!* |
 | Anfang 2002 | JAW schreibt erste Texte im MZEE-Forum |
-| 2003 | JAW meldet sich bei der Reimliga Battle Arena an |
+| 05.12.2002 | JAW: erstes Battle in der Reimliga Battle Arena (bis 05.10.2006, 35 Battles) |
+| 05.09.2002 | Dollar Bill (nach der Heizipedia Kash) bestreitet sein erstes RBA-Battle |
+| 14.02.2003 | Dr. Hollywood (Hollywood Hank) bestreitet sein erstes RBA-Battle |
+| 02.03.2003 | DJ Tjoma: erstes DJ-Battle in der RBA |
+| 25.04.2003 | *bierspasst* (Rynerrr): erstes RBA-Battle |
+| 2003 | Hollywood Hank und Johnny Flexxx als Projekt Alzheimer: *…nur ein Versuch* |
 | 14.09.2003 | JAW kündigt *Seelensturm* an, mit *PCP Party* |
-| 30.11.2003 | RBA-Battle Drecksmann gegen JAW |
+| 29.11.2003 | RBA-Battle JAW gegen Drecksmann, im MZEE-Forum am 30.11. angekündigt |
 | 22.01.2004 | Ankündigung von *Nimms und verreck daran!* im MZEE-Forum |
 | 04.02.2004 | „Unser PCP Album umsonst!!!“ |
 | 08.02.2004 | JAW kündigt ein zweites Album an |
@@ -1803,6 +2501,7 @@ Die wichtigsten Daten dieser Geschichte in einer Tabelle. Die Belege stehen in d
 | 10.05.2004 (Archiv) | Bestellseite: 5 Euro inklusive Porto |
 | 12.08.2004 (Archiv) | „Neue Ladrunters“ mit dem Song *Weisse Scheisse* |
 | 2005 | PCP-Forum auf Rapidforum; Beginn der Zusammenarbeit von JAW mit Rapz Records |
+| 09.01.2005 | RBA: Kollegah schlägt Dollar Bill, 12:5 |
 | 19.04.2005 (Archiv) | Snippet zu Rynerrrs *Symptome* |
 | 29.01.2006 | JAW spricht von „unser[em] kleine[n] Label, Weisse Scheisse“ |
 | 25.02.2006 | Releaseparty *Schock fürs Leben* in der Lausitz |
@@ -1838,7 +2537,7 @@ Die wichtigsten Daten dieser Geschichte in einer Tabelle. Die Belege stehen in d
 | 20.08.–05.09.2010 | Sozioparty-Tour |
 | **17.10.2010** | **Private Paul verlässt Weisse Scheisse** |
 | 15.01.2011 | Konzert von Weisse Scheisse und PCP im JBB Freiburg |
-| Januar 2011 | Private Paul – *Emopunkrap* |
+| 21.12.2010 | Private Paul – *Emopunkrap* (Bandcamp; Kritik bei rap.de am 28.01.2011) |
 | 05.02.2011 | JAW – *Private Paul* |
 | Februar 2011 | JAW auf Tour mit Soprano |
 | 27.05.2011 | JAW, Rynerrr und Maexer bei einer Releaseparty in Freiburg |
@@ -1846,13 +2545,18 @@ Die wichtigsten Daten dieser Geschichte in einer Tabelle. Die Belege stehen in d
 | um 2011/12 | JAW zieht nach Berlin |
 | 2013 | rynerrr.de steht zum Verkauf |
 | 29.07.2013 | Letzte Nachricht von Weisse Scheisse: Maexer und Stomakk – *Dein Bestes* |
+| 09.08.2013 | Private Paul als Kash – *SUFF* |
 | 17.01.2014 | Private Paul – *Schwarzweissrot* |
+| 2014 | Hollywood Hank als Bak Ta Ehli – *True Lies* |
 | 16.09.2014 | Rynerrr – *"album"* |
 | 31.12.2014 | Grim Inc. auf SoundCloud |
-| 2016 | Private Paul und Rotten Monkey – *Live Fast Die Young* |
+| 15.09.2016 | Private Paul und Rotten Monkey – *Live Fast Die Young* |
 | 19.05.2017 | Rynerrr – *Gutmensch/Wutbürger* |
-| 25.05.2018 | JAW – *Die unerträgliche Dreistigkeit des Seins*, Platz vier |
+| 25.05.2018 | JAW – *Die unerträgliche Dreistigkeit des Seins*, in den deutschen Charts |
+| 16.09.2018 | Me\$\$age – *2015/2016* (Bandcamp), mit Rynerrr, Modnar Prac und Mandelbavm |
+| 05.10.2020 | Die RBA kündigt ihr Ende an |
 | 03.12.2023 | Tod von Hollywood Hank |
+| 24.12.2024 | Karl Mmoor und Me\$\$age – *Das Metall ist ein Zug* |
 | 12.07.2024 | Kollegah und Favorite – *Blessed* |
 | 2026 | JAW – *Grobes Kino* und *Statisten Sterben* mit Rynerrr; „JAW / Weisse Scheisse 2026“ |
 
@@ -1864,20 +2568,27 @@ Die Szene schrieb Namen, wie sie wollte, und wechselte sie oft. Wer heute nach d
 | Name | Varianten und frühere Namen | Wer |
 |---|---|---|
 | JAW | J.A.W., Bloody Bastard (Forenname), Dokta Jotta, Doktor Jotta, Jotta, Konnegah, $pitt Klikk (mit Peter Maffya) | Mitglied von PCP, Gründer von Weisse Scheisse |
-| Rynerrr | Rynerrr One, Rynerrr Gott, Rynerrr Schrott, Ryn, Rhynerr, Bierspasst (RBA), Rainer Schrott (SoundCloud) | Mitglied von PCP |
+| Rynerrr | Rynerrr One, Rynerrr Gott, Rynerrr Schrott, Ryn, Rhynerr, Bierspasst (RBA) | Mitglied von PCP |
 | Maexer | Mäxer, Maexer Cash, Mäxer Ca$h, maexer noise (SoundCloud) | Mitglied von PCP, Rynerrrs Bruder |
 | DJ Tjoma | DJ Toma, Tjoma | Mitglied von PCP |
-| Private Paul | Kash, KASH, Pvt. Paul, G-Man (Forenname), Emopunkrap (MySpace, Album, Label) | Mitglied von PCP von etwa Ende 2007 bis Oktober 2010 |
+| Private Paul | Kash, KASH, Pvt. Paul, G-Man (Forenname), Dollar Bill (RBA, nach der Heizipedia), Emopunkrap (MySpace, Album, Label) | Mitglied von PCP von etwa Ende 2007 bis Oktober 2010 |
 | PCP | Projekt Chaos Punks, P-C-P; Phencyclidin, Angel Dust, Engelsstaub | die Gruppe |
 | Weisse Scheisse | Weiße Scheiße, Weissescheisse, WS, Weisse Scheisse Records, WS Musik | Song (2004), Label (ab 2006/07), Forum, Marke |
 | Hollywood Hank | Dr. Hollywood (RBA), Hollywoodsfinest, Holly, Bak Ta Ehli | Weggefährte, Gast |
-| Me$$age | Message, messagerap | Gast, *Zwischen Chemie & Wahnsinn* |
+| Me\$\$age | Message, messagerap | Gast, *Zwischen Chemie & Wahnsinn* |
 | Drecksmann | | Rapper aus der RBA, Helfer 2004 |
 | Peter Maffya | $pitt Klikk (mit JAW) | Gast und Produzent |
-| Karl Mmoor | Karl Moor | Gast auf *Dein Bestes* |
-| Stomakk | | Partner von Maexer auf *Dein Bestes* |
+| Karl Mmoor | Karl Moor, Karl Mohr | Gast auf *Dein Bestes*, Duo-Album mit Me\$\$age, Grim Inc. |
+| Stomakk | | Partner von Maexer auf *Dein Bestes*, Grim Inc. |
 | Ztreuzel-Brothaz | Streusel Brothas | frühere Formation von Rynerrr |
 | Reedram Harritz | Zerhahmertiere | frühes Projekt von Maexer |
+| Johnny Flexxx | | mit Hollywood Hank das Duo *Projekt Alzheimer* (*…nur ein Versuch*, 2003) |
+| Projekt Alzheimer | | frühe Gruppe von Hollywood Hank und Johnny Flexxx |
+| Kollegah | DERKOLLEGAH (RBA), Konnegah (Parodie von JAW) | Rapper aus der RBA, Nachbar |
+| Lasse Green | | Gast auf *Dein Bestes*, Remix-EP mit Karl Mmoor, Grim Inc. |
+| Modnar Prac, Mandelbavm | | Gäste auf Me\$\$ages EP *2015/2016* |
+| Mtsh X, Knorki 101 | | Partner von Stomakk, 2017/18 |
+| Grim Inc. | | Projekt von 2014 mit Rynerrr, Me\$\$age, Karl Mmoor, Lasse Green und Stomakk |
 | Maggi | vielleicht Maggoh (*Seelensturm*) | Gast auf *Nimms und verreck daran!* |
 | Misstress, Aziz | | Gäste auf *Nimms und verreck daran!* |
 | Philou | | „Executive Supporting Manager“ 2004 |
@@ -1886,7 +2597,7 @@ Die Szene schrieb Namen, wie sie wollte, und wechselte sie oft. Wer heute nach d
 ## Quellen und Archiv
 {: .ohne-nummer}
 
-Fast alles in diesem Buch stützt sich auf Quellen, die man heute noch einsehen kann, die meisten über das Web Archive. Die folgende Übersicht nennt die wichtigsten. Die genauen Fundstellen stehen in den Fußnoten der Kapitel.
+Fast alles in diesem Artikel stützt sich auf Quellen, die man heute noch einsehen kann, die meisten über das Web Archive. Die folgende Übersicht nennt die wichtigsten. Die genauen Fundstellen stehen in den Fußnoten der Kapitel.
 
 ### Websites
 
@@ -1894,7 +2605,7 @@ Fast alles in diesem Buch stützt sich auf Quellen, die man heute noch einsehen 
 - **p-c-p.ws**, die Bandseite von August 2006 bis Ende 2008, mit News, Gästebuch, Musik, Presse und Kontakt. Ausgewertet: 63 Seiten. [Web Archive](https://web.archive.org/web/*/p-c-p.ws/*)
 - **weissescheisse.de**, Oktober 2007 bis 2015: Startseiten, Shop, Labelseite, Künstlerseiten, Media, Presse. Ausgewertet: 1.528 archivierte Seiten, davon 1.132 inhaltlich verschieden. [Web Archive](https://web.archive.org/web/*/weissescheisse.de/*)
 - **Das Forum von weissescheisse.de**, Dezember 2007 bis März 2008: 100 Threads mit 1.278 Beiträgen, aus den archivierten Seiten rekonstruiert. Vom zweiten Forum (2010 bis 2013) sind nur Statistiken erhalten.
-- **Weitere**: das PCP-Forum auf Rapidforum (2005 bis 2007, nur Übersicht), jaw.myownmusic.de (2005/06), myspace.com/emopunkrap (2008), das Forum von rapz-records.de (2007), jawonline.de, die Bandcamp-Seiten von JAW und Rynerrr und die SoundCloud-Profile von JAW, Rynerrr, Maexer, Stomakk, Me$$age und Grim Inc.
+- **Weitere**: das PCP-Forum auf Rapidforum (2005 bis 2007, nur Übersicht), jaw.myownmusic.de (2005/06), myspace.com/emopunkrap (2008), das Forum von rapz-records.de (2007), jawonline.de mit Shop, Rynerrrs gema-betteln.de, die Bandcamp-Seiten von JAW und Rynerrr und die SoundCloud-Profile von JAW, Rynerrr, Maexer, Stomakk, Me\$\$age und Grim Inc.
 
 ### Foren
 
@@ -1933,46 +2644,48 @@ Fast alles in diesem Buch stützt sich auf Quellen, die man heute noch einsehen 
 ## Was offen bleibt
 {: .ohne-nummer}
 
-Dieses Buch hat Lücken, und einige davon ließen sich schließen. Die folgende Liste ist eine Einladung an alle, die etwas wissen, eine CD im Regal haben oder eine alte Festplatte. <!-- OFFEN: Kontaktweg für Hinweise angeben (Mail?). -->
+Dieser Artikel hat Lücken, und einige davon ließen sich schließen. Wer etwas weiß, eine CD im Regal hat oder eine alte Festplatte, kann mir gerne schreiben: [miotares@proton.me](mailto:miotares@proton.me).
 
 **Zu den Platten**
 
-1. Die Lesung zweier Titel auf der Rückseite des ersten Albums (Nr. 12 und 16) und die Credits im Booklet.
-2. Die Texte von 18 der 20 Lieder des ersten und elf der 20 Titel des zweiten Albums.
-3. Wer welchen Beat auf *Lache und die Welt weint mit dir* produziert hat.
-4. Wie der Titel des zweiten Albums auf CD und Booklet steht: „weint“ oder „lacht“?
-5. Woher die beiden Filmzitate auf *Am Anfang…* und *…war das Ende* stammen.
-6. Ob die Aufnahmen von 2004 erhalten sind, vor allem der erste Song namens *Weisse Scheisse*, *Neustadt Nord* und *Winnetou*.
-7. Ob es die Remix-Fassung des zweiten Albums gibt.
-8. Unter welchem Label *Täter-Opfer-Ausgleich* auf der CD steht.
+1. Wie heißt Titel 16 auf der Rückseite des ersten Albums wirklich, und welche Credits stehen im Booklet?
+2. Wie lauten die Texte von 23 der 25 Titel des ersten Albums?
+3. Wer hat welchen Beat auf *Lache und die Welt weint mit dir* produziert?
+4. Woher stammen die Filmzitate am Ende von *…war das Ende* und *Engelsstaub* und am Anfang von *Schmetterling*?
+5. Was steckt genau in Rynerrrs Sammlung *Ein Festival der kostenlosen Stimmungshits aus 2 Jahrzehnten*, und wie verhält sich der Song *Weisse Scheisse* von 2004 zu dem von 2009?
+6. Wer hat die Remix-Fassung des zweiten Albums gemacht, und wie unterscheidet sie sich vom Original?
+7. Unter welchem Label steht *Täter-Opfer-Ausgleich* auf der CD?
+8. Welche Rolle hatte FM Recordz bei *Lache und die Welt weint mit dir*?
+9. Wie lauten Titelliste und Credits von *…nur ein Versuch*, *True Lies*, *Lotus*, *Faded*, *DSEPR* und *DSEP*?
 
 **Zu den Menschen**
 
-9. Wer die Ztreuzel-Brothaz waren.
-10. Wer Misstress, Maggi und Philou waren und ob Maggi derselbe ist wie Maggoh auf *Seelensturm*.
-11. Das Battle von Kash gegen Kollegah in der RBA und JAWs Erfolge dort.
-12. Das Interview, in dem Private Paul Anfang 2011 bei rap.de über die Trennung sprach, und das Datum seines Disstracks gegen JAW.
-13. Wer zu Grim Inc. gehörte.
+10. Wer waren die Ztreuzel-Brothaz?
+11. Wer waren Misstress, Maggi und Philou, und ist Maggi derselbe wie Maggoh auf *Seelensturm*?
+12. Ist Dollar Bill in der RBA wirklich Kash? Bisher belegt das nur die Heizipedia.
+13. Wo steht das rap.de-Interview, in dem sich Private Paul Anfang 2011 zur Trennung äußerte, und wann erschien sein Disstrack gegen JAW?
+14. Wer außer Rynerrr, Me\$\$age, Karl Mmoor, Lasse Green und Stomakk gehörte zu Grim Inc., und wer hat welche Beats gebaut?
+15. Ist die EP *2015/2016* das Album, auf das Maexer 2017 gewartet hat?
 
 **Zur Geschichte**
 
-14. Was Weihnachten 2007 „auszudiskutieren“ war, als die Seite offline ging.
-15. Ob das Konzert im JBB im Januar 2011 der letzte Auftritt von PCP war.
-16. Ob PCP nach 2010 noch etwas gemeinsam aufgenommen haben.
+16. Was war Weihnachten 2007 „auszudiskutieren“, als die Seite offline ging?
+17. War das Konzert im JBB im Januar 2011 der letzte Auftritt von PCP?
+18. Haben PCP nach 2010 noch etwas gemeinsam aufgenommen?
 
-Über das Private der Musiker, über das, was sie selbst nicht öffentlich gemacht haben, fragt diese Liste nicht.
+Über das Private der Musiker, über das, was sie selbst nicht öffentlich gemacht haben, frage ich nicht.
 
 ## Zur Methode und Dank
 {: .ohne-nummer}
 
-Dieses Buch beruht auf öffentlichen Quellen: archivierten Websites, Forenbeiträgen, Interviews, Kritiken, Datenbankeinträgen und den Platten selbst. Die Websites wurden aus den Sicherungen des Web Archive rekonstruiert und lokal ausgewertet, das Forum von Weisse Scheisse Beitrag für Beitrag aus den archivierten Seiten zusammengesetzt. Die Screenshots zeigen diese Seiten so, wie sie ein Browser mit 1024 Pixeln Breite darstellt, der üblichen Bildschirmbreite der Zeit. Bilder, die das Archiv nicht gesichert hat, erscheinen dort als graue Fragezeichen. Auch das ist ein Befund.
+Ich habe diesen Artikel aus öffentlichen Quellen geschrieben: aus archivierten Websites, Forenbeiträgen, Interviews, Kritiken, Datenbankeinträgen und den Platten selbst, die ich nach und nach gesammelt habe. Die Websites habe ich aus den Sicherungen des Web Archive rekonstruiert, das Forum von Weisse Scheisse Beitrag für Beitrag aus den archivierten Seiten zusammengesetzt. Die Screenshots zeigen diese Seiten so, wie ein Browser mit 1024 Pixeln Breite sie darstellt, der üblichen Bildschirmbreite der Zeit. Bilder, die das Archiv nicht gesichert hat, erscheinen dort als graue Fragezeichen. Auch das ist ein Befund.
 
-Für dieses Buch gelten ein paar Regeln:
+Dabei halte ich mich an ein paar Regeln:
 
-- **Keine bürgerlichen Namen**, auch dort nicht, wo sie irgendwann öffentlich waren. In den Screenshots sind Namen, Kontodaten, ICQ-Nummern und private Mailadressen geschwärzt.
+- **Keine bürgerlichen Namen**, auch dort nicht, wo sie irgendwann öffentlich waren. In den Screenshots habe ich Namen, Kontodaten, ICQ-Nummern und private Mailadressen geschwärzt.
 - **Fans nur mit ihren Forennamen**, ohne Angaben zu Alter, Wohnort oder Privatleben.
-- **Nur kurze Zitate aus den Songtexten**, nie ganze Strophen. Die Texte sind nach Gehör transkribiert und können Fehler enthalten.
-- **Belegt ist, was eine Fußnote hat.** Vermutungen sind als solche gekennzeichnet. Wo die Quellen schweigen, schweigt auch der Text.
-- **Kein Nachforschen im Privatleben** von Menschen, die sich aus der Öffentlichkeit zurückgezogen haben. Was die Musiker selbst über Krankheit, Sucht oder Verlust gesagt haben, steht hier nur, wo es für das Verständnis der Musik nötig ist.
+- **Nur kurze Zitate aus den Songtexten**, nie ganze Strophen. Ich habe die Texte nach Gehör transkribiert, sie können Fehler enthalten.
+- **Belegt ist, was eine Fußnote hat.** Vermutungen kennzeichne ich als solche. Wo die Quellen schweigen, schweige ich auch.
+- **Ich forsche nicht im Privatleben** von Menschen nach, die sich aus der Öffentlichkeit zurückgezogen haben. Was die Musiker selbst über Krankheit, Sucht oder Verlust gesagt haben, steht hier nur, wo ich es für das Verständnis der Musik brauche.
 
-Zu danken ist zuerst den Leuten, die das alles aufgeschrieben haben, ohne zu ahnen, dass es einmal eine Quelle sein würde: den Fans, die ins Gästebuch schrieben, in den Foren stritten und Tracklisten abtippten, den Bloggern und Redakteuren, die über eine Gruppe ohne Plattenvertrag schrieben, und dem Internet Archive, ohne das von dieser Geschichte fast nichts übrig wäre. Und natürlich PCP. <!-- OFFEN: Dank – Merlin ergänzen (Personen, Hinweisgeber, ggf. die Künstler). Und: Soll erwähnt werden, wie die Recherche technisch lief (Skripte, KI-Hilfe)? -->
+Mein Dank gilt zuerst den Leuten, die das alles aufgeschrieben haben, ohne zu ahnen, dass es einmal eine Quelle sein würde: den Fans, die ins Gästebuch schrieben, in den Foren stritten und Tracklisten abtippten, den Bloggern und Redakteuren, die über eine Gruppe ohne Plattenvertrag geschrieben haben, und dem Internet Archive, ohne das von dieser Geschichte fast nichts übrig wäre. Und natürlich PCP. <!-- OFFEN: Dank ergänzen (Personen, Hinweisgeber, ggf. die Künstler). -->

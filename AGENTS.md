@@ -1,7 +1,7 @@
 # miotares.com – Anleitung für Agents
 
 Persönliche Website von miotares: ein öffentlicher Notizblock für Texte, Recherchen und
-Kaninchenbauten (Vorbild: gwern.net). Dazu ein Buchprojekt über die Rap-Gruppe PCP.
+Kaninchenbauten (Vorbild: gwern.net). Dazu ein ständig wachsender Artikel über die Rap-Gruppe PCP.
 Statische Seite mit **Jekyll 4**, Inhalte in **Markdown (kramdown)**, Sprache **Deutsch**.
 
 Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text braucht nur
@@ -12,8 +12,8 @@ Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text br
 | Pfad | Zweck |
 |---|---|
 | `_posts/JJJJ-MM-TT-titel.md` | Texte (Blog). URL: `/articles/<slug>/` |
-| `pcp.md` | Das PCP-Buch als **eine** durchgehende Markdown-Seite unter `/pcp/` (mit Inhaltsverzeichnis) |
-| `index.html` | Startseite: Intro, Buch, alle Texte, Projekte, Listen |
+| `pcp.md` | Der PCP-Artikel als **eine** durchgehende Markdown-Seite unter `/pcp/` (mit Inhaltsverzeichnis) |
+| `index.html` | Startseite: Intro, PCP-Artikel, alle Texte, Projekte, Listen |
 | `articles.html` | `/articles/`, alle Texte nach Jahr |
 | `_layouts/default.html` | HTML-Gerüst für alle Seiten: Head, SEO/OG-Tags, Analytics, Navigation, Footer |
 | `_layouts/post.html` | Layout für Texte und `pcp.md`: Label, Titel, Metazeile, Inhaltsverzeichnis, Drop Cap |
@@ -28,7 +28,7 @@ Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text br
 | `_vorlagen/` | Kopiervorlage `text.md` mit allen Bausteinen (wird nicht gebaut) |
 | `assets/css/main.css` | Das einzige Stylesheet (Farben als CSS-Variablen, Dark Mode automatisch) |
 | `assets/css/legacy.css` | Altes Design, nur noch für `spenden.html` (nicht verlinkt) |
-| `assets/bilder/<slug>/`, `assets/bilder/pcp/` | Bilder zu Texten bzw. zum Buch |
+| `assets/bilder/<slug>/`, `assets/bilder/pcp/` | Bilder zu Texten bzw. zum PCP-Artikel |
 | `assets/thumbnails/` | Alte Artikelbilder, nur noch als Vorschaubild beim Teilen (`image:`) |
 | `privacy.html` | Datenschutzerklärung der iOS-App Bitcoin Insight (Englisch, URL `/privacy/` nicht ändern) |
 
@@ -54,9 +54,9 @@ Im Claude-Desktop-Browser: `.claude/launch.json` enthält die Konfiguration `jek
 1. `_vorlagen/text.md` nach `_posts/JJJJ-MM-TT-titel.md` kopieren.
 2. `title` setzen, losschreiben. Alles andere ist optional.
 
-## Am PCP-Buch schreiben
+## Am PCP-Artikel schreiben
 
-Das Buch ist bewusst **eine einzige Seite**: `pcp.md` im Hauptverzeichnis, URL `/pcp/`
+Der Artikel ist bewusst **eine einzige Seite**: `pcp.md` im Hauptverzeichnis, URL `/pcp/`
 (Vorbild: lange Essays auf gwern.net). Kapitel sind `##`-Überschriften, Unterkapitel `###`.
 Das Inhaltsverzeichnis zeigt nur Teile und Kapitel (`toc: true`, `toc_tiefe: 2`), keine `###`.
 Unterkapitel sparsam einsetzen: lieber wenige, aussagekräftige `###` als viele kleine.
@@ -80,7 +80,7 @@ Weiterer Text …
 
 Den Text des Autors nicht umformulieren oder „verbessern“, nur so einbauen, wie er geliefert wird.
 
-Das Buch ist in Teile gegliedert (Teil I, Teil II …, Anhang). Eine Teil-Überschrift ist ein `##` mit
+Der Artikel ist in Teile gegliedert (Teil I, Teil II …, Anhang). Eine Teil-Überschrift ist ein `##` mit
 der Klasse `.teil` und fester ID, nach einem `---`. Sie wird zentriert in Kapitälchen gesetzt und
 erscheint im Inhaltsverzeichnis als Zwischentitel ohne Nummer:
 
@@ -94,22 +94,42 @@ erscheint im Inhaltsverzeichnis als Zwischentitel ohne Nummer:
 Kapitel, die nicht nummeriert werden sollen (Prolog, Anhang-Kapitel), bekommen `{: .ohne-nummer}`
 direkt unter die Überschrift.
 
-Teil III besteht aus Porträts, eins pro Person, immer gleich gebaut: Motto, zwei Steckbrief-Zeilen
+Aufbau des Artikels: Teil I Die Welt, aus der PCP kommt · Teil II Die Geschichte · Teil III Die Alben ·
+Teil IV Die Menschen · Teil V Das Werk · Anhang. In Teil II werden die beiden Alben nur erzählt (Kapitel
+„Das erste Album“, „Das zweite Album“: Ankündigung, Entstehung, Resonanz). Teil III analysiert sie: je ein
+Kapitel pro Album (Cover, Titelliste, Lied für Lied, Anspielungen und Easter Eggs), dazu das Querschnittskapitel „Die Texte“.
+Jedes Albumkapitel hat eine `### Titelliste` mit Sprungmarken: Die Titel verlinken auf `#### 3. Titel` mit
+`{: #lache-03-kein-zurueck .lied}` (Schema `<album>-NN-titel`). Easter Eggs stehen im Text des jeweiligen Liedes, nur was das
+ganze Album betrifft, steht in Prosa unter den Liedern. Die Diskografie (Teil V) hat zusätzlich je ein Datenblatt pro Album
+(Anker `#diskografie-nimms`, `#diskografie-lache`).
+
+Der Artikel wächst: Neue Lyrics und Funde kommen laufend dazu, nichts ist je „fertig“. Texte nie als „Buch“ bezeichnen.
+
+Teil IV besteht aus Porträts, eins pro Mitglied und dazu dem Kapitel „Das Umfeld“ (nach Einfluss sortiert, mit eigenen `###`-Porträts, z.B. Hollywood Hank). Die Porträts sind je Person immer gleich gebaut: Motto, zwei Steckbrief-Zeilen
 (getrennt durch `<br>`, darunter `{: .steckbrief}`), Bild, Einleitung mit `{: .dropcap}`, dann genau
 drei Abschnitte: `### Porträt` (Leben und musikalische Entwicklung), `### Diskografie` (Solowerk als
 Tabelle oder Liste) und `### Heute` (was die Person heute öffentlich macht, mit Abrufdatum in der
-Fußnote). Teil IV enthält nur noch die Diskografie der Gruppe und die Texte.
+Fußnote). Teil V enthält nur noch die Diskografie der Gruppe.
 
 **Diskografien in den Porträts** bestehen aus bis zu drei Tabellen unter `####`: „Alben (und EPs)“,
 „Singles und Freetracks“ und „Vertreten auf“ (Gastparts, Produktionen, Sampler; Spalten Jahr | Auf | Beitrag).
+Die ersten beiden haben die Spalten `| Jahr | Cover | Titel | Anmerkungen |`: In der Cover-Zelle steht nur das
+Include, in der Titel-Zelle `**Titel**<br><span class="art">Art, Label</span>`, und direkt unter der Tabelle die Zeile
+`{: .diskografie}` (Layout in `main.css`, auf dem Handy als Karte). Die Anmerkungen fassen das Album grob zusammen.
+Am Ende jeder Person (vor den Fußnoten) steht eine Zeile `**Links:** …` mit `{: .links}`: SoundCloud, Bandcamp, eigene Seiten.
+Cover und Cover-Spalte gibt es nur in der Tabelle der Alben, EPs und Mixtapes. „Singles und Freetracks“ haben drei Spalten
+(`| Jahr | Titel | Anmerkungen |`, Klasse `{: .diskografie .ohne-cover}`), „Vertreten auf“ ist eine einfache Tabelle ohne Bilder.
+Ein Album, das erst als Gratis-Download und später offiziell erschien (*Gehirn im Mixer*, *Symptome*), steht nur einmal
+mit dem Jahr der offiziellen Fassung, die frühere Version steht in den Anmerkungen. Bei Personen im Umfeld nutzen die Tabellen fette Zwischenzeilen
+(`**Alben und EPs**`) statt `####`.
 
-**Cover** gibt es nur bei Alben und Singles. Am Anfang der Titel-Zelle steht
+**Cover** gibt es nur bei Alben und Singles. In der Cover-Zelle steht
 `{% include cover.html name="schock-fuers-leben" titel="Schock fürs Leben" %}`. Das Bild gehört nach
 `assets/bilder/pcp/cover/<name>.jpg` (auch `.jpeg`, `.png`, `.webp`), quadratisch, vorher mit
 `sips -Z 800` verkleinern. Liegt die Datei da, erscheint das Cover klein in der Tabelle und öffnet sich
 per Klick in der Galerie. Fehlt sie, erscheint live nichts; lokal (`jekyll serve`) zeigt ein gestrichelter
 Platzhalter den erwarteten Dateinamen. Das Include muss in einer Zeile bleiben (Markdown-Tabelle).
-Vorgesehene Namen: album-2014, bei-dir, chueaers, crapz-records, das-ist, die-unertraegliche-dreistigkeit-des-seins, die-unertraegliche-dreistigkeit-des-seins-old-habits, dsep, dsepr, emopunkrap, faded, falling-down, gehirn-im-mixer, gehirn-im-mixer-extended, grobes-kino, gutmensch-wutbuerger, hanna, killswitch, kuhmelker-tape-vol-1, lache-und-die-welt-weint-mit-dir, lieder-ueber-autos, live-fast-die-young, lotus, menschenfeind, pisse-aus-weinglaesern, private-paul-diss, projekt-eichhorn, schock-fuers-leben, schreierei, schwarzweissrot, seelensturm, statisten-sterben, suff, symptome, symptome-2005, taeter-opfer-ausgleich, tour-ep, zukunftsmusik, zwischen-chemie-und-wahnsinn.
+Vorgesehene Namen: album-2014, bei-dir, chueaers, crapz-records, das-ist, 2015-2016, true-lies, vom-nachteil-verloren-zu-sein, vom-nachteil-verloren-zu-sein-remix-ep, dein-bestes, das-metall-ist-ein-zug, grim-inc, kammerflimmern, schlaege-fuer-hiphop, soziopath, die-unertraegliche-dreistigkeit-des-seins, die-unertraegliche-dreistigkeit-des-seins-old-habits, dsep, dsepr, emopunkrap, faded, falling-down, gehirn-im-mixer, gehirn-im-mixer-extended, grobes-kino, gutmensch-wutbuerger, hanna, killswitch, konnegah, lache-und-die-welt-weint-mit-dir, lieder-ueber-autos, live-fast-die-young, lotus, menschenfeind, pisse-aus-weinglaesern, private-paul-diss, projekt-eichhorn, schock-fuers-leben, schreierei, schwarzweissrot, seelensturm, statisten-sterben, suff, symptome, symptome-2005, taeter-opfer-ausgleich, tour-ep, zukunftsmusik, zwischen-chemie-und-wahnsinn.
 
 Quellen stehen als kramdown-Fußnoten (`[^k4-thread]`, Präfix pro Kapitel, keine Umlaute im Namen).
 Interne Prüfvermerke als HTML-Kommentar (`<!-- PRÜFEN: … -->`), die sind auf der Seite unsichtbar.
@@ -125,7 +145,7 @@ Interne Prüfvermerke als HTML-Kommentar (`<!-- PRÜFEN: … -->`), die sind auf
 | `toc_tiefe: 2` | Inhaltsverzeichnis nur aus `##` (Standard 3: auch `###`) |
 | `blocksatz: true` | Alle Absätze im Blocksatz (siehe unten) |
 | `dropcap` | Initiale am Textanfang. Bei Texten in `_posts/` standardmäßig an (`false` schaltet ab), auf anderen Seiten mit `dropcap: true` einschalten |
-| `label` | Kleine farbige Zeile über dem Titel, z.B. `"Buch · Arbeitstitel"` |
+| `label` | Kleine farbige Zeile über dem Titel, z.B. `"Recherche"` |
 | `slug` | URL-Teil bei Texten, sonst aus dem Dateinamen. Ohne Umlaute bevorzugt |
 | `permalink` | Feste URL. Bestehende Texte haben `/articles/<slug>/`, **nie ändern** (externe Links) |
 | `tags: [A, B]` | Erscheinen in der Metazeile |
@@ -189,7 +209,7 @@ der erste echte Absatz (`<p>`) die Initiale.
 
 ### Bilder
 
-Bilder liegen im Repo unter `assets/bilder/<slug>/` (Texte) bzw. `assets/bilder/pcp/` (Buch).
+Bilder liegen im Repo unter `assets/bilder/<slug>/` (Texte) bzw. `assets/bilder/pcp/` (PCP-Artikel).
 Pfade immer absolut ab `/assets/...`. Vor dem Einchecken verkleinern, z.B.
 `sips -Z 1600 datei.jpg` (macOS; überschreibt die Datei).
 
@@ -247,6 +267,14 @@ Regeln dazu:
 - Mit `hoehe` wird das Bild auf diese Höhe zugeschnitten (nicht verzerrt).
 - Auf schmalen Bildschirmen (≤ 520 px) steht das Bild zentriert über dem Text.
 
+**Geplante Bilder:** Ein `bild.html`-Include darf schon auf eine Datei zeigen, die es noch nicht gibt.
+Live erscheint dann nichts, lokal (`jekyll serve`) ein gestrichelter Kasten mit Dateiname und
+Bildunterschrift. Später nur die Datei unter genau diesem Pfad ablegen. Fotos aus dem Umfeld der Gruppe
+gehören nach `assets/bilder/pcp/fotos/`. Bei Fotos, deren Aufnahmedatum unsicher ist, steht das in der
+Bildunterschrift („Gepostet um 2011, Aufnahmedatum unbekannt“). Screenshots mit Namen oder Profilbildern
+von Fans vor dem Ablegen schwärzen. Zurzeit vorgesehen, aber noch nicht abgelegt:
+- `assets/bilder/pcp/fotos/maexer-rappt.jpg`
+
 Bilder sind zentriert, nie breiter als die Textspalte und werden verzögert geladen.
 **Galerie-Ansicht:** Jedes Bild im Text (Include und reines Markdown) öffnet sich per Klick
 groß in einer dunklen Ansicht mit Bildunterschrift und Zähler. Dort:
@@ -291,7 +319,7 @@ Erscheinen gesammelt am Ende. Externe Links im Text öffnen sich automatisch in 
 - Schlicht, typografisch, gwern-artig. Eine Textspalte (`--measure: 40rem`), Serifen-Systemschriften.
 - Farben nur über die Variablen in `:root` von `main.css`; jede Farbe braucht ihren
   Gegenpart im `@media (prefers-color-scheme: dark)`-Block.
-- Akzentfarbe `--mark` sparsam: Status-Labels, Initiale, Buch-Label.
+- Akzentfarbe `--mark` sparsam: Status-Labels, Initiale, Artikel-Label.
 - Keine Google Fonts oder andere externen Ressourcen (Datenschutz), keine Bild-Pflicht, keine Icons/Logos.
 - Bei CSS-Änderungen die Versionsnummer in `_layouts/default.html` (`main.css?v=N`) hochzählen,
   bei JS-Änderungen die in `_layouts/post.html` (`toc.js?v=N`, `galerie.js?v=N`).

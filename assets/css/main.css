@@ -138,7 +138,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     font-variant: small-caps;
     letter-spacing: 0.03em;
     padding-bottom: 0.2em;
@@ -146,7 +146,9 @@ h2 {
 }
 
 h3 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    margin-top: 2.6em;
+    color: var(--mark);
 }
 
 h4 {
@@ -247,12 +249,168 @@ td {
     margin: 0.2em 0 0.4em;
 }
 
-.cover img {
+.cover img,
+.prose .cover img {
     display: block;
+    margin: 0;
     width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
     border: 1px solid var(--rule);
+}
+
+/* Diskografie-Tabellen: Jahr | Cover | Titel mit Art darunter | Anmerkungen.
+   Tabelle bekommt die Klasse per {: .diskografie} direkt unter der Tabelle. */
+.diskografie th,
+.diskografie td {
+    padding: 0.7em 1rem 0.7em 0;
+}
+
+.diskografie th:last-child,
+.diskografie td:last-child {
+    padding-right: 0;
+}
+
+.diskografie td:nth-child(1) {
+    width: 1%;
+    white-space: nowrap;
+    color: var(--muted);
+}
+
+.diskografie td:nth-child(2) {
+    width: 4.5rem;
+}
+
+.diskografie .cover {
+    margin: 0.15em 0 0;
+}
+
+.diskografie td:nth-child(3) {
+    min-width: 9rem;
+    line-height: 1.35;
+    hyphens: none;
+}
+
+.diskografie td:nth-child(3) strong {
+    font-weight: 700;
+}
+
+.diskografie .art {
+    display: inline-block;
+    margin-top: 0.25em;
+    color: var(--muted);
+    font-size: 0.88em;
+}
+
+.diskografie td:nth-child(4) {
+    font-size: 0.92em;
+    line-height: 1.45;
+}
+
+@media (max-width: 640px) {
+    .diskografie thead {
+        display: none;
+    }
+
+    .diskografie tr {
+        display: grid;
+        grid-template-columns: 4.5rem 1fr;
+        column-gap: 0.9rem;
+        padding: 0.8em 0;
+        border-bottom: 1px solid var(--rule);
+    }
+
+    .diskografie td {
+        display: block;
+        width: auto;
+        padding: 0;
+        border: 0;
+    }
+
+    .diskografie td:nth-child(1) {
+        grid-column: 2;
+        grid-row: 1;
+        font-size: 0.85em;
+    }
+
+    .diskografie td:nth-child(2) {
+        grid-column: 1;
+        grid-row: 1 / span 3;
+    }
+
+    .diskografie td:nth-child(3) {
+        grid-column: 2;
+        grid-row: 2;
+        min-width: 0;
+    }
+
+    .diskografie td:nth-child(4) {
+        grid-column: 2;
+        grid-row: 3;
+        margin-top: 0.4em;
+    }
+
+    .diskografie td:empty {
+        display: none;
+    }
+}
+
+/* Variante ohne Cover-Spalte (Singles, Freetracks): {: .diskografie .ohne-cover }, Spalten Jahr | Titel | Anmerkungen */
+.diskografie.ohne-cover td:nth-child(2) {
+    width: auto;
+    min-width: 9rem;
+    line-height: 1.35;
+    hyphens: none;
+}
+
+.diskografie.ohne-cover td:nth-child(3) {
+    font-size: 0.92em;
+    line-height: 1.45;
+}
+
+@media (max-width: 640px) {
+    .diskografie.ohne-cover tr {
+        grid-template-columns: 1fr;
+    }
+
+    .diskografie.ohne-cover td:nth-child(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .diskografie.ohne-cover td:nth-child(2) {
+        grid-column: 1;
+        grid-row: 2;
+        min-width: 0;
+    }
+
+    .diskografie.ohne-cover td:nth-child(3) {
+        grid-column: 1;
+        grid-row: 3;
+        margin-top: 0.4em;
+    }
+}
+
+/* Logo von Weisse Scheisse ist weiß auf transparent: immer auf dunkler Fläche zeigen */
+img[src$="weisse-scheisse-logo.png"] {
+    padding: 1.2em 1.5em;
+    background: #161615;
+}
+
+/* Platzhalter für fehlende Bilder (bild.html), nur beim lokalen Ansehen (jekyll serve) */
+.bild-fehlt-kasten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 9rem;
+    padding: 1em;
+    border: 1px dashed var(--rule);
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    line-height: 1.4;
+    text-align: center;
+    word-break: break-all;
 }
 
 /* Platzhalter, nur beim lokalen Ansehen (jekyll serve) */
@@ -299,7 +457,7 @@ td {
     -webkit-hyphens: auto;
 }
 
-.prose h2 {
+.prose h2.teil {
     border-bottom: 0;
 }
 
@@ -343,7 +501,7 @@ td {
 
 /* Motto/Epigraph am Kapitelanfang: {: .epigraph} unter den Absatz */
 .prose p.epigraph {
-    margin: 0.5em 0 2em 35%;
+    margin: 0.5em 0 2em;
     color: var(--muted);
     line-height: 1.5;
 }
@@ -363,6 +521,21 @@ td {
 .prose h2.teil {
     font-size: 1.15rem;
     font-weight: 400;
+}
+
+/* Lied-Überschrift in der Albumanalyse: #### mit {: .lied}, wird von der Titelliste angesprungen */
+.prose h4.lied {
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 2.4em;
+}
+
+/* Link-Zeile am Ende einer Person: {: .links} */
+.prose p.links {
+    margin-top: 1.5em;
+    color: var(--muted);
+    font-size: 0.9rem;
 }
 
 /* Steckbrief unter einer Porträt-Überschrift: {: .steckbrief} */
@@ -510,7 +683,8 @@ figure.bild-rechts figcaption {
 }
 
 h2[id],
-h3[id] {
+h3[id],
+h4[id] {
     scroll-margin-top: 1.5rem;
 }
 
@@ -790,6 +964,11 @@ h3[id] {
     margin-bottom: 0.4em;
 }
 
+/* Fußnoten mit sehr vielen Rücksprung-Pfeilen dürfen umbrechen */
+.footnotes li {
+    overflow-wrap: anywhere;
+}
+
 sup a.footnote {
     text-decoration: none;
     padding: 0 0.1em;
@@ -798,6 +977,12 @@ sup a.footnote {
 /* Startseite & Listen */
 .intro {
     font-size: 1.2rem;
+}
+
+p.note {
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-style: italic;
 }
 
 .book {
@@ -815,6 +1000,8 @@ sup a.footnote {
 
 .book h3 {
     margin: 0.2em 0 0.3em;
+    padding-left: 0;
+    border-left: 0;
     font-size: 1.3rem;
 }
 
@@ -823,6 +1010,8 @@ sup a.footnote {
 }
 
 .year {
+    padding-left: 0;
+    border-left: 0;
     font-size: 0.95rem;
     color: var(--muted);
     margin: 1.6em 0 0.4em;

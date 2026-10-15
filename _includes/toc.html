@@ -17,7 +17,7 @@ ausgeklappt wird per JS nur das Kapitel, in dem man gerade liest.
 {% capture side %}{% for part in parts offset: 1 %}{% assign level = part | slice: 0 %}{% if level == "2" or level == "3" %}{% assign tag = part | split: ">" | first %}{% if tag contains ' id="' %}{% assign id = tag | split: ' id="' | slice: 1 | first | split: '"' | first %}{% assign klasse = "" %}{% if tag contains 'class="' %}{% assign klasse = tag | split: 'class="' | slice: 1 | first | split: '"' | first %}{% endif %}{% assign title = part | split: "</h" | first | split: ">" | shift | join: ">" | replace: "<br />", " · " | replace: "<br>", " · " | strip_html | strip %}{% if level == "2" %}{% if sub_offen %}</ol>{% assign sub_offen = false %}{% endif %}{% if li_offen %}</li>{% endif %}{% assign li_offen = true %}{% if klasse contains "teil" %}<li class="toc-teil"><a href="#{{ id }}">{{ title }}</a>{% elsif klasse contains "ohne-nummer" %}<li class="toc-2 toc-ohne-nummer"><a href="#{{ id }}">{{ title }}</a>{% else %}<li class="toc-2"><a href="#{{ id }}">{{ title }}</a>{% endif %}{% elsif li_offen %}{% unless sub_offen %}<ol class="toc-sub">{% assign sub_offen = true %}{% endunless %}<li class="toc-3"><a href="#{{ id }}">{{ title }}</a></li>{% endif %}{% endif %}{% endif %}{% endfor %}{% if sub_offen %}</ol>{% endif %}{% if li_offen %}</li>{% endif %}{% endcapture %}
 {% if items != "" %}
 <nav class="toc toc-inline" aria-label="Inhalt">
-    <details open>
+    <details>
         <summary>Inhalt</summary>
         <ol>{{ items }}</ol>
     </details>

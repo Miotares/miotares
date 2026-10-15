@@ -10,7 +10,12 @@ breite / hoehe: Zahl = Pixel, Bruch = Anteil der Spalte ("1/3"), sonst CSS-Wert 
 seite="links" | "rechts": Bild steht neben dem Text, der Text fließt drumherum.
   Standardbreite dann 1/2. Auf dem Handy steht das Bild wieder über dem Text.
 Nie breiter als die Textspalte.
+
+Platzhalter: Liegt die Datei unter src (noch) nicht im Projekt, erscheint auf der Live-Seite nichts.
+Beim lokalen Ansehen (jekyll serve) steht dort ein gestrichelter Kasten mit Dateiname und Bildunterschrift.
+So lassen sich geplante Bilder schon einbauen und später nur noch ablegen.
 {% endcomment %}
+{% assign bild_da = true %}{% assign src_anfang = include.src | slice: 0 %}{% if src_anfang == "/" %}{% assign bild_datei = site.static_files | where: "path", include.src | first %}{% unless bild_datei %}{% assign bild_da = false %}{% endunless %}{% endif %}
 {% assign alt = include.alt | default: include.text | markdownify | strip_html | strip %}
 {% assign seite = include.seite | default: "" | downcase %}
 {% assign breite = include.breite | append: "" %}
@@ -25,7 +30,14 @@ Nie breiter als die Textspalte.
 {% assign figur_stil = "" %}
 {% capture stil %}{% if breite != "" and hoehe != "" %}width: {{ breite }}; height: {{ hoehe }};{% elsif breite != "" %}width: {{ breite }};{% elsif hoehe != "" %}height: {{ hoehe }}; width: auto; object-fit: contain;{% endif %}{% endcapture %}
 {% endif %}
+{% if bild_da %}
 <figure class="bild{% if seite == 'links' %} bild-links{% elsif seite == 'rechts' %} bild-rechts{% endif %}"{% if figur_stil != "" %} style="{{ figur_stil }}"{% endif %}>
     <a href="{{ include.src }}"><img src="{{ include.src }}" alt="{{ alt | escape }}" loading="lazy"{% if stil != "" %} style="{{ stil }}"{% endif %}></a>
     {% if include.text %}<figcaption>{{ include.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
 </figure>
+{% elsif jekyll.environment == "development" %}
+<figure class="bild bild-fehlt{% if seite == 'links' %} bild-links{% elsif seite == 'rechts' %} bild-rechts{% endif %}"{% if figur_stil != "" %} style="{{ figur_stil }}"{% endif %}>
+    <div class="bild-fehlt-kasten">Bild fehlt:<br>{{ include.src | remove_first: "/" }}</div>
+    {% if include.text %}<figcaption>{{ include.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+</figure>
+{% endif %}
