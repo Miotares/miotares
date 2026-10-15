@@ -1,15 +1,20 @@
 {% comment %}
 Inhaltsverzeichnis aus den Überschriften des gerenderten Inhalts.
 Wird vom Layout eingebunden, wenn im Front Matter "toc: true" steht.
-- ## ergibt einen nummerierten Eintrag, ### einen eingerückten (nur bei toc_tiefe: 3, Standard).
+- ## ergibt einen nummerierten Eintrag, ### einen eingerückten (oben nur bei toc_tiefe: 3, Standard).
 - ## mit der Klasse .teil ({: .teil}) ist eine Teil-Überschrift: ohne Nummer, als Zwischentitel.
 - ## mit der Klasse .ohne-nummer (z.B. Prolog, Anhang) erscheint ohne Nummer.
 Zwei Fassungen: oben im Text (.toc-inline) und eine Seitenleiste (.toc-side), die auf breiten
 Bildschirmen links mitwandert, sobald man am oberen Verzeichnis vorbeigescrollt ist (assets/js/toc.js).
+Die Seitenleiste enthält immer auch die ###-Einträge, verschachtelt unter ihrem Kapitel;
+ausgeklappt wird per JS nur das Kapitel, in dem man gerade liest.
 {% endcomment %}
 {% assign tiefe = include.tiefe | default: 3 | plus: 0 %}
 {% assign parts = include.html | split: "<h" %}
+{% assign sub_offen = false %}
+{% assign li_offen = false %}
 {% capture items %}{% for part in parts offset: 1 %}{% assign level = part | slice: 0 %}{% if level == "2" or level == "3" %}{% assign level_num = level | plus: 0 %}{% if level_num <= tiefe %}{% assign tag = part | split: ">" | first %}{% if tag contains ' id="' %}{% assign id = tag | split: ' id="' | slice: 1 | first | split: '"' | first %}{% assign klasse = "" %}{% if tag contains 'class="' %}{% assign klasse = tag | split: 'class="' | slice: 1 | first | split: '"' | first %}{% endif %}{% assign title = part | split: "</h" | first | split: ">" | shift | join: ">" | replace: "<br />", " · " | replace: "<br>", " · " | strip_html | strip %}{% if klasse contains "teil" %}<li class="toc-teil"><a href="#{{ id }}">{{ title }}</a></li>{% elsif klasse contains "ohne-nummer" %}<li class="toc-{{ level }} toc-ohne-nummer"><a href="#{{ id }}">{{ title }}</a></li>{% else %}<li class="toc-{{ level }}"><a href="#{{ id }}">{{ title }}</a></li>{% endif %}{% endif %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% capture side %}{% for part in parts offset: 1 %}{% assign level = part | slice: 0 %}{% if level == "2" or level == "3" %}{% assign tag = part | split: ">" | first %}{% if tag contains ' id="' %}{% assign id = tag | split: ' id="' | slice: 1 | first | split: '"' | first %}{% assign klasse = "" %}{% if tag contains 'class="' %}{% assign klasse = tag | split: 'class="' | slice: 1 | first | split: '"' | first %}{% endif %}{% assign title = part | split: "</h" | first | split: ">" | shift | join: ">" | replace: "<br />", " · " | replace: "<br>", " · " | strip_html | strip %}{% if level == "2" %}{% if sub_offen %}</ol>{% assign sub_offen = false %}{% endif %}{% if li_offen %}</li>{% endif %}{% assign li_offen = true %}{% if klasse contains "teil" %}<li class="toc-teil"><a href="#{{ id }}">{{ title }}</a>{% elsif klasse contains "ohne-nummer" %}<li class="toc-2 toc-ohne-nummer"><a href="#{{ id }}">{{ title }}</a>{% else %}<li class="toc-2"><a href="#{{ id }}">{{ title }}</a>{% endif %}{% elsif li_offen %}{% unless sub_offen %}<ol class="toc-sub">{% assign sub_offen = true %}{% endunless %}<li class="toc-3"><a href="#{{ id }}">{{ title }}</a></li>{% endif %}{% endif %}{% endif %}{% endfor %}{% if sub_offen %}</ol>{% endif %}{% if li_offen %}</li>{% endif %}{% endcapture %}
 {% if items != "" %}
 <nav class="toc toc-inline" aria-label="Inhalt">
     <details open>
@@ -19,6 +24,6 @@ Bildschirmen links mitwandert, sobald man am oberen Verzeichnis vorbeigescrollt 
 </nav>
 <nav class="toc-side" aria-label="Inhalt (Seitenleiste)">
     <a class="toc-side-titel" href="#">Inhalt</a>
-    <ol>{{ items }}</ol>
+    <ol>{{ side }}</ol>
 </nav>
 {% endif %}

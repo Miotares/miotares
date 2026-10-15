@@ -144,7 +144,8 @@ erzeugt, steht über dem Text und ist aufklappbar. Mit `toc_tiefe: 2` nur aus `#
 Auf breiten Bildschirmen (≥ 1220 px) erscheint dasselbe Verzeichnis zusätzlich als
 Seitenleiste links neben dem Text, sobald man am oberen Verzeichnis vorbeigescrollt ist.
 Sie bleibt beim Scrollen stehen, der aktuelle Abschnitt ist fett markiert, ein Klick auf
-„Inhalt“ springt nach oben. Auf schmaleren Bildschirmen gibt es nur das obere Verzeichnis.
+„Inhalt“ springt nach oben. Die Seitenleiste enthält immer auch die `###`, klappt aber nur beim
+Kapitel aus, in dem man gerade liest (auch bei `toc_tiefe: 2`). Auf schmaleren Bildschirmen gibt es nur das obere Verzeichnis.
 
 ### Blocksatz
 

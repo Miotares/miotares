@@ -485,7 +485,8 @@ h3[id] {
     scroll-margin-top: 1.5rem;
 }
 
-/* Seitenleiste: nur auf breiten Bildschirmen, erscheint per JS (.sichtbar) */
+/* Seitenleiste: nur auf breiten Bildschirmen, erscheint per JS (.sichtbar).
+   Sie steht rechtsbündig 2.5rem vor der Textspalte und wird so breit, wie Platz ist. */
 .toc-side {
     display: none;
 }
@@ -495,12 +496,13 @@ h3[id] {
         display: block;
         position: fixed;
         top: 2.5rem;
-        left: calc(50% - 21.25rem - 14rem - 2rem);
-        width: 14rem;
+        right: calc(50% + 21.25rem + 2.5rem);
+        width: clamp(13rem, calc(50vw - 21.25rem - 4rem), 19rem);
         max-height: calc(100vh - 5rem);
         overflow-y: auto;
-        font-size: 0.85rem;
-        line-height: 1.4;
+        padding-right: 0.5rem;
+        font-size: 0.88rem;
+        line-height: 1.35;
         visibility: hidden;
         opacity: 0;
         transition: opacity 0.2s, visibility 0.2s;
@@ -530,7 +532,7 @@ h3[id] {
 
 .toc-side-titel {
     display: block;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
     font-variant: small-caps;
     letter-spacing: 0.05em;
     color: var(--muted);
@@ -540,30 +542,67 @@ h3[id] {
 .toc-side ol {
     list-style: none;
     margin: 0;
-    padding: 0 0 0 0.75em;
+    padding: 0;
+}
+
+.toc-side > ol {
+    padding-left: 1em;
     border-left: 1px solid var(--rule);
     counter-reset: toc;
 }
 
-.toc-side li {
-    margin-bottom: 0.35em;
+/* Kapitel: Nummer hängend, Text bündig darunter, auch bei Umbruch */
+.toc-side li.toc-2 {
+    position: relative;
+    margin-bottom: 0.55em;
+    padding-left: 1.9em;
 }
 
 .toc-side li.toc-2:not(.toc-ohne-nummer) {
     counter-increment: toc;
 }
 
+.toc-side li.toc-2::before {
+    content: counter(toc) ".";
+    position: absolute;
+    left: 0;
+    width: 1.5em;
+    text-align: right;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+
 .toc-side li.toc-2.toc-ohne-nummer::before {
     content: "";
 }
 
-.toc-side li.toc-2::before {
-    content: counter(toc) ". ";
-    color: var(--muted);
+/* Teile als Zwischentitel mit Luft davor */
+.toc-side li.toc-teil {
+    margin: 1.5em 0 0.6em;
+    font-size: 0.82rem;
+    letter-spacing: 0.06em;
+    line-height: 1.3;
+}
+
+.toc-side > ol > li.toc-teil:first-child {
+    margin-top: 0;
+}
+
+/* Unterkapitel (###): nur beim aktiven Kapitel ausgeklappt */
+.toc-side .toc-sub {
+    display: none;
+    margin: 0.45em 0 0.7em;
+    padding-left: 0.8em;
+    border-left: 1px solid var(--rule);
+}
+
+.toc-side li.offen > .toc-sub {
+    display: block;
 }
 
 .toc-side li.toc-3 {
-    margin-left: 1.1em;
+    margin-bottom: 0.35em;
+    font-size: 0.93em;
 }
 
 .toc-side a {
@@ -572,7 +611,8 @@ h3[id] {
 }
 
 .toc-side a:hover,
-.toc-side a.aktiv {
+.toc-side a.aktiv,
+.toc-side li.offen > a {
     color: var(--text);
 }
 

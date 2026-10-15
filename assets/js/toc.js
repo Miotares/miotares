@@ -29,7 +29,17 @@
     if (!headings.length) return;
 
     var aktiv = null;
+    var offen = null;
     var geplant = false;
+
+    // Kapitel-Eintrag (oberste Ebene) zu einem Link: dessen ###-Liste wird ausgeklappt
+    function kapitel(link) {
+        var li = link.closest('li');
+        while (li && li.parentElement && li.parentElement.classList.contains('toc-sub')) {
+            li = li.parentElement.closest('li');
+        }
+        return li;
+    }
 
     function markieren() {
         geplant = false;
@@ -42,10 +52,16 @@
         if (link === aktiv) return;
         if (aktiv) aktiv.classList.remove('aktiv');
         aktiv = link;
+        var li = link ? kapitel(link) : null;
+        if (li !== offen) {
+            if (offen) offen.classList.remove('offen');
+            if (li) li.classList.add('offen');
+            offen = li;
+        }
         if (!link) return;
         link.classList.add('aktiv');
         // Aktiven Eintrag in langen Verzeichnissen sichtbar halten
-        var top = link.offsetTop; // relativ zur Seitenleiste (fixed = offsetParent)
+        var top = link.getBoundingClientRect().top - side.getBoundingClientRect().top + side.scrollTop;
         if (top < side.scrollTop || top > side.scrollTop + side.clientHeight - 40) {
             side.scrollTop = top - side.clientHeight / 3;
         }
