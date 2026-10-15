@@ -1060,29 +1060,49 @@ Für PCP war JAW die treibende Kraft, und er war sich dessen bewusst. Als Rynerr
 
 ### Diskografie
 
+#### Alben, EPs und Mixtapes
+
 | Jahr | Titel | Art | Anmerkungen |
 |---|---|---|---|
-| 2003 | *Seelensturm* | EP, selbst gebrannt | Angekündigt am 14.09.2003 als *Bloody Bastard*, erschienen etwa im Oktober. 7 Titel: *Seelensturm*, *In deinen Augen*, *Im roten Feuer der Sonne*, *Human Ocean* (feat. Maggoh), *Taucher in der Tiefe*, *Neun Kugeln*, *PCP Party* (feat. Rynerrr One und Mäxer Ca$h). 4 Euro plus 1,50 Euro Porto. Ende 2005 als „Bootleg“ mit Schwarzweiß-Cover für 4 Euro neu aufgelegt |
-| 2003 | *Hunde beissen Punks mit 123* | Track mit H aka N und Kaspah Hausa | Beat von JAW |
-| 2004 | *Das ist!* | Track | „Alles selbst produziert“ |
-| 2006 | *Schock fürs Leben* | Album, Rapz Records | 04.08.2006 laut Discogs, angekündigt für den 05.04.2006. 19 Titel, rund 76 Minuten, von JAW produziert, Cuts von DJ Tjoma, Artwork von Rynerrr. Gäste u. a. Rynerrr, Maexer, Hollywood Hank, Kaspah Hausa, Plasti. 12 Euro inklusive Versand. Juice „Demo des Monats“ (Heft 07/2006), „Demo des Jahres“ auf Platz drei |
-| 2006 | *Gehirn im Mixer* | Mixtape, kostenlos | Ende August 2006 über die Seite von Rapz Records, zum Erscheinen der Extended-Fassung wieder entfernt |
-| 2006 | *Zwischen Chemie & Wahnsinn* | EP mit Me$$age, kostenlos | mit Rynerrr auf *Himmel* |
-| 2007 | *Gehirn im Mixer (Extended)* | Mixtape, Rapz Records und Flavamatic Recordz | 30.03.2007, 25 Titel, davon 12 neu, rund 80 Minuten. Gäste u. a. Peter Maffya, Headtrick, Hollywoodsfinest, Rynerrr, Illoyal, PCP. Beats u. a. von den Beatgees, Nowak, Maexer |
-| 2007 | *Kuhmelker Tape Vol. 1* | als *Konnegah* | Parodie auf Kollegah |
-| 2007 | *Crapz Records* | Disstrack | gegen Rapz Records |
-| 2007 | Kollegah, *Alphagene* | Produktion | fünf Beats: *Alphagene*, *24/7*, *Dealer (Prelude)*, *Machomannstyle*, *Outro* |
-| 2009 | *Menschenfeind* | EP mit Hollywood Hank, Weisse Scheisse | 12.06.2009, 11 Titel, rund 35 Minuten. Juice „Kollabo-Album des Monats“ |
-| 2009 | *Niemand* | mit Morlockk Dilemma | auf der Juice-CD #99 |
-| 2009 | *Chüars!* | Tape als *$pitt Klikk* mit Peter Maffya, kostenlos | Parodie auf Straßenrap |
-| 2010 | *Täter-Opfer-Ausgleich* | Album, Flavamatic Recordz | 21.05.2010, Digipak, 18 Titel, im Vorverkauf 10,90 Euro. Gäste Morlockk Dilemma, Me$$age, Mach One, Absztrakkt. Beats von JAW (neun), Nowak, Peet, Cheebabeatz, Blazin Hand. Videos zu *Meine Fans* und *Elena*. Juice: viereinhalb von sechs Kronen |
-| 2011 | *Private Paul* | Disstrack | 05.02.2011 |
-| 2011 | *Pisse aus Weingläsern* | mit Maeckes | Juice Exclusive |
+| 2003 | {% include cover.html name="seelensturm" titel="Seelensturm" %} *Seelensturm* | EP, selbst gebrannt | Angekündigt am 14.09.2003 als *Bloody Bastard*, erschienen etwa im Oktober. 7 Titel: *Seelensturm*, *In deinen Augen*, *Im roten Feuer der Sonne*, *Human Ocean* (feat. Maggoh), *Taucher in der Tiefe*, *Neun Kugeln*, *PCP Party* (feat. Rynerrr One und Mäxer Ca$h). 4 Euro plus 1,50 Euro Porto. Ende 2005 als „Bootleg“ mit Schwarzweiß-Cover für 4 Euro neu aufgelegt |
+| 2006 | {% include cover.html name="schock-fuers-leben" titel="Schock fürs Leben" %} *Schock fürs Leben* | Album, Rapz Records | 04.08.2006 laut Discogs, angekündigt für den 05.04.2006. 19 Titel, rund 76 Minuten, von JAW produziert, Cuts von DJ Tjoma, Artwork von Rynerrr. Gäste u. a. Rynerrr, Maexer, Hollywood Hank, Kaspah Hausa, Plasti. 12 Euro inklusive Versand. Juice „Demo des Monats“ (Heft 07/2006), „Demo des Jahres“ auf Platz drei |
+| 2006 | {% include cover.html name="gehirn-im-mixer" titel="Gehirn im Mixer" %} *Gehirn im Mixer* | Mixtape, kostenlos | Ende August 2006 über die Seite von Rapz Records, zum Erscheinen der Extended-Fassung wieder entfernt |
+| 2006 | {% include cover.html name="zwischen-chemie-und-wahnsinn" titel="Zwischen Chemie & Wahnsinn" %} *Zwischen Chemie & Wahnsinn* | EP mit Me$$age, kostenlos | mit Rynerrr auf *Himmel* |
+| 2007 | {% include cover.html name="gehirn-im-mixer-extended" titel="Gehirn im Mixer (Extended)" %} *Gehirn im Mixer (Extended)* | Mixtape, Rapz Records und Flavamatic Recordz | 30.03.2007, 25 Titel, davon 12 neu, rund 80 Minuten. Gäste u. a. Peter Maffya, Headtrick, Hollywoodsfinest, Rynerrr, Illoyal, PCP. Beats u. a. von den Beatgees, Nowak, Maexer |
+| 2007 | {% include cover.html name="kuhmelker-tape-vol-1" titel="Kuhmelker Tape Vol. 1" %} *Kuhmelker Tape Vol. 1* | als *Konnegah* | Parodie auf Kollegah |
+| 2009 | {% include cover.html name="menschenfeind" titel="Menschenfeind" %} *Menschenfeind* | EP mit Hollywood Hank, Weisse Scheisse | 12.06.2009, 11 Titel, rund 35 Minuten. Juice „Kollabo-Album des Monats“ |
+| 2009 | {% include cover.html name="chueaers" titel="Chüars!" %} *Chüars!* | Tape als *$pitt Klikk* mit Peter Maffya, kostenlos | Parodie auf Straßenrap |
+| 2010 | {% include cover.html name="taeter-opfer-ausgleich" titel="Täter-Opfer-Ausgleich" %} *Täter-Opfer-Ausgleich* | Album, Flavamatic Recordz | 21.05.2010, Digipak, 18 Titel, im Vorverkauf 10,90 Euro. Gäste Morlockk Dilemma, Me$$age, Mach One, Absztrakkt. Beats von JAW (neun), Nowak, Peet, Cheebabeatz, Blazin Hand. Videos zu *Meine Fans* und *Elena*. Juice: viereinhalb von sechs Kronen |
+| 2018 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins" titel="Die unerträgliche Dreistigkeit des Seins" %} *Die unerträgliche Dreistigkeit des Seins* | Album | 25.05.2018, eigenes Label über Groove Attack. Platz vier der deutschen Albumcharts |
+| 2019 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins-old-habits" titel="Old Habits Version" %} *Die unerträgliche Dreistigkeit des Seins – Old Habits Version* | Bandcamp | 25.02.2019, 14 Titel, darunter sechs, die vorher einzeln erschienen waren, und *Masken* mit Maeckes |
+| 2026 | {% include cover.html name="grobes-kino" titel="Grobes Kino" %} *Grobes Kino* | Album | Vinyl angekündigt, Stand Oktober 2026 ohne Datum |
+
+#### Singles und Freetracks
+
+| Jahr | Titel | Art | Anmerkungen |
+|---|---|---|---|
+| 2004 | {% include cover.html name="das-ist" titel="Das ist!" %} *Das ist!* | Track | „Alles selbst produziert“ |
+| 2007 | {% include cover.html name="crapz-records" titel="Crapz Records" %} *Crapz Records* | Disstrack | gegen Rapz Records |
+| 2011 | {% include cover.html name="private-paul-diss" titel="Private Paul" %} *Private Paul* | Disstrack | 05.02.2011, exklusiv auf meinrap.de |
+| 2011 | {% include cover.html name="pisse-aus-weinglaesern" titel="Pisse aus Weingläsern" %} *Pisse aus Weingläsern* | mit Maeckes | Juice Exclusive |
 | 2014–2017 | Einzeltitel | Freetracks | u. a. *Rap hat dich kaputt gemacht*, *Fremdkörper*, *Weltenpendler*, *Lost in Space*, *Survival of the Sickest*, *Niemandsland*, *TOA 3*, *Exit* |
-| 2018 | *Die unerträgliche Dreistigkeit des Seins* | Album | 25.05.2018, eigenes Label über Groove Attack. Platz vier der deutschen Albumcharts |
-| 2019 | *Die unerträgliche Dreistigkeit des Seins – Old Habits Version* | Bandcamp | 25.02.2019, 14 Titel, darunter sechs, die vorher einzeln erschienen waren, und *Masken* mit Maeckes |
-| 2019 | *Falling Down*, *Grobes Kino* (Snippet) | SoundCloud | |
-| 2026 | *Grobes Kino* | Album | Vinyl angekündigt. Singles *Statisten Sterben* (mit Rynerrr) und *Hanna* |
+| 2019 | {% include cover.html name="falling-down" titel="Falling Down" %} *Falling Down* | Single | |
+| 2019 | *Grobes Kino* (Snippet) | SoundCloud | Vorbote des Albums von 2026 |
+| 2026 | {% include cover.html name="statisten-sterben" titel="Statisten Sterben" %} *Statisten Sterben* | Single, mit Rynerrr | aus *Grobes Kino* |
+| 2026 | {% include cover.html name="hanna" titel="Hanna" %} *Hanna* | Single | aus *Grobes Kino* |
+
+#### Vertreten auf
+
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| 2003 | *Hunde beissen Punks mit 123*, Track mit H aka N und Kaspah Hausa | Rap und Beat |
+| 2005 | Rynerrr, *Symptome* (Erstfassung) | zwei Features, Beats, Backgroundgesang |
+| 2006 | Hollywood Hank, *Soziopath* | Gast |
+| 2007 | Kollegah, *Alphagene* | Produktion: *Alphagene*, *24/7*, *Dealer (Prelude)*, *Machomannstyle*, *Outro* |
+| 2008 | Hollywood Hank und Favorite, *Schläge für Hip Hop* | Gast |
+| um 2008 | Schulte, *Der Herr der Biere* | Gast, mit Kash und Illoyal |
+| 2009 | Juice-CD #99 | *Niemand*, mit Morlockk Dilemma |
+| 2013 | Maexer und Stomakk, *Dein Bestes* | *Petersilie*, *Basilikum* |
 
 Quellen: Wikipedia, Discogs, die Foren- und Shopseiten der jeweiligen Jahre, Bandcamp und SoundCloud.[^s-jaw] <!-- PRÜFEN: Label von "Die unerträgliche Dreistigkeit des Seins" auf der CD. -->
 
@@ -1150,20 +1170,38 @@ Ein großer Teil dessen, was dieses Buch erzählen kann, stammt von Rynerrrs Sei
 
 ### Diskografie
 
+#### Alben
+
 | Jahr | Titel | Art | Anmerkungen |
 |---|---|---|---|
-| vor 2004 | *Ztreuzel-Brothaz* | frühere Formation | nur aus der Juice 10/2006 und dem Gästebuch von p-c-p.ws bekannt |
-| 2004 | Haj feat. Rynerrr, Orat, Daze | Gastpart | MZEE-Forum, 04.02.2004 |
-| 2005 | *Symptome* (Erstfassung) | Album, selbst gebrannt | Snippet im April 2005. 14 Titel, 7 Euro inklusive Porto, Cover in kleinen Mengen nachgedruckt. Gast: JAW, mit zwei Features, dazu Beats und Backgroundgesang. Juice „Demo des Monats“ (Heft 10/2006) und „Demo des Jahres“ |
-| 2008 | *Symptome* (Neuauflage) | Album, Weisse Scheisse | 15./16.05.2008, gemastert und gepresst, 17 Titel, davon drei Bonustitel: *Punkrapper Remix*, *Rynerrr's Tod*, *Spiegel*. 10 Euro |
-| 2009 | *Schreierei* | Freetrack mit Private Paul | |
-| 2010 | *Zukunftsmusik* | Freetrack | Labelseite |
-| 2013 | *Projekt Eichhorn* | SoundCloud | |
-| 2014 | *"album"* | Bandcamp, kostenlos | 16.09.2014, 10 Titel, unfertig. rap.de nannte es einen Nachtrag zu *Symptome* |
+| 2005 | {% include cover.html name="symptome-2005" titel="Symptome" %} *Symptome* (Erstfassung) | Album, selbst gebrannt | Snippet im April 2005. 14 Titel, 7 Euro inklusive Porto, Cover in kleinen Mengen nachgedruckt. Gast: JAW, mit zwei Features, dazu Beats und Backgroundgesang. Juice „Demo des Monats“ (Heft 10/2006) und „Demo des Jahres“ |
+| 2008 | {% include cover.html name="symptome" titel="Symptome" %} *Symptome* (Neuauflage) | Album, Weisse Scheisse | 15./16.05.2008, gemastert und gepresst, 17 Titel, davon drei Bonustitel: *Punkrapper Remix*, *Rynerrr's Tod*, *Spiegel*. 10 Euro |
+| 2013 | {% include cover.html name="projekt-eichhorn" titel="Projekt Eichhorn" %} *Projekt Eichhorn* | SoundCloud | nummerierte Stücke, hochgeladen 2013 bis 2015 |
+| 2014 | {% include cover.html name="album-2014" titel="album" %} *"album"* | Bandcamp, kostenlos | 16.09.2014, 10 Titel, unfertig. rap.de nannte es einen Nachtrag zu *Symptome* |
+| 2017 | {% include cover.html name="gutmensch-wutbuerger" titel="Gutmensch/Wutbürger" %} *Gutmensch/Wutbürger* | Album, Bandcamp, per Crowdfunding finanziert | 19.05.2017, als Rynerrr Schrott. 15 Titel, davon 14 abrufbar. Gäste Rahzkroneprinz, Stomakk, Etogate, Defcon, Rotten Monkey, Maexer. Video zu *Schaschlik* |
+
+#### Singles und Freetracks
+
+| Jahr | Titel | Art | Anmerkungen |
+|---|---|---|---|
+| 2009 | {% include cover.html name="schreierei" titel="Schreierei" %} *Schreierei* | Freetrack mit Private Paul | Labelseite |
+| 2010 | {% include cover.html name="zukunftsmusik" titel="Zukunftsmusik" %} *Zukunftsmusik* | Freetrack | Labelseite |
 | 2015 | *Bettelrap*, *Tofuwurst (Rinderbraten 2015)*, *Kotzbalade* (feat. Stomakk), *Die Rache des Eichhorngottes* | SoundCloud und Labelseite | |
-| 2017 | *Gutmensch/Wutbürger* | Album, Bandcamp, per Crowdfunding finanziert | 19.05.2017, als Rynerrr Schrott. 15 Titel, davon 14 abrufbar. Gäste Rahzkroneprinz, Stomakk, Etogate, Defcon, Rotten Monkey, Maexer. Video zu *Schaschlik* |
-| 2018 | *Schule* | mit Knorki, Stomakk und Aytee | SoundCloud |
-| 2026 | *Statisten Sterben* | mit JAW | |
+
+#### Vertreten auf
+
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| 2003 | JAW, *Seelensturm* | *PCP Party* |
+| 2004 | Haj, Track mit Orat und Daze | Gastpart, MZEE-Forum, 04.02.2004 |
+| 2006 | JAW, *Schock fürs Leben* | *Die Sendung mit Applaus*, *PCP Putsch*; Artwork |
+| 2006 | JAW und Me$$age, *Zwischen Chemie & Wahnsinn* | *Himmel* |
+| 2007 | JAW, *Gehirn im Mixer (Extended)* | *Alles was du willst*, *Was passiert* |
+| 2013 | Maexer und Stomakk, *Dein Bestes* | das halbe Album |
+| 2018 | Knorki, Stomakk und Aytee, *Schule* | Gastpart, SoundCloud |
+| 2026 | JAW, *Statisten Sterben* | Single |
+
+Vor PCP gehörte Rynerrr zu den *Ztreuzel-Brothaz*, von denen nur der Name bekannt ist, aus der Juice 10/2006 und dem Gästebuch von p-c-p.ws.
 
 Zwei Titel wandern durch die Jahre. *born dead* von 2014 kehrt 2017 als *Born Dead 17* wieder. Und *Rinderbraten*, ein Titel des zweiten PCP-Albums, taucht 2015 in Klammern hinter einem Stück namens *Tofuwurst* auf.[^s-rynerrr]
 
@@ -1335,25 +1373,38 @@ Am 17. Oktober 2010 meldete Weisse Scheisse seinen Austritt, „aufgrund von per
 
 ### Diskografie
 
+#### Alben und EPs
+
 | Jahr | Titel | Art | Anmerkungen |
 |---|---|---|---|
-| um 2007 | *Tour EP* | als Kash, kostenlos über MySpace | Fans nannten *All for the KASH*, *Killazone* und *K2V2* als beste Titel. laut.de erwähnte 2009 eine „Kash EP“, vermutlich dieselbe |
-| um 2008 | Schulte, *Der Herr der Biere* | Gast, mit JAW und Illoyal | |
-| 2009 | *Menschenfeind* | Gast auf *Ackergaul Konfekt Remix* | |
-| 2009 | *Schreierei* | Freetrack mit Rynerrr | |
-| 2010 | *Bei Dir*, *Sozioparty Tour* | Freetracks | |
-| 2011 | *Emopunkrap* | Album | erschien im Januar 2011, nach dem Austritt, nicht mehr bei Weisse Scheisse. Bandcamp und Discogs nennen Dezember 2010 <!-- PRÜFEN: Erscheinungsdatum Emopunkrap --> |
-| 2012 | *Lotus* | EP | |
-| 2013 | *SUFF* | Album, als Kash | |
-| 2011 | *Lieder über Autos* | mit Prezident | 10.02.2011 |
-| 2014 | *Schwarzweissrot* | Album, Emopunkrap | 17.01.2014, 18 Titel |
-| 2016 | *Live Fast Die Young* | Album mit Rotten Monkey | |
+| um 2007 | {% include cover.html name="tour-ep" titel="Tour EP" %} *Tour EP* | als Kash, kostenlos über MySpace | Fans nannten *All for the KASH*, *Killazone* und *K2V2* als beste Titel. laut.de erwähnte 2009 eine „Kash EP“, vermutlich dieselbe |
+| 2011 | {% include cover.html name="emopunkrap" titel="Emopunkrap" %} *Emopunkrap* | Album | erschien im Januar 2011, nach dem Austritt, nicht mehr bei Weisse Scheisse. Bandcamp und Discogs nennen Dezember 2010 <!-- PRÜFEN: Erscheinungsdatum Emopunkrap --> |
+| 2012 | {% include cover.html name="lotus" titel="Lotus" %} *Lotus* | EP |  |
+| 2013 | {% include cover.html name="suff" titel="SUFF" %} *SUFF* | Album, als Kash |  |
+| 2014 | {% include cover.html name="schwarzweissrot" titel="Schwarzweissrot" %} *Schwarzweissrot* | Album, Emopunkrap | 17.01.2014, 18 Titel |
+| 2016 | {% include cover.html name="live-fast-die-young" titel="Live Fast Die Young" %} *Live Fast Die Young* | Album mit Rotten Monkey |  |
+| 2019 | {% include cover.html name="dsepr" titel="DSEPR" %} *DSEPR* | Album |  |
+| 2019 | {% include cover.html name="faded" titel="Faded" %} *Faded* | EP mit Duzoe und MXP |  |
+| 2021 | {% include cover.html name="dsep" titel="DSEP" %} *DSEP* | EP |  |
+
+#### Singles und Freetracks
+
+| Jahr | Titel | Art | Anmerkungen |
+|---|---|---|---|
+| 2009 | {% include cover.html name="schreierei" titel="Schreierei" %} *Schreierei* | Freetrack mit Rynerrr | Labelseite |
+| 2010 | {% include cover.html name="bei-dir" titel="Bei Dir" %} *Bei Dir* | Freetrack | Labelseite |
+| 2011 | {% include cover.html name="lieder-ueber-autos" titel="Lieder über Autos" %} *Lieder über Autos* | mit Prezident | 10.02.2011 |
 | 2016–2025 | *Statusbericht* | Videoreihe, jährlich | 2023 als *KEIN Statusbericht* |
-| 2019 | *DSEPR* | Album | |
-| 2019 | *Faded* | EP mit Duzoe und MXP | |
-| 2021 | *DSEP* | EP | |
 | 2024, 2026 | *Stadionbericht 2024*, WM-Song 2026 | Videos | zur EM 2024 und zur WM 2026 |
-| 2026 | *KILLSWITCH* | Track | prod. von Wiesel |
+| 2026 | {% include cover.html name="killswitch" titel="KILLSWITCH" %} *KILLSWITCH* | Track | prod. von Wiesel |
+
+#### Vertreten auf
+
+| Jahr | Auf | Beitrag |
+|---|---|---|
+| um 2008 | Schulte, *Der Herr der Biere* | Gast, mit JAW und Illoyal |
+| 2009 | JAW und Hollywood Hank, *Menschenfeind* | *Ackergaul Konfekt Remix* |
+| 2010 | JAW, *Sozioparty Tour* | Freetrack zur Tour, mit Adolph Gandhi |
 
 Dazu kommt ein Disstrack von Private Paul gegen JAW aus der Zeit der Trennung, der auf YouTube steht.[^s-paul] <!-- PRÜFEN: Titel und Datum von Private Pauls Disstrack. -->
 
@@ -1595,9 +1646,9 @@ Unter eigenem Namen hat Weisse Scheisse drei CDs veröffentlicht. Alles andere w
 
 | Datum | Veröffentlichung | Format und Preis |
 |---|---|---|
-| 15. oder 16.05.2008 | Rynerrr – *Symptome* (Neuauflage) | CD, 17 Titel, 10 Euro; Katalognummer 0801 laut Musik-Sammler |
-| 12.06.2009 | JAW und Hollywood Hank – *Menschenfeind* | CD und Download, 11 Titel, 11,90 Euro; Bundle mit Shirt und Poster 27,90 Euro |
-| 28.08.2009 | PCP – *Lache und die Welt weint mit dir* | CD, 20 Titel, 11,90 Euro; Bundle 27,90 Euro |
+| 15. oder 16.05.2008 | {% include cover.html name="symptome" titel="Symptome" %} Rynerrr – *Symptome* (Neuauflage) | CD, 17 Titel, 10 Euro; Katalognummer 0801 laut Musik-Sammler |
+| 12.06.2009 | {% include cover.html name="menschenfeind" titel="Menschenfeind" %} JAW und Hollywood Hank – *Menschenfeind* | CD und Download, 11 Titel, 11,90 Euro; Bundle mit Shirt und Poster 27,90 Euro |
+| 28.08.2009 | {% include cover.html name="lache-und-die-welt-weint-mit-dir" titel="Lache und die Welt weint mit dir" %} PCP – *Lache und die Welt weint mit dir* | CD, 20 Titel, 11,90 Euro; Bundle 27,90 Euro |
 
 Das Datum von *Symptome* schwankt je nach Quelle: hiphop.de und Bandcamp nennen den 15. Mai, Discogs und der Shop den 16. Mai.[^d-katalog]
 

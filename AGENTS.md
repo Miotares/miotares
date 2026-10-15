@@ -19,6 +19,7 @@ Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text br
 | `_layouts/post.html` | Layout für Texte und `pcp.md`: Label, Titel, Metazeile, Inhaltsverzeichnis, Drop Cap |
 | `_includes/post-list.html` | Liste der Texte nach Jahr (blendet `archived: true` aus) |
 | `_includes/bild.html` | Bild mit Bildunterschrift, Größe und Position neben dem Text |
+| `_includes/cover.html` | Kleines Cover in Diskografie-Tabellen, erscheint nur, wenn die Datei in `assets/bilder/pcp/cover/` liegt |
 | `_includes/toc.html` | Inhaltsverzeichnis aus `##`/`###`, Teile als Zwischentitel (oben im Text + Seitenleiste) |
 | `assets/js/toc.js` | Blendet die Seitenleiste ein und markiert den aktuellen Abschnitt |
 | `assets/js/galerie.js` | Galerie-Ansicht mit Zoom für alle Bilder im Text (eigener Code, keine Bibliothek) |
@@ -98,6 +99,17 @@ Teil III besteht aus Porträts, eins pro Person, immer gleich gebaut: Motto, zwe
 drei Abschnitte: `### Porträt` (Leben und musikalische Entwicklung), `### Diskografie` (Solowerk als
 Tabelle oder Liste) und `### Heute` (was die Person heute öffentlich macht, mit Abrufdatum in der
 Fußnote). Teil IV enthält nur noch die Diskografie der Gruppe und die Texte.
+
+**Diskografien in den Porträts** bestehen aus bis zu drei Tabellen unter `####`: „Alben (und EPs)“,
+„Singles und Freetracks“ und „Vertreten auf“ (Gastparts, Produktionen, Sampler; Spalten Jahr | Auf | Beitrag).
+
+**Cover** gibt es nur bei Alben und Singles. Am Anfang der Titel-Zelle steht
+`{% include cover.html name="schock-fuers-leben" titel="Schock fürs Leben" %}`. Das Bild gehört nach
+`assets/bilder/pcp/cover/<name>.jpg` (auch `.jpeg`, `.png`, `.webp`), quadratisch, vorher mit
+`sips -Z 800` verkleinern. Liegt die Datei da, erscheint das Cover klein in der Tabelle und öffnet sich
+per Klick in der Galerie. Fehlt sie, erscheint live nichts; lokal (`jekyll serve`) zeigt ein gestrichelter
+Platzhalter den erwarteten Dateinamen. Das Include muss in einer Zeile bleiben (Markdown-Tabelle).
+Vorgesehene Namen: album-2014, bei-dir, chueaers, crapz-records, das-ist, die-unertraegliche-dreistigkeit-des-seins, die-unertraegliche-dreistigkeit-des-seins-old-habits, dsep, dsepr, emopunkrap, faded, falling-down, gehirn-im-mixer, gehirn-im-mixer-extended, grobes-kino, gutmensch-wutbuerger, hanna, killswitch, kuhmelker-tape-vol-1, lache-und-die-welt-weint-mit-dir, lieder-ueber-autos, live-fast-die-young, lotus, menschenfeind, pisse-aus-weinglaesern, private-paul-diss, projekt-eichhorn, schock-fuers-leben, schreierei, schwarzweissrot, seelensturm, statisten-sterben, suff, symptome, symptome-2005, taeter-opfer-ausgleich, tour-ep, zukunftsmusik, zwischen-chemie-und-wahnsinn.
 
 Quellen stehen als kramdown-Fußnoten (`[^k4-thread]`, Präfix pro Kapitel, keine Umlaute im Namen).
 Interne Prüfvermerke als HTML-Kommentar (`<!-- PRÜFEN: … -->`), die sind auf der Seite unsichtbar.

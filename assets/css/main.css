@@ -237,6 +237,35 @@ td {
     text-align: left;
     padding: 0.35em 0.6em 0.35em 0;
     border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+}
+
+/* Cover in Diskografie-Tabellen: {% include cover.html name="…" %} am Anfang der Titel-Zelle */
+.cover {
+    display: block;
+    width: 4.5rem;
+    margin: 0.2em 0 0.4em;
+}
+
+.cover img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border: 1px solid var(--rule);
+}
+
+/* Platzhalter, nur beim lokalen Ansehen (jekyll serve) */
+.cover-fehlt {
+    aspect-ratio: 1;
+    padding: 0.3em;
+    border: 1px dashed var(--rule);
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    line-height: 1.25;
+    word-break: break-all;
+    overflow: hidden;
 }
 
 /* Artikel */

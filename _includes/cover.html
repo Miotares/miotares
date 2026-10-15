@@ -1,0 +1,15 @@
+{%- comment -%}
+Kleines Cover in einer Diskografie-Tabelle (oder irgendwo im Text).
+Aufruf, am besten am Anfang der Titel-Zelle:
+  {% include cover.html name="schock-fuers-leben" titel="Schock fürs Leben" %}
+Das Bild liegt unter assets/bilder/pcp/cover/<name>.jpg (.jpeg, .png und .webp gehen auch).
+- Datei vorhanden: kleines Cover, Klick öffnet es groß in der Galerie.
+- Datei fehlt: auf der Live-Seite erscheint nichts. Beim lokalen Ansehen (jekyll serve)
+  steht dort ein gestrichelter Platzhalter mit dem erwarteten Dateinamen.
+Muss einzeilig bleiben, sonst zerbricht die Markdown-Tabelle.
+{%- endcomment -%}
+{%- assign cover_titel = include.titel | default: include.name | strip_html | escape -%}
+{%- assign cover_treffer = site.static_files | where_exp: "f", "f.path contains '/assets/bilder/pcp/cover/'" | where: "basename", include.name -%}
+{%- assign cover_datei = nil -%}
+{%- for f in cover_treffer -%}{%- assign endung = f.extname | downcase -%}{%- if endung == ".jpg" or endung == ".jpeg" or endung == ".png" or endung == ".webp" -%}{%- assign cover_datei = f -%}{%- break -%}{%- endif -%}{%- endfor -%}
+{%- if cover_datei -%}<a class="cover" href="{{ cover_datei.path }}"><img src="{{ cover_datei.path }}" alt="Cover: {{ cover_titel }}" loading="lazy"></a>{%- elsif jekyll.environment == "development" -%}<span class="cover cover-fehlt" title="Cover fehlt: assets/bilder/pcp/cover/{{ include.name }}.jpg">{{ include.name }}.jpg</span>{%- endif -%}
