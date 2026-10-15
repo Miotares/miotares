@@ -1,6 +1,7 @@
 # Site settings
 title: "miotares"
-description: "Persönliche Website von miotares. Notizblock für Gedanken, Recherchen und Kaninchenbauten, fertig oder nicht."
+tagline: "Notizblock für Gedanken, Recherchen und Kaninchenbauten"
+description: "Persönliche Website von miotares: Texte, Recherchen und Kaninchenbauten, dazu eine Recherche über die Rapgruppe PCP und das Label Weisse Scheisse."
 url: "https://miotares.com"
 baseurl: ""
 

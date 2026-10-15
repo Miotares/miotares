@@ -149,14 +149,19 @@ Interne Prüfvermerke als HTML-Kommentar (`<!-- PRÜFEN: … -->`), die sind auf
 | `slug` | URL-Teil bei Texten, sonst aus dem Dateinamen. Ohne Umlaute bevorzugt |
 | `permalink` | Feste URL. Bestehende Texte haben `/articles/<slug>/`, **nie ändern** (externe Links) |
 | `tags: [A, B]` | Erscheinen in der Metazeile |
-| `last_modified_at` | Zeigt „aktualisiert TT.MM.JJJJ“ in der Metazeile |
+| `last_modified_at` | Zeigt „aktualisiert TT.MM.JJJJ“ in der Metazeile, geht in `article:modified_time`, JSON-LD und die Sitemap. Bei größeren Änderungen an `pcp.md` aktualisieren |
 | `archived: true` | Text bleibt unter seiner URL erreichbar, verschwindet aber aus allen Listen |
 | `image` | Nur Vorschaubild für Social Media (og:image). **Wird auf der Seite nicht angezeigt** |
+| `image_alt` | Alternativtext zum Vorschaubild (og:image:alt, twitter:image:alt) |
+| `seo_title` | Titel für `<title>`, Open Graph und Twitter, wenn er vom sichtbaren Titel abweichen soll (ca. 60 Zeichen) |
+| `keywords: [A, B]` | Schlagwörter für `<meta name="keywords">` und die strukturierten Daten (bei Texten sonst die `tags`) |
+| `schema_about` | `type`, `name`, `alternateName` des Themas für die strukturierten Daten (JSON-LD), z.B. `MusicGroup` bei `pcp.md` |
+| `date` | Erstveröffentlichung; bei Texten das Datum aus dem Dateinamen. Geht in `article:published_time` und JSON-LD |
 | `layout: post` | Nötig für Seiten außerhalb von `_posts/` (z.B. `pcp.md`), damit sie wie ein Text aussehen |
 | `robots` | Standard `index,follow` |
 | `published: false` | Text wird gar nicht gebaut |
 
-Felder wie `categories`, `lang`, `image_alt`, `canonical`, `twitter_card` in alten Texten sind
+Felder wie `categories`, `lang`, `canonical`, `twitter_card` in alten Texten sind
 Altlasten und werden vom Layout ignoriert. `canonical` zeigt teils auf miotares.de – nicht verwenden.
 
 ## Markdown-Bausteine
@@ -324,6 +329,10 @@ Erscheinen gesammelt am Ende. Externe Links im Text öffnen sich automatisch in 
 - Bei CSS-Änderungen die Versionsnummer in `_layouts/default.html` (`main.css?v=N`) hochzählen,
   bei JS-Änderungen die in `_layouts/post.html` (`toc.js?v=N`, `galerie.js?v=N`).
 - Muss auf Handybreite (375px) funktionieren.
+
+## Metadaten
+
+`_layouts/default.html` setzt Titel, Description, Canonical, Robots, Open Graph, Twitter Cards und JSON-LD (WebSite für die Startseite, Article/BlogPosting für Texte und `pcp.md`, WebPage für den Rest). Jede Seite braucht eine `description` von höchstens etwa 155 Zeichen; sonst nimmt das Layout die Seitenbeschreibung aus `_config.yml`. `site.tagline` steht im Titel der Startseite. Änderungen an `_config.yml` brauchen einen Neustart des Servers.
 
 ## Analytics
 

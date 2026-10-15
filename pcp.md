@@ -7,13 +7,22 @@
 layout: post
 permalink: /pcp/
 title: "Lache und die Welt weint mit dir"
+seo_title: "PCP und Weisse Scheisse: Eine vergessene Rap-Szene"
 label: "Recherche"
-description: "Die Geschichte von PCP, Weisse Scheisse und einer vergessenen Underground-Rap-Szene."
+description: "Rapgruppe PCP und Label Weisse Scheisse: Alben Lied für Lied, Porträts, Diskografien und die Szene dahinter, rekonstruiert aus Web Archive, Foren und CDs."
+date: 2026-10-15
+last_modified_at: 2026-10-15
+keywords: [PCP, Projekt Chaos Punks, Weisse Scheisse, Lache und die Welt weint mit dir, Nimms und verreck daran, JAW, Rynerrr, Maexer, Private Paul, Hollywood Hank, Reimliga Battle Arena, Deutschrap, Untergrundrap, Diskografie]
+schema_about:
+  type: MusicGroup
+  name: "PCP"
+  alternateName: "Projekt Chaos Punks"
 toc: true
 toc_tiefe: 2
 dropcap: false
 blocksatz: true
 image: /assets/bilder/pcp/lache-und-die-welt-weint-mit-dir-cover.jpg
+image_alt: "Cover von Lache und die Welt weint mit dir: Ein Engel mit roten Haaren bläst eine weiße Staubwolke dem Betrachter entgegen"
 ---
 
 ## Prolog
