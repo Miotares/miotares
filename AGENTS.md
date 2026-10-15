@@ -19,7 +19,7 @@ Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text br
 | `_layouts/post.html` | Layout für Texte und `pcp.md`: Label, Titel, Metazeile, Inhaltsverzeichnis, Drop Cap |
 | `_includes/post-list.html` | Liste der Texte nach Jahr (blendet `archived: true` aus) |
 | `_includes/bild.html` | Bild mit Bildunterschrift, Größe und Position neben dem Text |
-| `_includes/toc.html` | Inhaltsverzeichnis aus `##`/`###` (oben im Text + Seitenleiste) |
+| `_includes/toc.html` | Inhaltsverzeichnis aus `##`/`###`, Teile als Zwischentitel (oben im Text + Seitenleiste) |
 | `assets/js/toc.js` | Blendet die Seitenleiste ein und markiert den aktuellen Abschnitt |
 | `assets/js/galerie.js` | Galerie-Ansicht mit Zoom für alle Bilder im Text (eigener Code, keine Bibliothek) |
 | `_includes/footer.html` | Footer (Email, Nostr, RSS, Impressum, Datenschutz) |
@@ -56,8 +56,9 @@ Im Claude-Desktop-Browser: `.claude/launch.json` enthält die Konfiguration `jek
 ## Am PCP-Buch schreiben
 
 Das Buch ist bewusst **eine einzige Seite**: `pcp.md` im Hauptverzeichnis, URL `/pcp/`
-(Vorbild: lange Essays auf gwern.net). Kapitel sind `##`-Überschriften, Unterkapitel `###`;
-das Inhaltsverzeichnis oben entsteht daraus automatisch (`toc: true` ist gesetzt).
+(Vorbild: lange Essays auf gwern.net). Kapitel sind `##`-Überschriften, Unterkapitel `###`.
+Das Inhaltsverzeichnis zeigt nur Teile und Kapitel (`toc: true`, `toc_tiefe: 2`), keine `###`.
+Unterkapitel sparsam einsetzen: lieber wenige, aussagekräftige `###` als viele kleine.
 Bilder nach `assets/bilder/pcp/`. Es gibt keine Unterseiten oder Kapitel-Dateien.
 
 Jedes Kapitel ist so aufgebaut (die automatische Initiale ist in `pcp.md` mit `dropcap: false`
@@ -78,6 +79,29 @@ Weiterer Text …
 
 Den Text des Autors nicht umformulieren oder „verbessern“, nur so einbauen, wie er geliefert wird.
 
+Das Buch ist in Teile gegliedert (Teil I, Teil II …, Anhang). Eine Teil-Überschrift ist ein `##` mit
+der Klasse `.teil` und fester ID, nach einem `---`. Sie wird zentriert in Kapitälchen gesetzt und
+erscheint im Inhaltsverzeichnis als Zwischentitel ohne Nummer:
+
+```markdown
+---
+
+## Teil II<br>Die Geschichte
+{: #teil-2 .teil}
+```
+
+Kapitel, die nicht nummeriert werden sollen (Prolog, Anhang-Kapitel), bekommen `{: .ohne-nummer}`
+direkt unter die Überschrift.
+
+Teil III besteht aus Porträts, eins pro Person, immer gleich gebaut: Motto, zwei Steckbrief-Zeilen
+(getrennt durch `<br>`, darunter `{: .steckbrief}`), Bild, Einleitung mit `{: .dropcap}`, dann genau
+drei Abschnitte: `### Porträt` (Leben und musikalische Entwicklung), `### Diskografie` (Solowerk als
+Tabelle oder Liste) und `### Heute` (was die Person heute öffentlich macht, mit Abrufdatum in der
+Fußnote). Teil IV enthält nur noch die Diskografie der Gruppe und die Texte.
+
+Quellen stehen als kramdown-Fußnoten (`[^k4-thread]`, Präfix pro Kapitel, keine Umlaute im Namen).
+Interne Prüfvermerke als HTML-Kommentar (`<!-- PRÜFEN: … -->`), die sind auf der Seite unsichtbar.
+
 ## Front Matter
 
 | Feld | Wirkung |
@@ -86,6 +110,7 @@ Den Text des Autors nicht umformulieren oder „verbessern“, nur so einbauen, 
 | `description` | Kursiver Untertitel unter der Überschrift, Meta-Description, Vorschautext |
 | `status` | Kleines Label in Titelnähe und in Listen, z.B. `Entwurf`, `in Arbeit`, `Notiz`, `fertig` |
 | `toc: true` | Inhaltsverzeichnis über dem Text und mitwandernd links (siehe unten) |
+| `toc_tiefe: 2` | Inhaltsverzeichnis nur aus `##` (Standard 3: auch `###`) |
 | `blocksatz: true` | Alle Absätze im Blocksatz (siehe unten) |
 | `dropcap` | Initiale am Textanfang. Bei Texten in `_posts/` standardmäßig an (`false` schaltet ab), auf anderen Seiten mit `dropcap: true` einschalten |
 | `label` | Kleine farbige Zeile über dem Titel, z.B. `"Buch · Arbeitstitel"` |
@@ -112,7 +137,8 @@ kramdown vergibt automatisch IDs (`## Die Anfänge` → `#die-anfänge`), darauf
 ### Inhaltsverzeichnis
 
 `toc: true` ins Front Matter. Es wird aus allen `##` (nummeriert) und `###` (eingerückt)
-erzeugt, steht über dem Text und ist aufklappbar. Keine Markierung im Text nötig,
+erzeugt, steht über dem Text und ist aufklappbar. Mit `toc_tiefe: 2` nur aus `##`.
+`##` mit `{: .teil}` erscheinen als Zwischentitel, `##` mit `{: .ohne-nummer}` ohne Nummer. Keine Markierung im Text nötig,
 **nicht** zusätzlich kramdowns `{:toc}` verwenden.
 
 Auf breiten Bildschirmen (≥ 1220 px) erscheint dasselbe Verzeichnis zusätzlich als

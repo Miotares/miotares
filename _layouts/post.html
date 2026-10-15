@@ -14,7 +14,7 @@ layout: default
         {% if meta.size > 0 %}<p class="meta">{{ meta | join: " · " }}</p>{% endif %}
     </header>
 
-    {% if page.toc %}{% include toc.html html=content %}{% endif %}
+    {% if page.toc %}{% include toc.html html=content tiefe=page.toc_tiefe %}{% endif %}
 
     <div class="prose{% if page.dropcap %} has-dropcap{% endif %}{% if page.blocksatz %} blocksatz{% endif %}">
         {{ content }}
@@ -33,5 +33,5 @@ layout: default
         }
     });
 </script>
-{% if page.toc %}<script src="/assets/js/toc.js?v=1" defer></script>{% endif %}
+{% if page.toc %}<script src="/assets/js/toc.js?v=2" defer></script>{% endif %}
 <script src="/assets/js/galerie.js?v=1" defer></script>

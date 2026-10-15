@@ -1,11 +1,15 @@
 {% comment %}
-Inhaltsverzeichnis aus den ##- und ###-Überschriften des gerenderten Inhalts.
+Inhaltsverzeichnis aus den Überschriften des gerenderten Inhalts.
 Wird vom Layout eingebunden, wenn im Front Matter "toc: true" steht.
+- ## ergibt einen nummerierten Eintrag, ### einen eingerückten (nur bei toc_tiefe: 3, Standard).
+- ## mit der Klasse .teil ({: .teil}) ist eine Teil-Überschrift: ohne Nummer, als Zwischentitel.
+- ## mit der Klasse .ohne-nummer (z.B. Prolog, Anhang) erscheint ohne Nummer.
 Zwei Fassungen: oben im Text (.toc-inline) und eine Seitenleiste (.toc-side), die auf breiten
 Bildschirmen links mitwandert, sobald man am oberen Verzeichnis vorbeigescrollt ist (assets/js/toc.js).
 {% endcomment %}
+{% assign tiefe = include.tiefe | default: 3 | plus: 0 %}
 {% assign parts = include.html | split: "<h" %}
-{% capture items %}{% for part in parts offset: 1 %}{% assign level = part | slice: 0 %}{% if level == "2" or level == "3" %}{% if part contains ' id="' %}{% assign id = part | split: ' id="' | slice: 1 | first | split: '"' | first %}{% assign title = part | split: "</h" | first | split: ">" | shift | join: ">" | strip_html | strip %}<li class="toc-{{ level }}"><a href="#{{ id }}">{{ title }}</a></li>{% endif %}{% endif %}{% endfor %}{% endcapture %}
+{% capture items %}{% for part in parts offset: 1 %}{% assign level = part | slice: 0 %}{% if level == "2" or level == "3" %}{% assign level_num = level | plus: 0 %}{% if level_num <= tiefe %}{% assign tag = part | split: ">" | first %}{% if tag contains ' id="' %}{% assign id = tag | split: ' id="' | slice: 1 | first | split: '"' | first %}{% assign klasse = "" %}{% if tag contains 'class="' %}{% assign klasse = tag | split: 'class="' | slice: 1 | first | split: '"' | first %}{% endif %}{% assign title = part | split: "</h" | first | split: ">" | shift | join: ">" | replace: "<br />", " · " | replace: "<br>", " · " | strip_html | strip %}{% if klasse contains "teil" %}<li class="toc-teil"><a href="#{{ id }}">{{ title }}</a></li>{% elsif klasse contains "ohne-nummer" %}<li class="toc-{{ level }} toc-ohne-nummer"><a href="#{{ id }}">{{ title }}</a></li>{% else %}<li class="toc-{{ level }}"><a href="#{{ id }}">{{ title }}</a></li>{% endif %}{% endif %}{% endif %}{% endif %}{% endfor %}{% endcapture %}
 {% if items != "" %}
 <nav class="toc toc-inline" aria-label="Inhalt">
     <details open>

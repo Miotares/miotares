@@ -13,6 +13,8 @@
     --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Charter, "Bitstream Charter", Georgia, serif;
     --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
     --measure: 40rem;
+
+    color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,6 +27,8 @@
         --link-underline: #6e6c65;
         --mark: #e0a070;
         --code-bg: #22211f;
+
+        color-scheme: dark;
     }
 }
 
@@ -271,7 +275,7 @@ td {
 }
 
 /* Blocksatz: ganze Seite mit blocksatz: true, einzelner Absatz mit {: .blocksatz} */
-.prose.blocksatz > p:not(.epigraph),
+.prose.blocksatz > p:not(.epigraph):not(.teil):not(.steckbrief),
 .prose.blocksatz > ul,
 .prose.blocksatz > ol,
 .prose p.blocksatz {
@@ -312,6 +316,33 @@ td {
 .prose p.epigraph {
     margin: 0.5em 0 2em 35%;
     color: var(--muted);
+    line-height: 1.5;
+}
+
+/* Teil-Überschrift im Buch: ## Teil II<br>Titel mit {: .teil} darunter.
+   Erscheint im Inhaltsverzeichnis als Zwischentitel ohne Nummer. */
+.prose h2.teil,
+.prose p.teil {
+    margin: 3em 0 2em;
+    text-align: center;
+    color: var(--muted);
+    font-variant: small-caps;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+}
+
+.prose h2.teil {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+/* Steckbrief unter einer Porträt-Überschrift: {: .steckbrief} */
+.prose p.steckbrief {
+    margin: 0 0 1.5em;
+    padding-left: 0.9em;
+    border-left: 2px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.92em;
     line-height: 1.5;
 }
 
@@ -408,8 +439,25 @@ figure.bild-rechts figcaption {
 }
 
 /* Nur ##-Abschnitte werden gezählt, ### eingerückt ohne Nummer */
-.toc li.toc-2 {
+.toc li.toc-2:not(.toc-ohne-nummer) {
     counter-increment: toc;
+}
+
+.toc li.toc-2.toc-ohne-nummer::before {
+    content: "";
+}
+
+/* Teil-Überschriften als Zwischentitel */
+.toc li.toc-teil,
+.toc-side li.toc-teil {
+    margin: 0.9em 0 0.3em;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+}
+
+.toc li.toc-teil a,
+.toc-side li.toc-teil a {
+    color: var(--muted);
 }
 
 .toc li.toc-2::before {
@@ -456,6 +504,22 @@ h3[id] {
         visibility: hidden;
         opacity: 0;
         transition: opacity 0.2s, visibility 0.2s;
+        /* Unauffällige Scrollbar, im Dark Mode nicht hell */
+        scrollbar-width: thin;
+        scrollbar-color: var(--rule) transparent;
+    }
+
+    .toc-side::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .toc-side::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .toc-side::-webkit-scrollbar-thumb {
+        background: var(--rule);
+        border-radius: 3px;
     }
 
     .toc-side.sichtbar {
@@ -485,8 +549,12 @@ h3[id] {
     margin-bottom: 0.35em;
 }
 
-.toc-side li.toc-2 {
+.toc-side li.toc-2:not(.toc-ohne-nummer) {
     counter-increment: toc;
+}
+
+.toc-side li.toc-2.toc-ohne-nummer::before {
+    content: "";
 }
 
 .toc-side li.toc-2::before {
