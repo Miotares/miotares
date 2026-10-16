@@ -1119,3 +1119,36 @@ ul.links .note {
     font-family: var(--mono);
     font-size: 0.7em;
 }
+
+/* ASCII-Engel (assets/js/ascii-engel.js): im hellen Modus wird die Helligkeit der Zeichen umgekehrt,
+   damit der goldene Engel dunkel auf hellem Grund steht; im dunklen Modus bleibt das Original. */
+.prose .ascii-angel {
+    margin: 2rem auto;
+}
+
+.prose .ascii-angel canvas {
+    filter: invert(1) hue-rotate(180deg) drop-shadow(0 0 1px rgba(120, 80, 0, 0.25));
+}
+
+.prose .ascii-angel .bloom {
+    display: none; /* Lichthof der Wolke aus; zum Zurückholen diese Zeile entfernen */
+    mix-blend-mode: multiply;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .prose .ascii-angel canvas {
+        filter: drop-shadow(0 0 2px rgba(255, 196, 40, 0.55)) drop-shadow(0 0 10px rgba(255, 170, 20, 0.25));
+    }
+
+    :root:not([data-theme="light"]) .prose .ascii-angel .bloom {
+        mix-blend-mode: screen;
+    }
+}
+
+:root[data-theme="dark"] .prose .ascii-angel canvas {
+    filter: drop-shadow(0 0 2px rgba(255, 196, 40, 0.55)) drop-shadow(0 0 10px rgba(255, 170, 20, 0.25));
+}
+
+:root[data-theme="dark"] .prose .ascii-angel .bloom {
+    mix-blend-mode: screen;
+}

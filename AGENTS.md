@@ -23,6 +23,7 @@ Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text br
 | `_includes/toc.html` | Inhaltsverzeichnis aus `##`/`###`, Teile als Zwischentitel (oben im Text + Seitenleiste) |
 | `assets/js/toc.js` | Blendet die Seitenleiste ein und markiert den aktuellen Abschnitt |
 | `assets/js/galerie.js` | Galerie-Ansicht mit Zoom für alle Bilder im Text (eigener Code, keine Bibliothek) |
+| `assets/js/ascii-engel.js` | Animierter ASCII-Engel auf `<canvas>` (eigener Code, keine Abhängigkeiten); wird nur mit `engel: true` im Front Matter geladen, Einbau per `<div class="ascii-angel" data-ascii-angel role="img" aria-label="…"></div>`. Hintergrund transparent, im hellen Modus per CSS in `main.css` invertiert |
 | `_includes/footer.html` | Footer (Email, Nostr, RSS, Impressum, Datenschutz) |
 | `_includes/contents/*.md` | Inhalt von Leseliste, Musikliste, Tools |
 | `_vorlagen/` | Kopiervorlage `text.md` mit allen Bausteinen (wird nicht gebaut) |
@@ -132,7 +133,7 @@ Platzhalter den erwarteten Dateinamen. Das Include muss in einer Zeile bleiben (
 Vorgesehene Namen: album-2014, bei-dir, chueaers, crapz-records, das-ist, 2015-2016, true-lies, vom-nachteil-verloren-zu-sein, vom-nachteil-verloren-zu-sein-remix-ep, dein-bestes, das-metall-ist-ein-zug, grim-inc, kammerflimmern, schlaege-fuer-hiphop, soziopath, die-unertraegliche-dreistigkeit-des-seins, die-unertraegliche-dreistigkeit-des-seins-old-habits, dsep, dsepr, emopunkrap, faded, falling-down, gehirn-im-mixer, gehirn-im-mixer-extended, grobes-kino, gutmensch-wutbuerger, hanna, killswitch, konnegah, lache-und-die-welt-weint-mit-dir, lieder-ueber-autos, live-fast-die-young, lotus, menschenfeind, pisse-aus-weinglaesern, private-paul-diss, projekt-eichhorn, schock-fuers-leben, schreierei, schwarzweissrot, seelensturm, statisten-sterben, suff, symptome, symptome-2005, taeter-opfer-ausgleich, tour-ep, zukunftsmusik, zwischen-chemie-und-wahnsinn.
 
 Quellen stehen als kramdown-Fußnoten (`[^k4-thread]`, Präfix pro Kapitel, keine Umlaute im Namen).
-Interne Prüfvermerke als HTML-Kommentar (`<!-- PRÜFEN: … -->`), die sind auf der Seite unsichtbar.
+Interne Prüfvermerke als Liquid-Kommentar (`{% comment %}PRÜFEN: …{% endcomment %}`), nicht als HTML-Kommentar: Liquid-Kommentare landen nicht im Quelltext der fertigen Seite, HTML-Kommentare (`<!-- -->`) schon. Im Repo (öffentlich) bleiben sie lesbar.
 
 ## Front Matter
 
@@ -157,6 +158,7 @@ Interne Prüfvermerke als HTML-Kommentar (`<!-- PRÜFEN: … -->`), die sind auf
 | `keywords: [A, B]` | Schlagwörter für `<meta name="keywords">` und die strukturierten Daten (bei Texten sonst die `tags`) |
 | `schema_about` | `type`, `name`, `alternateName` des Themas für die strukturierten Daten (JSON-LD), z.B. `MusicGroup` bei `pcp.md` |
 | `date` | Erstveröffentlichung; bei Texten das Datum aus dem Dateinamen. Geht in `article:published_time` und JSON-LD |
+| `engel: true` | Lädt `assets/js/ascii-engel.js` (zurzeit nur `pcp.md`, der Engel steht zwischen „Einleitung“ und „Prolog“) |
 | `layout: post` | Nötig für Seiten außerhalb von `_posts/` (z.B. `pcp.md`), damit sie wie ein Text aussehen |
 | `robots` | Standard `index,follow` |
 | `published: false` | Text wird gar nicht gebaut |
