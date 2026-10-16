@@ -1,0 +1,10 @@
+{%- comment -%}
+Link zum eigenen Upload einer Single, in der vierten Spalte (ohne Überschrift) der Singles-Tabellen:
+  {% include hoeren.html %}                              Platzhalter, Link fehlt noch
+  {% include hoeren.html url="https://youtu.be/..." %}   fertiger Link, erscheint als „anhören“
+- Ohne url: auf der Live-Seite erscheint nichts. Beim lokalen Ansehen (jekyll serve)
+  steht dort ein gestrichelter Platzhalter „Link folgt“.
+- Alle offenen Stellen finden: grep -n 'hoeren.html %}' pcp.md
+Muss einzeilig bleiben, sonst zerbricht die Markdown-Tabelle.
+{%- endcomment -%}
+{%- if include.url -%}<a class="hoeren" href="{{ include.url }}" target="_blank" rel="noopener">anhören</a>{%- elsif jekyll.environment == "development" -%}<span class="hoeren hoeren-fehlt" title="Link zum Upload fehlt">Link folgt</span>{%- endif -%}

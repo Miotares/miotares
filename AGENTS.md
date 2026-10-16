@@ -118,7 +118,7 @@ Include, in der Titel-Zelle `**Titel**<br><span class="art">Art, Label</span>`, 
 `{: .diskografie}` (Layout in `main.css`, auf dem Handy als Karte). Die Anmerkungen fassen das Album grob zusammen.
 Am Ende jeder Person (vor den Fußnoten) steht eine Zeile `**Links:** …` mit `{: .links}`: SoundCloud, Bandcamp, eigene Seiten.
 Cover und Cover-Spalte gibt es nur in der Tabelle der Alben, EPs und Mixtapes. „Singles und Freetracks“ haben drei Spalten
-(`| Jahr | Titel | Anmerkungen |`, Klasse `{: .diskografie .ohne-cover}`), „Vertreten auf“ ist eine einfache Tabelle ohne Bilder.
+(`| Jahr | Titel | Anmerkungen |  |`, Klasse `{: .diskografie .ohne-cover}`). Die vierte Spalte ohne Überschrift enthält `{% include hoeren.html %}`, den Link zum eigenen Upload der Single: ohne `url="…"` ist es ein Platzhalter (nur lokal als „Link folgt“ sichtbar, offene Stellen mit `grep -n 'hoeren.html %}' pcp.md`), mit `url` erscheint „anhören“, „Vertreten auf“ ist eine einfache Tabelle ohne Bilder.
 Ein Album, das erst als Gratis-Download und später offiziell erschien (*Gehirn im Mixer*, *Symptome*), steht nur einmal
 mit dem Jahr der offiziellen Fassung, die frühere Version steht in den Anmerkungen. Bei Personen im Umfeld nutzen die Tabellen fette Zwischenzeilen
 (`**Alben und EPs**`) statt `####`.
@@ -128,7 +128,7 @@ mit dem Jahr der offiziellen Fassung, die frühere Version steht in den Anmerkun
 `assets/bilder/pcp/cover/<name>.jpg` (auch `.jpeg`, `.png`, `.webp`), quadratisch, vorher mit
 `sips -Z 800` verkleinern. Liegt die Datei da, erscheint das Cover klein in der Tabelle und öffnet sich
 per Klick in der Galerie. Fehlt sie, erscheint live nichts; lokal (`jekyll serve`) zeigt ein gestrichelter
-Platzhalter den erwarteten Dateinamen. Das Include muss in einer Zeile bleiben (Markdown-Tabelle).
+Platzhalter den erwarteten Dateinamen. Das Include muss in einer Zeile bleiben (Markdown-Tabelle). Beim ersten Auftreten eines Albums in Teil IV bekommt das Include `anker="disk-<name>"` (Sprungpunkt für Querverweise), Singles einen `<span id="single-…"></span>` am Anfang der Titel-Zelle. Die Tabellen „Vertreten auf“ und „PCP auf anderen Platten“ verlinken Personen (`#jaw`, `#rynerrr`, …) und diese Anker, in den Album-Zeilen sind die Namen der Mitwirkenden auf die Porträts verlinkt (nicht auf das eigene).
 Vorgesehene Namen: album-2014, bei-dir, chueaers, crapz-records, das-ist, 2015-2016, true-lies, vom-nachteil-verloren-zu-sein, vom-nachteil-verloren-zu-sein-remix-ep, dein-bestes, das-metall-ist-ein-zug, grim-inc, kammerflimmern, schlaege-fuer-hiphop, soziopath, die-unertraegliche-dreistigkeit-des-seins, die-unertraegliche-dreistigkeit-des-seins-old-habits, dsep, dsepr, emopunkrap, faded, falling-down, gehirn-im-mixer, gehirn-im-mixer-extended, grobes-kino, gutmensch-wutbuerger, hanna, killswitch, konnegah, lache-und-die-welt-weint-mit-dir, lieder-ueber-autos, live-fast-die-young, lotus, menschenfeind, pisse-aus-weinglaesern, private-paul-diss, projekt-eichhorn, schock-fuers-leben, schreierei, schwarzweissrot, seelensturm, statisten-sterben, suff, symptome, symptome-2005, taeter-opfer-ausgleich, tour-ep, zukunftsmusik, zwischen-chemie-und-wahnsinn.
 
 Quellen stehen als kramdown-Fußnoten (`[^k4-thread]`, Präfix pro Kapitel, keine Umlaute im Namen).

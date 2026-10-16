@@ -355,7 +355,7 @@ td {
     }
 }
 
-/* Variante ohne Cover-Spalte (Singles, Freetracks): {: .diskografie .ohne-cover }, Spalten Jahr | Titel | Anmerkungen */
+/* Variante ohne Cover-Spalte (Singles, Freetracks): {: .diskografie .ohne-cover }, Spalten Jahr | Titel | Anmerkungen | Link (hoeren.html) */
 .diskografie.ohne-cover td:nth-child(2) {
     width: auto;
     min-width: 9rem;
@@ -366,6 +366,12 @@ td {
 .diskografie.ohne-cover td:nth-child(3) {
     font-size: 0.92em;
     line-height: 1.45;
+}
+
+.diskografie.ohne-cover td:nth-child(4) {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
 }
 
 @media (max-width: 640px) {
@@ -388,6 +394,13 @@ td {
         grid-column: 1;
         grid-row: 3;
         margin-top: 0.4em;
+    }
+
+    .diskografie.ohne-cover td:nth-child(4) {
+        grid-column: 1;
+        grid-row: 4;
+        margin-top: 0.4em;
+        text-align: left;
     }
 }
 
@@ -1091,4 +1104,18 @@ ul.links .note {
     figure.bild-rechts figcaption {
         text-align: center;
     }
+}
+
+/* Link zum eigenen Upload einer Single (Include hoeren.html), vierte Spalte der Singles-Tabellen */
+.hoeren {
+    display: inline-block;
+    font-size: 0.9em;
+}
+
+.hoeren-fehlt {
+    padding: 0 0.4em;
+    border: 1px dashed var(--rule);
+    color: var(--muted);
+    font-family: var(--mono);
+    font-size: 0.7em;
 }
