@@ -6,6 +6,8 @@ Das Bild liegt unter assets/bilder/pcp/cover/<name>.jpg (.jpeg, .png und .webp g
 - Datei vorhanden: kleines Cover, Klick öffnet es groß in der Galerie.
 - Datei fehlt: auf der Live-Seite erscheint nichts. Beim lokalen Ansehen (jekyll serve)
   steht dort ein gestrichelter Platzhalter mit dem erwarteten Dateinamen.
+- platzhalter=true: Fehlt die Datei und es gibt (noch) kein Cover, steht stattdessen ein neutrales Platzhalterbild
+  (Schallplatte aus CSS, auch live). Sobald die Datei da ist, ersetzt sie den Platzhalter von selbst.
 Optional: anker="disk-<name>" setzt vor das Cover einen Sprungpunkt, damit andere Tabellen auf diese Zeile verlinken können.
 Muss einzeilig bleiben, sonst zerbricht die Markdown-Tabelle.
 {%- endcomment -%}
@@ -14,4 +16,4 @@ Muss einzeilig bleiben, sonst zerbricht die Markdown-Tabelle.
 {%- assign cover_datei = nil -%}
 {%- for f in cover_treffer -%}{%- assign endung = f.extname | downcase -%}{%- if endung == ".jpg" or endung == ".jpeg" or endung == ".png" or endung == ".webp" -%}{%- assign cover_datei = f -%}{%- break -%}{%- endif -%}{%- endfor -%}
 {%- if include.anker -%}<span id="{{ include.anker }}"></span>{%- endif -%}
-{%- if cover_datei -%}<a class="cover" href="{{ cover_datei.path }}"><img src="{{ cover_datei.path }}" alt="Cover: {{ cover_titel }}" loading="lazy"></a>{%- elsif jekyll.environment == "development" -%}<span class="cover cover-fehlt" title="Cover fehlt: assets/bilder/pcp/cover/{{ include.name }}.jpg">{{ include.name }}.jpg</span>{%- endif -%}
+{%- if cover_datei -%}<a class="cover" href="{{ cover_datei.path }}"><img src="{{ cover_datei.path }}" alt="Cover: {{ cover_titel }}" loading="lazy"></a>{%- elsif include.platzhalter -%}<span class="cover cover-platzhalter" role="img" aria-label="Cover von {{ cover_titel }} noch nicht bekannt"></span>{%- elsif jekyll.environment == "development" -%}<span class="cover cover-fehlt" title="Cover fehlt: assets/bilder/pcp/cover/{{ include.name }}.jpg">{{ include.name }}.jpg</span>{%- endif -%}

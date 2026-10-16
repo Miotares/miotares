@@ -426,6 +426,17 @@ img[src$="weisse-scheisse-logo.png"] {
     word-break: break-all;
 }
 
+/* Neutrales Platzhalterbild für ein Cover, das es (noch) nicht gibt: cover.html mit platzhalter=true.
+   Eine Schallplatte aus Farbverläufen, nur mit den Farben der Seite. */
+.cover-platzhalter {
+    aspect-ratio: 1;
+    border: 1px solid var(--rule);
+    background:
+        radial-gradient(circle, var(--bg) 0 7%, var(--muted) 7% 13%, transparent 13%),
+        repeating-radial-gradient(circle, transparent 0 2px, var(--rule) 2px 3px),
+        var(--code-bg);
+}
+
 /* Platzhalter, nur beim lokalen Ansehen (jekyll serve) */
 .cover-fehlt {
     aspect-ratio: 1;
@@ -544,6 +555,14 @@ img[src$="weisse-scheisse-logo.png"] {
     margin-top: 2.4em;
 }
 
+/* Abschnitts-Überschrift unterhalb eines Kapitels, ohne Sprungmarke (z.B. die Videos): #### mit {: .abschnitt} */
+.prose h4.abschnitt {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 2.4em;
+}
+
 /* Link-Zeile am Ende einer Person: {: .links} */
 .prose p.links {
     margin-top: 1.5em;
@@ -582,6 +601,156 @@ figure.bild figcaption {
 .prose img {
     display: block;
     margin: 1.5em auto;
+}
+
+/* YouTube-Video mit Klick zum Laden (Include video.html, assets/js/video.js) */
+figure.video {
+    margin: 2em 0;
+}
+
+.video-start,
+.video-rahmen {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+}
+
+.video-start {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    padding: 1rem;
+    overflow: hidden;
+    background: var(--code-bg);
+    color: var(--text);
+    text-align: center;
+    text-decoration: none;
+}
+
+.video-start:hover {
+    border-color: var(--link-underline);
+}
+
+.video-titel {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.video-hinweis {
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+/* Vorschaubild mit Play-Knopf (Datei unter assets/bilder/pcp/videos/<id>.jpg) */
+.video-bild {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.video-mit-bild {
+    justify-content: flex-end;
+    padding: 0;
+    background: #000;
+    color: #fff;
+}
+
+.video-mit-bild:hover .video-bild {
+    transform: scale(1.03);
+    filter: brightness(1.1);
+}
+
+.video-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: -2.25rem 0 0 -2.25rem;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.video-play::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -0.8rem 0 0 -0.55rem;
+    border-style: solid;
+    border-width: 0.8rem 0 0.8rem 1.4rem;
+    border-color: transparent transparent transparent #fff;
+}
+
+.video-start:hover .video-play,
+.video-start:focus-visible .video-play {
+    transform: scale(1.1);
+    background: var(--mark);
+}
+
+.video-start:focus-visible {
+    outline: 2px solid var(--mark);
+    outline-offset: 2px;
+}
+
+.video-mit-bild .video-play {
+    display: block;
+}
+
+.video-start:not(.video-mit-bild) .video-play {
+    position: static;
+    margin: 0 0 0.3em;
+}
+
+.video-leiste {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15em;
+    width: 100%;
+    padding: 2.5rem 1rem 0.7rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0));
+    text-align: left;
+}
+
+.video-start:not(.video-mit-bild) .video-leiste {
+    padding: 0;
+    background: none;
+    text-align: center;
+    align-items: center;
+}
+
+.video-mit-bild .video-hinweis {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.75rem;
+}
+
+.video-mit-bild:hover .video-hinweis {
+    color: #fff;
+}
+
+.video-start:hover .video-hinweis {
+    color: var(--text);
+}
+
+figure.video figcaption {
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: var(--muted);
+    text-align: center;
 }
 
 /* Bild neben dem Text (seite="links" / "rechts"), Breite kommt inline */
@@ -1120,10 +1289,43 @@ ul.links .note {
     font-size: 0.7em;
 }
 
+/* ASCII-Animation „Download im Zeitraffer“ (Include ascii-download.html, assets/js/ascii-download.js).
+   Feste Höhe von acht Zeilen, damit der Text beim Start der Animation nicht springt. */
+figure.ascii-download {
+    margin: 2em 0;
+}
+
+.ascii-download pre {
+    margin: 0;
+    padding: 0.9em 1.1em;
+    height: calc(8 * 1.45em + 1.8em);
+    overflow: hidden;
+    border: 1px solid var(--rule);
+    border-radius: 2px;
+    background: var(--code-bg);
+    color: var(--text);
+    font-family: var(--mono);
+    font-size: clamp(0.62rem, 2.9vw, 0.85rem);
+    line-height: 1.45;
+    white-space: pre;
+}
+
+.ascii-download figcaption {
+    margin-top: 0.5em;
+    font-size: 0.9rem;
+    color: var(--muted);
+    text-align: center;
+}
+
 /* ASCII-Engel (assets/js/ascii-engel.js): im hellen Modus wird die Helligkeit der Zeichen umgekehrt,
    damit der goldene Engel dunkel auf hellem Grund steht; im dunklen Modus bleibt das Original. */
 .prose .ascii-angel {
     margin: 2rem auto;
+    /* Platz sofort reservieren, damit der Text beim Laden des Skripts nicht nach unten springt
+       (dieselben Maße setzt ascii-engel.js erst, wenn es geladen ist). */
+    width: 100%;
+    max-width: 1200px;
+    aspect-ratio: 980 / 718;
 }
 
 .prose .ascii-angel canvas {

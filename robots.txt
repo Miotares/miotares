@@ -1,8 +1,24 @@
+# miotares.com: alles darf gelesen und indexiert werden, auch von KI-Suchen und -Assistenten.
+# Zum Aussperren eines Crawlers unten bei dessen Block "Allow: /" durch "Disallow: /" ersetzen.
+
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://miotares.com/sitemap.xml
+# KI-Suche und Assistenten (Antworten mit Quellenangabe)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
 
-# Crawl-delay (optional)
-Crawl-delay: 1
+# KI-Training
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://miotares.com/sitemap.xml

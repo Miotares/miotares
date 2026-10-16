@@ -20,10 +20,13 @@ Leitprinzip: **so wenig Reibung beim Schreiben wie möglich.** Ein neuer Text br
 | `_includes/post-list.html` | Liste der Texte nach Jahr (blendet `archived: true` aus) |
 | `_includes/bild.html` | Bild mit Bildunterschrift, Größe und Position neben dem Text |
 | `_includes/cover.html` | Kleines Cover in Diskografie-Tabellen, erscheint nur, wenn die Datei in `assets/bilder/pcp/cover/` liegt |
+| `_includes/video.html` | YouTube-Video mit Klick zum Laden (Player von youtube-nocookie.com, erst nach dem Klick; vorher keine Anfrage an YouTube) |
+| `assets/js/video.js` | Baut nach dem Klick den Player ein; ohne JS bleibt der Kasten ein Link zu YouTube |
 | `_includes/toc.html` | Inhaltsverzeichnis aus `##`/`###`, Teile als Zwischentitel (oben im Text + Seitenleiste) |
 | `assets/js/toc.js` | Blendet die Seitenleiste ein und markiert den aktuellen Abschnitt |
 | `assets/js/galerie.js` | Galerie-Ansicht mit Zoom für alle Bilder im Text (eigener Code, keine Bibliothek) |
 | `assets/js/ascii-engel.js` | Animierter ASCII-Engel auf `<canvas>` (eigener Code, keine Abhängigkeiten); wird nur mit `engel: true` im Front Matter geladen, Einbau per `<div class="ascii-angel" data-ascii-angel role="img" aria-label="…"></div>`. Hintergrund transparent, im hellen Modus per CSS in `main.css` invertiert |
+| `assets/js/ascii-download.js`, `_includes/ascii-download.html` | ASCII-Animation „Download in Echtzeit“ im Kapitel „Modem, ISDN, achtzig Megabyte“: vier Balken laden ein Megabyte in den echten Zeiten (Modem 2:30, ISDN 2:11, ISDN x2 1:06, DSL 0:11), die Balken füllen die Textspalte. Wird nur mit `ascii_download: true` im Front Matter geladen. Das feste Bild im `<pre>` (ohne JS, bei „weniger Bewegung“) muss mit `AsciiDownload.bild(150)` übereinstimmen; keine Leerzeilen im `<pre>` |
 | `_includes/footer.html` | Footer (Email, Nostr, RSS, Impressum, Datenschutz) |
 | `_includes/contents/*.md` | Inhalt von Leseliste, Musikliste, Tools |
 | `_vorlagen/` | Kopiervorlage `text.md` mit allen Bausteinen (wird nicht gebaut) |
@@ -129,7 +132,7 @@ mit dem Jahr der offiziellen Fassung, die frühere Version steht in den Anmerkun
 `assets/bilder/pcp/cover/<name>.jpg` (auch `.jpeg`, `.png`, `.webp`), quadratisch, vorher mit
 `sips -Z 800` verkleinern. Liegt die Datei da, erscheint das Cover klein in der Tabelle und öffnet sich
 per Klick in der Galerie. Fehlt sie, erscheint live nichts; lokal (`jekyll serve`) zeigt ein gestrichelter
-Platzhalter den erwarteten Dateinamen. Das Include muss in einer Zeile bleiben (Markdown-Tabelle). Beim ersten Auftreten eines Albums in Teil IV bekommt das Include `anker="disk-<name>"` (Sprungpunkt für Querverweise), Singles einen `<span id="single-…"></span>` am Anfang der Titel-Zelle. Die Tabellen „Vertreten auf“ und „PCP auf anderen Platten“ verlinken Personen (`#jaw`, `#rynerrr`, …) und diese Anker, in den Album-Zeilen sind die Namen der Mitwirkenden auf die Porträts verlinkt (nicht auf das eigene).
+Platzhalter den erwarteten Dateinamen. Gibt es zu einem Album noch kein Cover (z.B. *Grobes Kino*), bekommt das Include `platzhalter=true`: dann steht auch live ein neutrales Platzhalterbild (Schallplatte aus CSS), und die Datei ersetzt es von selbst, sobald sie in `assets/bilder/pcp/cover/` liegt. Das Include muss in einer Zeile bleiben (Markdown-Tabelle). Beim ersten Auftreten eines Albums in Teil IV bekommt das Include `anker="disk-<name>"` (Sprungpunkt für Querverweise), Singles einen `<span id="single-…"></span>` am Anfang der Titel-Zelle. Die Tabellen „Vertreten auf“ und „PCP auf anderen Platten“ verlinken Personen (`#jaw`, `#rynerrr`, …) und diese Anker, in den Album-Zeilen sind die Namen der Mitwirkenden auf die Porträts verlinkt (nicht auf das eigene).
 Vorgesehene Namen: album-2014, bei-dir, chueaers, crapz-records, das-ist, 2015-2016, true-lies, vom-nachteil-verloren-zu-sein, vom-nachteil-verloren-zu-sein-remix-ep, dein-bestes, das-metall-ist-ein-zug, grim-inc, kammerflimmern, schlaege-fuer-hiphop, soziopath, die-unertraegliche-dreistigkeit-des-seins, die-unertraegliche-dreistigkeit-des-seins-old-habits, dsep, dsepr, emopunkrap, faded, falling-down, gehirn-im-mixer, gehirn-im-mixer-extended, grobes-kino, gutmensch-wutbuerger, hanna, killswitch, konnegah, lache-und-die-welt-weint-mit-dir, lieder-ueber-autos, live-fast-die-young, lotus, menschenfeind, pisse-aus-weinglaesern, private-paul-diss, projekt-eichhorn, schock-fuers-leben, schreierei, schwarzweissrot, seelensturm, statisten-sterben, suff, symptome, symptome-2005, taeter-opfer-ausgleich, tour-ep, zukunftsmusik, zwischen-chemie-und-wahnsinn.
 
 Quellen stehen als kramdown-Fußnoten (`[^k4-thread]`, Präfix pro Kapitel, keine Umlaute im Namen).
@@ -158,6 +161,7 @@ Interne Prüfvermerke als Liquid-Kommentar (`{% comment %}PRÜFEN: …{% endcomm
 | `keywords: [A, B]` | Schlagwörter für `<meta name="keywords">` und die strukturierten Daten (bei Texten sonst die `tags`) |
 | `schema_about` | `type`, `name`, `alternateName` des Themas für die strukturierten Daten (JSON-LD), z.B. `MusicGroup` bei `pcp.md` |
 | `date` | Erstveröffentlichung; bei Texten das Datum aus dem Dateinamen. Geht in `article:published_time` und JSON-LD |
+| `ascii_download: true` | Lädt `assets/js/ascii-download.js` (zurzeit nur `pcp.md`) |
 | `engel: true` | Lädt `assets/js/ascii-engel.js` (zurzeit nur `pcp.md`, der Engel steht zwischen „Einleitung“ und „Prolog“) |
 | `layout: post` | Nötig für Seiten außerhalb von `_posts/` (z.B. `pcp.md`), damit sie wie ein Text aussehen |
 | `robots` | Standard `index,follow` |
@@ -303,6 +307,14 @@ Kurzes Motto oder Zitat am Kapitelanfang, eingerückt und gedämpft. Zeilenumbr�
 {: .epigraph}
 ```
 
+### Videos (YouTube)
+
+```liquid
+{% include video.html id="sNqwdwJv1qQ" titel="PCP – Weisse Scheisse (HD)" text="Bildunterschrift, optional" %}
+```
+
+`id` ist der Teil nach `v=`. Der Kasten lädt YouTube erst nach einem Klick (Datenschutz, keine externe Anfrage beim Aufruf), der Player kommt von `youtube-nocookie.com`. Titel, Hochladedatum und Beschreibung des Videos vorher auf YouTube nachsehen und mit Abrufdatum in eine Fußnote schreiben. Die Videos von PCP stehen gesammelt im Kapitel „Die Musikvideos“ (`#diskografie-videos`) in Teil V, mit Crew-United-Credits; in den Kapiteln selbst wird dorthin verlinkt, damit jedes Video nur einmal eingebettet ist. Ausnahmen: die Diss-Tracks in „Der Bruch“ und das RBA-Video bei „Die Reimliga Battle Arena“.
+
 ### Fußnoten
 
 ```markdown
@@ -329,7 +341,7 @@ Erscheinen gesammelt am Ende. Externe Links im Text öffnen sich automatisch in 
 - Akzentfarbe `--mark` sparsam: Status-Labels, Initiale, Artikel-Label.
 - Keine Google Fonts oder andere externen Ressourcen (Datenschutz), keine Bild-Pflicht, keine Icons/Logos.
 - Bei CSS-Änderungen die Versionsnummer in `_layouts/default.html` (`main.css?v=N`) hochzählen,
-  bei JS-Änderungen die in `_layouts/post.html` (`toc.js?v=N`, `galerie.js?v=N`).
+  bei JS-Änderungen die in `_layouts/post.html` (`toc.js?v=N`, `galerie.js?v=N`, `video.js?v=N`, `ascii-download.js?v=N`).
 - Muss auf Handybreite (375px) funktionieren.
 
 ## Metadaten

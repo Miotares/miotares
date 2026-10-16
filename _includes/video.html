@@ -1,0 +1,25 @@
+{%- comment -%}
+YouTube-Video mit Klick zum Laden (Datenschutz: vorher geht keine Anfrage an YouTube).
+Aufruf im Markdown:
+  {% include video.html id="sNqwdwJv1qQ" titel="PCP – Weisse Scheisse" text="Bildunterschrift, darf *Markdown* enthalten" %}
+id = der Teil nach v= in der YouTube-Adresse. titel ist Pflicht (steht im Kasten und als Name des Players).
+text ist optional. Ohne JavaScript bleibt der Kasten ein normaler Link zu YouTube.
+Der Player kommt von youtube-nocookie.com und wird erst nach dem Klick geladen (assets/js/video.js).
+Vorschaubild: Liegt unter assets/bilder/pcp/videos/<id>.jpg eine Datei, erscheint sie mit Play-Knopf. Sie muss selbst gehostet
+sein (YouTube-Vorschaubild einmal herunterladen), sonst ginge schon beim Aufruf der Seite eine Anfrage an Google. Ohne Datei bleibt es ein einfacher Kasten.
+Muss einzeilig aufgerufen werden, am besten als eigener Absatz.
+{%- endcomment -%}
+{%- assign video_titel = include.titel | strip_html | escape -%}
+{%- assign video_bildpfad = "/assets/bilder/pcp/videos/" | append: include.id | append: ".jpg" -%}
+{%- assign video_bild = site.static_files | where: "path", video_bildpfad | first -%}
+<figure class="video" data-video="{{ include.id }}" data-titel="{{ video_titel }}">
+    <a class="video-start{% if video_bild %} video-mit-bild{% endif %}" href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank" rel="noopener">
+        {% if video_bild %}<img class="video-bild" src="{{ video_bildpfad }}" alt="" loading="lazy">{% endif %}
+        <span class="video-play" aria-hidden="true"></span>
+        <span class="video-leiste">
+            <span class="video-titel">{{ video_titel }}</span>
+            <span class="video-hinweis">Klick lädt das Video von YouTube und überträgt dabei Daten dorthin</span>
+        </span>
+    </a>
+    {% if include.text %}<figcaption>{{ include.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+</figure>

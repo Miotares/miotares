@@ -1,0 +1,19 @@
+{%- comment -%}
+ASCII-Animation „Download in Echtzeit“: Modem, ISDN, ISDN mit zwei Kanälen und DSL laden ein Megabyte, ohne Zeitraffer.
+Die Zeiten sind die der Rechnung im Kapitel „Modem, ISDN, achtzig Megabyte“ (Fußnote), auf Sekunden gerundet.
+Aufruf im Markdown (eigener Absatz), dazu ascii_download: true im Front Matter:
+  {% include ascii-download.html %}
+Der Inhalt von <pre> ist das feste Bild für Leser ohne JS: Er muss mit AsciiDownload.bild(150) aus
+assets/js/ascii-download.js übereinstimmen. Keine Leerzeilen im <pre> (kramdown).
+{%- endcomment -%}
+<figure class="ascii-download">
+<pre data-ascii-download role="img" aria-label="Echtzeit-Animation: Ein Megabyte lädt mit DSL in 11 Sekunden, mit ISDN und zwei Kanälen in 66 Sekunden, mit einem ISDN-Kanal in 2:11 Minuten und mit dem Modem in 2:30 Minuten.">Datei, 1 MB                Zeit 2:30
+------------------------------------
+Modem    [====================] 2:30
+ISDN     [====================] 2:11
+ISDN x2  [====================] 1:06
+DSL      [====================] 0:11
+------------------------------------
+Fertig nach 2:30 Minuten</pre>
+<figcaption>Ein einzelnes Megabyte in Echtzeit, ohne Zeitraffer und ohne Verluste. Die 80 Megabyte des ganzen Albums dauern achtzigmal so lang.</figcaption>
+</figure>

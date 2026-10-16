@@ -20,6 +20,7 @@ schema_about:
 toc: true
 toc_tiefe: 2
 engel: true
+ascii_download: true
 dropcap: false
 blocksatz: true
 image: /assets/bilder/pcp/lache-und-die-welt-weint-mit-dir-cover.jpg
@@ -112,6 +113,8 @@ Um zu verstehen, wie PCP entstanden ist, muss man sich dieses Internet vorstelle
 Im Februar 2004 stand auf der Albumseite von PCP ein Satz, der heute erklärungsbedürftig ist. Das Album könne man komplett herunterladen, aber „alle Leute mit Modem oder diejenigen die uns unterstüzen wollen“ dürften es natürlich trotzdem bestellen.[^k1-modem] Die CD war also nicht nur ein Fanartikel. Für viele war sie der einzige praktikable Weg, an die Musik zu kommen.
 
 Das komplette Album war ein rar-Archiv von gut achtzig Megabyte, mit Cover, Skits und Snippets. Was das hieß, lässt sich ausrechnen. Mit einem analogen Modem, das im besten Fall 56 Kilobit pro Sekunde schaffte, dauerte der Download dreieinhalb Stunden, in der Praxis eher fünf. Eine ISDN-Leitung mit einem Kanal brauchte knapp drei Stunden, mit gebündelten Kanälen und doppelten Gebühren anderthalb. Mit DSL, das 2004 meist 768 oder 1000 Kilobit hatte, war man nach einer Viertelstunde fertig.[^k1-rechnung]
+
+{% include ascii-download.html %}
 
 Und das nur, wenn die Verbindung hielt. Ein Anruf, der durchkam, das Anklopfen, ein Rauschen in der Leitung oder die Trennung, die manche Anbieter nach vierundzwanzig Stunden erzwangen, beendete die Verbindung, und bei einem gewöhnlichen Browser-Download war dann alles verloren, was schon geladen war. Man fing von vorn an. Ein Download-Manager konnte einen abgebrochenen Download fortsetzen, aber nur, wenn der Server das erlaubte. {% comment %} PRÜFEN: Fortsetzen bei den damaligen Webspaces und Browsern belegen. {% endcomment %}
 
@@ -315,6 +318,10 @@ Insgesamt trat JAW in 35 Battles an, zwischen Dezember 2002 und Oktober 2006. Er
 
 Die Chronik zeigt, was die RBA für diese Szene war: eine gemeinsame Schule und ein Treffpunkt. JAW lernte hier Hollywood Hank und Kollegah kennen, und Drecksmann, mit dem er im November 2003 und genau ein Jahr später battelte, stellte im Februar 2004 den Webspace für das erste PCP-Album und rechnete mit Rynerrr per Chat aus, was eine CD kostet. Rynerrr und Drecksmann sind sich in der RBA nachweislich schon acht Monate früher begegnet, am 3. Juni 2003, als Drecksmann gegen bierspasst antrat. Auch Kaspah Hausa, mit dem JAW im November 2003 einen Track aufnahm und im Dezember 2004 battelte, kam aus der Liga, und er ist Gast auf *Schock fürs Leben*. Für die Gruppe selbst war die RBA nicht die Gründung, die geschah im Keller der Brüder. Aber sie war das Netz, in dem aus den Freunden eine Szene wurde.
 
+Von einem der Battles zwischen JAW und Drecksmann gibt es ein Video. Es steht seit dem 9. Januar 2012 auf YouTube und trägt im Titel die Nummer des Battles in der RBA, 14372.[^k3-rbavideo] {% comment %} PRÜFEN: Ob es das Battle vom 29.11.2003 oder das Rückspiel vom 29.11.2004 ist, steht weder im Titel noch in der Beschreibung. In der RBA nachschlagen. {% endcomment %}
+
+{% include video.html id="frJkIGH3iaA" titel="RBA 14372: JAW – Drecksmann" text="JAW gegen Drecksmann in der Reimliga Battle Arena, knapp zehn Minuten" %}
+
 ### Bloody Bastard
 
 Der Erste aus dem Kreis, der öffentlich eine Veröffentlichung ankündigte, war JAW. Am 14. September 2003 schrieb *Bloody Bastard* im MZEE-Forum: „Wie versprochen erscheint jetzt mein erstes Album.“ Es hieß *Seelensturm* und hatte sieben Titel.[^k3-seelensturm]
@@ -350,6 +357,7 @@ Im Herbst 2003 war JAW im Netz bereits gut beschäftigt. Im November erschien im
 [^k3-bootleg]: jaw.myownmusic.de. [Web Archive, 17.12.2005](https://web.archive.org/web/20051217205544/http://jaw.myownmusic.de/).
 [^k3-rba2]: r-b-a.de, Startseite („Welcome“), Regeln, News vom 05.10.2020 und die Battleübersichten der Mitglieder, abgerufen am 15.10.2026: [JAW](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=4002), [bierspasst](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=5088), [DJ Tjoma](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=4743), [Dr. Hollywood](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=4597), [DERKOLLEGAH](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=12303), [Dollar Bill](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=3292), [Drecksmann](https://r-b-a.de/index.php?ID=4100&direction=last&MEMBER=5183). Die Seite weist darauf hin, dass Ergebnisse von Battles mit ID unter etwa 13800 falsch angezeigt sein können; deshalb sind hier meist nur Datum und Gegner genannt.
 [^k3-dollar]: Heizipedia, Artikel „Private Paul“: „2005, RBA Dollar Bill Vs. Kollegah (as Dollar Bill)“; das Battle selbst steht auf r-b-a.de, Battle 15095, [DERKOLLEGAH vs. Dollar Bill](https://r-b-a.de/index.php?ID=4101&BATTLE=15095), 09.01.2005.
+[^k3-rbavideo]: YouTube, „RBA 14372: JAW - Drecksmann“, hochgeladen am 09.01.2012, Beschreibung: „RBA Battle 14372:JAW vs. Drecksmann“. [youtube.com](https://www.youtube.com/watch?v=frJkIGH3iaA), abgerufen am 16.10.2026.
 [^k3-rba]: MZEE-Forum, „JAW, H aka N, Kaspah Hausa – Hunde beissen Punks mit 123“, 14.11.2003, und „RBA: Drecksmann VS JAW“, 30.11.2003.
 [^k3-drecksmann]: Wie der Ankündigungsthread vom 22.01.2004, Beitrag von *Drecksmann*, 22:05 Uhr.
 
@@ -771,6 +779,8 @@ Zehn Produzenten waren beteiligt.[^k8-laut] Aus der Gruppe kamen JAW, Maexer und
 
 ### Wie es ankam
 
+Dem Album gingen zwei Videos voraus. Am 18. August 2009, zehn Tage vor dem Erscheinen, kam eine überarbeitete HD-Fassung des Videos zu *Weisse Scheisse* auf YouTube, am 28. September folgte *Bierliebe* als „zweite Videoauskopplung“.[^k8-videos] Beide stehen mit Credits und Player im Kapitel [Die Musikvideos](#diskografie-videos).
+
 Die laut.de-Kritik von Philipp Gässlein war die ausführlichste Besprechung. Sie lobte das „durchdachte Albenkonzept“ und vor allem den Neuzugang: Private Paul füge sich „nicht nur textlich absolut homogen in dieses emotional derangierte Trio ein“, auch technisch sei er „seit der ‚Kash EP‘ einen Riesenschritt gegangen“. Inhalt und Haltung orientierten sich eher an Rynerrrs *Symptome* und dem ersten PCP-Album als an JAWs „depressivem Meisterwerk“ *Schock fürs Leben*. Schwächen sah sie in *Maschinen* und *Kein Zurück*. Ihr Fazit: „Kein Label, sondern ein Haufen Trunkenbolde? Möglich.“ Trotzdem sei auch „die dritte Geburt aus dem Weissen Scheisshaus durchaus nett anzuschauen“.[^k8-laut]
 
 Im Dezember 2009 rief das Label dazu auf, in den Leserwahlen der Juice, von hiphop.de und im MZEE-Forum für Weisse Scheisse zu stimmen.[^k8-voting] JAW sagte im März 2010, man habe „dafür, dass niemand PCP kannte, gut abgeschnitten. Auch in so Voting-Sachen.“[^k8-abgeschnitten]
@@ -787,6 +797,7 @@ Es ist bis heute das letzte Album von PCP. {% comment %} PRÜFEN: kein späteres
 [^k8-ankuendigung]: „PCP: Lache und die Welt weint mit dir“, hiphop.de, 14.07.2009. [hiphop.de](https://hiphop.de/magazin/news/pcp-lache-und-die-welt-weint-mit-dir-167311).
 [^k8-shop]: weissescheisse.de, Shop. [Web Archive, 30.08.2009](https://web.archive.org/web/20090830193950/http://www.weissescheisse.de/index.php?ws=shop&kat=musik) und [Bundles](https://web.archive.org/web/20090830222345/http://www.weissescheisse.de/index.php?ws=shop&kat=bundles).
 [^k8-lacht]: Ebd. und die Biografien von Rynerrr und DJ Tjoma auf weissescheisse.de. [Web Archive, 24.04.2010](https://web.archive.org/web/20100424031613/http://www.weissescheisse.de/cms/index.html).
+[^k8-videos]: YouTube, „PCP - Weisse Scheisse (HD)“, hochgeladen am 18.08.2009, und „PCP - Bierliebe“, hochgeladen am 28.09.2009, jeweils mit der Beschreibung des Labels. [youtube.com](https://www.youtube.com/watch?v=sNqwdwJv1qQ), [youtube.com](https://www.youtube.com/watch?v=YLvcgjkMUg0), abgerufen am 16.10.2026.
 [^k8-mzee]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/).
 [^k8-laut]: Philipp Gässlein, Kritik zu *Lache und die Welt weint mit dir*, laut.de. [laut.de](https://laut.de/PCP/Alben/Lache-Und-Die-Welt-Weint-Mit-Dir-43654).
 [^k8-produzenten]: Credits im aufgeklappten Booklet. Die Produzenten nannten schon hiphop.de, 14.07.2009, und das MZEE-Interview, 01.09.2009, wie oben.
@@ -834,7 +845,11 @@ Am 17. Oktober 2010 erschien auf weissescheisse.de diese Mitteilung:
 
 An diesem Sonntagabend um 21:54 Uhr waren 56 Menschen gleichzeitig im Forum von Weisse Scheisse. Die Startseite des Forums führte das noch Monate später als Besucherrekord.[^k9-rekord] Ob die Mitteilung der Grund war, sagt die Statistik nicht.
 
-Dieser Artikel hält sich an die Formulierung des Labels. Die Gründe waren „überwiegend privater Natur“, und was privat war, bleibt hier privat. Öffentlich ist, was danach geschah. Private Pauls Album *Emopunkrap* erschien um den Jahreswechsel 2010/11 (Bandcamp: 21. Dezember 2010), nicht bei Weisse Scheisse. rap.de nannte es „eines der besten des noch jungen Jahres“.[^k9-emopunkrap] In einem Interview mit rap.de äußerte sich Paul zur Trennung. {% comment %} LÜCKE: Dieses Interview ist noch nicht gefunden. {% endcomment %} Am 5. Februar 2011 veröffentlichte JAW darauf einen Disstrack mit dem Titel *Private Paul*, exklusiv auf meinrap.de, „um seine Sicht auf die Geschehnisse zu schildern“.[^k9-diss] Die Labelseite verwies darauf mit dem Satz: „Nachdem sich Private Paul ausgelassen über seine ehemaligen Labelkollegen und die Trennung von WS äusserte, gibt es nun eine offizielle Stellungsnahme zum Thema von JAW persönlich“.[^k9-stellungnahme] Auch Private Paul veröffentlichte einen Track gegen JAW. {% comment %} PRÜFEN: Datum und Titel von Private Pauls Disstrack (YouTube-Link in "PCP Dokumentation.md"). {% endcomment %}
+Dieser Artikel hält sich an die Formulierung des Labels. Die Gründe waren „überwiegend privater Natur“, und was privat war, bleibt hier privat. Öffentlich ist, was danach geschah. Private Pauls Album *Emopunkrap* erschien um den Jahreswechsel 2010/11 (Bandcamp: 21. Dezember 2010), nicht bei Weisse Scheisse. rap.de nannte es „eines der besten des noch jungen Jahres“.[^k9-emopunkrap] In einem Interview mit rap.de äußerte sich Paul zur Trennung. {% comment %} LÜCKE: Dieses Interview ist noch nicht gefunden. {% endcomment %} Am 5. Februar 2011 veröffentlichte JAW darauf einen Disstrack mit dem Titel *Private Paul*, exklusiv auf meinrap.de, „um seine Sicht auf die Geschehnisse zu schildern“.[^k9-diss] Die Labelseite verwies darauf mit dem Satz: „Nachdem sich Private Paul ausgelassen über seine ehemaligen Labelkollegen und die Trennung von WS äusserte, gibt es nun eine offizielle Stellungsnahme zum Thema von JAW persönlich“.[^k9-stellungnahme] Am 11. Februar 2011 kam der Track auch auf YouTube. Private Paul antwortete noch am selben Tag mit *Du willst Emopunkrap kaufen*.[^k9-ytdiss] Beide Tracks stehen hier zum Anhören, ihr Inhalt ist Sache der Beteiligten.
+
+{% include video.html id="mdww68I3BoI" titel="JAW – Private Paul (Diss)" text="JAW, *Private Paul*, gut sechs Minuten. Auf YouTube seit 11.02.2011" %}
+
+{% include video.html id="P0FIHSTopmI" titel="Private Paul – Du willst Emopunkrap kaufen" text="Private Paul, *Du willst Emopunkrap kaufen*, Antwort auf JAW, gut viereinhalb Minuten. Auf YouTube seit 11.02.2011" %}
 
 Auf dem zweiten PCP-Album gibt es einen Track, der *Private Paul* heißt. Seit Februar 2011 gibt es zwei.
 
@@ -870,6 +885,7 @@ Um dieselbe Zeit zog JAW nach Berlin.[^k9-berlin]
 [^k9-rekord]: weissescheisse.de, `Board/index.php`: „Rekord: 56 Benutzer (Sonntag, 17. Oktober 2010, 21:54)“. [Web Archive, 11.01.2011](https://web.archive.org/web/20110110152835/http://www.weissescheisse.de/Board/index.php).
 [^k9-emopunkrap]: beni-mike, „Private Paul – Emopunkrap“, rap.de, 28.01.2011. [rap.de](https://rap.de/allgemein/8360-private-paul-emopunkrap/).
 [^k9-diss]: „Exklusiv: JAW – Private Paul (Diss-Track)“, meinrap.de, 05.02.2011. [Web Archive](https://web.archive.org/web/20110207225001/http://meinrap.de:80/2011/02/05/exklusiv-jaw-private-paul-diss-track/).
+[^k9-ytdiss]: YouTube, „JAW - Private Paul (Diss)“, Beschreibung „JAW Disstrack gegen Private Paul“, und „Private Paul - Du willst Emopunkrap kaufen (JAW Diss)“, Beschreibung „Private Pauls Antwort auf den JAW Disstrack“, beide hochgeladen am 11.02.2011. [youtube.com](https://www.youtube.com/watch?v=mdww68I3BoI), [youtube.com](https://www.youtube.com/watch?v=P0FIHSTopmI), abgerufen am 16.10.2026.
 [^k9-stellungnahme]: weissescheisse.de, News Februar 2011. [Web Archive, 28.06.2011](https://web.archive.org/web/20110628223518/http://www.weissescheisse.de/cms/index.html).
 [^k9-jbb]: weissescheisse.de, News vom 07.01.2011. [Web Archive, 10.01.2011](https://web.archive.org/web/20110110152608/http://www.weissescheisse.de/cms/index.html).
 [^k9-2011]: Ebd. und [Web Archive, 28.06.2011](https://web.archive.org/web/20110628223518/http://www.weissescheisse.de/cms/index.html).
@@ -1348,6 +1364,8 @@ Für das Video änderte Rynerrr seinen Part. Auf dem Album ist der Originalpart 
 
 > Begründung ist, dass der Originalpart, rausgerissen aus dem Gesamtkonzept des Albums, zu gewaltverherrlichend und unreflektiert rüberkommen kann. Und da Videos ja gerne mal eine etwas größere, unwissendere Masse erreichen als die Alben, wollte ich da ausnahmsweise mal ein wenig Verantwortungsbewusstsein vortäuschen … bzw. ich hab kein wirkliches Interesse daran, dass Leute in ihren Schulen rumballern und nebenbei Rynerrr-Parts auf dem MP3-Handy pumpen.[^k8-mzee]
 
+Das Video, mit Regie und Credits und einem Interview mit JAW vom Dreh, steht im Kapitel [Die Musikvideos](#diskografie-videos).
+
 Das Interview erschien im September 2009, ein halbes Jahr nach dem Amoklauf von Winnenden.
 
 #### 5. Nimm die Welt wie sie ist
@@ -1386,7 +1404,7 @@ Maexer, JAW, Rynerrr, Private Paul; Refrain von JAW · Beat von Beatgees
 
 *Bierliebe* ist ein Liebeslied an das Bier, und es ist so gebaut, dass man es ein Stück weit auch als echtes hören kann. Eingeleitet wird es von einem englischsprachigen Gesangssample, in dem jemand dem Geliebten sagt, er werde ihn eines Tages zurückwollen. Es stammt aus dem Song *You’re Gonna Need Me* der Sängerin Dionne Warwick.[^k8-anno] Gewissermaßen singt das Bier zu ihm, und der Refrain, in dem JAW verspricht, „immer wieder zurück“ zu kommen, ist die Antwort darauf. Die Annotation liest den Refrain so, dass „was immer du getan hast“ eigentlich meint, was er selbst getan hat; weil er betrunken war, schiebt er dem Bier die Schuld zu.
 
-Rynerrr erklärte, dass es den Song in anderer Form schon gab: Auf seinem Album habe der Track „exakt der gleiche übrigens, nur anderes Instrumental“, laut YouTube aber „Eierliebe“ geheißen.[^k8-mzee] Schon Ende 2007 lobten Fans auf Maexers MySpace-Seite ein Stück namens *Bierliebe* (siehe [Maexer](#maexer)), und auf Rynerrrs *Symptome* steht es ebenfalls, mit JAW und Maexer. 2010 erschien dann auch ein Video, mit allen vier Rappern, wie es die Heizipedia führt.[^t-heiz]
+Rynerrr erklärte, dass es den Song in anderer Form schon gab: Auf seinem Album habe der Track „exakt der gleiche übrigens, nur anderes Instrumental“, laut YouTube aber „Eierliebe“ geheißen.[^k8-mzee] Schon Ende 2007 lobten Fans auf Maexers MySpace-Seite ein Stück namens *Bierliebe* (siehe [Maexer](#maexer)), und auf Rynerrrs *Symptome* steht es ebenfalls, mit JAW und Maexer. Am 28. September 2009 erschien dazu ein Video, die zweite Videoauskopplung des Albums. Die Heizipedia führt es mit allen vier Rappern, aber unter dem Jahr 2010.[^t-heiz] Credits und Player stehen im Kapitel [Die Musikvideos](#diskografie-videos).
 
 Maexer beginnt mit einem Morgen, an dem ihn „zwei Becher in der Ecke“ anlächeln und „die Welt gerettet“ ist. Er lade nur Leute ein, die nicht austrinken, das seien „gute Freunde, die man nicht versteht aber braucht“. „Ich lieg auf dem Boden herum, doch du stehst senkrecht zu mir“, heißt es dann, ein Doppelsinn: Das Bier steht aufrecht, und es „steht zu ihm“, wie man zu jemandem steht, den man trotz seiner Fehler nicht im Stich lässt.[^k8-anno]
 
@@ -1677,7 +1695,7 @@ Die Selbstbezeichnung als Dreck zieht sich durch alles, was die Gruppe über sic
 
 Legt man das Manifest „Was ist Weisse Scheisse?“ neben die Texte, liest es sich wie ein Register der Lieder. Es nennt Wut und Verzweiflung, die Sinnlosigkeit des Daseins, die Sehnsucht nach Drogen als Flucht „aus der Leere oder der Enge“, die Kotze nach einer durchzechten Nacht, Einsamkeit und den Wunsch nach Lärm.[^t-manifest] Für fast jedes dieser Stichworte findet sich in den vorliegenden Texten eine Zeile. Der Hass, der Humor und die Trauer, von denen JAW sprach, stehen dort selten nacheinander. Meistens stehen sie in derselben Zeile.
 
-[^t-heiz]: Heizipedia, Artikel „Private Paul“, Abschnitt Musikvideos: „2010, Bierliebe (PCP, feat. JAW, Rynerrr & Maexer)“. [heizmusik.de](https://heizmusik.de/wiki/index.php?title=Private_Paul), abgerufen am 15.10.2026. {% comment %} PRÜFEN: Video auf YouTube suchen und verlinken. {% endcomment %}
+[^t-heiz]: Heizipedia, Artikel „Private Paul“, Abschnitt Musikvideos: „2010, Bierliebe (PCP, feat. JAW, Rynerrr & Maexer)“. [heizmusik.de](https://heizmusik.de/wiki/index.php?title=Private_Paul), abgerufen am 15.10.2026. Das Video wurde laut YouTube am 28.09.2009 hochgeladen, Crew United führt es ebenfalls unter 2009.
 [^t-name]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/).
 [^t-lyrics]: *Lache und die Welt weint mit dir*, Titel 1–20; *Nimms und verreck daran!*, Titel 1 bis 3, 5 bis 7, 9, 11 bis 14 und 25. Transkription nach Gehör, Fassung von Oktober 2026.
 [^t-einmarsch]: *Einmarsch* auf *Nimms und verreck daran!*. Transkription nach Gehör.
@@ -1753,7 +1771,7 @@ Für PCP war JAW die treibende Kraft, und er war sich dessen bewusst. Als Rynerr
 | 2010 | {% include cover.html name="taeter-opfer-ausgleich" anker="disk-taeter-opfer-ausgleich" titel="Täter-Opfer-Ausgleich" %} | **Täter-Opfer-Ausgleich**<br><span class="art">Album, Weisse Scheisse, mit Flavamatic Recordz und Rough Trade</span> | 21.05.2010, Digipak, 18 Titel, im Vorverkauf 10,90 Euro. Die Titel: *Vorgespräch*, *Meine Fans*, *TOA I*, *Vermächtnis Skit*, *Konzeptlos*, *Jenseits von Gut und Böse*, *Ausreden*, *Dokta Jotta*, *Kein Star*, *Das dreckige Leben*, *Optimist*, *Cymbalta*, *Elena*, *Lass dich gehen*, *TOA II*, *Requiem Skit*, *Geheilt*, *Zeit*. Gäste: *Jenseits von Gut und Böse* mit [Me\$\$age](#meage) und Morlockk Dilemma, *Lass dich gehen* mit Mach One, *Zeit* mit Absztrakkt. Beats von JAW (neun), Nowak (vier), Peet (drei), Cheebabeatz und Blazin Hand (je einer). Gemischt von JAW, gemastert von Caspar Mussler, Coverdesign von nonplusultra, Fotos von Dice. Videos zu *Meine Fans* und *Elena*. Juice: viereinhalb von sechs Kronen[^s-discogs2] {% comment %} PRÜFEN: Discogs führt bei den Titeln 7 und 8 die Beats von JAW und Peet vertauscht zur Rückseite der CD. {% endcomment %} |
 | 2018 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins" anker="disk-die-unertraegliche-dreistigkeit-des-seins" titel="Die unerträgliche Dreistigkeit des Seins" %} | **Die unerträgliche Dreistigkeit des Seins**<br><span class="art">Album</span> | 25.05.2018, eigenes Label über Groove Attack. In den deutschen Albumcharts (Wikipedia: Platz 4, jawonline.de: Platz 14) {% comment %} PRÜFEN: Chartplatz. Wikipedia nennt Platz 4, die Shopseite auf jawonline.de „DE #14 · AT #39 · CH #96“. {% endcomment %}. Als Limited Edition Box mit zwei CDs: dem Album im Digipak, der *Old Habits Version* mit anderen Instrumentals, JAWs Magisterarbeit als Buch mit 130 Seiten und der Chance auf einen von fünf Gutscheinen für ein Telefonat mit Dokta Jotta, die zufällig auf die Boxen verteilt wurden. 14 Titel: *01*, *Exit*, *Masken*, *Niemandsland*, *Bis zum letzten Tag*, *Inmitten des Sturms*, *Survival of the Sickest*, *Entzugsoptimismus*, *Weltenpendler*, *Lost in Space*, *Fremdkörper*, *Bye Mama*, *Nichts*, *14*. Gäste: *Masken* mit Maeckes, *Fremdkörper* mit Peter Maffya, der auch Executive Producer war und das Album mischte[^s-discogs2] |
 | 2019 | {% include cover.html name="die-unertraegliche-dreistigkeit-des-seins-old-habits" anker="disk-die-unertraegliche-dreistigkeit-des-seins-old-habits" titel="Old Habits Version" %} | **Die unerträgliche Dreistigkeit des Seins – Old Habits Version**<br><span class="art">Bandcamp</span> | 25.02.2019 auf Bandcamp, 14 Titel, darunter sechs, die vorher einzeln erschienen waren, und *Masken* mit Maeckes. Als CD lag sie schon der Box vom 25.05.2018 bei. Die Titel: *Intro*, *Exit*, *Masken*, *Niemandsland*, *Lost in Space*, *Fremdkörper*, *Survival of the Sickest*, *Nichts*, *Inmitten des Sturms*, *Weltenpendler*, *Bye Mama*, *Entzugsoptimismus*, *Bis zum letzten Tag*, *Outro*. Die Beats sind von JAW, bei *Masken* mit Peet[^s-discogs2] |
-| 2026 | {% include cover.html name="grobes-kino" anker="disk-grobes-kino" titel="Grobes Kino" %} | **Grobes Kino**<br><span class="art">Album</span> | seit 2019 angekündigt. Vinyl seit Mai 2026 im Shop, „Coming Soon“, Stand Oktober 2026 ohne Datum. Titelliste, Stand Mai 2026: *Kopfkino*, *Purge*, *Jotta*, *Wartezimmer*, *Zukunft retten*, *Scheiterhaufen*, *Tag X*, *Immer wenn die …*, *Keine Konkurrenz*, *Symphony*, *Zurück*, *Statistensterben*, *Time to say goodbye*, *Sündenstadt* und als Hidden Track *Roses*. *Hanna* steht nicht darauf {% comment %} PRÜFEN: Heißt *Hanna* dort anders oder kam später dazu? Der Titel *Immer wenn die …* ist nicht vollständig bekannt. {% endcomment %} |
+| 2026 | {% include cover.html name="grobes-kino" anker="disk-grobes-kino" titel="Grobes Kino" platzhalter=true %} | **Grobes Kino**<br><span class="art">Album</span> | seit 2019 angekündigt. Vinyl seit Mai 2026 im Shop, „Coming Soon“, Stand Oktober 2026 ohne Datum. Titelliste, Stand Mai 2026: *Kopfkino*, *Purge*, *Jotta*, *Wartezimmer*, *Zukunft retten*, *Scheiterhaufen*, *Tag X*, *Immer wenn die …*, *Keine Konkurrenz*, *Symphony*, *Zurück*, *Statistensterben*, *Time to say goodbye*, *Sündenstadt* und als Hidden Track *Roses*. *Hanna* steht nicht darauf {% comment %} PRÜFEN: Heißt *Hanna* dort anders oder kam später dazu? Der Titel *Immer wenn die …* ist nicht vollständig bekannt. {% endcomment %} |
 {: .diskografie}
 
 #### Singles und Freetracks
@@ -1762,7 +1780,7 @@ Für PCP war JAW die treibende Kraft, und er war sich dessen bewusst. Als Rynerr
 |---|---|---|---|
 | 2004 | **Das ist!**<br><span class="art">Track</span> | „Alles selbst produziert“ | {% include hoeren.html %} |
 | 2007 | **Crapz Records**<br><span class="art">Disstrack</span> | gegen Rapz Records | {% include hoeren.html url="https://www.youtube.com/watch?v=d9QQGgmjllI" %} |
-| 2011 | **Private Paul**<br><span class="art">Disstrack</span> | 05.02.2011, exklusiv auf meinrap.de | {% include hoeren.html %} |
+| 2011 | **Private Paul**<br><span class="art">Disstrack</span> | 05.02.2011, exklusiv auf meinrap.de; auf YouTube seit 11.02.2011, siehe [Der Bruch](#der-bruch) | {% include hoeren.html url="https://www.youtube.com/watch?v=mdww68I3BoI" %} |
 | 2011 | **Pisse aus Weingläsern**<br><span class="art">mit Maeckes</span> | Juice Exclusive | {% include hoeren.html %} |
 | 2014 | **Rap hat dich kaputt gemacht**<br><span class="art">Freetrack</span> | Juice Exclusive, SoundCloud nennt 2013 {% comment %} PRÜFEN: Jahre der JAW-Freetracks nach Wikipedia, Daten nach Bandcamp und rap.de. {% endcomment %} | {% include hoeren.html %} |
 | 2014 | **Fremdkörper**<br><span class="art">Freetrack</span> | Juice Exclusive | {% include hoeren.html %} |
@@ -2092,6 +2110,8 @@ Private Paul kam als Letzter zu PCP und ging als Erster. In den drei Jahren dazw
 
 ### Porträt
 
+Er kommt aus Freiburg. Sein Weg führte nach der Darstellung der Heizipedia von Freestyles im Freundeskreis über erste eigene Beats und Texte in die Battle-Arena im Netz, die RBA (siehe [Die Reimliga Battle Arena](#rba)). Sein erstes Battle dort, 2002, verlor er.[^p5-heizi] Schnelle Doubletime-Flows erwarte man von ihm nicht, schreibt sie weiter, ihm gehe es um Texte, Atmosphäre und Wortspiele.
+
 Bevor er Private Paul hieß, hieß er Kash. Unter diesem Namen war er in der Battle-Szene bekannt, als „der Kash aus dem Kollegah Battle“, wie er 2009 sagte.[^p5-mzee] Ende 2007 betrieb er eine MySpace-Seite mit der Adresse *emopunkrap*, „KASH – DE – Emo / Punk / Rap“, „Sounds like: ein junkie auf crack“. Dort gab es seine *Tour EP* zum kostenlosen Download.[^p5-myspace] Er baute Beats und verkaufte sie, Verhandlungsbasis „so irgendwas um 100“ Euro.[^p5-beats]
 
 Im Forum von Weisse Scheisse war er unter dem Namen *G-Man* Administrator, noch vor JAW registriert, und mit Abstand der fleißigste Schreiber aus der Gruppe. Er moderierte, stritt, warb für Sprühaktionen mit der Labelschablone und beantwortete in einem eigenen Thread Fragen seiner Fans, meistens mit einem Witz.[^p5-forum]
@@ -2100,7 +2120,7 @@ Den neuen Namen bekam er, nach Darstellung der Labelseite, von JAW, „trotz sei
 
 Für das Album war er „das neuste Rad am Wagen“. Er habe mit dem Vertrag die Themen aller Tracks und Rohfassungen seiner Texte bekommen, und von seinen „ungefähr 250 Beatvorschläge[n]“ hätten es „zwei oder drei aufs Album geschafft“.[^p5-mzee] Tatsächlich stammen drei Beats von ihm, die der ersten beiden Titel und der zu *Asokacke*. Den Albumtitel fand er „ziemlich dumm“. Und doch war er es, den die Kritik hervorhob. laut.de schrieb, Private Paul füge sich „nicht nur textlich absolut homogen in dieses emotional derangierte Trio ein, auch technisch ist er seit der ‚Kash EP‘ einen Riesenschritt gegangen“, und zählte seinen Solotrack zu den Höhepunkten.[^p5-laut]
 
-Was er unter *Emopunkrap* verstand, beschrieb die Labelseite 2010 halb im Spott: „menschenverachtende Psychoweinereien auf Streicher- und Gitarrenbeats“.[^p5-bio] Sein Album dieses Namens war seit Ende 2007 angekündigt, zuerst als „Ein Kash Album“, dann für den Sommer 2010. Es erschien um den Jahreswechsel 2010/11 (Bandcamp: 21. Dezember 2010; die Kritik bei rap.de ist vom 28. Januar 2011), nachdem er das Label verlassen hatte.[^p5-emopunk]
+Die Heizipedia beschreibt ihn als „Zwiespalt in Person“: einerseits ein resignierender, depressiver Einzelgänger, andererseits ein Großmaul ohne Maß und Tabu. Aus diesen Einflüssen sei der „Emo-Punk-Rap“ entstanden.[^p5-heizi] Was er unter *Emopunkrap* verstand, beschrieb die Labelseite 2010 halb im Spott: „menschenverachtende Psychoweinereien auf Streicher- und Gitarrenbeats“.[^p5-bio] Sein Album dieses Namens war seit Ende 2007 angekündigt, zuerst als „Ein Kash Album“, dann für den Sommer 2010. Es erschien um den Jahreswechsel 2010/11 (Bandcamp: 21. Dezember 2010; die Kritik bei rap.de ist vom 28. Januar 2011), nachdem er das Label verlassen hatte. Es sei über lange Jahre entstanden, nach Konzeptänderungen und Neuaufnahmen, ohne Unterstützung eines Labels, und habe sich als Geheimtipp unter Freunden melancholischer Musik verbreitet.[^p5-heizi][^p5-emopunk]
 
 Die Kritik bei rap.de war begeistert und zugleich beunruhigt. Die Beats seien „dunkel, monoton, total depressiv“, die Texte erzählten von Rauschmitteln, Selbstverletzung, Hass auf andere und vor allem auf sich selbst. Ob das eine Kunstfigur sei oder ein Mensch, „der wirklich so kaputt“ ist, lasse das Album offen. „Wenn Private Paul tatsächlich nur eine reine Kunstfigur ist, dann Riesenprops für den Rapper“.[^p5-emopunk]
 
@@ -2131,13 +2151,23 @@ Am 17. Oktober 2010 meldete Weisse Scheisse seinen Austritt, „aufgrund von per
 | 2009 | **Schreierei**<br><span class="art">Freetrack mit [Rynerrr](#rynerrr)</span> | Labelseite | {% include hoeren.html url="https://www.youtube.com/watch?v=DiLrGHJxadc" %} |
 | 2009 | **Get A Life**<br><span class="art">feat. [JAW](#jaw) und Sime</span> |  | {% include hoeren.html %} |
 | 2009 | **Deine Bitch, Mein Keller**<br><span class="art">feat. [JAW](#jaw) und Adolph Gandhi</span> |  | {% include hoeren.html %} |
-| 2009 | **Weisse Scheisse**<br><span class="art">Video, PCP</span> | mit [JAW](#jaw) und [Rynerrr](#rynerrr) | {% include hoeren.html %} |
+| 2009 | **Weisse Scheisse**<br><span class="art">Video, PCP</span> | mit [JAW](#jaw) und [Rynerrr](#rynerrr), 18.08.2009, [Credits](#diskografie-videos) | {% include hoeren.html url="https://www.youtube.com/watch?v=sNqwdwJv1qQ" %} |
+| 2009 | **Bierliebe**<br><span class="art">Video, PCP</span> | mit [JAW](#jaw), [Rynerrr](#rynerrr) und [Maexer](#maexer), 28.09.2009; die Heizipedia nennt 2010, [Credits](#diskografie-videos) | {% include hoeren.html url="https://www.youtube.com/watch?v=YLvcgjkMUg0" %} |
+| 2009 | **Fuck This Crap** |  | {% include hoeren.html %} |
 | 2010 | **Bei Dir**<br><span class="art">Freetrack</span> | Labelseite | {% include hoeren.html %} |
-| 2010 | **Bierliebe**<br><span class="art">Video, PCP</span> | mit [JAW](#jaw), [Rynerrr](#rynerrr) und [Maexer](#maexer), nach der Heizipedia | {% include hoeren.html %} |
+| 2010 | **Mile of Style Exclusive**<br><span class="art">mit [JAW](#jaw) und [Rynerrr](#rynerrr)</span> | {% comment %} PRÜFEN: Vermutlich derselbe Beitrag wie *MoS Exklusiv* auf der *Mile of Style EP* (siehe „PCP auf anderen Platten“). {% endcomment %} | {% include hoeren.html %} |
 | 2011 | **Lieder über Autos**<br><span class="art">mit Prezident</span> | 10.02.2011 | {% include hoeren.html %} |
+| 2011 | **Du willst Emopunkrap kaufen**<br><span class="art">Disstrack gegen [JAW](#jaw)</span> | Antwort auf JAWs *Private Paul*, 11.02.2011, siehe [Der Bruch](#der-bruch) | {% include hoeren.html url="https://www.youtube.com/watch?v=P0FIHSTopmI" %} |
 | 2011 | **Kash der Boss**<br><span class="art">feat. [JAW](#jaw)</span> |  | {% include hoeren.html %} |
-| 2012 | **Dorfdisco**<br><span class="art">feat. Schulte</span> |  | {% include hoeren.html %} |
-| 2012–2015 | VBT-Runden<br><span class="art">Videos als KASH</span> | Qualifikation und Vorrunden 2012, 64tel-Finale 2012, Vorrunde 2013, 8tel-Finale 2015 {% comment %} PRÜFEN: VBT genauer einordnen (Turnier, Veranstalter). {% endcomment %} | {% include hoeren.html %} |
+| 2011 | **Pferdepisse**<br><span class="art">feat. DNP</span> |  | {% include hoeren.html %} |
+| 2012 | **32 Bars**<br><span class="art">feat. ÉSMaticx</span> |  | {% include hoeren.html %} |
+| 2012 | **Dorfdisco**<br><span class="art">feat. Schulte</span> | auf Schultes Album *Die Korn Identität* | {% include hoeren.html %} |
+| 2012 | **Spiel' das im Club** |  | {% include hoeren.html %} |
+| 2012 | **Was ist los**<br><span class="art">feat. MC Pint</span> |  | {% include hoeren.html %} |
+| 2012 | **Apocalypse When?** | 2020 folgt *Corona (Apocalypse When? Part 2)* | {% include hoeren.html %} |
+| 2009–2015 | VBT-Runden<br><span class="art">Videos als KASH</span> | Viertelfinale 2009 (mit Duzoe), Qualifikation, Vorrunden 1 bis 3 und 64tel-Finale 2012, Vorrunde 3 2013 (mit Dima Richman), 8tel-Finale 2015 (mit Jenemy, Ghodd, Donnergeburt und Jay Cee) {% comment %} PRÜFEN: VBT genauer einordnen (Turnier, Veranstalter). {% endcomment %} | {% include hoeren.html %} |
+| 2013 | **Kauf** |  | {% include hoeren.html %} |
+| 2013 | **Rebellion** |  | {% include hoeren.html %} |
 | 2014 | **Der offizielle WM 2014 Song** |  | {% include hoeren.html %} |
 | 2014 | **Metro 2014** |  | {% include hoeren.html %} |
 | 2015–2019 | **Wir saufen es**<br><span class="art">als *Paulchen Punker* mit Harminizer oder als *Dat Eve* {% comment %} PRÜFEN: Welcher Titel unter welchem Namen, und welches Jahr? {% endcomment %}</span> |  | {% include hoeren.html %} |
@@ -2145,9 +2175,20 @@ Am 17. Oktober 2010 meldete Weisse Scheisse seinen Austritt, „aufgrund von per
 | 2015–2019 | **Hurra Dosenbier!**<br><span class="art">als *Paulchen Punker* mit Harminizer oder als *Dat Eve*</span> |  | {% include hoeren.html %} |
 | 2015–2019 | **Saufen bis ich sterbe**<br><span class="art">als *Paulchen Punker* mit Harminizer oder als *Dat Eve*</span> |  | {% include hoeren.html %} |
 | 2015–2019 | **Flixbus**<br><span class="art">als *Paulchen Punker* mit Harminizer oder als *Dat Eve*</span> |  | {% include hoeren.html %} |
+| 2015 | **Wem (ist so fly)?**<br><span class="art">als *Dat Eve*</span> |  | {% include hoeren.html %} |
 | 2015 | **Löwensohn**<br><span class="art">Video als LionP</span> |  | {% include hoeren.html %} |
-| 2016–2025 | **Statusbericht**<br><span class="art">Videoreihe, jährlich</span> | 2023 als *KEIN Statusbericht* | {% include hoeren.html %} |
-| 2019 | **Zombiekalypze**<br><span class="art">mit zahlreichen Gästen</span> | laut Heizipedia u. a. mit Haiyti, King Orgasmus One, Blokkmonsta und Zombiez | {% include hoeren.html %} |
+| 2016 | **Hollywood Drive**<br><span class="art">Video</span> |  | {% include hoeren.html %} |
+| 2015–2025 | **Statusbericht**<br><span class="art">Videoreihe, jährlich</span> | 2023 als *KEIN Statusbericht*; 2020 gibt es zusätzlich einen *Statutbereich 2020* | {% include hoeren.html %} |
+| 2018 | **Die Nacht**<br><span class="art">feat. MXP</span> |  | {% include hoeren.html %} |
+| 2018 | **Brenda Ann Spencer**<br><span class="art">feat. ODMGDIA</span> |  | {% include hoeren.html %} |
+| 2019 | **Blaues Blut (Hamburg: Become Human)** |  | {% include hoeren.html %} |
+| 2019 | **Nicht mehr voll**<br><span class="art">als *Paulchen Punker* mit Harminizer</span> |  | {% include hoeren.html %} |
+| 2019 | **Flatline**<br><span class="art">feat. VALE</span> |  | {% include hoeren.html %} |
+| 2019 | **Wimpernschlag**<br><span class="art">feat. LGM</span> |  | {% include hoeren.html %} |
+| 2019 | **Zombiekalypze**<br><span class="art">mit zahlreichen Gästen</span> | auf der EP *Schande / Buch 2*, laut Heizipedia u. a. mit Haiyti, King Orgasmus One, Blokkmonsta und Zombiez | {% include hoeren.html %} |
+| 2020 | **Der Letzte seiner Art** |  | {% include hoeren.html %} |
+| 2020 | **Mein Club**<br><span class="art">Video</span> |  | {% include hoeren.html %} |
+| 2021 | **B08D9PS7F3** |  | {% include hoeren.html %} |
 | 2024 | **Stadionbericht 2024**<br><span class="art">Video</span> | zur EM 2024 | {% include hoeren.html %} |
 | 2026 | **WM-Song 2026**<br><span class="art">Video</span> | zur WM 2026 | {% include hoeren.html %} |
 | 2026 | **KILLSWITCH**<br><span class="art">Track</span> | prod. von Wiesel | {% include hoeren.html %} |
@@ -2158,20 +2199,28 @@ Am 17. Oktober 2010 meldete Weisse Scheisse seinen Austritt, „aufgrund von per
 | Jahr | Auf | Beitrag |
 |---|---|---|
 | um 2008 | Schulte, *Der Herr der Biere* | Gast, mit [JAW](#jaw) und Illoyal |
-| 2009 | [JAW](#jaw) und [Hollywood Hank](#hollywood-hank), [*Menschenfeind*](#disk-menschenfeind) | *Ackergaul Konfekt Remix* |
+| 2009 | [JAW](#jaw) und [Hollywood Hank](#hollywood-hank), [*Menschenfeind*](#disk-menschenfeind) | *Ackergaul Konfekt Remix*, mit Plasti |
+| 2009 | Adolph Gandhi, *Affenkopf EP 2* | *Deine Bitch, Mein Keller*, mit [JAW](#jaw) |
 | 2010 | [JAW](#jaw), *Sozioparty Tour* | Freetrack zur Tour, mit Adolph Gandhi |
+| 2011 | Prezident, Mixtape *Querschläger* | *Lieder über Autos* |
+| 2011 | Sampler *Nachdenken* | *Dunkelheit* |
+| 2013 | Prezident, EP *…Und immer noch nicht nach Berlin gezogen* | *Nicht das Wahre* |
+| 2014 | Sampler *Logbuch* | *Metro 2014* |
+| 2016 | Balkano S., Mixtape *Flexerstube* | *Der Realste Rapper* |
+| 2019 | ProRipper und DoktR, *In Verbis Diabolus* | *Unterton* |
+| 2020 | Bruder Conrad und Skibba, *Feminismus gegen Frauen* | *Hoch Soll'n Sie Leben* |
 
-Dazu kommt ein Disstrack von Private Paul gegen JAW aus der Zeit der Trennung, der auf YouTube steht.[^s-paul][^p5-bandcamp] {% comment %} PRÜFEN: Titel und Datum von Private Pauls Disstrack. {% endcomment %}
+Dazu kommt der Disstrack *Du willst Emopunkrap kaufen* gegen JAW aus der Zeit der Trennung, siehe oben und das Kapitel „Sozioparty“.[^s-paul][^p5-bandcamp]
 
 ### Heute
 
 Private Paul hat am längsten von allen weitergemacht, und er macht bis heute weiter. 2014 erschien *Schwarzweissrot*, im selben Jahr gründete er mit Emopunkrap ein „inoffizielles“ Label, „eher ein Zusammenschluss von Künstlern die eine ähnliche Vision abseits von Charts, Geld und Fame haben“. Der erste Künstler war der Bonner Rapper Rotten Monkey.[^p5-label] Unter dem Namen Kash veröffentlichte er weiter die härteren, punchlinelastigen Stücke, unter dem Namen Private Paul die melancholischen. 2016 kam mit Rotten Monkey das Album *Live Fast Die Young*.[^p5-rapde]
 
-Seitdem ist eine Veröffentlichung nach der anderen dazugekommen: 2019 das Album *DSEPR* und die EP *Faded* mit Duzoe und MXP, 2021 die EP *DSEP*, dazwischen Dutzende Freetracks, manche unter weiteren Namen wie *Paulchen Punker* oder *Dat Eve*.[^p5-heizi] Seit 2016 erscheint jedes Jahr ein Video namens *Statusbericht*. 2023 hieß es ausnahmsweise *KEIN Statusbericht*, das jüngste ist der *Statusbericht 2025*. Zur Fußball-EM 2024 und zur WM 2026 gab es eigene Turniersongs, im Sommer 2026 den Track *KILLSWITCH*.[^p5-yt]
+Seitdem ist eine Veröffentlichung nach der anderen dazugekommen: 2019 das Album *DSEPR* und die EP *Faded* mit Duzoe und MXP, 2021 die EP *DSEP*, dazwischen Dutzende Freetracks, manche unter weiteren Namen wie *Paulchen Punker* oder *Dat Eve*.[^p5-heizi] Die Heizipedia führt gut vierzig Videos auf, darunter allein sieben zu Titeln von *DSEPR* (2019 bis 2022).[^p5-heizi] Seit 2015 erscheint jedes Jahr ein Video namens *Statusbericht*, über das auch die Welt ein Porträt geschrieben hat.[^p5-welt] 2023 hieß es ausnahmsweise *KEIN Statusbericht*, das jüngste ist der *Statusbericht 2025*. Zur Fußball-EM 2024 und zur WM 2026 gab es eigene Turniersongs, im Sommer 2026 den Track *KILLSWITCH*.[^p5-yt]
 
 Aus dem Ein-Mann-Label ist ein kleiner Betrieb geworden. Der YouTube-Kanal hat fast 19.000 Abonnenten, das Label verkauft CDs, Vinyl und Shirts, wer will, kann ihn über Patreon unterstützen, und er spielt Konzerte mit Band, etwa im Februar 2025 in Hamburg.[^p5-yt] Von allen, die einmal bei PCP waren, ist der, der als Letzter kam und als Erster ging, heute der aktivste.
 
-**Links:** [emopunkrap.de](https://emopunkrap.de) · [YouTube](https://www.youtube.com/@PrivatePaul)
+**Links:** [emopunkrap.de](https://emopunkrap.de) · [YouTube](https://www.youtube.com/@PrivatePaul) · [Facebook](https://www.facebook.com/emopunkrap) · [Instagram](https://www.instagram.com/privatepaulofficial) · [laut.de](https://www.laut.de/Private-Paul)
 {: .links}
 
 [^p5-mzee]: „PCP im Interview – ‚Lache, und die Welt weint mit dir‘“, MZEE.com, 01.09.2009. [mzee.com](https://www.mzee.com/forum/threads/pcp-im-interview-lache-und-die-welt-weint-mit-dir.336068/).
@@ -2191,6 +2240,7 @@ Aus dem Ein-Mann-Label ist ein kleiner Betrieb geworden. Der YouTube-Kanal hat f
 [^p2-sammlung]: Begleittexte zu den Downloads *Projekt Eichhorn* und *"album"* auf gema-betteln.de (Info- und Tracklist-Datei), Laufzeiten der Dateien; Facebook-Beiträge von Rynerrr zur Aktion von 2011 und zum *Projekt Eichhorn* von 2013.
 [^p2-discogs]: Discogs, Einträge zu *Symptome* und *Gutmensch / Wutbürger*, Trackliste und Credits, abgerufen am 16.10.2026.
 [^s-discogs2]: Discogs, Einträge zu *Schock fürs Leben*, *Gehirn im Mixer (Extended Version)*, *Menschenfeind*, *Täter Opfer Ausgleich*, *Die Unerträgliche Dreistigkeit Des Seins* (mit *Old Habits Version*), *Soziopath*, *Zwischen Chemie & Wahnsinn* und *Schläge Für Hip Hop*, Trackliste und Credits; Bandcamp, *Dein Bestes*, *Das Metall ist ein Zug*, *Vom Nachteil, verloren zu sein* und die Remix EP; Titelliste von *Grobes Kino*, Stand Mai 2026; Uploads mit Titellisten zu *Kuhmelker Tape* und *Chüars!*; abgerufen am 16.10.2026.
+[^p5-welt]: Porträt „Statusbericht“ auf welt.de, laut Heizipedia verlinkt. [welt.de](https://www.welt.de/kultur/article204699960/Private-Paul-Statusbericht-Die-einzige-Neujahrstradition-die-wirklich-zaehlt.html), abgerufen am 16.10.2026. {% comment %} PRÜFEN: Artikel lesen, Datum und Autor ergänzen. {% endcomment %}
 [^p5-yt]: YouTube-Kanal von Private Paul, Videoliste und Kanalbeschreibung. [youtube.com/@PrivatePaul](https://www.youtube.com/@PrivatePaul), abgerufen am 15.10.2026; [emopunkrap.de](https://emopunkrap.de).
 [^s-paul]: Forum von weissescheisse.de, Threads „Tour EP“ und „KASH ist mein Lieblingsrapper!“, Dezember 2007; laut.de, Kritik zu *Lache und die Welt weint mit dir*; rap.de, 28.01.2011, 02.01.2014, 11.10.2014 und 02.08.2016; Wikipedia, „Menschenfeind (Album)“.
 
@@ -2206,7 +2256,7 @@ PCP waren fünf Leute, aber ihre Musik entstand nicht im Vakuum. Um die Gruppe h
 
 ### Drecksmann
 
-Kein Name aus dem Umfeld taucht in den frühen Quellen so oft auf wie Drecksmann. Er war ein Rapper aus der RBA, der im November 2003 gegen JAW battelte und unter drecksrap.de eine eigene Seite hatte.[^u-rba] Auf *Nimms und verreck daran!* hat er mit einem Produzenten namens Mayutsch den Beat zu *Vatertagsgeschenk* gebaut, die Hook von *Bitsch* stammt nach eigener Aussage von ihm.[^u-cover] Er ist der Gesprächspartner im Chatprotokoll über die Kosten einer CD, und er stellte dem Album den ersten Webspace zur Verfügung, „space sponsored by DRECKSMANN“.[^u-space] Unter die erste Ankündigung im MZEE-Forum schrieb er: „Holt Euch das Album. Wegen der Musik hab ich mit Rap angefangen :)“.[^u-mzee] Noch Ende 2007 schrieb er im Forum von Weisse Scheisse über die Gruppe, er habe auf dem ersten Album mitgezählt, wie oft „Scheiße“ in einem Track vorkommt.
+Kein Name aus dem Umfeld taucht in den frühen Quellen so oft auf wie Drecksmann. Er war ein Rapper aus der RBA, der im November 2003 gegen JAW battelte (ein Video eines Battles der beiden steht im Kapitel [Die Reimliga Battle Arena](#rba)) und unter drecksrap.de eine eigene Seite hatte.[^u-rba] Auf *Nimms und verreck daran!* hat er mit einem Produzenten namens Mayutsch den Beat zu *Vatertagsgeschenk* gebaut, die Hook von *Bitsch* stammt nach eigener Aussage von ihm.[^u-cover] Er ist der Gesprächspartner im Chatprotokoll über die Kosten einer CD, und er stellte dem Album den ersten Webspace zur Verfügung, „space sponsored by DRECKSMANN“.[^u-space] Unter die erste Ankündigung im MZEE-Forum schrieb er: „Holt Euch das Album. Wegen der Musik hab ich mit Rap angefangen :)“.[^u-mzee] Noch Ende 2007 schrieb er im Forum von Weisse Scheisse über die Gruppe, er habe auf dem ersten Album mitgezählt, wie oft „Scheiße“ in einem Track vorkommt.
 
 Wie er selbst über seine Musik dachte, steht in einem Profil, das er 2005 auf einer anderen Musikplattform anlegte: Er mache Rap nicht, „weil ich wien Trottel in Baggys rumrenne und in Weed versinke, sondern als Ventil für Sachen, die mich ankotzen oder – was nicht oft vorkommt – freuen“.[^u-drecksmann-sc] In der Datenbank Discogs ist er als Produzent verzeichnet, mit Beats für die Alben *Wut 2004* und *Wut 2006* des Rappers T BurnA.[^u-drecksmann-discogs]
 
@@ -2602,6 +2652,45 @@ Ein Datum ist das Erscheinungsdatum, wenn es belegt ist, sonst das Datum der ers
 
 Außerdem gibt es eine Remix-Fassung des Albums. Auf Rynerrrs Seite gema-betteln.de liegt sie als „PCP – Lache und die Welt weint mit dir – Remix-Version (2009)“ zum freien Download, eine ZIP-Datei von 78 Megabyte, hochgeladen im Dezember 2014.[^d-remix] Wer die Remixe gemacht hat und wie sie sich vom Original unterscheiden, ist nicht bekannt. {% comment %} OFFEN: Remix-Version anhören, Titelliste und Produzenten erfassen. {% endcomment %}
 
+### Die Musikvideos
+{: #diskografie-videos}
+
+Zum zweiten Album gibt es zwei Musikvideos und ein Interview vom Dreh. Beide stehen in der Datenbank Crew United als Musikvideos von 2009, mit Regie von Paul Grizak und der Produktionsfirma Rabbit Films, die dort nur drei Filmprojekte hat: die beiden PCP-Videos und einen Werbefilm für die Havana Lounge Bar Biberach.[^d-crew] {% comment %} OFFEN: Wer Paul Grizak ist, steht nirgends. Rynerrr erzählt im MZEE-Interview von „dem Kameramann“ in einer Freiburger Kneipe (siehe Kapitel zu *Weisse Scheisse*); ob das derselbe ist, ist nicht belegt. {% endcomment %}
+
+Die Videos laden erst nach einem Klick, vorher geht keine Anfrage an YouTube.
+
+#### Weisse Scheisse
+{: .abschnitt}
+
+{% include video.html id="sNqwdwJv1qQ" titel="PCP – Weisse Scheisse (HD)" text="*Weisse Scheisse*, 4:28. Auf YouTube seit 18.08.2009" %}
+
+Auf YouTube steht die „überarbeitete Version“ in HD, „vom kommenden Album“, hochgeladen am 18. August 2009, gut eine Woche vor dem Album.[^d-yt] Zur Entstehung (erster Drehversuch, geänderter Part von Rynerrr) siehe das Kapitel [*Weisse Scheisse*](#lache-04-weisse-scheisse).
+
+- **Regie, Kamera, Schnitt:** Paul Grizak
+- **Produktion:** Rabbit Films, Paul Grizak
+- **Verleih/Vertrieb:** Weisse Scheisse Records
+
+#### Interview vom Dreh
+{: .abschnitt}
+
+Beim Dreh entstand auch ein Interview. Backspin TV sprach dabei mit JAW, das Video steht seit dem 29. Mai 2010 auf YouTube. Die Beschreibung nennt es ein „Vorlorenes JAW (Weisse Scheisse) Backspin Interview“, gemeint ist wohl: ein verloren geglaubtes.[^d-interview] {% comment %} PRÜFEN: Dass das Interview beim Dreh zu *Weisse Scheisse* entstand, steht nicht in der YouTube-Beschreibung. Quelle der Angabe festhalten. Auch klären, ob „Backspin TV“ ein eigenes Format der Backspin war. {% endcomment %}
+
+{% include video.html id="0TTplvZL7LQ" titel="JAW – Backspin TV Interview" text="Interview mit JAW von Backspin TV, 4:11. Auf YouTube seit 29.05.2010" %}
+
+#### Bierliebe
+{: .abschnitt}
+
+{% include video.html id="YLvcgjkMUg0" titel="PCP – Bierliebe" text="*Bierliebe*, 5:19. Auf YouTube seit 28.09.2009" %}
+
+Die Beschreibung auf YouTube nennt es die „zweite Videoauskopplung“ vom Album, hochgeladen am 28. September 2009.[^d-yt] Die Heizipedia datiert das Video auf 2010, Crew United und YouTube auf 2009. Zum Lied siehe [*Bierliebe*](#lache-07-bierliebe).
+
+- **Regie:** Paul Grizak
+- **Executive Producerin:** Sarah Salhi
+- **Produktion:** Rabbit Films, Paul Grizak
+- **Verleih/Vertrieb:** WS Musik
+
+Weitere Videos gibt es von den Mitgliedern einzeln, etwa von JAW (*Elena*, siehe Zeitleiste) und von Private Paul (siehe dessen Diskografie). Von den Battles und dem Streit der beiden stehen Videos in den Kapiteln [Die Reimliga Battle Arena](#rba) und [Der Bruch](#der-bruch).
+
 ### PCP auf anderen Platten
 
 Zwischen den beiden Alben und danach waren PCP selten als Gruppe zu hören, aber oft zu zweit oder zu dritt: auf den Soloplatten der anderen, auf Downloadseiten, als Freetracks. Die Tabelle verzeichnet jeden Titel, auf dem mindestens zwei Mitglieder zu hören sind oder der unter dem Namen PCP lief, soweit er sich belegen lässt.
@@ -2670,6 +2759,9 @@ Manches aus dieser Geschichte gibt es nur noch als Namen. Die folgende Liste sam
 [^d-mzee]: MZEE-Forum, „PCP – Nimms und verreck daran!!!“, 22.01.2004, mit der Rechnung für eine Sammelbestellung vom 24.01.2004. [mzee.com](https://www.mzee.com/forum/threads/pcp-nimms-und-verreck-daran.226198/).
 [^d-umsonst]: MZEE-Forum, „Unser PCP Album umsonst!!!“, 04.02.2004. [mzee.com](https://www.mzee.com/forum/threads/unser-pcp-album-umsonst.226888/); rynerrr.de, `album/bestellung.htm`, [Web Archive, 10.05.2004](https://web.archive.org/web/20040510101039/http://www.rynerrr.de/album/bestellung.htm); Gästebuch von p-c-p.ws, Eintrag von *RYNERRR*, 04.10.2006. Das Motto dieses Kapitels stammt von JAW aus dem Thread vom 04.02.2004.
 [^d-lache]: hiphop.de, „PCP: Lache und die Welt weint mit dir“, 14.07.2009; weissescheisse.de, Shop, [Web Archive, 30.08.2009](https://web.archive.org/web/20090830193950/http://www.weissescheisse.de/index.php?ws=shop&kat=musik); MZEE-Interview, 01.09.2009 (Mai 2008).
+[^d-crew]: Crew United, Einträge „PCP - Weisse Scheiße“ (Musikvideo, 2009), „PCP - Bierliebe“ (Musikvideo, 2009) und „Rabbit Films, Paul Grizak“. [crew-united.com](https://www.crew-united.com/de/PCP-Weisse-Scheisse__109306.html), [crew-united.com](https://www.crew-united.com/de/PCP-Bierliebe__109309.html), [crew-united.com](https://www.crew-united.com/de/Rabbit-Films-Paul-Grizak_207222.html), abgerufen am 16.10.2026.
+[^d-yt]: YouTube, Uploads „PCP - Weisse Scheisse (HD)“ und „PCP - Bierliebe“, Beschreibung und Hochladedatum, abgerufen am 16.10.2026.
+[^d-interview]: YouTube, „JAW - Backspin TV Interview“, hochgeladen am 29.05.2010, Beschreibung „Vorlorenes JAW (Weisse Scheisse) Backspin Interview“. [youtube.com](https://www.youtube.com/watch?v=0TTplvZL7LQ), abgerufen am 16.10.2026.
 [^d-tabelle]: Wichtigste Fundstellen: MZEE-Forum, 14.09.2003 (*Seelensturm*); rynerrr.de, „neue ladrunters“, 2004; Discogs, *Schock fürs Leben*; MZEE-Forum, 14.03.2007 (*Gehirn im Mixer*); Discogs, *Symptome*; Wikipedia, „Menschenfeind (Album)“; weissescheisse.de, News vom 11.01.2010; rap.de, 23.08.2010; Bandcamp, *Dein Bestes* und *Gutmensch / Wutbürger*.
 [^d-mos]: weissescheisse.de, News vom 11.01.2010. [Web Archive, 24.04.2010](https://web.archive.org/web/20100424031613/http://www.weissescheisse.de/cms/index.html).
 [^d-mosarchiv]: *PCP – MoS Exklusiv*, [Web Archive, 10.01.2011](https://web.archive.org/web/20110110162527/http://weissescheisse.de/cms/component/docman/doc_download/17-pcp-mos-exklusiv); *PCP – Kein Zurück*, [Web Archive, 10.01.2011](https://web.archive.org/web/20110110161954/http://weissescheisse.de/cms/component/docman/doc_download/16-pcp-kein-zurueck). Abfrage der gesicherten Tondateien über die CDX-Schnittstelle des Web Archive, 15.10.2026.
@@ -2738,18 +2830,22 @@ Die wichtigsten Daten dieser Geschichte in einer Tabelle. Die Belege stehen in d
 | bis Januar 2009 | p-c-p.ws geht verloren |
 | 12.06.2009 | JAW und Hollywood Hank – *Menschenfeind* |
 | 20.07.2009 | Vorbestellung des zweiten PCP-Albums |
+| 18.08.2009 | Video *Weisse Scheisse* (HD) auf YouTube |
 | **28.08.2009** | **PCP – *Lache und die Welt weint mit dir*** |
 | 01.09.2009 | MZEE-Interview mit allen fünf Mitgliedern |
+| 28.09.2009 | Video *Bierliebe* auf YouTube |
 | 12.12.2009 | Konzert in Freiburg, verlegt vom Piccadilly ins Kamikaze |
 | 11.01.2010 | PCP-Track auf der *Mile of Style EP* |
 | Januar/Februar 2010 | Neue Labelseite mit dem Manifest „Was ist Weisse Scheisse?“; neues Forum |
 | 21.05.2010 | JAW – *Täter-Opfer-Ausgleich* |
+| 29.05.2010 | Backspin-TV-Interview mit JAW (vom Dreh zu *Weisse Scheisse*) auf YouTube |
 | Juli 2010 | Video *Elena*, MTV lehnt die Ausstrahlung ab |
 | 20.08.–05.09.2010 | Sozioparty-Tour |
 | **17.10.2010** | **Private Paul verlässt Weisse Scheisse** |
 | 15.01.2011 | Konzert von Weisse Scheisse und PCP im JBB Freiburg |
 | 21.12.2010 | Private Paul – *Emopunkrap* (Bandcamp; Kritik bei rap.de am 28.01.2011) |
 | 05.02.2011 | JAW – *Private Paul* |
+| 11.02.2011 | JAW – *Private Paul* und Private Paul – *Du willst Emopunkrap kaufen* auf YouTube |
 | Februar 2011 | JAW auf Tour mit Soprano |
 | 27.05.2011 | JAW, Rynerrr und Maexer bei einer Releaseparty in Freiburg |
 | Oktober 2011 | Neue, knappe Labelseite |
